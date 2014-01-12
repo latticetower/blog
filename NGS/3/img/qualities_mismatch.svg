@@ -4,7 +4,7 @@
                <text pointer-events="none" y="3" dy=".71em" transform="translate(100,5)" fill="rgb(0,0,0)" text-anchor="middle">Qualities distribution for mismatched nucleotides</text>
           </g>
           <g transform="translate(10,20)">
-               <text pointer-events="none" x="3" dy=".35em" transform="translate(5,100)" fill="rgb(0,0,0)">Number of inserted nucleotides</text>
+               <text pointer-events="none" x="3" dy=".35em" transform="translate(5,100)" fill="rgb(0,0,0)">Number of mismatched nucleotides</text>
           </g>
           <g transform="translate(10,20)">
                <text pointer-events="none" y="-3" transform="translate(400.0,700)" fill="rgb(0,0,0)" text-anchor="middle">Qualities (phred values)</text>
