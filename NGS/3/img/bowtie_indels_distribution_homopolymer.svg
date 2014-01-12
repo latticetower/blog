@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" font-size="10px" font-family="sans-serif" fill="none" stroke="none" stroke-width="1.5" width="980" height="785">
+     <g transform="translate(100,5)">
+          <g transform="translate(10,20)">
+               <text pointer-events="none" y="3" dy=".71em" transform="translate(100,5)" fill="rgb(0,0,0)" text-anchor="middle">Indels distribution per homopolymer sequence length </text>
+          </g>
+          <g transform="translate(10,20)">
+               <text pointer-events="none" x="3" dy=".35em" transform="translate(5,100)" fill="rgb(0,0,0)">indels sequences count</text>
+          </g>
+          <g transform="translate(10,20)">
+               <text pointer-events="none" y="-3" transform="translate(400.0,700)" fill="rgb(0,0,0)" text-anchor="middle">homopolymer sequence length</text>
+          </g>
+          <g transform="translate(10,20)">
+               <line shape-rendering="crispEdges" x1="0.0" y1="0" x2="0.0" y2="710" stroke="rgb(128,128,128)" stroke-opacity="0.2" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="88.88888888888889" y1="0" x2="88.88888888888889" y2="710" stroke="rgb(128,128,128)" stroke-opacity="0.2" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="177.77777777777777" y1="0" x2="177.77777777777777" y2="710" stroke="rgb(128,128,128)" stroke-opacity="0.2" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="266.66666666666663" y1="0" x2="266.66666666666663" y2="710" stroke="rgb(128,128,128)" stroke-opacity="0.2" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="355.55555555555554" y1="0" x2="355.55555555555554" y2="710" stroke="rgb(128,128,128)" stroke-opacity="0.2" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="444.44444444444446" y1="0" x2="444.44444444444446" y2="710" stroke="rgb(128,128,128)" stroke-opacity="0.2" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="533.3333333333333" y1="0" x2="533.3333333333333" y2="710" stroke="rgb(128,128,128)" stroke-opacity="0.2" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="622.2222222222223" y1="0" x2="622.2222222222223" y2="710" stroke="rgb(128,128,128)" stroke-opacity="0.2" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="711.1111111111111" y1="0" x2="711.1111111111111" y2="710" stroke="rgb(128,128,128)" stroke-opacity="0.2" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="800.0" y1="0" x2="800.0" y2="710" stroke="rgb(128,128,128)" stroke-opacity="0.2" stroke-width="1"/>
+          </g>
+          <g transform="translate(10,20)">
+               <text pointer-events="none" y="3" dy=".71em" transform="translate(0.0,710)" fill="rgb(0,0,0)" text-anchor="middle">1</text>
+               <text pointer-events="none" y="3" dy=".71em" transform="translate(88.88888888888889,710)" fill="rgb(0,0,0)" text-anchor="middle">2</text>
+               <text pointer-events="none" y="3" dy=".71em" transform="translate(177.77777777777777,710)" fill="rgb(0,0,0)" text-anchor="middle">3</text>
+               <text pointer-events="none" y="3" dy=".71em" transform="translate(266.66666666666663,710)" fill="rgb(0,0,0)" text-anchor="middle">4</text>
+               <text pointer-events="none" y="3" dy=".71em" transform="translate(355.55555555555554,710)" fill="rgb(0,0,0)" text-anchor="middle">5</text>
+               <text pointer-events="none" y="3" dy=".71em" transform="translate(444.44444444444446,710)" fill="rgb(0,0,0)" text-anchor="middle">6</text>
+               <text pointer-events="none" y="3" dy=".71em" transform="translate(533.3333333333333,710)" fill="rgb(0,0,0)" text-anchor="middle">7</text>
+               <text pointer-events="none" y="3" dy=".71em" transform="translate(622.2222222222223,710)" fill="rgb(0,0,0)" text-anchor="middle">8</text>
+               <text pointer-events="none" y="3" dy=".71em" transform="translate(711.1111111111111,710)" fill="rgb(0,0,0)" text-anchor="middle">9</text>
+               <text pointer-events="none" y="3" dy=".71em" transform="translate(800.0,710)" fill="rgb(0,0,0)" text-anchor="middle">10</text>
+          </g>
+          <g transform="translate(10,20)">
+               <line shape-rendering="crispEdges" x1="0.0" y1="0" x2="0.0" y2="710" stroke="rgb(255,255,255)" stroke-opacity="0.3" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="88.88888888888889" y1="0" x2="88.88888888888889" y2="710" stroke="rgb(255,255,255)" stroke-opacity="0.3" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="177.77777777777777" y1="0" x2="177.77777777777777" y2="710" stroke="rgb(255,255,255)" stroke-opacity="0.3" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="266.66666666666663" y1="0" x2="266.66666666666663" y2="710" stroke="rgb(255,255,255)" stroke-opacity="0.3" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="355.55555555555554" y1="0" x2="355.55555555555554" y2="710" stroke="rgb(255,255,255)" stroke-opacity="0.3" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="444.44444444444446" y1="0" x2="444.44444444444446" y2="710" stroke="rgb(255,255,255)" stroke-opacity="0.3" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="533.3333333333333" y1="0" x2="533.3333333333333" y2="710" stroke="rgb(255,255,255)" stroke-opacity="0.3" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="622.2222222222223" y1="0" x2="622.2222222222223" y2="710" stroke="rgb(255,255,255)" stroke-opacity="0.3" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="711.1111111111111" y1="0" x2="711.1111111111111" y2="710" stroke="rgb(255,255,255)" stroke-opacity="0.3" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="800.0" y1="0" x2="800.0" y2="710" stroke="rgb(255,255,255)" stroke-opacity="0.3" stroke-width="1"/>
+          </g>
+          <g transform="translate(10,20)">
+               <line shape-rendering="crispEdges" x1="0" y1="607.5362809035081" x2="800" y2="607.5362809035081" stroke="rgb(128,128,128)" stroke-opacity="0.2" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="0" y1="515.0503651872443" x2="800" y2="515.0503651872443" stroke="rgb(128,128,128)" stroke-opacity="0.2" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="0" y1="422.56444947098055" x2="800" y2="422.56444947098055" stroke="rgb(128,128,128)" stroke-opacity="0.2" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="0" y1="330.0785337547168" x2="800" y2="330.0785337547168" stroke="rgb(128,128,128)" stroke-opacity="0.2" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="0" y1="237.592618038453" x2="800" y2="237.592618038453" stroke="rgb(128,128,128)" stroke-opacity="0.2" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="0" y1="145.10670232218922" x2="800" y2="145.10670232218922" stroke="rgb(128,128,128)" stroke-opacity="0.2" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="0" y1="52.620786605925446" x2="800" y2="52.620786605925446" stroke="rgb(128,128,128)" stroke-opacity="0.2" stroke-width="1"/>
+          </g>
+          <g transform="translate(10,20)">
+               <text pointer-events="none" x="-3" dy=".35em" transform="translate(0,607.5362809035081)" fill="rgb(0,0,0)" text-anchor="end">200,000</text>
+               <text pointer-events="none" x="-3" dy=".35em" transform="translate(0,515.0503651872443)" fill="rgb(0,0,0)" text-anchor="end">400,000</text>
+               <text pointer-events="none" x="-3" dy=".35em" transform="translate(0,422.56444947098055)" fill="rgb(0,0,0)" text-anchor="end">600,000</text>
+               <text pointer-events="none" x="-3" dy=".35em" transform="translate(0,330.0785337547168)" fill="rgb(0,0,0)" text-anchor="end">800,000</text>
+               <text pointer-events="none" x="-3" dy=".35em" transform="translate(0,237.592618038453)" fill="rgb(0,0,0)" text-anchor="end">1,000,000</text>
+               <text pointer-events="none" x="-3" dy=".35em" transform="translate(0,145.10670232218922)" fill="rgb(0,0,0)" text-anchor="end">1,200,000</text>
+               <text pointer-events="none" x="-3" dy=".35em" transform="translate(0,52.620786605925446)" fill="rgb(0,0,0)" text-anchor="end">1,400,000</text>
+          </g>
+          <g transform="translate(10,20)">
+               <line shape-rendering="crispEdges" x1="0" y1="0" x2="0" y2="607.5362809035081" stroke="rgb(255,255,255)" stroke-opacity="0.3" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="0" y1="0" x2="0" y2="515.0503651872443" stroke="rgb(255,255,255)" stroke-opacity="0.3" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="0" y1="0" x2="0" y2="422.56444947098055" stroke="rgb(255,255,255)" stroke-opacity="0.3" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="0" y1="0" x2="0" y2="330.0785337547168" stroke="rgb(255,255,255)" stroke-opacity="0.3" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="0" y1="0" x2="0" y2="237.592618038453" stroke="rgb(255,255,255)" stroke-opacity="0.3" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="0" y1="0" x2="0" y2="145.10670232218922" stroke="rgb(255,255,255)" stroke-opacity="0.3" stroke-width="1"/>
+               <line shape-rendering="crispEdges" x1="0" y1="0" x2="0" y2="52.620786605925446" stroke="rgb(255,255,255)" stroke-opacity="0.3" stroke-width="1"/>
+          </g>
+          <g transform="translate(10,20)">
+               <path d="M0.0,0.0L88.88888888888889,400.4182345231426L177.77777777777777,552.5265830946316L266.66666666666663,608.0481904469976L355.55555555555554,644.518161591392L444.44444444444446,669.4717865107971L533.3333333333333,685.6706946485007L622.2222222222223,695.6869193205721L711.1111111111111,699.6790738724645L800.0,700.0" fill="none" stroke="rgb(173,216,230)" stroke-dasharray="" stroke-width="2"/>
+          </g>
+          <g transform="translate(10,20)">
+               <circle fill="rgb(255,165,0)" fill-opacity="0.5" stroke="rgb(255,165,0)" stroke-width="1" cx="0.0" cy="0.0" r="1.0"/>
+               <circle fill="rgb(255,165,0)" fill-opacity="0.5" stroke="rgb(255,165,0)" stroke-width="1" cx="88.88888888888889" cy="400.4182345231426" r="1.0"/>
+               <circle fill="rgb(255,165,0)" fill-opacity="0.5" stroke="rgb(255,165,0)" stroke-width="1" cx="177.77777777777777" cy="552.5265830946316" r="1.0"/>
+               <circle fill="rgb(255,165,0)" fill-opacity="0.5" stroke="rgb(255,165,0)" stroke-width="1" cx="266.66666666666663" cy="608.0481904469976" r="1.0"/>
+               <circle fill="rgb(255,165,0)" fill-opacity="0.5" stroke="rgb(255,165,0)" stroke-width="1" cx="355.55555555555554" cy="644.518161591392" r="1.0"/>
+               <circle fill="rgb(255,165,0)" fill-opacity="0.5" stroke="rgb(255,165,0)" stroke-width="1" cx="444.44444444444446" cy="669.4717865107971" r="1.0"/>
+               <circle fill="rgb(255,165,0)" fill-opacity="0.5" stroke="rgb(255,165,0)" stroke-width="1" cx="533.3333333333333" cy="685.6706946485007" r="1.0"/>
+               <circle fill="rgb(255,165,0)" fill-opacity="0.5" stroke="rgb(255,165,0)" stroke-width="1" cx="622.2222222222223" cy="695.6869193205721" r="1.0"/>
+               <circle fill="rgb(255,165,0)" fill-opacity="0.5" stroke="rgb(255,165,0)" stroke-width="1" cx="711.1111111111111" cy="699.6790738724645" r="1.0"/>
+               <circle fill="rgb(255,165,0)" fill-opacity="0.5" stroke="rgb(255,165,0)" stroke-width="1" cx="800.0" cy="700.0" r="1.0"/>
+          </g>
+     </g>
+</svg>
