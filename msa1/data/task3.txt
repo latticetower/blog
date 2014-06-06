@@ -1,0 +1,1552 @@
+>cds parts near position 8539, starts at 2nd strand
+cccaaatccccactacctacg
+>cds parts near position 12118, starts at 2nd strand
+cccaaatccccgaaattttcc
+>cds parts near position 15364, starts at 2nd strand
+cccaaatccctaattcacatt
+>cds parts near position 18809, starts at 2nd strand
+cccaaatcccctaatgatttg
+>cds parts near position 22233, starts at 2nd strand
+cccaaatccctcttgttttga
+>cds parts near position 25321, starts at 2nd strand
+cccaaatccctttttctccat
+>cds parts near position 28429, starts at 2nd strand
+cccaaatccctattttaaaaa
+>cds parts near position 31009, starts at 2nd strand
+cccaaatcccatagtaaatta
+>cds parts near position 35774, starts at 2nd strand
+cccaaatccctgtttccttat
+>cds parts near position 43094, starts at 2nd strand
+cccaaatccctacatccaaaa
+>cds parts near position 46834, 
+aaatcccaagatatataatca
+>cds parts near position 50416, starts at 2nd strand
+cccaaatcccattaatattat
+>cds parts near position 53735, starts at 2nd strand
+cccaaatcccaagatattttt
+>cds parts near position 58294, starts at 2nd strand
+cccaaatccctatcatatttt
+>cds parts near position 62989, starts at 2nd strand
+cccaaatcccattctttacac
+>cds parts near position 67081, starts at 2nd strand
+cccaaatcccctaatatgtca
+>cds parts near position 71368, 
+aaatcccaagtttataaaaaa
+>cds parts near position 76793, starts at 2nd strand
+cccaaatccctatcaatcaag
+>cds parts near position 80423, starts at 2nd strand
+cccaaatcccctttcttagaa
+>cds parts near position 81121, 
+aaatcccaagtatatttatta
+>cds parts near position 84735, 
+aaatcccaagtttaaataaaa
+>cds parts near position 87883, starts at 2nd strand
+cccaaatcccatatatatata
+>cds parts near position 91037, starts at 2nd strand
+cccaaatcccgtgctaatata
+>cds parts near position 93537, starts at 2nd strand
+cccaaatcccatttatctttc
+>cds parts near position 98404, starts at 2nd strand
+cccaaatccccaatatgtgtg
+>cds parts near position 100847, 
+aaatcccaagtttcccttaaa
+>cds parts near position 106370, 
+aaatcccaagttcttgtaaga
+>cds parts near position 110114, 
+aaatcccaaggttttaaagta
+>cds parts near position 119011, starts at 2nd strand
+cccaaatcccaaatcatatta
+>cds parts near position 121134, starts at 2nd strand
+cccaaatcccattataatatt
+>cds parts near position 125340, starts at 2nd strand
+cccaaatcccaatacatttaa
+>cds parts near position 125986, 
+aaatcccaagatattatacca
+>cds parts near position 132100, starts at 2nd strand
+cccaaatccccataatcttta
+>cds parts near position 132554, 
+aaatcccaagaaacagaaaaa
+>cds parts near position 135073, starts at 2nd strand
+cccaaatccctgaaagaaata
+>cds parts near position 141420, starts at 2nd strand
+cccaaatccctaattcatttt
+>cds parts near position 143138, starts at 2nd strand
+cccaaatcccttacacacaca
+>cds parts near position 143984, 
+aaatcccaagaatcaagaaaa
+>cds parts near position 145649, starts at 2nd strand
+cccaaatcccaagtatttttt
+>cds parts near position 147961, 
+aaatcccaaggaatattaaaa
+>cds parts near position 150000, 
+aaatcccaagatctataaata
+>cds parts near position 151765, 
+aaatcccaagataaattaaga
+>cds parts near position 153139, 
+aaatcccaagattatacagaa
+>cds parts near position 160191, starts at 2nd strand
+cccaaatccctacattattat
+>cds parts near position 162099, starts at 2nd strand
+cccaaatcccttttaattttt
+>cds parts near position 166884, starts at 2nd strand
+cccaaatccccttcatccaca
+>cds parts near position 170000, 
+aaatcccaagttaatacaaaa
+>cds parts near position 172237, 
+aaatcccaagttataccacaa
+>cds parts near position 179705, starts at 2nd strand
+cccaaatcccttgttttattt
+>cds parts near position 180897, 
+aaatcccaagataattacaaa
+>cds parts near position 181955, 
+aaatcccaagttatctcataa
+>cds parts near position 190368, starts at 2nd strand
+cccaaatcccatgaagaaaat
+>cds parts near position 190997, 
+aaatcccaagcttatttttaa
+>cds parts near position 194265, starts at 2nd strand
+cccaaatcccatcatcctaat
+>cds parts near position 198486, starts at 2nd strand
+cccaaatcccaagataatcat
+>cds parts near position 204143, starts at 2nd strand
+cccaaatccctcaaacatcaa
+>cds parts near position 205559, 
+aaatcccaagaattataataa
+>cds parts near position 210300, 
+aaatcccaaggttataaatta
+>cds parts near position 215651, starts at 2nd strand
+cccaaatcccgatacatatta
+>cds parts near position 217845, 
+aaatcccaagaaaaataaaaa
+>cds parts near position 228410, 
+aaatcccaagcataatataaa
+>cds parts near position 230864, 
+aaatcccaagaatgaactaaa
+>cds parts near position 237744, starts at 2nd strand
+cccaaatcccatatatattat
+>cds parts near position 239747, 
+aaatcccaaggaaataggaaa
+>cds parts near position 244908, 
+aaatcccaagttatttaaaga
+>cds parts near position 247721, starts at 2nd strand
+cccaaatcccttattcttatc
+>cds parts near position 251059, 
+aaatcccaagttttgtcaata
+>cds parts near position 253542, 
+aaatcccaaggacatgtacaa
+>cds parts near position 258746, 
+aaatcccaagaatatatataa
+>cds parts near position 262099, starts at 2nd strand
+cccaaatcccatttatttaga
+>cds parts near position 264403, 
+aaatcccaagataaaatataa
+>cds parts near position 268692, starts at 2nd strand
+cccaaatcccgaaaaacaact
+>cds parts near position 269881, 
+aaatcccaagataattaataa
+>cds parts near position 277115, starts at 2nd strand
+cccaaatcccttggtaatgat
+>cds parts near position 279176, 
+aaatcccaagcttcagaataa
+>cds parts near position 283086, 
+aaatcccaagaaaattacaaa
+>cds parts near position 288297, 
+aaatcccaagatttataaaga
+>cds parts near position 293471, 
+aaatcccaagtttgaaccaaa
+>cds parts near position 297468, 
+aaatcccaagttataataaaa
+>cds parts near position 305833, starts at 2nd strand
+cccaaatcccatatatttata
+>cds parts near position 312569, 
+aaatcccaagaaaaaaattta
+>cds parts near position 317457, starts at 2nd strand
+cccaaatccctaatgaaaaaa
+>cds parts near position 320274, 
+aaatcccaagtttttaaagga
+>cds parts near position 323317, 
+aaatcccaagttatatccaga
+>cds parts near position 346468, starts at 2nd strand
+cccaaatccctatatatatat
+>cds parts near position 349359, 
+aaatcccaagaaaaaaaaaaa
+>cds parts near position 352047, starts at 2nd strand
+cccaaatccctatattatata
+>cds parts near position 355141, starts at 2nd strand
+cccaaatcccaaaaaaaaaaa
+>cds parts near position 356550, 
+aaatcccaagtatcacagtta
+>cds parts near position 361539, starts at 2nd strand
+cccaaatcccctcattttatc
+>cds parts near position 363092, 
+aaatcccaagagcattaaaaa
+>cds parts near position 367027, starts at 2nd strand
+cccaaatcccctatttttaat
+>cds parts near position 370146, 
+aaatcccaagtgtatatagaa
+>cds parts near position 374800, 
+aaatcccaagttttataataa
+>cds parts near position 380182, starts at 2nd strand
+cccaaatccctcgtttttttt
+>cds parts near position 383188, 
+aaatcccaagatatacaatta
+>cds parts near position 389592, 
+aaatcccaagataaaagaaaa
+>cds parts near position 393850, starts at 2nd strand
+cccaaatcccaattctccaaa
+>cds parts near position 396010, 
+aaatcccaagaatcttatcca
+>cds parts near position 400418, 
+aaatcccaagttttgttacaa
+>cds parts near position 417062, starts at 2nd strand
+cccaaatcccgataagatgtt
+>cds parts near position 420442, 
+aaatcccaagtttatatataa
+>cds parts near position 424250, starts at 2nd strand
+cccaaatccctctattttatc
+>cds parts near position 427191, 
+aaatcccaagataatataaaa
+>cds parts near position 430861, starts at 2nd strand
+cccaaatcccttgtatgaact
+>cds parts near position 433951, 
+aaatcccaagttttataatta
+>cds parts near position 437224, 
+aaatcccaagtgatttaataa
+>cds parts near position 440541, 
+aaatcccaagttacttaagca
+>cds parts near position 449968, starts at 2nd strand
+cccaaatccctatttttattt
+>cds parts near position 454879, starts at 2nd strand
+cccaaatcccttttttaaaac
+>cds parts near position 458796, 
+aaatcccaagtgttgtagata
+>cds parts near position 467451, starts at 2nd strand
+cccaaatcccatatttatata
+>cds parts near position 468976, 
+aaatcccaagatttgtaaata
+>cds parts near position 472943, 
+aaatcccaaggaaaagaataa
+>cds parts near position 475249, 
+aaatcccaaggtgagaagaaa
+>cds parts near position 478887, starts at 2nd strand
+cccaaatcccaaaatacattt
+>cds parts near position 480431, 
+aaatcccaagataactctaaa
+>cds parts near position 482437, 
+aaatcccaagatatcataaaa
+>cds parts near position 484438, 
+aaatcccaaggattctaaaaa
+>cds parts near position 490380, starts at 2nd strand
+cccaaatccctatataaatat
+>cds parts near position 492221, starts at 2nd strand
+cccaaatccctatatatatat
+>cds parts near position 504345, starts at 2nd strand
+cccaaatccctagtagtagta
+>cds parts near position 507360, 
+aaatcccaagttttctttaga
+>cds parts near position 511176, starts at 2nd strand
+cccaaatccccattatgttca
+>cds parts near position 512363, 
+aaatcccaagaacatccaaga
+>cds parts near position 518193, starts at 2nd strand
+cccaaatccctatttatatac
+>cds parts near position 521209, 
+aaatcccaagaaaaaaaaaca
+>cds parts near position 525305, starts at 2nd strand
+cccaaatcccatacttttttc
+>cds parts near position 527132, 
+aaatcccaagttgtaataaaa
+>cds parts near position 531739, starts at 2nd strand
+cccaaatcccatggtaatggt
+>cds parts near position 533289, starts at 2nd strand
+cccaaatcccaatgttgataa
+>cds parts near position 535988, starts at 2nd strand
+cccaaatcccttatcatcaat
+>cds parts near position 537839, starts at 2nd strand
+cccaaatcccaaatatttcaa
+>cds parts near position 538896, 
+aaatcccaagtaaatgtaaaa
+>cds parts near position 546046, starts at 2nd strand
+cccaaatcccgaataagttat
+>cds parts near position 547954, 
+aaatcccaagtaaaataaaaa
+>cds parts near position 551862, 
+aaatcccaaggctagcgaaaa
+>cds parts near position 555772, starts at 2nd strand
+cccaaatccctatcatttaat
+>cds parts near position 560093, 
+aaatcccaagtatatatatta
+>cds parts near position 565247, starts at 2nd strand
+cccaaatcccttttttttatg
+>cds parts near position 570802, 
+aaatcccaagttttttttaga
+>cds parts near position 575495, 
+aaatcccaagaatatttatta
+>cds parts near position 587528, starts at 2nd strand
+cccaaatcccttatttcattc
+>cds parts near position 590625, 
+aaatcccaagtttcataaaaa
+>cds parts near position 597145, starts at 2nd strand
+cccaaatccctaaattctcat
+>cds parts near position 600679, starts at 2nd strand
+cccaaatcccacagatgtatg
+>cds parts near position 605558, starts at 2nd strand
+cccaaatcccaaaaataaaaa
+>cds parts near position 607347, starts at 2nd strand
+cccaaatccccttgctcgtaa
+>cds parts near position 609204, 
+aaatcccaagattgaaaaaga
+>cds parts near position 611864, 
+aaatcccaagataacaaaata
+>cds parts near position 615166, 
+aaatcccaagatttgtagaaa
+>cds parts near position 618896, 
+aaatcccaagaaaaaaaaaaa
+>cds parts near position 628249, starts at 2nd strand
+cccaaatcccattaaatcatt
+>cds parts near position 632894, starts at 2nd strand
+cccaaatcccgtaatagatac
+>cds parts near position 636532, starts at 2nd strand
+cccaaatcccaaaaaaaaaaa
+>cds parts near position 640373, 
+aaatcccaagtatgttatgta
+>cds parts near position 642734, starts at 2nd strand
+cccaaatcccaataaatatat
+>cds parts near position 643913, 
+aaatcccaagacataataaaa
+>cds parts near position 648453, starts at 2nd strand
+cccaaatccctttaaaattag
+>cds parts near position 657344, starts at 2nd strand
+cccaaatccccaaaaataaca
+>cds parts near position 659538, 
+aaatcccaagaataattcaaa
+>cds parts near position 665097, starts at 2nd strand
+cccaaatcccatatatataat
+>cds parts near position 667411, 
+aaatcccaagatatatcaata
+>cds parts near position 678771, starts at 2nd strand
+cccaaatcccatgaaagataa
+>cds parts near position 682022, starts at 2nd strand
+cccaaatcccaagtgagctga
+>cds parts near position 682777, 
+aaatcccaagaaaagaaaaaa
+>cds parts near position 686367, starts at 2nd strand
+cccaaatcccaaatatataac
+>cds parts near position 688591, 
+aaatcccaagaataataataa
+>cds parts near position 690450, 
+aaatcccaagaaaaaaaaaaa
+>cds parts near position 694584, 
+aaatcccaagttatgaaaata
+>cds parts near position 709669, 
+aaatcccaagtttcagagaaa
+>cds parts near position 728378, starts at 2nd strand
+cccaaatcccatatatatata
+>cds parts near position 744681, starts at 2nd strand
+cccaaatcccacaaatgatgt
+>cds parts near position 750329, 
+aaatcccaagaaaaaaaaaaa
+>cds parts near position 753388, 
+aaatcccaagttattaaacaa
+>cds parts near position 758554, starts at 2nd strand
+cccaaatcccaaaaagtttga
+>cds parts near position 761421, starts at 2nd strand
+cccaaatcccaatgaaggctt
+>cds parts near position 773406, starts at 2nd strand
+cccaaatcccgtgtcttcatt
+>cds parts near position 775459, 
+aaatcccaagtttaattaaaa
+>cds parts near position 776671, 
+aaatcccaagttttataaaaa
+>cds parts near position 782304, starts at 2nd strand
+cccaaatccccaactataata
+>cds parts near position 785818, starts at 2nd strand
+cccaaatccctttgatttata
+>cds parts near position 790457, starts at 2nd strand
+cccaaatcccatttttccatc
+>cds parts near position 793751, 
+aaatcccaagaaaaaaaaata
+>cds parts near position 800134, starts at 2nd strand
+cccaaatcccatattataaac
+>cds parts near position 802716, 
+aaatcccaagttatgataaga
+>cds parts near position 811368, starts at 2nd strand
+cccaaatcccatatccttctt
+>cds parts near position 814409, starts at 2nd strand
+cccaaatcccagttcacctgt
+>cds parts near position 818241, starts at 2nd strand
+cccaaatccctcagaaaaaga
+>cds parts near position 820063, 
+aaatcccaagttaagtaaaga
+>cds parts near position 824197, starts at 2nd strand
+cccaaatcccatcgttatcat
+>cds parts near position 827325, starts at 2nd strand
+cccaaatccctatgtaagtaa
+>cds parts near position 830768, starts at 2nd strand
+cccaaatcccttaattctttt
+>cds parts near position 836679, starts at 2nd strand
+cccaaatcccacttaatgctt
+>cds parts near position 842659, starts at 2nd strand
+cccaaatcccgaagctttatt
+>cds parts near position 843706, 
+aaatcccaagaataaataaaa
+>cds parts near position 846503, 
+aaatcccaagtagtttgtata
+>cds parts near position 853295, starts at 2nd strand
+cccaaatcccttacatttttt
+>cds parts near position 855909, starts at 2nd strand
+cccaaatcccaaaaatttaat
+>cds parts near position 859957, 
+aaatcccaagaataaataaaa
+>cds parts near position 864766, starts at 2nd strand
+cccaaatccctaaataaataa
+>cds parts near position 866751, starts at 2nd strand
+cccaaatcccactttgtttac
+>cds parts near position 868866, starts at 2nd strand
+cccaaatccctaaaatttata
+>cds parts near position 870945, 
+aaatcccaagtaactacaaga
+>cds parts near position 876330, starts at 2nd strand
+cccaaatcccaatagtgttgt
+>cds parts near position 881395, starts at 2nd strand
+cccaaatcccatttttatttt
+>cds parts near position 883617, starts at 2nd strand
+cccaaatccctttataattat
+>cds parts near position 884343, 
+aaatcccaagttattataaaa
+>cds parts near position 885156, 
+aaatcccaagtattttgataa
+>cds parts near position 889898, starts at 2nd strand
+cccaaatcccctctataggat
+>cds parts near position 891567, starts at 2nd strand
+cccaaatcccatttttatata
+>cds parts near position 892994, starts at 2nd strand
+cccaaatcccataaatatatt
+>cds parts near position 894807, starts at 2nd strand
+cccaaatcccattattttaca
+>cds parts near position 896884, starts at 2nd strand
+cccaaatcccttatattttaa
+>cds parts near position 898989, starts at 2nd strand
+cccaaatccctattgatttat
+>cds parts near position 900331, 
+aaatcccaagtgttaaaagaa
+>cds parts near position 906565, 
+aaatcccaagcatataaaaaa
+>cds parts near position 910172, 
+aaatcccaagtgtaataaaaa
+>cds parts near position 913764, 
+aaatcccaagcgaaaagagaa
+>cds parts near position 919942, starts at 2nd strand
+cccaaatcccaataaacaact
+>cds parts near position 922876, 
+aaatcccaagacataataaaa
+>cds parts near position 926372, starts at 2nd strand
+cccaaatcccattttaattaa
+>cds parts near position 929448, 
+aaatcccaagtattcagaaaa
+>cds parts near position 933004, 
+aaatcccaagtttttagtaaa
+>cds parts near position 936113, 
+aaatcccaagaggaagaagaa
+>cds parts near position 942137, 
+aaatcccaagtttttttaaga
+>cds parts near position 952293, starts at 2nd strand
+cccaaatccctaatattatat
+>cds parts near position 955810, 
+aaatcccaagatgatgaaaaa
+>cds parts near position 963695, starts at 2nd strand
+cccaaatcccaaatgcttata
+>cds parts near position 967505, 
+aaatcccaagtttttttttga
+>cds parts near position 975485, starts at 2nd strand
+cccaaatcccatataataatt
+>cds parts near position 977850, 
+aaatcccaagatattttaaaa
+>cds parts near position 984503, starts at 2nd strand
+cccaaatcccttaaataacaa
+>cds parts near position 987697, starts at 2nd strand
+cccaaatccccttgtttatta
+>cds parts near position 989162, 
+aaatcccaagtgtgcataaaa
+>cds parts near position 993594, 
+aaatcccaagattaatttcaa
+>cds parts near position 1000448, starts at 2nd strand
+cccaaatccctatattataac
+>cds parts near position 1006585, 
+aaatcccaagaaacaaaacaa
+>cds parts near position 1008952, 
+aaatcccaagatgtaataaaa
+>cds parts near position 1014207, starts at 2nd strand
+cccaaatccctatattatata
+>cds parts near position 1016560, starts at 2nd strand
+cccaaatcccatgtataatat
+>cds parts near position 1019202, starts at 2nd strand
+cccaaatcccagaatttggat
+>cds parts near position 1022799, starts at 2nd strand
+cccaaatcccctcctctaaca
+>cds parts near position 1025707, starts at 2nd strand
+cccaaatcccattattaatat
+>cds parts near position 1027086, starts at 2nd strand
+cccaaatcccatttaaaatat
+>cds parts near position 1029890, starts at 2nd strand
+cccaaatccctttttaatttg
+>cds parts near position 1035302, starts at 2nd strand
+cccaaatccctaatacaaggt
+>cds parts near position 1039525, starts at 2nd strand
+cccaaatccctattatactaa
+>cds parts near position 1042999, 
+aaatcccaagtttataaagaa
+>cds parts near position 1050258, starts at 2nd strand
+cccaaatccctactaatattc
+>cds parts near position 1051027, 
+aaatcccaagccactataata
+>cds parts near position 1056104, 
+aaatcccaagtgtttagaaaa
+>cds parts near position 1061747, 
+aaatcccaagataaattaaaa
+>cds parts near position 1064084, 
+aaatcccaagaattattaaga
+>cds parts near position 1079663, starts at 2nd strand
+cccaaatcccaatctaaatta
+>cds parts near position 1081715, 
+aaatcccaagtttattgacga
+>cds parts near position 1085545, 
+aaatcccaagactctgaacga
+>cds parts near position 1087569, starts at 2nd strand
+cccaaatccctatatattaat
+>cds parts near position 1089044, starts at 2nd strand
+cccaaatcccaatatgcacaa
+>cds parts near position 1092878, 
+aaatcccaaggaataatataa
+>cds parts near position 1095628, 
+aaatcccaagaaaatttaaaa
+>cds parts near position 1099893, starts at 2nd strand
+cccaaatcccattcccatcat
+>cds parts near position 1101900, 
+aaatcccaagttttgaataaa
+>cds parts near position 1106456, starts at 2nd strand
+cccaaatcccataaggatatt
+>cds parts near position 1115412, starts at 2nd strand
+cccaaatcccaagaaataata
+>cds parts near position 1118533, 
+aaatcccaagcaaaacaaaaa
+>cds parts near position 1126984, 
+aaatcccaagttttaaaatta
+>cds parts near position 1130713, starts at 2nd strand
+cccaaatcccttattataatc
+>cds parts near position 1133009, 
+aaatcccaaggctacaaaaaa
+>cds parts near position 1139133, starts at 2nd strand
+cccaaatcccatattgatcga
+>cds parts near position 1141234, starts at 2nd strand
+cccaaatccctaagtaatcat
+>cds parts near position 1142096, 
+aaatcccaagaaataataaaa
+>cds parts near position 1148020, starts at 2nd strand
+cccaaatcccttctatagcct
+>cds parts near position 1153329, starts at 2nd strand
+cccaaatccctttcataatat
+>cds parts near position 1155297, 
+aaatcccaagcattatggtaa
+>cds parts near position 1164274, 
+aaatcccaagaaaaatcaaga
+>cds parts near position 1167086, 
+aaatcccaagtttttgaaata
+>cds parts near position 1169278, starts at 2nd strand
+cccaaatcccaatagaaatat
+>cds parts near position 1170771, 
+aaatcccaagtaataaaaaga
+>cds parts near position 1176712, 
+aaatcccaagtttgtaagata
+>cds parts near position 1182924, starts at 2nd strand
+cccaaatcccacaactatata
+>cds parts near position 1184852, 
+aaatcccaagttttaaaaaaa
+>cds parts near position 1188291, 
+aaatcccaagttatataaaaa
+>cds parts near position 1199861, starts at 2nd strand
+cccaaatccccagtaccagaa
+>cds parts near position 1201690, 
+aaatcccaagttttgaagtaa
+>cds parts near position 1205030, 
+aaatcccaagtatattacaaa
+>cds parts near position 1207340, 
+aaatcccaagtttttttttaa
+>cds parts near position 1210954, 
+aaatcccaagaataaacatta
+>cds parts near position 1214877, 
+aaatcccaagaagaaaaagga
+>cds parts near position 1217113, starts at 2nd strand
+cccaaatcccattcatgtatt
+>cds parts near position 1218941, starts at 2nd strand
+cccaaatcccaataaaaaaat
+>cds parts near position 1221717, 
+aaatcccaagatttttgaata
+>cds parts near position 1227959, starts at 2nd strand
+cccaaatccctacaaatttag
+>cds parts near position 1230978, 
+aaatcccaagtgttgtgaata
+>cds parts near position 1237067, starts at 2nd strand
+cccaaatccctgttgcttttg
+>cds parts near position 1241537, starts at 2nd strand
+cccaaatcccaaaaaaaaaaa
+>cds parts near position 1243960, 
+aaatcccaagtttttttgcaa
+>cds parts near position 1246972, 
+aaatcccaagagtgaaaacaa
+>cds parts near position 1249270, 
+aaatcccaagtagatacaaaa
+>cds parts near position 1253482, 
+aaatcccaagcaatataatta
+>cds parts near position 1258913, starts at 2nd strand
+cccaaatccctggaatattca
+>cds parts near position 1260850, 
+aaatcccaagtttatataaaa
+>cds parts near position 1263768, 
+aaatcccaagatagaaaaata
+>cds parts near position 1274609, starts at 2nd strand
+cccaaatcccttttttttttt
+>cds parts near position 1282587, starts at 2nd strand
+cccaaatccctttctcataag
+>cds parts near position 1283512, 
+aaatcccaagattttgaaaaa
+>cds parts near position 1289196, starts at 2nd strand
+cccaaatcccctacataacca
+>cds parts near position 1291449, starts at 2nd strand
+cccaaatcccatttttaaata
+>cds parts near position 1295028, starts at 2nd strand
+cccaaatccctaatataaata
+>cds parts near position 1297153, starts at 2nd strand
+cccaaatcccaaataatgtgg
+>cds parts near position 1298919, starts at 2nd strand
+cccaaatcccttctaaataat
+>cds parts near position 1299836, 
+aaatcccaagaggactagtga
+>cds parts near position 1307773, starts at 2nd strand
+cccaaatcccttctattctat
+>cds parts near position 1309983, 
+aaatcccaagaaattataaga
+>cds parts near position 1329519, starts at 2nd strand
+cccaaatccctatctccttgt
+>cds parts near position 1337243, starts at 2nd strand
+cccaaatcccaatattaacgt
+>cds parts near position 1341632, 
+aaatcccaagtttatttacaa
+>cds parts near position 1348937, starts at 2nd strand
+cccaaatcccttataatttta
+>cds parts near position 1358322, starts at 2nd strand
+cccaaatcccaattttaactt
+>cds parts near position 1359945, 
+aaatcccaagtctttaaaaga
+>cds parts near position 1366056, starts at 2nd strand
+cccaaatcccatacatatatt
+>cds parts near position 1366922, 
+aaatcccaagtttttttaaaa
+>cds parts near position 1369739, starts at 2nd strand
+cccaaatcccatatatatata
+>cds parts near position 1372846, 
+aaatcccaagtttttacaaaa
+>cds parts near position 1376773, starts at 2nd strand
+cccaaatcccaaattcttatg
+>cds parts near position 1402608, starts at 2nd strand
+cccaaatcccattaaatgaaa
+>cds parts near position 1404255, 
+aaatcccaagtttttttaaaa
+>cds parts near position 1407689, starts at 2nd strand
+cccaaatccctaatatttttt
+>cds parts near position 1410082, 
+aaatcccaagtaaagaaaaaa
+>cds parts near position 1411680, 
+aaatcccaagttttgtcgtta
+>cds parts near position 1413966, 
+aaatcccaagcctctttgtta
+>cds parts near position 1416963, starts at 2nd strand
+cccaaatccccacatatatgg
+>cds parts near position 1419326, 
+aaatcccaagaatttataaca
+>cds parts near position 1431164, starts at 2nd strand
+cccaaatcccattctctttct
+>cds parts near position 1434253, starts at 2nd strand
+cccaaatcccagttttggaaa
+>cds parts near position 1436223, 
+aaatcccaaggtgtgtaaaga
+>cds parts near position 1442820, starts at 2nd strand
+cccaaatcccatataaaaaaa
+>cds parts near position 1449434, starts at 2nd strand
+cccaaatcccataaaatgttg
+>cds parts near position 1452547, 
+aaatcccaagcaattttataa
+>cds parts near position 1455439, starts at 2nd strand
+cccaaatccctatgaaaatta
+>cds parts near position 1458074, 
+aaatcccaagatatttttcta
+>cds parts near position 1461331, 
+aaatcccaagatattaaaata
+>cds parts near position 1474381, starts at 2nd strand
+cccaaatccctaaaaaaattg
+>cds parts near position 1479720, 
+aaatcccaagaaaaaaaaaaa
+>cds parts near position 1484109, 
+aaatcccaagctgtcatataa
+>cds parts near position 1488649, 
+aaatcccaagatgtagtgtca
+>cds parts near position 1494157, starts at 2nd strand
+cccaaatcccttcatttttta
+>cds parts near position 1498476, starts at 2nd strand
+cccaaatccctatttgtttcc
+>cds parts near position 1499435, starts at 2nd strand
+cccaaatccctaaagaatgct
+>cds parts near position 1500908, starts at 2nd strand
+cccaaatccctacaagctagt
+>cds parts near position 1502591, 
+aaatcccaaggaagggaagga
+>cds parts near position 1505849, 
+aaatcccaaggtgtttcttca
+>cds parts near position 1510032, starts at 2nd strand
+cccaaatccctaatgaaacaa
+>cds parts near position 1514904, starts at 2nd strand
+cccaaatcccaaaaaccaaaa
+>cds parts near position 1517013, 
+aaatcccaagatatgagagta
+>cds parts near position 1521048, 
+aaatcccaagaaaaatcatta
+>cds parts near position 1523229, 
+aaatcccaagtttctgttaaa
+>cds parts near position 1528428, starts at 2nd strand
+cccaaatcccttctacttcct
+>cds parts near position 1530773, starts at 2nd strand
+cccaaatccccattctttgat
+>cds parts near position 1533272, 
+aaatcccaagataattaaaaa
+>cds parts near position 1538412, starts at 2nd strand
+cccaaatcccataatatttgt
+>cds parts near position 1542815, starts at 2nd strand
+cccaaatccctattttgttta
+>cds parts near position 1548861, 
+aaatcccaagaaaaataaaaa
+>cds parts near position 1560100, starts at 2nd strand
+cccaaatccccaaaattatca
+>cds parts near position 1562175, 
+aaatcccaagtgtgataagta
+>cds parts near position 1564518, 
+aaatcccaagataatacttta
+>cds parts near position 1570982, 
+aaatcccaagtcttaatatta
+>cds parts near position 1575927, 
+aaatcccaagaagatctgaaa
+>cds parts near position 1578136, 
+aaatcccaagtgttttaaaaa
+>cds parts near position 1580693, 
+aaatcccaagaaaatgagaca
+>cds parts near position 1588895, 
+aaatcccaagtttcaataaga
+>cds parts near position 1594448, 
+aaatcccaagggaaagaaata
+>cds parts near position 1601943, starts at 2nd strand
+cccaaatcccaataaaaaaat
+>cds parts near position 1608462, 
+aaatcccaagatgtgacgtca
+>cds parts near position 1613006, starts at 2nd strand
+cccaaatccctggagttcaat
+>cds parts near position 1615485, starts at 2nd strand
+cccaaatccctttatggattt
+>cds parts near position 1618762, 
+aaatcccaagaattataaaaa
+>cds parts near position 1622519, 
+aaatcccaagtttttacaaaa
+>cds parts near position 1631310, starts at 2nd strand
+cccaaatcccaccaatcctta
+>cds parts near position 1636198, starts at 2nd strand
+cccaaatcccaaaaaatgcag
+>cds parts near position 1639420, 
+aaatcccaagataaaaaaaaa
+>cds parts near position 1639420, 
+aaatcccaagataaaaaaaaa
+>cds parts near position 1651637, starts at 2nd strand
+cccaaatccctgtataaataa
+>cds parts near position 1653990, 
+aaatcccaagaagaagaaaaa
+>cds parts near position 1656377, 
+aaatcccaagtatattacaaa
+>cds parts near position 1662239, starts at 2nd strand
+cccaaatccctaatgtcagct
+>cds parts near position 1665406, 
+aaatcccaaggtaggttataa
+>cds parts near position 1668534, 
+aaatcccaagtaagtatataa
+>cds parts near position 1671593, starts at 2nd strand
+cccaaatccccaatatatcat
+>cds parts near position 1674012, starts at 2nd strand
+cccaaatcccaaaattaataa
+>cds parts near position 1678605, 
+aaatcccaagtattaaaacaa
+>cds parts near position 1681734, 
+aaatcccaagtttgtatataa
+>cds parts near position 1690936, 
+aaatcccaagaaaaaaaaaaa
+>cds parts near position 1695135, starts at 2nd strand
+cccaaatcccttgtaataaaa
+>cds parts near position 1697956, starts at 2nd strand
+cccaaatcccttttcatatat
+>cds parts near position 1700617, 
+aaatcccaagtgaaaaaatta
+>cds parts near position 1703752, starts at 2nd strand
+cccaaatcccagttttttttt
+>cds parts near position 1704537, 
+aaatcccaaggattacaaaaa
+>cds parts near position 1705726, starts at 2nd strand
+cccaaatccctttattatcat
+>cds parts near position 1707455, starts at 2nd strand
+cccaaatcccattaattttca
+>cds parts near position 1711473, starts at 2nd strand
+cccaaatccccttaattagat
+>cds parts near position 1714008, starts at 2nd strand
+cccaaatcccaatcttccgtt
+>cds parts near position 1717114, 
+aaatcccaagatataagaata
+>cds parts near position 1727356, starts at 2nd strand
+cccaaatccccattttcataa
+>cds parts near position 1730030, 
+aaatcccaagatgctacagaa
+>cds parts near position 1742056, 
+aaatcccaagtcaatgtaata
+>cds parts near position 1751360, starts at 2nd strand
+cccaaatccctgtaacagttt
+>cds parts near position 1753453, 
+aaatcccaagtttgtgaataa
+>cds parts near position 1768065, starts at 2nd strand
+cccaaatccctatctttatga
+>cds parts near position 1771293, starts at 2nd strand
+cccaaatcccaaactttaaaa
+>cds parts near position 1773219, 
+aaatcccaaggtgtgatataa
+>cds parts near position 1775953, 
+aaatcccaagaattccaaaga
+>cds parts near position 1779549, starts at 2nd strand
+cccaaatcccattaatgtagt
+>cds parts near position 1783523, starts at 2nd strand
+cccaaatcccttatgaatctg
+>cds parts near position 1790572, starts at 2nd strand
+cccaaatccctgtatatatat
+>cds parts near position 1792947, starts at 2nd strand
+cccaaatcccttcctcttttt
+>cds parts near position 1795877, starts at 2nd strand
+cccaaatcccacaagtataaa
+>cds parts near position 1797231, 
+aaatcccaagtggttttaaaa
+>cds parts near position 1800774, 
+aaatcccaagaacataaaaca
+>cds parts near position 1825269, starts at 2nd strand
+cccaaatccctaaatattgaa
+>cds parts near position 1826070, 
+aaatcccaagaaataacaaaa
+>cds parts near position 1828522, 
+aaatcccaagtaagttcaaaa
+>cds parts near position 1830952, 
+aaatcccaagaaaaataataa
+>cds parts near position 1838541, starts at 2nd strand
+cccaaatcccttcatcatatt
+>cds parts near position 1840972, 
+aaatcccaagaaaaaaaaaaa
+>cds parts near position 1841903, 
+aaatcccaagataaaataaaa
+>cds parts near position 1845560, starts at 2nd strand
+cccaaatcccactcataaaaa
+>cds parts near position 1848258, 
+aaatcccaagtttttttaaaa
+>cds parts near position 1850335, starts at 2nd strand
+cccaaatccctacaaaagcat
+>cds parts near position 1854997, starts at 2nd strand
+cccaaatccctaaccatgttt
+>cds parts near position 1856643, 
+aaatcccaagaaaaaaaaaaa
+>cds parts near position 1860091, 
+aaatcccaagtgaatacgata
+>cds parts near position 1865363, starts at 2nd strand
+cccaaatcccaaaaaatgaag
+>cds parts near position 1867559, 
+aaatcccaagttaagttacca
+>cds parts near position 1871721, 
+aaatcccaagtttttaataaa
+>cds parts near position 1876817, starts at 2nd strand
+cccaaatcccgaatagtaata
+>cds parts near position 1882520, starts at 2nd strand
+cccaaatcccgttaaattgat
+>cds parts near position 1885386, 
+aaatcccaaggtacgatacaa
+>cds parts near position 1892051, starts at 2nd strand
+cccaaatcccaaaaatatata
+>cds parts near position 1894960, starts at 2nd strand
+cccaaatcccaaggtgatcat
+>cds parts near position 1898294, 
+aaatcccaagtaaatataaaa
+>cds parts near position 1904106, starts at 2nd strand
+cccaaatcccattttaaacaa
+>cds parts near position 1907140, 
+aaatcccaagtttaatcgata
+>cds parts near position 1917953, starts at 2nd strand
+cccaaatccctttctaattct
+>cds parts near position 1921588, starts at 2nd strand
+cccaaatcccatataatatat
+>cds parts near position 1922902, 
+aaatcccaagtttcatcagta
+>cds parts near position 1926593, starts at 2nd strand
+cccaaatcccagtaaaaaaaa
+>cds parts near position 1929874, 
+aaatcccaagataaaaaaaaa
+>cds parts near position 1933143, starts at 2nd strand
+cccaaatcccgtatattcata
+>cds parts near position 1933928, 
+aaatcccaagttttttaaaaa
+>cds parts near position 1936831, 
+aaatcccaagcttatttacaa
+>cds parts near position 1939060, starts at 2nd strand
+cccaaatcccatattttatgt
+>cds parts near position 1940999, 
+aaatcccaagtatataaaaaa
+>cds parts near position 1942906, starts at 2nd strand
+cccaaatccctatttattttt
+>cds parts near position 1944907, starts at 2nd strand
+cccaaatcccaggataacgtt
+>cds parts near position 1947189, 
+aaatcccaagttttcgcatga
+>cds parts near position 1957618, starts at 2nd strand
+cccaaatcccgatccagctaa
+>cds parts near position 1963905, starts at 2nd strand
+cccaaatccctataatatcat
+>cds parts near position 1965118, 
+aaatcccaagtgtgtaaaata
+>cds parts near position 1971561, starts at 2nd strand
+cccaaatcccgaatgctctaa
+>cds parts near position 1977366, starts at 2nd strand
+cccaaatcccgtatttgtaca
+>cds parts near position 1983050, starts at 2nd strand
+cccaaatcccattgcaagaaa
+>cds parts near position 1995517, starts at 2nd strand
+cccaaatcccatatatataaa
+>cds parts near position 1998246, starts at 2nd strand
+cccaaatcccaattcttcata
+>cds parts near position 1999591, 
+aaatcccaagtataaatatca
+>cds parts near position 2002049, starts at 2nd strand
+cccaaatcccatatatatata
+>cds parts near position 2003316, starts at 2nd strand
+cccaaatcccatttgtaacaa
+>cds parts near position 2005399, starts at 2nd strand
+cccaaatcccaaacagatttc
+>cds parts near position 2008374, 
+aaatcccaaggattgtaaaaa
+>cds parts near position 2014613, 
+aaatcccaagattttcgaaaa
+>cds parts near position 2016901, 
+aaatcccaagaactatttcaa
+>cds parts near position 2024080, starts at 2nd strand
+cccaaatccctttttttgtgt
+>cds parts near position 2031024, 
+aaatcccaagaaatacaataa
+>cds parts near position 2036567, starts at 2nd strand
+cccaaatccctcgttatatac
+>cds parts near position 2041479, starts at 2nd strand
+cccaaatccctttttgttgaa
+>cds parts near position 2042946, 
+aaatcccaagattctttaata
+>cds parts near position 2044966, starts at 2nd strand
+cccaaatcccttttataattt
+>cds parts near position 2047730, 
+aaatcccaagaaaaaaaaaaa
+>cds parts near position 2053060, starts at 2nd strand
+cccaaatcccacagaggagaa
+>cds parts near position 2055728, 
+aaatcccaagttttataataa
+>cds parts near position 2056578, 
+aaatcccaagtggccataaaa
+>cds parts near position 2065707, starts at 2nd strand
+cccaaatccctatgactaaat
+>cds parts near position 2073593, starts at 2nd strand
+cccaaatccctttatacatat
+>cds parts near position 2077286, starts at 2nd strand
+cccaaatcccacatagaacaa
+>cds parts near position 2078425, 
+aaatcccaagatattacaaaa
+>cds parts near position 2082184, starts at 2nd strand
+cccaaatcccgattataattt
+>cds parts near position 2083168, 
+aaatcccaagtaatataagga
+>cds parts near position 2087456, starts at 2nd strand
+cccaaatcccaaaaaaaaaaa
+>cds parts near position 2090839, 
+aaatcccaagtgatagcaaaa
+>cds parts near position 2099673, starts at 2nd strand
+cccaaatccctcaagacaaaa
+>cds parts near position 2104883, 
+aaatcccaagatattttataa
+>cds parts near position 2108810, 
+aaatcccaagatttaaaaaca
+>cds parts near position 2113940, starts at 2nd strand
+cccaaatcccctattaaatta
+>cds parts near position 2118126, starts at 2nd strand
+cccaaatcccatgtgttatta
+>cds parts near position 2120216, starts at 2nd strand
+cccaaatcccttatagttgta
+>cds parts near position 2123397, 
+aaatcccaagattataaataa
+>cds parts near position 2131193, starts at 2nd strand
+cccaaatccctctaatttgtt
+>cds parts near position 2134234, 
+aaatcccaagataatataaaa
+>cds parts near position 2141598, 
+aaatcccaagaaggaacaaaa
+>cds parts near position 2143238, 
+aaatcccaagttatttttcga
+>cds parts near position 2146166, starts at 2nd strand
+cccaaatcccaatattggcct
+>cds parts near position 2148357, 
+aaatcccaagatatgatttaa
+>cds parts near position 2153550, starts at 2nd strand
+cccaaatcccgaaaatggaaa
+>cds parts near position 2155672, 
+aaatcccaagtgtgaaaagaa
+>cds parts near position 2167155, 
+aaatcccaagtttcattatca
+>cds parts near position 2170397, 
+aaatcccaagtataaaaataa
+>cds parts near position 2172491, starts at 2nd strand
+cccaaatccctgaatattttg
+>cds parts near position 2175758, starts at 2nd strand
+cccaaatccctttttcttttg
+>cds parts near position 2178665, starts at 2nd strand
+cccaaatccctcacattttaa
+>cds parts near position 2179455, 
+aaatcccaagttaatatatta
+>cds parts near position 2187321, 
+aaatcccaagactgaaaaaaa
+>cds parts near position 2188114, 
+aaatcccaagtttttgtaata
+>cds parts near position 2198416, starts at 2nd strand
+cccaaatcccagtcagcttca
+>cds parts near position 2204644, starts at 2nd strand
+cccaaatcccatggaacgttt
+>cds parts near position 2206963, 
+aaatcccaagtttaaacaaca
+>cds parts near position 2212460, starts at 2nd strand
+cccaaatccctttaatgttaa
+>cds parts near position 2214846, 
+aaatcccaagattaaacaaaa
+>cds parts near position 2219016, 
+aaatcccaagaaaactacaaa
+>cds parts near position 2221287, 
+aaatcccaagtttctcttaaa
+>cds parts near position 2226640, starts at 2nd strand
+cccaaatcccaatagaaattt
+>cds parts near position 2229220, 
+aaatcccaagcatatatataa
+>cds parts near position 2234118, 
+aaatcccaagtatatttttaa
+>cds parts near position 2238330, 
+aaatcccaagtatataaaaaa
+>cds parts near position 2240163, starts at 2nd strand
+cccaaatcccatattccttta
+>cds parts near position 2241369, 
+aaatcccaagtttattcaaaa
+>cds parts near position 2243809, 
+aaatcccaagatatataaata
+>cds parts near position 2245500, starts at 2nd strand
+cccaaatcccattataaagat
+>cds parts near position 2249686, starts at 2nd strand
+cccaaatcccatctataacaa
+>cds parts near position 2251870, starts at 2nd strand
+cccaaatcccattgtatatat
+>cds parts near position 2254998, 
+aaatcccaagatatatcataa
+>cds parts near position 2259401, 
+aaatcccaagaaatatgtata
+>cds parts near position 2263737, starts at 2nd strand
+cccaaatcccttctgcttctg
+>cds parts near position 2267137, 
+aaatcccaagatttattagta
+>cds parts near position 2277179, starts at 2nd strand
+cccaaatcccattatataaat
+>cds parts near position 2282098, starts at 2nd strand
+cccaaatcccattattccttt
+>cds parts near position 2285049, 
+aaatcccaagtaaccaaatta
+>cds parts near position 2292627, starts at 2nd strand
+cccaaatccctaataatagta
+>cds parts near position 2296427, 
+aaatcccaagagaataaaata
+>cds parts near position 2302780, starts at 2nd strand
+cccaaatcccatatgtatgta
+>cds parts near position 2303501, 
+aaatcccaagttttttttaaa
+>cds parts near position 2308138, starts at 2nd strand
+cccaaatccccatataccttt
+>cds parts near position 2312408, starts at 2nd strand
+cccaaatcccgatttagctga
+>cds parts near position 2314316, 
+aaatcccaagattttacacca
+>cds parts near position 2322734, starts at 2nd strand
+cccaaatcccattaatatttt
+>cds parts near position 2325762, starts at 2nd strand
+cccaaatcccacataattaat
+>cds parts near position 2332022, starts at 2nd strand
+cccaaatcccatatcatacca
+>cds parts near position 2334723, 
+aaatcccaagaaaaacataaa
+>cds parts near position 2339089, starts at 2nd strand
+cccaaatccctaaaaaattgt
+>cds parts near position 2340720, 
+aaatcccaaggtgaaaaaaaa
+>cds parts near position 2344154, starts at 2nd strand
+cccaaatcccatataaaacca
+>cds parts near position 2348033, starts at 2nd strand
+cccaaatcccaatatctcata
+>cds parts near position 2350921, 
+aaatcccaaggaaaaaaaaaa
+>cds parts near position 2362069, starts at 2nd strand
+cccaaatcccagggatgtttg
+>cds parts near position 2363514, 
+aaatcccaagtctttctaaaa
+>cds parts near position 2367223, 
+aaatcccaaggtacaatacga
+>cds parts near position 2373680, starts at 2nd strand
+cccaaatcccttaaataggac
+>cds parts near position 2375515, 
+aaatcccaagaaaaaaaaaaa
+>cds parts near position 2387722, 
+aaatcccaagtaataaaaata
+>cds parts near position 2390662, 
+aaatcccaagtaaggatagta
+>cds parts near position 2391054, 
+aaatcccaagtatataaacaa
+>cds parts near position 2396767, starts at 2nd strand
+cccaaatcccggtaaatatat
+>cds parts near position 2398805, starts at 2nd strand
+cccaaatcccctttggtgaaa
+>cds parts near position 2400451, 
+aaatcccaagtgatataataa
+>cds parts near position 2406604, 
+aaatcccaagtttataaaata
+>cds parts near position 2411951, starts at 2nd strand
+cccaaatcccatattcctcaa
+>cds parts near position 2417403, starts at 2nd strand
+cccaaatcccctgcaaatatt
+>cds parts near position 2418358, 
+aaatcccaagtttgcaaaaaa
+>cds parts near position 2420700, 
+aaatcccaagattaacaaaaa
+>cds parts near position 2423843, 
+aaatcccaagtttttactaaa
+>cds parts near position 2430027, starts at 2nd strand
+cccaaatccctaataattttt
+>cds parts near position 2432113, 
+aaatcccaagagataagaaaa
+>cds parts near position 2434319, starts at 2nd strand
+cccaaatcccactgatgcttc
+>cds parts near position 2436631, 
+aaatcccaagtatgttattta
+>cds parts near position 2441281, 
+aaatcccaagttgtttaaaaa
+>cds parts near position 2446115, starts at 2nd strand
+cccaaatccctttcaaaaagt
+>cds parts near position 2448234, starts at 2nd strand
+cccaaatcccaaaatttaaca
+>cds parts near position 2450724, starts at 2nd strand
+cccaaatcccctcataaatat
+>cds parts near position 2452406, 
+aaatcccaagattttcgctaa
+>cds parts near position 2454838, 
+aaatcccaagttatatatata
+>cds parts near position 2457738, starts at 2nd strand
+cccaaatcccaatgaaaataa
+>cds parts near position 2459900, starts at 2nd strand
+cccaaatcccttattatttta
+>cds parts near position 2461257, 
+aaatcccaagaagcaaaaaca
+>cds parts near position 2466027, 
+aaatcccaagagtatgcctta
+>cds parts near position 2473694, 
+aaatcccaagaattttcaaga
+>cds parts near position 2476409, starts at 2nd strand
+cccaaatccctgataataaag
+>cds parts near position 2479671, starts at 2nd strand
+cccaaatcccttccttcttat
+>cds parts near position 2480376, 
+aaatcccaagacataaaaaaa
+>cds parts near position 2482711, 
+aaatcccaagatttaccaata
+>cds parts near position 2485800, 
+aaatcccaagaaagaaaagaa
+>cds parts near position 2489634, 
+aaatcccaagtttttataaaa
+>cds parts near position 2492101, 
+aaatcccaagttaataaataa
+>cds parts near position 2494697, starts at 2nd strand
+cccaaatcccattttaattct
+>cds parts near position 2497335, starts at 2nd strand
+cccaaatccctttttactatt
+>cds parts near position 2500319, starts at 2nd strand
+cccaaatcccaaaaaaaaaaa
+>cds parts near position 2502450, starts at 2nd strand
+cccaaatcccagagagaataa
+>cds parts near position 2504084, 
+aaatcccaagtaaatgaaaaa
+>cds parts near position 2514608, 
+aaatcccaagatttttttgta
+>cds parts near position 2518692, starts at 2nd strand
+cccaaatcccttatatgatgt
+>cds parts near position 2523144, starts at 2nd strand
+cccaaatcccgatataatgaa
+>cds parts near position 2523854, 
+aaatcccaagaatataacaga
+>cds parts near position 2528929, starts at 2nd strand
+cccaaatccccaaatgttttt
+>cds parts near position 2541335, starts at 2nd strand
+cccaaatccccagcgctttca
+>cds parts near position 2549720, starts at 2nd strand
+cccaaatcccatattttattt
+>cds parts near position 2550627, 
+aaatcccaagtcgtacaagta
+>cds parts near position 2555039, starts at 2nd strand
+cccaaatccctgaattttata
+>cds parts near position 2559033, 
+aaatcccaagtttaacaaaaa
+>cds parts near position 2563427, starts at 2nd strand
+cccaaatccctgtttaataaa
+>cds parts near position 2566218, starts at 2nd strand
+cccaaatcccagattgtatgc
+>cds parts near position 2570369, 
+aaatcccaagtgtaataagaa
+>cds parts near position 2572923, 
+aaatcccaagaagtgaaaata
+>cds parts near position 2575261, 
+aaatcccaagttaacaaataa
+>cds parts near position 2577909, 
+aaatcccaagatatttcaaaa
+>cds parts near position 2580421, starts at 2nd strand
+cccaaatcccttgttttcctt
+>cds parts near position 2581478, 
+aaatcccaagaaaaaaaaata
+>cds parts near position 2583484, starts at 2nd strand
+cccaaatcccaaatatttaat
+>cds parts near position 2589717, starts at 2nd strand
+cccaaatcccgaataaaattc
+>cds parts near position 2594054, starts at 2nd strand
+cccaaatcccccctctaaggt
+>cds parts near position 2595804, 
+aaatcccaagtttaaaagtta
+>cds parts near position 2599889, starts at 2nd strand
+cccaaatccctatatgtgaaa
+>cds parts near position 2601376, 
+aaatcccaaggggcattaaaa
+>cds parts near position 2605346, starts at 2nd strand
+cccaaatcccaaatttctttt
+>cds parts near position 2607227, 
+aaatcccaagttatattacta
+>cds parts near position 2619614, 
+aaatcccaagtggaattctaa
+>cds parts near position 2626535, starts at 2nd strand
+cccaaatccctcttctttttt
+>cds parts near position 2628817, 
+aaatcccaagtatagctaata
+>cds parts near position 2632613, starts at 2nd strand
+cccaaatccctattaattttt
+>cds parts near position 2635776, 
+aaatcccaagaatgttatata
+>cds parts near position 2637501, 
+aaatcccaaggagtgacatta
+>cds parts near position 2641937, starts at 2nd strand
+cccaaatccctaattaaaaaa
+>cds parts near position 2642939, 
+aaatcccaagaaaaaaaaaaa
+>cds parts near position 2646968, starts at 2nd strand
+cccaaatcccgagaaacgaaa
+>cds parts near position 2650690, 
+aaatcccaagtgaagagaaca
+>cds parts near position 2657900, starts at 2nd strand
+cccaaatccctattaaatatt
+>cds parts near position 2660846, starts at 2nd strand
+cccaaatccctatcacatgga
+>cds parts near position 2661956, 
+aaatcccaagtttcaaaaaaa
+>cds parts near position 2684077, 
+aaatcccaagttaaataaaaa
+>cds parts near position 2688239, starts at 2nd strand
+cccaaatcccatatttctaaa
+>cds parts near position 2690440, 
+aaatcccaagtgtatgacaaa
+>cds parts near position 2703985, starts at 2nd strand
+cccaaatccctcatattgttt
+>cds parts near position 2709354, 
+aaatcccaagtttacaaaaaa
+>cds parts near position 2717221, starts at 2nd strand
+cccaaatccccatatttactt
+>cds parts near position 2725161, 
+aaatcccaagtagaaatataa
+>cds parts near position 2727578, starts at 2nd strand
+cccaaatcccataatttttat
+>cds parts near position 2729306, 
+aaatcccaagttttttcaaaa
+>cds parts near position 2731922, 
+aaatcccaagaaaaaaaaaga
+>cds parts near position 2736844, 
+aaatcccaagtgtaaaaagaa
+>cds parts near position 2742323, 
+aaatcccaagtctcttaagca
+>cds parts near position 2747256, starts at 2nd strand
+cccaaatcccaaataaataaa
+>cds parts near position 2748328, 
+aaatcccaagaattcctataa
+>cds parts near position 2750894, 
+aaatcccaagaaattaataga
+>cds parts near position 2753956, starts at 2nd strand
+cccaaatccctatatatatat
+>cds parts near position 2755161, 
+aaatcccaagataaagaacta
+>cds parts near position 2764086, starts at 2nd strand
+cccaaatccctcttctttatt
+>cds parts near position 2766044, 
+aaatcccaagggtatgctaaa
+>cds parts near position 2767336, 
+aaatcccaagaaaggtcaata
+>cds parts near position 2771037, 
+aaatcccaagtttttttaaaa
+>cds parts near position 2777568, 
+aaatcccaagtctatatttta
+>cds parts near position 2794259, starts at 2nd strand
+cccaaatccctattagaaaat
+>cds parts near position 2802444, 
+aaatcccaagtgtttttatta
+>cds parts near position 2803529, 
+aaatcccaagtgaataaaaaa
+>cds parts near position 2809414, 
+aaatcccaagtttcaacaaaa
+>cds parts near position 2814321, starts at 2nd strand
+cccaaatcccgaatataatat
+>cds parts near position 2816036, 
+aaatcccaagcttcacattga
+>cds parts near position 2825306, 
+aaatcccaagttaagagaaaa
+>cds parts near position 2830379, starts at 2nd strand
+cccaaatcccaattttagtac
+>cds parts near position 2834305, starts at 2nd strand
+cccaaatcccaagggcaaaaa
+>cds parts near position 2836087, starts at 2nd strand
+cccaaatcccaacatacaatg
+>cds parts near position 2837255, 
+aaatcccaaggtagtatatta
+>cds parts near position 2839925, starts at 2nd strand
+cccaaatcccttatatacaat
+>cds parts near position 2841846, starts at 2nd strand
+cccaaatccctgtataattat
+>cds parts near position 2845139, 
+aaatcccaagctttaacaaaa
+>cds parts near position 2849234, starts at 2nd strand
+cccaaatccctttttttcatc
+>cds parts near position 2852086, 
+aaatcccaagaaataaaaaaa
+>cds parts near position 2863850, 
+aaatcccaagttgggtgatta
+>cds parts near position 2866181, starts at 2nd strand
+cccaaatcccttttaggcttt
+>cds parts near position 2866294, 
+aaatcccaagattgtatgata
+>cds parts near position 2869292, starts at 2nd strand
+cccaaatcccgcatatctgtt
+>cds parts near position 2870005, 
+aaatcccaagttttaacccta
+>cds parts near position 2878684, starts at 2nd strand
+cccaaatcccaaatgtttatt
+>cds parts near position 2879394, 
+aaatcccaagttaatatttaa
+>cds parts near position 2880948, starts at 2nd strand
+cccaaatccctcaaaatgacc
+>cds parts near position 2882702, 
+aaatcccaagtaaccttttca
+>cds parts near position 2889143, starts at 2nd strand
+cccaaatcccatttatttcat
+>cds parts near position 2889992, 
+aaatcccaagtttgtaagaaa
+>cds parts near position 2895937, starts at 2nd strand
+cccaaatcccgtttatacata
+>cds parts near position 2897854, 
+aaatcccaagttttgttgtta
+>cds parts near position 2902072, 
+aaatcccaagtgtatagaata
+>cds parts near position 2906503, starts at 2nd strand
+cccaaatcccaaaaaaaataa
+>cds parts near position 2912323, 
+aaatcccaagaatttttaaaa
+>cds parts near position 2917943, starts at 2nd strand
+cccaaatcccaaaaaattagt
+>cds parts near position 2920808, starts at 2nd strand
+cccaaatccctgaagaattaa
+>cds parts near position 2924494, starts at 2nd strand
+cccaaatcccttttatacaca
+>cds parts near position 2926071, 
+aaatcccaaggttgttcttaa
+>cds parts near position 2929760, 
+aaatcccaagaaaggaagata
+>cds parts near position 2931960, 
+aaatcccaagaaaacaagaaa
+>cds parts near position 2939716, starts at 2nd strand
+cccaaatcccgtataaaaaat
+>cds parts near position 2940415, 
+aaatcccaagattatataaaa
+>cds parts near position 2943196, starts at 2nd strand
+cccaaatcccttgctaaatgt
+>cds parts near position 2945599, 
+aaatcccaagattacataaaa
+>cds parts near position 2954045, 
+aaatcccaagcattttaaaaa
+>cds parts near position 2957411, 
+aaatcccaagttttttaataa
+>cds parts near position 2962582, starts at 2nd strand
+cccaaatccctgatagtaaat
+>cds parts near position 2965023, starts at 2nd strand
+cccaaatcccgtaataatatt
+>cds parts near position 2966686, 
+aaatcccaagcttatgtaata
+>cds parts near position 2971729, starts at 2nd strand
+cccaaatcccaagtatgtttt
+>cds parts near position 2972915, 
+aaatcccaagttattacaaaa
+>cds parts near position 2975429, starts at 2nd strand
+cccaaatcccaaatagaagta
+>cds parts near position 2978054, starts at 2nd strand
+cccaaatcccttttttatttt
+>cds parts near position 2981537, 
+aaatcccaagtttcctcaaaa
+>cds parts near position 2983999, 
+aaatcccaagaaaaaaaaaga
+>cds parts near position 2989514, 
+aaatcccaagaaaaaaaaaaa
+>cds parts near position 2995216, starts at 2nd strand
+cccaaatccctaatatatata
+>cds parts near position 2997879, starts at 2nd strand
+cccaaatcccgttaaacatcc
+>cds parts near position 3002290, starts at 2nd strand
+cccaaatcccatattttctca
+>cds parts near position 3007536, 
+aaatcccaagatttaacaaaa
+>cds parts near position 3017834, starts at 2nd strand
+cccaaatcccatattaatcct
+>cds parts near position 3023163, 
+aaatcccaagaaatgaaataa
+>cds parts near position 3038767, starts at 2nd strand
+cccaaatcccataagacagat
+>cds parts near position 3040703, 
+aaatcccaagtatcttgtaaa
+>cds parts near position 3044064, 
+aaatcccaagatatgtttcaa
+>cds parts near position 3057755, starts at 2nd strand
+cccaaatccccaaaaaagata
+>cds parts near position 3060799, 
+aaatcccaagaaatataaaga
+>cds parts near position 3065698, starts at 2nd strand
+cccaaatcccgtatttaaaat
+>cds parts near position 3067497, 
+aaatcccaaggaaaaaaaaaa
+>cds parts near position 3072196, 
+aaatcccaagttttacaaaca
+>cds parts near position 3075723, 
+aaatcccaagtttgcgtacaa
+>cds parts near position 3076377, 
+aaatcccaagaactggtccaa
+>cds parts near position 3081685, 
+aaatcccaaggagaaaaataa
+>cds parts near position 3085431, 
+aaatcccaagaaataataaaa
+>cds parts near position 3105006, starts at 2nd strand
+cccaaatcccacagcattata
+>cds parts near position 3106884, 
+aaatcccaagtttataagaaa
+>cds parts near position 3114633, starts at 2nd strand
+cccaaatccctgataataaaa
+>cds parts near position 3117327, 
+aaatcccaagtttctctttta
+>cds parts near position 3120789, 
+aaatcccaaggagaataaata
+>cds parts near position 3124272, 
+aaatcccaagtctgttttgta
+>cds parts near position 3128054, starts at 2nd strand
+cccaaatccctaagtttataa
+>cds parts near position 3131039, 
+aaatcccaagcttttacaaaa
+>cds parts near position 3133886, 
+aaatcccaagtatatattata
+>cds parts near position 3139075, 
+aaatcccaagtaatatatata
+>cds parts near position 3142010, 
+aaatcccaagaattaaaaata
+>cds parts near position 3143425, 
+aaatcccaagagatattggta
+>cds parts near position 3147425, 
+aaatcccaagagaggaaagaa
+>cds parts near position 3151905, 
+aaatcccaagaacgaagaaga
+>cds parts near position 3156911, 
+aaatcccaagtacatctttta
+>cds parts near position 3159422, 
+aaatcccaagtatatttacca
+>cds parts near position 3162678, starts at 2nd strand
+cccaaatcccggataatatct
+>cds parts near position 3168498, 
+aaatcccaagatattttaaaa
+>cds parts near position 3170158, 
+aaatcccaagtaaaaaaaata
+>cds parts near position 3173579, starts at 2nd strand
+cccaaatcccttaaaaaatat
+>cds parts near position 3175476, 
+aaatcccaagaaaagaaaata
+>cds parts near position 3179559, 
+aaatcccaagtcataacaaga
+>cds parts near position 3183183, 
+aaatcccaagatatataaaaa
+>cds parts near position 3188823, 
+aaatcccaagaaaaaatatga
+>cds parts near position 3193220, 
+aaatcccaagtatctactaaa
+>cds parts near position 3202866, 
+aaatcccaaggaggaataaaa
+>cds parts near position 3207562, 
+aaatcccaagataatacaaaa
+>cds parts near position 3209064, 
+aaatcccaagaaaaaaaaaaa
+>cds parts near position 3213516, 
+aaatcccaagaataaatatca
+>cds parts near position 3217231, starts at 2nd strand
+cccaaatccctcacaacatat
+>cds parts near position 3220204, starts at 2nd strand
+cccaaatccctcttcattaca
+>cds parts near position 3220861, 
+aaatcccaaggtttttataaa
+>cds parts near position 3224567, starts at 2nd strand
+cccaaatccctttatttattt
+>cds parts near position 3228607, 
+aaatcccaagtaaaaatacaa
+>cds parts near position 3232574, 
+aaatcccaagaacattcaaaa
+>cds parts near position 3240408, starts at 2nd strand
+cccaaatcccaaaaaataaaa
+>cds parts near position 3243564, starts at 2nd strand
+cccaaatcccatatatatctg
+>cds parts near position 3254027, 
+aaatcccaagttgtttttaaa
+>cds parts near position 3257776, starts at 2nd strand
+cccaaatcccacatttattta
+>cds parts near position 3260680, 
+aaatcccaagtttttataaga
+>cds parts near position 3266071, 
+aaatcccaagcacaataaata
+>cds parts near position 3269429, 
+aaatcccaagtgaattaaaaa
+>cds parts near position 3272513, 
+aaatcccaagtacaataaaaa
+>cds parts near position 3276165, 
+aaatcccaagcacaataaaaa
+>cds parts near position 3279435, 
+aaatcccaagcacattaaata
+>cds parts near position 3282685, 
+aaatcccaagttacctaaata
+>cds parts near position 3285835, 
+aaatcccaagaaacagaaaaa
