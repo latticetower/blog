@@ -14,8 +14,23 @@ function parseAtomInfo(line) {
     result["z"] = parseFloat(line.substring(46, 54));
     result["occupancy"] = parseFloat(line.substring(54, 60));
     result["tempFactor"] = parseFloat(line.substring(60, 66));
-    result["element"] = line.substring(76, 78);
+    result["element"] = line.substring(76, 78).trim();
     result["charge"] = line.substring(78, 80);
+    result.radius = function() {
+      if (this["element"] == "C") {
+        return 1.7;
+      }
+      if (this["element"] == "H") {
+        return 1.2;
+      }
+      if (this["element"] == "O") {
+        return 1.52;
+      }
+      if (this["element"] == "N") {
+        return 1.55;
+      }
+      return 0.3;
+    }
     return result;
 }
 

@@ -1,23 +1,32 @@
 function drawPDBChains() {
-    var result = [];
+    var result = new THREE.Object3D();
+    //result.matrixAutoUpdate = true;
     var j = 0;
     var colors = [0x0000ff, 0x00ff00, 0xff0000, 0xc0c0c0, 0xe3e3e00, 0x00f0f0]
     for (var chain in atomInfo) {
       var geometry = new THREE.Geometry();
+      var chain3d = new THREE.Object3D();
+      var material = new THREE.LineBasicMaterial({ color: (j < 6 ? colors[j] : 0x444040 + j*0x4040) });
+      var circle_material = new THREE.MeshBasicMaterial({ color: (j < 6 ? colors[j] : 0x444040 + j*0x4040) })
+      var circles = new THREE.Object3D();
+
       for (var residue in atomInfo[chain]) {
           for (var i = 0; i < atomInfo[chain][residue].length; i++) {
               vertex = atomInfo[chain][residue][i];
+              //var obj = new THREE.SphereGeometry(vertex.radius());
+              //obj.applyMatrix( new THREE.Matrix4().makeTranslation(vertex["x"], vertex["y"], vertex["z"]) );
               geometry.vertices.push(new THREE.Vector3(vertex["x"], vertex["y"], vertex["z"]));
+              //circles.add(new THREE.Mesh(obj, circle_material));
+              console.log(vertex.radius());
           }
-
       }
       console.log("in atom info chain " + chain);
-    var material = new THREE.LineBasicMaterial({ color: (j < 6 ? colors[j] : 0x444040 + j*0x4040) });
-      result.push({geometry : geometry, material : material });
+      //chain3d.add(circles);
+      chain3d.add(new THREE.Line(geometry, material));
+      result.add(chain3d);
       j += 1;
     }
     return result;
-//    geometry.vertices.push( new THREE.Vector3( -10, 10, 0 ), new THREE.Vector3( -10, -10, 0 ), new THREE.Vector3( 10, -10, 0 ) );
 }
 
 
@@ -36,24 +45,19 @@ function init() {
     container = document.getElementById('container');
     console.log("init called");
     scene = new THREE.Scene();
-    //light = new THREE.DirectionalLight( 0xffffff );
-    //light.position.set( 0, 0, 1 );
-    //scene.add( light );
-camera = new THREE.PerspectiveCamera( 20, window.innerWidth / window.innerHeight, 1, 1000 );
-				camera.position.z = 180;
+    light = new THREE.DirectionalLight( 0xffffff );
+    light.position.set( 0, 0, 1 );
+    scene.add( light );
+    camera = new THREE.PerspectiveCamera( 20, window.innerWidth / window.innerHeight, 1, 1000 );
+    camera.position.z = 180;
     //camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 10000);
     //camera.position.z = 1800;
-    atoms = [];
     geometries = drawPDBChains();
+    console.log(geometries);
+    scene.add(geometries);
 
-    for (chain in geometries) {
-        atoms.push(new THREE.Line(geometries[chain].geometry, geometries[chain].material));
-    }
-    console.log(atoms.length);
-    for (var i = 0; i < atoms.length; i++) {
-        scene.add(atoms[i]);
-    }
     scene.add(camera);
+
     renderer = new THREE.CanvasRenderer();
     renderer.setSize( window.innerWidth, window.innerHeight );
 
@@ -64,6 +68,7 @@ camera = new THREE.PerspectiveCamera( 20, window.innerWidth / window.innerHeight
     stats.domElement.style.top = '0px';
     container.appendChild( stats.domElement );
 
+    //geometries.addEventListener( 'mousemove', onDocumentMouseMove, false );;
     document.addEventListener( 'mousemove', onDocumentMouseMove, false );
     window.addEventListener( 'resize', onWindowResize, false );
 
@@ -82,6 +87,7 @@ function onWindowResize() {
 function onDocumentMouseMove( event ) {
     mouseX = ( event.clientX - windowHalfX );
     mouseY = ( event.clientY - windowHalfY );
+    console.log("mouse moved " + mouseX + " " + mouseY);
 }
 
 function render() {
@@ -93,6 +99,9 @@ function render() {
     //}
     //console.log(camera.position.z);
     camera.lookAt( scene.position );
+    geometries.rotation.x +=0.01;
+    geometries.rotation.y +=0.02;
+
     renderer.render( scene, camera );
 }
 
