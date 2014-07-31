@@ -1,7 +1,7 @@
 var atomInfo = {};
 
 function parseAtomInfo(line) {
-    var result = {}
+    var result = new THREE.Vector3(0, 0, 0);
     result["serial"] = parseInt(line.substring(6, 11));
     result["atom"] = line.substring(12, 16);
     result["altLoc"] = line[16];
@@ -17,9 +17,8 @@ function parseAtomInfo(line) {
     result["element"] = line.substring(76, 78).trim();
     result["charge"] = line.substring(78, 80);
     result.asVector3 = function() {
-      return new THREE.Vector3(this["x"], this["y"], this["z"]);
+      return result;
     }
-
     result.radius = function() {
       if (this["element"] == "C") {
         return 1.7;
@@ -35,22 +34,27 @@ function parseAtomInfo(line) {
       }
       return 0.3;
     }
+
     return result;
 }
 
-function loadATOMInfo(str) {
+function loadATOMInfo(str, grouped) {
     lines = str.split("\n");
 
     for (var i = 0; i < lines.length; i++) {
         if (lines[i].indexOf("ATOM") == 0) {
             parsedStr = parseAtomInfo(lines[i]);
             if (atomInfo[parsedStr["chainID"]] == null) {
-              atomInfo[parsedStr["chainID"]] = {};
+              atomInfo[parsedStr["chainID"]] = (grouped ? {} : [] );
             }
-            if (atomInfo[parsedStr["chainID"]][parsedStr["resSeq"]] == null) {
-              atomInfo[parsedStr["chainID"]][parsedStr["resSeq"]] = [];
+            if (grouped) {
+              if (atomInfo[parsedStr["chainID"]][parsedStr["resSeq"]] == null) {
+                atomInfo[parsedStr["chainID"]][parsedStr["resSeq"]] = [];
+              }
+              atomInfo[parsedStr["chainID"]][parsedStr["resSeq"]].push(parsedStr);
+            } else {
+              atomInfo[parsedStr["chainID"]].push(parsedStr);
             }
-            atomInfo[parsedStr["chainID"]][parsedStr["resSeq"]].push(parsedStr);
         }
     }
 }
@@ -64,7 +68,7 @@ function handleFileSelect(evt) {
         return function(e) {
           console.log("file loaded");
           // Render thumbnail.
-          loadATOMInfo(e.target.result);
+          loadATOMInfo(e.target.result, false);
           //console.log(atomInfo);
           init();
           animate();

@@ -10,16 +10,16 @@ function drawPDBChains() {
       var circle_material = new THREE.MeshBasicMaterial({ color: (j < 6 ? colors[j] : 0x444040 + j*0x4040) })
       var circles = new THREE.Object3D();
 
-      for (var residue in atomInfo[chain]) {
-          for (var i = 0; i < atomInfo[chain][residue].length; i++) {
-              vertex = atomInfo[chain][residue][i];
+      //for (var residue in atomInfo[chain]) {
+          for (var i = 0; i < atomInfo[chain]/*[residue]*/.length; i++) {
+              vertex = atomInfo[chain]/*[residue]*/[i];
               //var obj = new THREE.SphereGeometry(vertex.radius());
               //obj.applyMatrix( new THREE.Matrix4().makeTranslation(vertex["x"], vertex["y"], vertex["z"]) );
               geometry.vertices.push(vertex.asVector3());
               //circles.add(new THREE.Mesh(obj, circle_material));
               //console.log(vertex.radius());
           }
-      }
+      //}
       console.log("in atom info chain " + chain);
       //chain3d.add(circles);
       chain3d.add(new THREE.Line(geometry, material));
