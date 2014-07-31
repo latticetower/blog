@@ -1,7 +1,44 @@
 var atomInfo = {};
 
+Vector = function(x_, y_, z_) {
+  this.x = x_,
+  this.y = y_,
+  this.z = z_;
+
+  this.subVectors = function(a, b) {
+    return new Vector(a.x - b.x, a.y - b.y, a.z - b.z);
+  }
+  this.copy = function(a) {
+    x = a.x;
+    y = a.y;
+    z = a.z;
+    return this;
+  }
+  this.sub = function(a) {
+    console.log("sub called " + this.x + " " + a.x);
+    return new Vector(this.x - a.x, this.y - a.y, this.z - a.z);
+  }
+  this.multiplyScalar = function(k) {
+    return new Vector(this.x * k, this.y * k, this.z * k);
+  }
+  this.add = function(a) {
+    return new Vector(this.x + a.x, this.y + a.y, this.z + a.z);
+  }
+
+  this.dot = function(v) {
+    return (this.x * v.x + this.y * v.y + this.z * v.z);
+  }
+  this.length = function() {
+    return Math.sqrt(this.x * this.x + this.y * this.y + this.z * this.z);
+  }
+
+  this.asVector3 = function() {
+    return new THREE.Vector3(this.x, this.y, this.z);
+  }
+}
+
 function parseAtomInfo(line) {
-    var result = new THREE.Vector3(0, 0, 0);
+    var result = new Vector(0, 0, 0);
     result["serial"] = parseInt(line.substring(6, 11));
     result["atom"] = line.substring(12, 16);
     result["altLoc"] = line[16];
@@ -16,9 +53,7 @@ function parseAtomInfo(line) {
     result["tempFactor"] = parseFloat(line.substring(60, 66));
     result["element"] = line.substring(76, 78).trim();
     result["charge"] = line.substring(78, 80);
-    result.asVector3 = function() {
-      return result;
-    }
+
     result.radius = function() {
       if (this["element"] == "C") {
         return 1.7;
