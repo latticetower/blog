@@ -15,9 +15,9 @@ function drawPDBChains() {
               vertex = atomInfo[chain][residue][i];
               //var obj = new THREE.SphereGeometry(vertex.radius());
               //obj.applyMatrix( new THREE.Matrix4().makeTranslation(vertex["x"], vertex["y"], vertex["z"]) );
-              geometry.vertices.push(new THREE.Vector3(vertex["x"], vertex["y"], vertex["z"]));
+              geometry.vertices.push(vertex.asVector3());
               //circles.add(new THREE.Mesh(obj, circle_material));
-              console.log(vertex.radius());
+              //console.log(vertex.radius());
           }
       }
       console.log("in atom info chain " + chain);
@@ -29,6 +29,9 @@ function drawPDBChains() {
     return result;
 }
 
+function drawTriangulation() {
+  return Triangulation(atomInfo['L'], atomInfo['H']);
+}
 
 var container, stats;
 
@@ -49,13 +52,13 @@ function init() {
     light.position.set( 0, 0, 1 );
     scene.add( light );
     camera = new THREE.PerspectiveCamera( 20, window.innerWidth / window.innerHeight, 1, 1000 );
-    camera.position.z = 180;
+    camera.position.z = 300;
     //camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 10000);
     //camera.position.z = 1800;
     geometries = drawPDBChains();
     console.log(geometries);
+    geometries.add(drawTriangulation());
     scene.add(geometries);
-
     scene.add(camera);
 
     renderer = new THREE.CanvasRenderer();
@@ -99,8 +102,9 @@ function render() {
     //}
     //console.log(camera.position.z);
     camera.lookAt( scene.position );
-    geometries.rotation.x +=0.01;
-    geometries.rotation.y +=0.02;
+    geometries.rotation.x += 0.004;
+    geometries.rotation.y += 0.005;
+    geometries.rotation.z += 0.006;
 
     renderer.render( scene, camera );
 }
@@ -116,5 +120,4 @@ function animate() {
     render();
     stats.update();
     //renderer.render( scene, camera );
-
 }

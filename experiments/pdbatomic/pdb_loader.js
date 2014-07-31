@@ -16,6 +16,10 @@ function parseAtomInfo(line) {
     result["tempFactor"] = parseFloat(line.substring(60, 66));
     result["element"] = line.substring(76, 78).trim();
     result["charge"] = line.substring(78, 80);
+    result.asVector3 = function() {
+      return new THREE.Vector3(this["x"], this["y"], this["z"]);
+    }
+
     result.radius = function() {
       if (this["element"] == "C") {
         return 1.7;
