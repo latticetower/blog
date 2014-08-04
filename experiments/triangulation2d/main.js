@@ -7,8 +7,11 @@ Vector = function(px, py) {
   this.subVectors = function(a, b) {
     return new Vector(a.x - b.x, a.y - b.y);
   }
+  this.get_x = function() { return x; }
+  this.get_y = function() { return y; }
 
   this.equals = function(v) {
+    //console.log(v);
     return this.x == v.x && this.y == v.y;
   }
 
@@ -19,8 +22,11 @@ Vector = function(px, py) {
   }
 
   this.sub = function(a) {
-    //console.log("sub called " + this.x + " " + a.x);
+    ////console.log("sub called " + this.x + " " + a.x);
     return new Vector(this.x - a.x, this.y - a.y);
+  }
+  this.ortho = function() {
+    return new Vector(this.y, - this.x);
   }
 
   this.multiplyScalar = function(k) {
@@ -30,7 +36,7 @@ Vector = function(px, py) {
   this.rad2 = function() {
     return this.x * this.x + this.y * this.y;
   }
-  
+
   this.add = function(a) {
     return new Vector(this.x + a.x, this.y + a.y);
   }
@@ -47,12 +53,12 @@ Vector = function(px, py) {
   }
 
   this.toString = function() {
-    return "[" + this.x + ", " + this.y + "], ";
+    return "Vertex { x: " + this.x + ", y: " + this.y + "}";
   }
 }
 
 function handleLoad(e) {
-  console.log("load event occured");
+  //console.log("load event occured");
     init();
     animate();
 }

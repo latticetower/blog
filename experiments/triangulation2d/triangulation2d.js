@@ -3,212 +3,98 @@
 //this function returns list of triangles, as structures loaded from pdb,
 //each element of list contains 3 vertices
 
-
-function get_area(points) {
-  var a = points[1].sub(points[0]).length();
-  var b = points[2].sub(points[0]).length();
-  var c = points[1].sub(points[2]).length();
-  return Math.sqrt((a + b + c)*(a + b - c) * (a + c - b) * (b + c - a)) / 4.0;
-}
-function get_area2(v1, v2) {
-  return Math.sqrt(v1.dot(v1)*v2.dot(v2) - v1.dot(v2)*v1.dot(v2));
-}
-
-//for given set of 3 points, method returns
-//radius and coordinates of circle
-function get_circle_info(points) {
-  console.log(points);
-  area = get_area(points);
-  console.log("computed area: " + area);
-  get_alpha = function(ra, rb, rc, area) {
-    var v1 = ra.sub(rc);
-    var a = rb.sub(rc).length();
-    var v2 = ra.sub(rb);
-    return a*a/(8*area*area)*(v1.dot(v2));
+function get_cc_order(p1, p2, p3) {
+  if (p3.sub(p1).dot(p2.sub(p1).ortho()) > 0) {
+    return [p1, p2, p3];
   }
-  var aa = points[0].sub(points[1]).length();
-  var bb = points[1].sub(points[2]).length();
-  var cc = points[2].sub(points[0]).length();
-  console.log("sides lengths: "+ [aa,bb,cc].join(", "));
-  var a1 = points[0].multiplyScalar(get_alpha(points[0], points[1], points[2], area));
-  var a2 = points[1].multiplyScalar(get_alpha(points[1], points[0], points[2], area));
-  var a3 = points[2].multiplyScalar(get_alpha(points[2], points[0], points[1], area));
-  return [a1.add(a2).add(a3), aa*bb*cc/(4*area)];
+  return [p1, p3, p2];
 }
 
-Triangle = function(points) {
-  return [[points[0], points[1]], [points[1], points[2]], [points[2], points[0]]];
-}
-
-EPS = 0.0001;
-
-function get_orthogonal(p) {
-  //TODO: in case when p1.y == p1.x == 0, add some additional checks
-  return [new Vector(p.y, -p.x)];
-}
-//reimplementation for 2 lines segments intersection
-function segments_intersection(p1, p2, p3, p4) {
-  var r1 = p2.sub(p1);
-  var r2 = p4.sub(p3);
-
-  var ortho_pair = get_orthogonal(r2);
-  if (ortho_pair.length == 2) {
-    //check for results of multiplication for both vectors and if they are equal to zero -
-    // it means that lines are parallel or the same
-    if (Math.abs(r1.multiplyScalar(ortho_pair[0])) < EPS && Math.abs(r1.multiplyScalar(ortho_pair[1])) < EPS) {
-      console.log("points lie in parallel lines or on the same");
-      return false;
-    }
-    var k1 = p3.sub(p1).multiplyScalar(ortho_pair[0])/r1.multiplyScalar(ortho_pair[0]);
-    var k2 = p3.sub(p1).multiplyScalar(ortho_pair[1])/r1.multiplyScalar(ortho_pair[1]);
-    if (Math.abs(k1 - k2) < EPS)
-      return true;
-  }
-  return false;
-  //else do some additional checks
-
-}
-
-function intersects(p1, p2, p3, p4) {
-  return segments_intersection(p1,p2,p3,p4);
-  //console.log("in intersects method");
-  var v1 = p2.sub(p1);
-  var v2 = p4.sub(p1);
-  var v3 = p3.sub(p1);
-  var v4 = p4.sub(p2);
-  var v5 = p3.sub(p2);
-  //console.log(v1, v2, v3);
-  var r1 = 1;
-  //console.log(get_area2(v1, v2), get_area2(v1, v3), get_area2(v2,v3), get_area2(v4, v5));
-  if (Math.abs(get_area2(v1, v2) + get_area2(v1, v3) - get_area2(v2,v3) - get_area2(v4, v5)) < EPS)
-    r1 = -1;
-  v1 = p4.sub(p3);
-  v2 = p2.sub(p3);
-  v3 = p1.sub(p3);
-  v4 = p2.sub(p4);
-  v5 = p1.sub(p4);
-  //console.log(v1, v2, v3);
-  //console.log(get_area2(v1, v2), get_area2(v1, v3), get_area2(v2,v3), get_area2(v4, v5));
-
-  var r2 = 1;
-  if (Math.abs(get_area2(v1, v2) + get_area2(v1, v3) - get_area2(v2,v3) - get_area2(v4, v5)) < EPS)
-    r2 = -1;
-  //  console.log("exiting from intersect");
-  return (r1 < 0 && r2 < 0);
-}
-
-
-TriangleSet = function(points, target) {
-  console.log(target);
-  var results = [[points[0], target], [points[1], target], [points[2], target]];
-  if (!intersects(points[0], target, points[1], points[2])) {
-    console.log("part 1");
-    results.push([points[1], points[2]]);
-  }
-  if (!intersects(points[1], target, points[0], points[2])) {
-    console.log("part 2");
-    results.push([points[0], points[2]]);
-  }
-  if (!intersects(points[2], target, points[1], points[0])) {
-    console.log("part 3");
-    results.push([points[1], points[0]]);
-  }
-  return results;
-}
-
-//helper method, selects 2 points closest from target
-function select_closest2(points, target) {
-  console.log(target);
-  //return [];
-  if (points[0].sub(target).length() > points[1].sub(target).length() &&
-      points[0].sub(target).length() > points[2].sub(target).length()) {
-        console.log("case 1");
-        return Triangle([points[1], points[2], target]);
-  }
-  if (points[1].sub(target).length() > points[0].sub(target).length() &&
-      points[1].sub(target).length() > points[2].sub(target).length()) {
-        console.log("case 1");
-        return Triangle([points[0], points[2], target]);
-  }
-  if (points[2].sub(target).length() > points[1].sub(target).length() &&
-      points[2].sub(target).length() > points[0].sub(target).length()) {
-        console.log("case 1");
-        return Triangle([points[1], points[0], target]);
-  }
-
-
-
-}
-
+//FIX: add counter clockwise ordering for points in triangle
 TriangleObject = function(p1, p2, p3) {
-  this.p = [p1, p2, p3];
+  this["p"] = get_cc_order(p1, p2, p3);
+
+  this.get_p = function() {
+    ////console.log("get p is called");
+    return this.p;
+  }
+
   this.equals = function(triangle) {
     return this.p[0].equals(triangle.p[0])
             && this.p[1].equals(triangle.p[1])
             && this.p[2].equals(triangle.p[2]);
   }
 
+  this.except = function(point) {
+    if (this.p[0].equals(point))
+      return this.p.slice(1, 3);
+    if (this.p[1].equals(point))
+      return [this.p[0], this.p[2]];
+    if (this.p[2].equals(point))
+      return [this.p[0], this.p[1]];
+  }
+
   this.add_to = function(hsh) {
-    if (hsh[p[0]] == null) {
-      hsh[p[0]] = {};
+    ////console.log("add_to: ", hsh);
+    if (hsh[this.p[0]] == null) {
+      hsh[this.p[0]] = {};
     }
-    if (hsh[p[1]] == null) {
-      hsh[p[1]] = {};
+    if (hsh[this.p[1]] == null) {
+      hsh[this.p[1]] = {};
     }
-    if (hsh[p[2]] == null) {
-      hsh[p[2]] = {};
+    if (hsh[this.p[2]] == null) {
+      hsh[this.p[2]] = {};
     }
-    hsh[p[0]][this] = 1;
-    hsh[p[1]][this] = 1;
-    hsh[p[2]][this] = 1;
+    hsh[this.p[0]][this] = this;
+    hsh[this.p[1]][this] = this;
+    hsh[this.p[2]][this] = this;
   }
 
   this.remove_from = function(hsh) {
-    if (hsh[p[0]] != null) {
-      hsh[p[0]].remove(this);
+    if (hsh[this.p[0]] != null) {
+      hsh[this.p[0]].remove(this);
     }
-    if (hsh[p[1]] != null) {
-      hsh[p[1]].remove(this);
+    if (hsh[this.p[1]] != null) {
+      hsh[this.p[1]].remove(this);
     }
-    if (hsh[p[2]] != null) {
-      hsh[p[2]].remove(this);
+    if (hsh[this.p[2]] != null) {
+      hsh[this.p[2]].remove(this);
     }
   }
-  
+
   this.get_3rd = function(p1, p2) {
-    if (p[0].equals(p1)) {
-      if (p[1].equals(p2))
-        return p[2];
-      return p[1];
+    if (this.p[0].equals(p1)) {
+      if (this.p[1].equals(p2))
+        return this.p[2];
+      return this.p[1];
     }
-    if (p[1].equals(p1)) {
-      if (p[0].equals(p2))
-        return p[2];
-      return p[0];
+    if (this.p[1].equals(p1)) {
+      if (this.p[0].equals(p2))
+        return this.p[2];
+      return this.p[0];
     }
-    if (p[0].equals(p2))
-      return p[1];
-    return p[0];
+    if (this.p[0].equals(p2))
+      return this.p[1];
+    return this.p[0];
   }
 
   this.has_point = function(point) {
-    return (p[0].equals(point) || p[1].equals(point) || p[2].equals(point));
+    return (this.p[0].equals(point) || this.p[1].equals(point) || this.p[2].equals(point));
   }
+
+  this.toString = function() {return "TriangleObject: { p: " + this.p.join(",") + "}"; }
 }
 
-var triangles_set;
-var result;
 
 function buildTriangle(hsh, p1, p2, p3) {
   if (hsh[p1] == null) { hsh[p1] = {}; }
   if (hsh[p2] == null) { hsh[p2] = {}; }
   if (hsh[p3] == null) { hsh[p3] = {}; }
-
   triangle = new TriangleObject(p1, p2, p3);
   triangles_set.push(triangle);
-  hsh[p1][triangle] = 1;
-  hsh[p2][triangle] = 1;
-  hsh[p3][triangle] = 1;
+  hsh[p1][triangle] = triangle;
+  hsh[p2][triangle] = triangle;
+  hsh[p3][triangle] = triangle;
 }
 
 function det2(arr) {
@@ -216,8 +102,6 @@ function det2(arr) {
 }
 
 function det3(arr) {
-  console.log(arr.length, arr[0].length);
-
   return arr[0][0]*det2([
     [arr[1][1], arr[1, 2]],
     [arr[2][1], arr[2, 2]]
@@ -233,8 +117,6 @@ function det3(arr) {
 }
 
 function det4(arr) {
-  console.log(arr.length, arr[0].length);
-  console.log(arr.slice(1,4));
   return arr[0][3] * det3(arr.slice(1, 4))
        - arr[1][3] * det3([arr[0]].concat(arr.slice(2, 4)))
        + arr[2][3] * det3(arr.slice(0, 2).concat([arr[3]]))
@@ -251,6 +133,7 @@ function det(triangle, point) {
     ]);
 }
 function lays_near(triangle, point) {
+  //console.log("lays near: ", triangle, point);
   if (point.equals(triangle.p[0]) || point.equals(triangle.p[1]) || point.equals(triangle.p[2]))
     return false;
   return (det(triangle, point) < 0);
@@ -278,8 +161,10 @@ function find_triangle_by2_except3(r, v1, v2, v3, point) {
 
 function lays_inside(result_hash, point) {
   var nearest = false;
+  //console.log("lays inside: ", triangles_set);
   for (var i = 0; i < triangles_set.length; i++) {
     if (lays_near(triangles_set[i], point)) {
+      //console.log("lays inside: ", triangles_set[i]);
        nearest.push(triangles_set[i]);
        break;
     }
@@ -299,20 +184,29 @@ function lays_inside(result_hash, point) {
 }
 
 function rebuildTriangles(result, nearest_triangles, point) {
+  //console.log("in rebuilt: ");
+  //console.log(nearest_triangles);
   for (var i = 0; i < nearest_triangles.length; i ++) {
     var tr = nearest_triangles[i];
+    //console.log("processing " + tr);
     tr.remove_from(result);
+    var index = triangles_set.indexOf(tr);
+    triangles_set.splice(index, 1);
+
     //todo: fix if needed
     var t1 = new TriangleObject(tr.p[0], tr.p[1], point);
     if (det(t1, tr.p[2]) >= 0) {
+      triangles_set.push(t1);
       t1.add_to(result);
     }
     var t2 = new TriangleObject(tr.p[1], tr.p[2], point);
     if (det(t2, tr.p[0]) >= 0) {
+      triangles_set.push(t2);
       t2.add_to(result);
     }
     var t3 = new TriangleObject(tr.p[2], tr.p[0], point);
     if (det(t3, tr.p[1]) >= 0) {
+      triangles_set.push(t3);
       t3.add_to(result);
     }
   }
@@ -320,6 +214,26 @@ function rebuildTriangles(result, nearest_triangles, point) {
 
 //method somehow adds new point to triangulation
 function addPoint(hsh, point) {
+  //console.log("addPoint: ", hsh, point);
+  //rough and ineffective implementation
+  for (var i in hsh) {
+      var res = true;
+      for (var j in hsh) {
+          if (i == j)
+              continue;
+          var tr = new TriangleObject(points_hash[i], points_hash[j], point);
+          for (var k = 0; k < tr.p.length; k ++) {
+              var p = tr.except(tr.p[k]);
+              ////console.log(p, "vvv");
+              if (lays_near(tr, p[0]) || lays_near(tr, p[1]))
+                  res = false;
+          }
+          if (res) {
+              tr.add_to(hsh);
+              triangles_set.push(tr);
+          }
+      }
+  }
 
 }
 
@@ -327,57 +241,55 @@ function get_triangles(points) {
   result = {};
   triangles_set = [];
   if (points.length <= 2) {
-    console.log("not enough points to build triangulation");
+    //console.log("not enough points to build triangulation");
     return [];
   }
   buildTriangle(result, points[0], points[1], points[2]);
   for (var i = 3; i < points.length; i++) {
       nearest_triangles = lays_inside(result, points[i]);
-      if (!nearest_triangles) {
+
+      if (nearest_triangles) {
         rebuildTriangles(result, nearest_triangles, points[i]);
       }
-    else {
-      addPoint(result, points[i]);
-    }
+      else {
+        addPoint(result, points[i]);
+      }
   }
-
-  /*if (points.length == 3) {
-    return Triangle(points);
-  }
-  if (points.length == 4) {
-    var res = get_circle_info(points.slice(0, 3));
-    console.log(res);
-    if (res[0].sub(points[3]).length() > res[1]) {
-      var result = Triangle(points.slice(0, 3)).concat(
-        select_closest2(points.slice(0, 3), points[3])
-        );
-        console.log("returns 2 triangles");
-      return result;
-    } else {
-      console.log("returning Triangle set");
-      // connect 4th point with all other points and all lines that do not intersect these lines
-      return TriangleSet(points.slice(0, 3), points[3]);
-    }
-  }*/
-  //not impl.
-  return [];
+  return result;
 
 }
 
 Triangulation = function(points) {
-  var result = new THREE.Object3D();
+  var triangulation_result = new THREE.Object3D();
   var geom = new THREE.Geometry();
   var triangles = get_triangles(points);
-  for (var vertex in triangles) {
-      for (var i = 0; i< triangles[vertex].length; i++) {
-          var line = new THREE.Geometry();
-          line.vertices.push(vertex.asVector3());
-          line.vertices.push(triangles[vertex][i].asVector3());
-          geom.merge(triangle);
-      }
-  }
+  ////console.log(triangles);
 
-  var material = new THREE.LineBasicMaterial({ color: 0xffffff });
-  result.add(new THREE.Line(geom, material));
-  return result;
+  for (var i in result) {
+    for (var j in result[i]) {
+      var triangle = result[i][j];
+      var line = new THREE.Geometry();
+      //console.log("in Triangulation: ")
+      for (var j = 0; j < triangle.p.length; j ++) {
+          line.vertices.push(triangle.p[j].asVector3());
+          //console.log(triangle.p[j]);
+      }
+      line.vertices.push(triangle.p[0].asVector3());
+      geom.merge(line);
+    }
+  }
+  /*for (var i = 0; i< triangles_set.length; i ++ ) {
+      var triangle = triangles_set[i];
+      var line = new THREE.Geometry();
+      for (var j = 0; j < triangle.p.length; j ++) {
+          line.vertices.push(triangle.p[j].asVector3());
+          //console.log(triangle.p[j]);
+      }
+      line.vertices.push(triangle.p[0].asVector3());
+      geom.merge(line);
+  }*/
+
+  var material = new THREE.LineBasicMaterial({ color: 0xff0000 });
+  triangulation_result.add(new THREE.Line(geom, material));
+  return triangulation_result;
 }

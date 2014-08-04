@@ -1,4 +1,7 @@
 var vectorized_points = [];
+var triangles_set = [];
+var result = {};
+var points_hash = {};
 
 function drawPoints(points) {
   var result = new THREE.Object3D();
@@ -8,18 +11,12 @@ function drawPoints(points) {
   for (var i = 0; i < points.length; i ++) {
     var vertex = new Vector(points[i][0], points[i][1]);
     vectorized_points.push(vertex);
+    points_hash[vertex] = vertex;
     geometry.vertices.push(vertex.asVector3());
     //geometry.colors.push(new THREE.Color(1, 0, 0));
 
   }
   //result.add(new THREE.PointCloud(geometry, material));
-  var geom  = new THREE.Geometry();
-  var mat = new THREE.LineBasicMaterial({color: 0xffffff});
-  for (var i = 0; i < 4; i++ ) {
-    var vertex = vectorized_points[i];
-    geom.vertices.push(vertex.asVector3());
-  }
-  result.add(new THREE.Line(geom, mat));
   return result;
 }
 
@@ -40,7 +37,7 @@ var atoms;
 
 function init() {
     container = document.getElementById('container');
-    console.log("init called");
+    //console.log("init called");
     scene = new THREE.Scene();
     light = new THREE.DirectionalLight( 0xffffff );
     light.position.set( 0, 0, 1 );
@@ -51,7 +48,7 @@ function init() {
     //camera.position.z = 1800;
     geometries = drawPoints(points_dataset0);
     geometries.add(drawTriangulation2d(vectorized_points));
-    console.log(geometries);
+    //console.log(geometries);
     scene.add(geometries);
     scene.add(camera);
 
@@ -83,7 +80,7 @@ function onWindowResize() {
 function onDocumentMouseMove( event ) {
     mouseX = ( event.clientX - windowHalfX );
     mouseY = ( event.clientY - windowHalfY );
-    console.log("mouse moved " + mouseX + " " + mouseY);
+    ////console.log("mouse moved " + mouseX + " " + mouseY);
 }
 
 function render() {
@@ -94,7 +91,7 @@ function render() {
     //if (camera.position.z > 1000) {
     //  camera.position.z = -1000;
     //}
-    console.log(camera.position.z);
+    ////console.log(camera.position.z);
     camera.lookAt( scene.position );
     //geometries.rotation.x += 0.004;
     //geometries.rotation.y += 0.005;
