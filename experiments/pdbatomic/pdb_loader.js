@@ -15,7 +15,7 @@ Vector = function(x_, y_, z_) {
     return this;
   }
   this.sub = function(a) {
-    console.log("sub called " + this.x + " " + a.x);
+    //console.log("sub called " + this.x + " " + a.x);
     return new Vector(this.x - a.x, this.y - a.y, this.z - a.z);
   }
   this.multiplyScalar = function(k) {

@@ -9,21 +9,24 @@ function get_triangles(chain1, chain2) {
 
 
 function get_area(points) {
-
-  var v1 = points[1].sub(points[0]);
-  var v2 = points[2].sub(points[0]);
-  console.log(v1["x"]);
-  return (v1.dot(v2) + v2.dot(v1)) / 2.0;
+  var a = points[1].sub(points[0]).length();
+  var b = points[2].sub(points[0]).length();
+  var c = points[1].sub(points[2]).length();
+  return Math.sqrt((a + b + c)*(a + b - c) * (a + c - b) * (b + c - a)) / 4.0;
+}
+function get_area2(v1, v2) {
+  return Math.sqrt(v1.dot(v1)*v2.dot(v2) - v1.dot(v2)*v1.dot(v2));
 }
 
 //for given set of 3 points, method returns
 //radius and coordinates of circle
 function get_circle_info(points) {
+  console.log(points);
   area = get_area(points);
   console.log("computed area: " + area);
   get_alpha = function(ra, rb, rc, area) {
-    var v1 = rb.sub(rc);
-    var a = v1.length();
+    var v1 = ra.sub(rc);
+    var a = rb.sub(rc).length();
     var v2 = ra.sub(rb);
     return a*a/(8*area*area)*(v1.dot(v2));
   }
@@ -31,9 +34,8 @@ function get_circle_info(points) {
   var bb = points[1].sub(points[2]).length();
   var cc = points[2].sub(points[0]).length();
   console.log("sides lengths: "+ [aa,bb,cc].join(", "));
-  console.log(points[0]);
   var a1 = points[0].multiplyScalar(get_alpha(points[0], points[1], points[2], area));
-  var a2 = points[1].multiplyScalar(get_alpha(points[1], points[2], points[0], area));
+  var a2 = points[1].multiplyScalar(get_alpha(points[1], points[0], points[2], area));
   var a3 = points[2].multiplyScalar(get_alpha(points[2], points[0], points[1], area));
   return [a1.add(a2).add(a3), aa*bb*cc/(4*area)];
 }
@@ -42,36 +44,77 @@ Triangle = function(points) {
   return [[points[0], points[1]], [points[1], points[2]], [points[2], points[0]]];
 }
 
+EPS = 0.0001;
+
+function get_orthogonal(p) {
+  //TODO: in case when p1.y == p1.x == 0, add some additional checks
+  return [new Vector(p.y, -p.x, 0), new Vector(p.x/(p.x*p.x + p.y*p.y), p.y/(p.x*p.x + p.y*p.y))];
+}
+//reimplementation for 2 lines segments intersection
+function segments_intersection(p1, p2, p3, p4) {
+  var r1 = p2.sub(p1);
+  var r2 = p4.sub(p3);
+
+  var ortho_pair = get_orthogonal(r2);
+  if (ortho_pair.length == 2) {
+    //check for results of multiplication for both vectors and if they are equal to zero -
+    // it means that lines are parallel or the same
+    if (Math.abs(r1.multiplyScalar(ortho_pair[0])) < EPS && Math.abs(r1.multiplyScalar(ortho_pair[1])) < EPS) {
+      console.log("points lie in parallel lines or on the same");
+      return false;
+    }
+    var k1 = p3.sub(p1).multiplyScalar(ortho_pair[0])/r1.multiplyScalar(ortho_pair[0]);
+    var k2 = p3.sub(p1).multiplyScalar(ortho_pair[1])/r1.multiplyScalar(ortho_pair[1]);
+    if (Math.abs(k1 - k2) < EPS)
+      return true;
+  }
+  return false;
+  //else do some additional checks
+
+}
 
 function intersects(p1, p2, p3, p4) {
-  var v1 = new Vector(0,0,0);
-  var v2 = new Vector(0,0,0);
-  var v3 = new Vector(0,0,0);
-  v1.subVectors(p2, p1);
-  v2.subVectors(p4, p1);
-  v3.subVectors(p3, p1);
+  return segments_intersection(p1,p2,p3,p4);
+  //console.log("in intersects method");
+  var v1 = p2.sub(p1);
+  var v2 = p4.sub(p1);
+  var v3 = p3.sub(p1);
+  var v4 = p4.sub(p2);
+  var v5 = p3.sub(p2);
+  //console.log(v1, v2, v3);
   var r1 = 1;
-  if (v1.multiplyScalar(v2) * v1.multiplyScalar(v3) < 0)
+  //console.log(get_area2(v1, v2), get_area2(v1, v3), get_area2(v2,v3), get_area2(v4, v5));
+  if (Math.abs(get_area2(v1, v2) + get_area2(v1, v3) - get_area2(v2,v3) - get_area2(v4, v5)) < EPS)
     r1 = -1;
-  v1.subVectors(p4, p3);
-  v2.subVectors(p2, p3);
-  v3.subVectors(p1, p3);
+  v1 = p4.sub(p3);
+  v2 = p2.sub(p3);
+  v3 = p1.sub(p3);
+  v4 = p2.sub(p4);
+  v5 = p1.sub(p4);
+  //console.log(v1, v2, v3);
+  //console.log(get_area2(v1, v2), get_area2(v1, v3), get_area2(v2,v3), get_area2(v4, v5));
+
   var r2 = 1;
-  if (v1.multiplyScalar(v2) * v1.multiplyScalar(v3) < 0)
+  if (Math.abs(get_area2(v1, v2) + get_area2(v1, v3) - get_area2(v2,v3) - get_area2(v4, v5)) < EPS)
     r2 = -1;
+  //  console.log("exiting from intersect");
   return (r1 < 0 && r2 < 0);
 }
 
 
 TriangleSet = function(points, target) {
+  console.log(target);
   var results = [[points[0], target], [points[1], target], [points[2], target]];
   if (!intersects(points[0], target, points[1], points[2])) {
+    console.log("part 1");
     results.push([points[1], points[2]]);
   }
   if (!intersects(points[1], target, points[0], points[2])) {
+    console.log("part 2");
     results.push([points[0], points[2]]);
   }
   if (!intersects(points[2], target, points[1], points[0])) {
+    console.log("part 3");
     results.push([points[1], points[0]]);
   }
   return results;
@@ -79,28 +122,33 @@ TriangleSet = function(points, target) {
 
 //helper method, selects 2 points closest from target
 function select_closest2(points, target) {
-  if (points[0].sub(target).length() > points[1].sub(target).length()) {
-    if (points[0].sub(target).length() > points[2].sub(target).length()) {
-      return Triangle([points[1], points[2], target]);
-    } else {
-      return Triangle([points[0], points[1], target]);
-    }
-  } else {
-    if (points[1].sub(target).length() < points[2].sub(target).length()) {
-      return Triangle([points[0], points[1], target]);
-    } else {
-      return Triangle([points[0], points[2], target]);
-    }
+  console.log(target);
+  //return [];
+  if (points[0].sub(target).length() > points[1].sub(target).length() &&
+      points[0].sub(target).length() > points[2].sub(target).length()) {
+        console.log("case 1");
+        return Triangle([points[1], points[2], target]);
   }
+  if (points[1].sub(target).length() > points[0].sub(target).length() &&
+      points[1].sub(target).length() > points[2].sub(target).length()) {
+        console.log("case 1");
+        return Triangle([points[0], points[2], target]);
+  }
+  if (points[2].sub(target).length() > points[1].sub(target).length() &&
+      points[2].sub(target).length() > points[0].sub(target).length()) {
+        console.log("case 1");
+        return Triangle([points[1], points[0], target]);
+  }
+
+
+
 }
 
 function get_triangles2(points) {
-  console.log("Length of points array is " + points.length);
   if (points.length == 3) {
     return [Triangle(points)];
   }
   if (points.length == 4) {
-    console.log("in get triangles, points array size is 4");
     var res = get_circle_info(points.slice(0, 3));
     console.log(res);
     if (res[0].sub(points[3]).length() > res[1]) {
@@ -125,7 +173,6 @@ Triangulation = function(chain1, chain2) {
   var geom = new THREE.Geometry();
   var triangles = get_triangles(chain1, chain2);
   console.log("having some lines ", triangles.length);
-  console.log(triangles);
   for (var i = 0; i < triangles.length; i ++) {
     var triangle = new THREE.Geometry();
     triangle.vertices.push(triangles[i][0].asVector3());
