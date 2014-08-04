@@ -147,20 +147,106 @@ TriangleObject = function(p1, p2, p3) {
             && this.p[1].equals(triangle.p[1])
             && this.p[2].equals(triangle.p[2]);
   }
+
+  this.get_3rd = function(p1, p2) {
+    if (p[0].equals(p1)) {
+      if (p[1].equals(p2))
+        return p[2];
+      return p[1];
+    }
+    if (p[1].equals(p1)) {
+      if (p[0].equals(p2))
+        return p[2];
+      return p[0];
+    }
+    if (p[0].equals(p2))
+      return p[1];
+    return p[0];
+  }
+
+  this.has_point = function(point) {
+    return (p[0].equals(point) || p[1].equals(point) || p[2].equals(point));
+  }
 }
 
 var triangles_set;
+var result;
+
 function buildTriangle(hsh, p1, p2, p3) {
-  for (point in [p1, p2, p3]) {
-    if (!hsh[point]) {
-      hsh[point] = {};
-    }
-  }
+  if (hsh[p1] == null) { hsh[p1] = {}; }
+  if (hsh[p2] == null) { hsh[p2] = {}; }
+  if (hsh[p3] == null) { hsh[p3] = {}; }
+
   triangle = new TriangleObject(p1, p2, p3);
   triangles_set.push(triangle);
   hsh[p1][triangle] = 1;
   hsh[p2][triangle] = 1;
   hsh[p3][triangle] = 1;
+}
+
+function det2(arr) {
+  return arr[0][0]*arr[1][1] - arr[0][1]*arr[1][0];
+}
+
+function det3(arr) {
+  console.log(arr.length, arr[0].length);
+
+  return arr[0][0]*det2([
+    [arr[1][1], arr[1, 2]],
+    [arr[2][1], arr[2, 2]]
+    ]) -
+    arr[1][1]*det2([
+      [arr[0, 0], arr[0, 2]],
+      [arr[2, 0], arr[2, 2]]
+      ]) +
+    arr[2][2]*det2([
+      [arr[0, 0], arr[0, 1]],
+      [arr[1, 0], arr[1, 1]]
+      ]);
+}
+
+function det4(arr) {
+  console.log(arr.length, arr[0].length);
+  console.log(arr.slice(1,4));
+  return arr[0][3] * det3(arr.slice(1, 4))
+       - arr[1][3] * det3([arr[0]].concat(arr.slice(2, 4)))
+       + arr[2][3] * det3(arr.slice(0, 2).concat([arr[3]]))
+       - arr[3][3] * det3(arr.slice(0, 3))
+  ;
+}
+
+function det(triangle, point) {
+  return det4([
+      [ point.rad2(), point.x, point.y, 1],
+      [ triangle.p[0].rad2(), triangle.p[0].x, triangle.p[0].y, 1],
+      [ triangle.p[1].rad2(), triangle.p[1].x, triangle.p[1].y, 1],
+      [ triangle.p[2].rad2(), triangle.p[2].x, triangle.p[2].y, 1]
+    ]);
+}
+function lies_near(triangle, point) {
+  if (point.equals(triangle.p[0]) || point.equals(triangle.p[1]) || point.equals(triangle.p[2]))
+    return false;
+  return (det(triangle, point) < 0);
+}
+
+function find_triangle_by2_except3(r, v1, v2, v3, point) {
+  for (var tr in result[v1]) {
+    if (tr.has_point(v2) && r[tr] == null && !tr.has_point(v3) && lies_near(tr, point)) {
+      r[tr] = 1;
+      var p3 = tr.get_3rd(v1, v2);
+      find_triangle_by2_except3(r, v1, p3, v2, point);
+      find_triangle_by2_except3(r, v2, p3, v1, point);
+    }
+  }
+
+  for (var tr in result[v2]) {
+    if (tr.has_point(v1) && r[tr] == null  && !tr.has_point(v3) && lies_near(tr, point)) {
+      r[tr] = 1;
+      var p3 = tr.get_3rd(v1, v2);
+      find_triangle_by2_except3(r, v1, p3, v2, point);
+      find_triangle_by2_except3(r, v2, p3, v1, point);
+    }
+  }
 }
 
 function lies_inside(result_hash, point) {
@@ -171,6 +257,17 @@ function lies_inside(result_hash, point) {
        break;
     }
   }
+  if (nearest) {
+    //fixme: add recursive point search instead
+    start_triangle = nearest[0];
+    var r = {};
+    find_triangle_by2_except3(r, start_triangle.p[0], start_triangle.p[1], start_triangle.p[2], point);
+    find_triangle_by2_except3(r, start_triangle.p[1], start_triangle.p[2], start_triangle.p[0], point);
+    find_triangle_by2_except3(r, start_triangle.p[2], start_triangle.p[0], start_triangle.p[1], point);
+    for (var v in r)
+      nearest.push(v);
+
+  }
   //travel to nearest triangles and get all triangles to rebuild
   return nearest;
 }
@@ -179,8 +276,13 @@ function rebuildTriangles(result, nearest_triangles, point) {
   //todo
 }
 
+//method somehow adds new point to triangulation
+function addPoint(hsh, point) {
+
+}
+
 function get_triangles(points) {
-  var result = {};
+  result = {};
   triangles_set = [];
   if (points.length <= 2) {
     console.log("not enough points to build triangulation");
@@ -190,8 +292,11 @@ function get_triangles(points) {
   for (var i = 3; i < points.length; i++) {
       nearest_triangles = lies_inside(result, points[i]);
       if (!nearest_triangles) {
-        rebuildTriangles(result, nearest_triangles, point);
+        rebuildTriangles(result, nearest_triangles, points[i]);
       }
+    else {
+      addPoint(result, points[i]);
+    }
   }
 
   /*if (points.length == 3) {
