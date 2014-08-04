@@ -1,11 +1,14 @@
 var atomInfo = {};
 
-Vector = function(p) {
-  this.x = p[0];
-  this.y = p[1];
+Vector = function(px, py) {
+  this.x = px;
+  this.y = py;
 
   this.subVectors = function(a, b) {
     return new Vector(a.x - b.x, a.y - b.y);
+  }
+  this.equals = function(v) {
+    return this.x == v.x && this.y == v.y;
   }
   this.copy = function(a) {
     x = a.x;

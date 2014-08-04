@@ -3,21 +3,28 @@ var vectorized_points = [];
 function drawPoints(points) {
   var result = new THREE.Object3D();
   var geometry = new THREE.Geometry();
-  var material = new THREE.PointCloudMaterial({size:5.0});//{ color: 0xffffff, sizeAttenuation: false });
+  var material = new THREE.PointCloudMaterial({color: 0xff0000, size:5.0});//{ color: 0xffffff, sizeAttenuation: false });
 
   for (var i = 0; i < points.length; i ++) {
-    var vertex = new Vector(points[i]);
+    var vertex = new Vector(points[i][0], points[i][1]);
     vectorized_points.push(vertex);
     geometry.vertices.push(vertex.asVector3());
     //geometry.colors.push(new THREE.Color(1, 0, 0));
 
   }
-  result.add(new THREE.PointCloud(geometry, material));
+  //result.add(new THREE.PointCloud(geometry, material));
+  var geom  = new THREE.Geometry();
+  var mat = new THREE.LineBasicMaterial({color: 0xffffff});
+  for (var i = 0; i < 4; i++ ) {
+    var vertex = vectorized_points[i];
+    geom.vertices.push(vertex.asVector3());
+  }
+  result.add(new THREE.Line(geom, mat));
   return result;
 }
 
-function drawTriangulation() {
-  return Triangulation(atomInfo['L'], atomInfo['H']);
+function drawTriangulation2d(points) {
+  return Triangulation(points);
 }
 
 var container, stats;
@@ -39,10 +46,11 @@ function init() {
     light.position.set( 0, 0, 1 );
     scene.add( light );
     camera = new THREE.PerspectiveCamera( 20, window.innerWidth / window.innerHeight, 1, 1000 );
-    camera.position.z = 300;
+    camera.position.z = 180;
     //camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 10000);
     //camera.position.z = 1800;
-    geometries = drawPoints(points_dataset);
+    geometries = drawPoints(points_dataset0);
+    geometries.add(drawTriangulation2d(vectorized_points));
     console.log(geometries);
     scene.add(geometries);
     scene.add(camera);
@@ -79,16 +87,17 @@ function onDocumentMouseMove( event ) {
 }
 
 function render() {
-    camera.position.x += ( mouseX - camera.position.x ) * 0.05;
-    camera.position.y += ( - mouseY - camera.position.y ) * 0.05;
+    camera.position.z += ( mouseX - camera.position.z ) * 0.05;
+
+    //camera.position.y += ( - mouseY - camera.position.y ) * 0.05;
     //camera.position.z += 0.01;
     //if (camera.position.z > 1000) {
     //  camera.position.z = -1000;
     //}
-    //console.log(camera.position.z);
+    console.log(camera.position.z);
     camera.lookAt( scene.position );
-    geometries.rotation.x += 0.004;
-    geometries.rotation.y += 0.005;
+    //geometries.rotation.x += 0.004;
+    //geometries.rotation.y += 0.005;
     geometries.rotation.z += 0.006;
 
     renderer.render( scene, camera );
