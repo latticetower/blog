@@ -3,6 +3,7 @@ var atomInfo = {};
 Vector = function(px, py) {
   this.x = px;
   this.y = py;
+  this.rad2_ = px*px + py*py;
 
   this.subVectors = function(a, b) {
     return new Vector(a.x - b.x, a.y - b.y);
@@ -18,6 +19,7 @@ Vector = function(px, py) {
   this.copy = function(a) {
     x = a.x;
     y = a.y;
+    this.rad_ = a.rad_;
     return this;
   }
 
@@ -37,7 +39,8 @@ Vector = function(px, py) {
   }
 
   this.rad2 = function() {
-    return this.x * this.x + this.y * this.y;
+    return this.rad2_;
+    //return this.x * this.x + this.y * this.y;
   }
 
   this.add = function(a) {
@@ -48,7 +51,7 @@ Vector = function(px, py) {
     return (this.x * v.x + this.y * v.y);
   }
   this.length = function() {
-    return Math.sqrt(this.x * this.x + this.y * this.y);
+    return Math.sqrt(this.rad2_);
   }
 
   this.asVector3 = function() {

@@ -3,6 +3,36 @@
 //this function returns list of triangles, as structures loaded from pdb,
 //each element of list contains 3 vertices
 
+function det2(arr) {
+  return arr[0][0]*arr[1][1] - arr[0][1]*arr[1][0];
+}
+
+function det3(arr) {
+  return arr[0][0]*det2([
+    [arr[1][1], arr[1][2]],
+    [arr[2][1], arr[2][2]]
+    ]) -
+    arr[1][1]*det2([
+      [arr[0][0], arr[0][2]],
+      [arr[2][0], arr[2][2]]
+      ]) +
+    arr[2][2]*det2([
+      [arr[0][0], arr[0][1]],
+      [arr[1][0], arr[1][1]]
+      ]);
+}
+
+function det4(arr) {
+//  console.log([arr[0]].concat(arr.slice(2, 4)));
+  return arr[0][3] * det3(arr.slice(1, 4))
+       - arr[1][3] * det3([arr[0]].concat(arr.slice(2, 4)))
+       + arr[2][3] * det3(arr.slice(0, 2).concat([arr[3]]))
+       - arr[3][3] * det3(arr.slice(0, 3))
+  ;
+}
+
+
+
 function get_cc_order(p1, p2, p3) {
   if (p3.sub(p1).dot(p2.sub(p1).ortho()) < 0) {
     return [p1, p2, p3];
@@ -10,9 +40,36 @@ function get_cc_order(p1, p2, p3) {
   return [p1, p3, p2];
 }
 
+function get_coefficients(p) {
+  console.log("a");
+  a = det3([
+      [p[0].x, p[0].y, 1],
+      [p[1].x, p[1].y, 1],
+      [p[2].x, p[2].y, 1],
+    ]);
+  console.log("b", p[1].rad2(), p[1].x, p[1].y);
+  b = det3([
+      [p[0].rad2(), p[0].y, 1],
+      [p[1].rad2(), p[1].y, 1],
+      [p[2].rad2(), p[2].y, 1],
+    ]);
+  c = det3([
+      [p[0].rad2(), p[0].x, 1],
+      [p[1].rad2(), p[1].x, 1],
+      [p[2].rad2(), p[2].x, 1],
+    ]);
+  d = det3([
+      [p[0].rad2(), p[0].x, p[0].y],
+      [p[1].rad2(), p[1].x, p[1].y],
+      [p[2].rad2(), p[2].x, p[2].y],
+    ]);
+  return [a, b, c, d];
+}
+
 //FIX: add counter clockwise ordering for points in triangle
 TriangleObject = function(p1, p2, p3) {
-  this["p"] = get_cc_order(p1, p2, p3);
+  this.p = get_cc_order(p1, p2, p3);
+  this.coeffs = get_coefficients(this.p);
 
   this.get_p = function() {
     return this.p;
@@ -22,6 +79,10 @@ TriangleObject = function(p1, p2, p3) {
     return this.p[0].equals(triangle.p[0])
             && this.p[1].equals(triangle.p[1])
             && this.p[2].equals(triangle.p[2]);
+  }
+
+  this.is_near = function(p) {
+    return this.coeffs[0]*p.rad2() - this.coeffs[1]*p.x + this.coeffs[2]*p.y - this.coeffs[3] < 0;
   }
 
   this.except = function(point) {
@@ -101,34 +162,19 @@ function buildTriangle(hsh, p1, p2, p3) {
   hsh[p3][triangle] = triangle;
 }
 
-function det2(arr) {
-  return arr[0][0]*arr[1][1] - arr[0][1]*arr[1][0];
-}
-
-function det3(arr) {
-  return arr[0][0]*det2([
-    [arr[1][1], arr[1][2]],
-    [arr[2][1], arr[2][2]]
-    ]) -
-    arr[1][1]*det2([
-      [arr[0][0], arr[0][2]],
-      [arr[2][0], arr[2][2]]
-      ]) +
-    arr[2][2]*det2([
-      [arr[0][0], arr[0][1]],
-      [arr[1][0], arr[1][1]]
-      ]);
-}
-
-function det4(arr) {
-  return arr[0][3] * det3(arr.slice(1, 4))
-       - arr[1][3] * det3([arr[0]].concat(arr.slice(2, 4)))
-       + arr[2][3] * det3(arr.slice(0, 2).concat([arr[3]]))
-       - arr[3][3] * det3(arr.slice(0, 3))
-  ;
-}
 
 function det(triangle, point) {
+  console.log("computing det4:");
+  //console.log([ point.rad2(), point.x, point.y, 1].join(", "));
+  //for (var i = 0; i < 3; i++)
+  //  console.log([ triangle.p[i].rad2(), triangle.p[i].x, triangle.p[i].y, 1].join(", "));
+  //  console.log("end of printing det");
+  console.log(det4([
+      [ point.rad2(), point.x, point.y, 1],
+      [ triangle.p[0].rad2(), triangle.p[0].x, triangle.p[0].y, 1],
+      [ triangle.p[1].rad2(), triangle.p[1].x, triangle.p[1].y, 1],
+      [ triangle.p[2].rad2(), triangle.p[2].x, triangle.p[2].y, 1]
+    ]));
   return det4([
       [ point.rad2(), point.x, point.y, 1],
       [ triangle.p[0].rad2(), triangle.p[0].x, triangle.p[0].y, 1],
@@ -141,13 +187,14 @@ function lays_near(triangle, point) {
     return false;
   if (point.equals(triangle.p[0]) || point.equals(triangle.p[1]) || point.equals(triangle.p[2]))
     return false;
-  return (det(triangle, point) < 0);
+  console.log("in lays_near", triangle.toString(), point.toString());
+
+  return triangle.is_near(point);
 }
 
 //method finds all triangles by 2 points except point v3
 // and saves them to r hash
 function find_triangle_by2_except3(result_hash, r, v1, v2, v3, point) {
-
   for (var t in result_hash[v1]) {
     var tr = result_hash[v1][t];
     if (tr.has_point(v2) && r[tr] == null && !tr.has_point(v3) && lays_near(tr, point)) {
@@ -256,13 +303,26 @@ function addPoint(hsh, point) {
           if (i == j)
               continue;
           var res = true;
+          console.log(points_hash[i], points_hash[j], point);
           var tr = new TriangleObject(points_hash[i], points_hash[j], point);
           for (var t in hsh[i]) {
           //for (var k = 0; k < tr.p.length; k ++) {
               var triangle = hsh[i][t];
-              var p = triangle.get_3rd(points_hash[i], points_hash[j]);
-              if (p != null && !p.equals(point) && lays_near(tr, p))
-                  res = false;
+              var ps = triangle.except(points_hash[i]);
+              for (var k = 0; k < ps.length; k++) {
+                  var p = ps[k];
+                  if (p != null && !p.equals(point) && lays_near(tr, p))
+                      res = false;
+              }
+          }
+          for (var t in hsh[j]) {
+              var triangle = hsh[j][t];
+              var ps = triangle.except(points_hash[j]);
+              for (var k = 0; k < ps.length; k++) {
+                  var p = ps[k];
+                  if (p != null && !p.equals(point) && lays_near(tr, p))
+                      res = false;
+              }
           }
           //}
           if (res) {
@@ -294,7 +354,10 @@ function get_triangles(points) {
       }
 
   }
-  console.log(lays_near(new TriangleObject(new Vector(0,0), new Vector(0, 20), new Vector(20, 0)), new Vector(30, 20)));
+  console.log("test", lays_near(new TriangleObject
+      (new Vector(0, 0), new Vector(0, 20), new Vector(20, 0)),
+       new Vector(30, 0)
+     ));
   return result;
 
 }
