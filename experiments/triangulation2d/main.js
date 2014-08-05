@@ -28,6 +28,9 @@ Vector = function(px, py) {
   this.ortho = function() {
     return new Vector(this.y, - this.x);
   }
+  this.distance_to = function(point) {
+    return this.sub(point).length();
+  }
 
   this.multiplyScalar = function(k) {
     return new Vector(this.x * k, this.y * k);

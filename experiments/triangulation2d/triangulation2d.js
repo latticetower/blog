@@ -4,7 +4,7 @@
 //each element of list contains 3 vertices
 
 function get_cc_order(p1, p2, p3) {
-  if (p3.sub(p1).dot(p2.sub(p1).ortho()) > 0) {
+  if (p3.sub(p1).dot(p2.sub(p1).ortho()) < 0) {
     return [p1, p2, p3];
   }
   return [p1, p3, p2];
@@ -15,7 +15,6 @@ TriangleObject = function(p1, p2, p3) {
   this["p"] = get_cc_order(p1, p2, p3);
 
   this.get_p = function() {
-    ////console.log("get p is called");
     return this.p;
   }
 
@@ -35,7 +34,6 @@ TriangleObject = function(p1, p2, p3) {
   }
 
   this.add_to = function(hsh) {
-    ////console.log("add_to: ", hsh);
     if (hsh[this.p[0]] == null) {
       hsh[this.p[0]] = {};
     }
@@ -52,13 +50,13 @@ TriangleObject = function(p1, p2, p3) {
 
   this.remove_from = function(hsh) {
     if (hsh[this.p[0]] != null) {
-      hsh[this.p[0]].remove(this);
+      delete hsh[this.p[0]][this];
     }
     if (hsh[this.p[1]] != null) {
-      hsh[this.p[1]].remove(this);
+      delete hsh[this.p[1]][this];
     }
     if (hsh[this.p[2]] != null) {
-      hsh[this.p[2]].remove(this);
+      delete hsh[this.p[2]][this];
     }
   }
 
@@ -66,16 +64,22 @@ TriangleObject = function(p1, p2, p3) {
     if (this.p[0].equals(p1)) {
       if (this.p[1].equals(p2))
         return this.p[2];
-      return this.p[1];
+      if (this.p[2].equals(p2))
+        return this.p[1];
     }
     if (this.p[1].equals(p1)) {
       if (this.p[0].equals(p2))
         return this.p[2];
-      return this.p[0];
+      if (this.p[2].equals(p2))
+        return this.p[0];
     }
-    if (this.p[0].equals(p2))
-      return this.p[1];
-    return this.p[0];
+    if (this.p[2].equals(p1)) {
+      if (this.p[0].equals(p2))
+        return this.p[1];
+      if (this.p[2].equals(p2))
+        return this.p[0];
+    }
+    return null;
   }
 
   this.has_point = function(point) {
@@ -103,16 +107,16 @@ function det2(arr) {
 
 function det3(arr) {
   return arr[0][0]*det2([
-    [arr[1][1], arr[1, 2]],
-    [arr[2][1], arr[2, 2]]
+    [arr[1][1], arr[1][2]],
+    [arr[2][1], arr[2][2]]
     ]) -
     arr[1][1]*det2([
-      [arr[0, 0], arr[0, 2]],
-      [arr[2, 0], arr[2, 2]]
+      [arr[0][0], arr[0][2]],
+      [arr[2][0], arr[2][2]]
       ]) +
     arr[2][2]*det2([
-      [arr[0, 0], arr[0, 1]],
-      [arr[1, 0], arr[1, 1]]
+      [arr[0][0], arr[0][1]],
+      [arr[1][0], arr[1][1]]
       ]);
 }
 
@@ -133,50 +137,54 @@ function det(triangle, point) {
     ]);
 }
 function lays_near(triangle, point) {
-  //console.log("lays near: ", triangle, point);
+  if (point == null)
+    return false;
   if (point.equals(triangle.p[0]) || point.equals(triangle.p[1]) || point.equals(triangle.p[2]))
     return false;
   return (det(triangle, point) < 0);
 }
 
-function find_triangle_by2_except3(r, v1, v2, v3, point) {
-  for (var tr in result[v1]) {
+//method finds all triangles by 2 points except point v3
+// and saves them to r hash
+function find_triangle_by2_except3(result_hash, r, v1, v2, v3, point) {
+
+  for (var t in result_hash[v1]) {
+    var tr = result_hash[v1][t];
     if (tr.has_point(v2) && r[tr] == null && !tr.has_point(v3) && lays_near(tr, point)) {
-      r[tr] = 1;
+      r[tr] = tr;
       var p3 = tr.get_3rd(v1, v2);
-      find_triangle_by2_except3(r, v1, p3, v2, point);
-      find_triangle_by2_except3(r, v2, p3, v1, point);
+      find_triangle_by2_except3(result_hash, r, v1, p3, v2, point);
+      find_triangle_by2_except3(result_hash, r, v2, p3, v1, point);
     }
   }
 
-  for (var tr in result[v2]) {
+  for (var t in result_hash[v2]) {
+    var tr = result_hash[v2][t];
     if (tr.has_point(v1) && r[tr] == null  && !tr.has_point(v3) && lays_near(tr, point)) {
-      r[tr] = 1;
+      r[tr] = tr;
       var p3 = tr.get_3rd(v1, v2);
-      find_triangle_by2_except3(r, v1, p3, v2, point);
-      find_triangle_by2_except3(r, v2, p3, v1, point);
+      find_triangle_by2_except3(result_hash, r, v1, p3, v2, point);
+      find_triangle_by2_except3(result_hash, r, v2, p3, v1, point);
     }
   }
 }
 
 function lays_inside(result_hash, point) {
   var nearest = false;
-  //console.log("lays inside: ", triangles_set);
   for (var i = 0; i < triangles_set.length; i++) {
     if (lays_near(triangles_set[i], point)) {
-      //console.log("lays inside: ", triangles_set[i]);
-       nearest.push(triangles_set[i]);
+       nearest = [triangles_set[i]];
        break;
     }
   }
   if (nearest) {
     start_triangle = nearest[0];
     var r = {};
-    find_triangle_by2_except3(r, start_triangle.p[0], start_triangle.p[1], start_triangle.p[2], point);
-    find_triangle_by2_except3(r, start_triangle.p[1], start_triangle.p[2], start_triangle.p[0], point);
-    find_triangle_by2_except3(r, start_triangle.p[2], start_triangle.p[0], start_triangle.p[1], point);
+    find_triangle_by2_except3(result_hash, r, start_triangle.p[0], start_triangle.p[1], start_triangle.p[2], point);
+    find_triangle_by2_except3(result_hash, r, start_triangle.p[1], start_triangle.p[2], start_triangle.p[0], point);
+    find_triangle_by2_except3(result_hash, r, start_triangle.p[2], start_triangle.p[0], start_triangle.p[1], point);
     for (var v in r)
-      nearest.push(v);
+      nearest.push(r[v]);
 
   }
   //travel to nearest triangles and get all triangles to rebuild
@@ -184,11 +192,8 @@ function lays_inside(result_hash, point) {
 }
 
 function rebuildTriangles(result, nearest_triangles, point) {
-  //console.log("in rebuilt: ");
-  //console.log(nearest_triangles);
   for (var i = 0; i < nearest_triangles.length; i ++) {
     var tr = nearest_triangles[i];
-    //console.log("processing " + tr);
     tr.remove_from(result);
     var index = triangles_set.indexOf(tr);
     triangles_set.splice(index, 1);
@@ -212,22 +217,54 @@ function rebuildTriangles(result, nearest_triangles, point) {
   }
 }
 
+function find_nearest_point(hsh, point) {
+  var nearest_point = null;
+  var min_distance = 0;
+  for (var p in hsh) {
+    if (nearest_point == null) {
+      nearest_point = [points_hash[p]];
+      min_distance = point.distance_to(points_hash[p]);
+      continue;
+    }
+    if (point.distance_to(points_hash[p]) < min_distance) {
+      nearest_point = [points_hash[p]];
+      min_distance = point.distance_to(points_hash[p]);
+    }
+    if (point.distance_to(points_hash[p]) == min_distance) {
+      nearest_point.push(points_hash[p]);
+    }
+  }
+  return nearest_point;
+}
 //method somehow adds new point to triangulation
 function addPoint(hsh, point) {
-  //console.log("addPoint: ", hsh, point);
   //rough and ineffective implementation
+  /*
+  var points = find_nearest_point(hsh, point);
+  if (points != null) {
+    for (i in points) {
+      var p = points[i];
+      for (var t in hsh[p]) {
+
+      }
+    }
+  }
+  */
+  //
   for (var i in hsh) {
-      var res = true;
       for (var j in hsh) {
           if (i == j)
               continue;
+          var res = true;
           var tr = new TriangleObject(points_hash[i], points_hash[j], point);
-          for (var k = 0; k < tr.p.length; k ++) {
-              var p = tr.except(tr.p[k]);
-              ////console.log(p, "vvv");
-              if (lays_near(tr, p[0]) || lays_near(tr, p[1]))
+          for (var t in hsh[i]) {
+          //for (var k = 0; k < tr.p.length; k ++) {
+              var triangle = hsh[i][t];
+              var p = triangle.get_3rd(points_hash[i], points_hash[j]);
+              if (p != null && !p.equals(point) && lays_near(tr, p))
                   res = false;
           }
+          //}
           if (res) {
               tr.add_to(hsh);
               triangles_set.push(tr);
@@ -241,7 +278,6 @@ function get_triangles(points) {
   result = {};
   triangles_set = [];
   if (points.length <= 2) {
-    //console.log("not enough points to build triangulation");
     return [];
   }
   buildTriangle(result, points[0], points[1], points[2]);
@@ -249,12 +285,16 @@ function get_triangles(points) {
       nearest_triangles = lays_inside(result, points[i]);
 
       if (nearest_triangles) {
+        console.log("rebuild is called");
         rebuildTriangles(result, nearest_triangles, points[i]);
       }
       else {
+        console.log("point addition handling");
         addPoint(result, points[i]);
       }
+
   }
+  console.log(lays_near(new TriangleObject(new Vector(0,0), new Vector(0, 20), new Vector(20, 0)), new Vector(30, 20)));
   return result;
 
 }
@@ -263,31 +303,18 @@ Triangulation = function(points) {
   var triangulation_result = new THREE.Object3D();
   var geom = new THREE.Geometry();
   var triangles = get_triangles(points);
-  ////console.log(triangles);
 
   for (var i in result) {
     for (var j in result[i]) {
       var triangle = result[i][j];
       var line = new THREE.Geometry();
-      //console.log("in Triangulation: ")
       for (var j = 0; j < triangle.p.length; j ++) {
           line.vertices.push(triangle.p[j].asVector3());
-          //console.log(triangle.p[j]);
       }
       line.vertices.push(triangle.p[0].asVector3());
       geom.merge(line);
     }
   }
-  /*for (var i = 0; i< triangles_set.length; i ++ ) {
-      var triangle = triangles_set[i];
-      var line = new THREE.Geometry();
-      for (var j = 0; j < triangle.p.length; j ++) {
-          line.vertices.push(triangle.p[j].asVector3());
-          //console.log(triangle.p[j]);
-      }
-      line.vertices.push(triangle.p[0].asVector3());
-      geom.merge(line);
-  }*/
 
   var material = new THREE.LineBasicMaterial({ color: 0xff0000 });
   triangulation_result.add(new THREE.Line(geom, material));
