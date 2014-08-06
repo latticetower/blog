@@ -74,17 +74,17 @@ function rebuildTriangles(result, nearest_triangles, point) {
 
     //todo: fix if needed
     var t1 = new TriangleObject(tr.p[0], tr.p[1], point);
-    if (det(t1, tr.p[2]) >= 0) {
+    if (!t1.is_near(tr.p[2])) {
       triangles_set[t1] = t1;
       t1.add_to(result);
     }
     var t2 = new TriangleObject(tr.p[1], tr.p[2], point);
-    if (det(t2, tr.p[0]) >= 0) {
+    if (!t2.is_near(tr.p[0])) {
       triangles_set[t2] = t2;
       t2.add_to(result);
     }
     var t3 = new TriangleObject(tr.p[2], tr.p[0], point);
-    if (det(t3, tr.p[1]) >= 0) {
+    if (!t3.is_near(tr.p[1])) {
       triangles_set[t3] = t3;
       t3.add_to(result);
     }
