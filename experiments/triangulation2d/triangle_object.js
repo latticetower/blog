@@ -30,7 +30,10 @@ function det4(arr) {
 
 
 
-function get_cc_order(p1, p2, p3) {
+function get_cc_order(arr) {
+  p1 = arr[0];
+  p2 = arr[1];
+  p3 = arr[2];
   if (p3.sub(p1).dot(p2.sub(p1).ortho()) < 0) {
     return [p1, p2, p3];
   }
@@ -65,8 +68,11 @@ function get_coefficients(p) {
 
 //FIX: add counter clockwise ordering for points in triangle
 TriangleObject = function(p1, p2, p3) {
-  this.p = get_cc_order(p1, p2, p3);
+  this.p = get_cc_order([p1, p2, p3].sort(function(a, b) {if (a.x == b.x) return a.y - b.y; return a.x - b.x; }));
   this.coeffs = get_coefficients(this.p);
+  if (this.coeffs[0] < 0)
+    this.sign_a = -1;
+  else this.sign_a = 1;
 
   this.get_p = function() {
     return this.p;
@@ -78,9 +84,15 @@ TriangleObject = function(p1, p2, p3) {
             && this.p[2].equals(triangle.p[2]);
   }
 
-  this.is_near = function(p) {
-    return this.coeffs[0]*p.rad2() - this.coeffs[1]*p.x + this.coeffs[2]*p.y - this.coeffs[3] < 0;
+  this.det = function(p) {
+    return (this.coeffs[0]*p.rad2() - this.coeffs[1]*p.x + this.coeffs[2]*p.y - this.coeffs[3]) * this.sign_a;
   }
+
+  this.is_near = function(p) {
+    
+    return this.det(p) < 0;
+  }
+
 
   this.except = function(point) {
     if (this.p[0].equals(point))
@@ -153,7 +165,7 @@ TriangleObject = function(p1, p2, p3) {
     }
     if (paired_hash[this.p[1]] != null) {
       if (paired_hash[this.p[1]][this.p[0]] != null)
-        delete paired_hash[this.p[2]][this.p[0]][this];
+        delete paired_hash[this.p[1]][this.p[0]][this];
       if (paired_hash[this.p[1]][this.p[2]] != null)
         delete paired_hash[this.p[1]][this.p[2]][this];
     }

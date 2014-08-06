@@ -5,24 +5,20 @@
 
 
 function buildTriangle(hsh, p1, p2, p3) {
-  if (hsh[p1] == null) { hsh[p1] = {}; }
-  if (hsh[p2] == null) { hsh[p2] = {}; }
-  if (hsh[p3] == null) { hsh[p3] = {}; }
   triangle = new TriangleObject(p1, p2, p3);
   triangles_set.push(triangle);
-  hsh[p1][triangle] = triangle;
-  hsh[p2][triangle] = triangle;
-  hsh[p3][triangle] = triangle;
+  triangle.add_to(hsh);
+
 }
 
 
 function lays_near(triangle, point) {
+
   if (point == null)
     return false;
   if (point.equals(triangle.p[0]) || point.equals(triangle.p[1]) || point.equals(triangle.p[2]))
     return false;
-  //console.log("in lays_near", triangle.toString(), point.toString());
-
+  //console.log("lays_near ", triangle.toString(), point.toString());
   return triangle.is_near(point);
 }
 
@@ -123,57 +119,81 @@ function is_divider(v1, v2, p1, p2) {
   return (p1.sub(v1).dot(v2.sub(v1).ortho()) * p2.sub(v1).dot(v2.sub(v1).ortho()) < 0) ;
 }
 
+//helper method: returns true if new_triangle is valid for all points which can be riched from given point via incidence relationship
+function is_valid(hsh, new_triangle, point) {
+  for (var triangle in hsh[point]) {
+    if (hsh[point][triangle].equals(new_triangle))
+      continue;
+    var p = hsh[point][triangle].except(point);
+    for (var i = 0; i < p.length; i ++) {
+      if (lays_near(new_triangle, p[i]))
+        return false;
+    }
+  }
+  return true;
+}
+
 //method somehow adds new point to triangulation
 function addPoint(hsh, point) {
   //rough and ineffective implementation
   //
+  var new_triangles = [];
+  var old_triangles = [];
   for (var i in hsh) {
       for (var j in hsh) {
           if (i == j)
               continue;
-          var res = true;
-          //console.log(points_hash[i], points_hash[j], point);
-          var tr = new TriangleObject(points_hash[i], points_hash[j], point);
-          /*
-           for (var t in hsh[i]) {
-             var triangle = hsh[i][t];
-             var p = triangle.get_3rd(points_hash[i], points_hash[j]);
-             if (p!= null && !p.equals(point) && lays_near(tr, p))
-               res = false;
-           }*/
-          var tr_changed = hsh[i][j];
-          for (var t in hsh[i]) {
-          //for (var k = 0; k < tr.p.length; k ++) {
-              var triangle = hsh[i][t];
-              var ps = triangle.except(points_hash[i]);
-              for (var k = 0; k < ps.length; k++) {
-                  var p = ps[k];
-                  if (p != null && !p.equals(point) && lays_near(tr, p))
-                      res = false;
+          for (var test_triangle in paired_hash[i][j]) {
+            var tr = paired_hash[i][j][test_triangle];
+            var p3_ = tr.get_3rd(points_hash[i], points_hash[j]);
+            var t1 = new TriangleObject(points_hash[i], points_hash[j], point);
+            if (!lays_near(t1, p3_)) {
+              if (is_valid(hsh, t1, points_hash[i]) && is_valid(hsh, t1, points_hash[j]) && is_valid(hsh, t1, p3)) {
+                if (new_triangles.indexOf(t1) < 0)
+                  new_triangles.push(t1);
               }
+              console.log("added second triangle");
+              continue;
+            }
+
+            var t2 = new TriangleObject(points_hash[i], p3_, point);
+          console.log("t2", t2.toString(), t2.det(points_hash[j]));
+
+            if (!lays_near(t2, points_hash[j]) && is_valid(hsh, t2, points_hash[i]) && is_valid(hsh, t2, point)) {
+              if (old_triangles.indexOf(tr) < 0)
+                old_triangles.push(tr);
+              if (new_triangles.indexOf(t2) < 0)
+                new_triangles.push(t2);
+            }
+            var t3 = new TriangleObject(points_hash[j], p3_, point);
+            //console.log("t3", lays_near(t3, points_hash[i]));
+            console.log("t3", t3.toString(), t3.det(points_hash[i]));
+
+            if (!lays_near(t3, points_hash[i]) && is_valid(hsh, t3, points_hash[j]) && is_valid(hsh, t3, point)) {
+              if (old_triangles.indexOf(tr) < 0)
+                old_triangles.push(tr);
+              if (new_triangles.indexOf(t3) < 0)
+                new_triangles.push(t3);
+            }
           }
-          for (var t in hsh[j]) {
-              var triangle = hsh[j][t];
-              var ps = triangle.except(points_hash[j]);
-              for (var k = 0; k < ps.length; k++) {
-                  var p = ps[k];
-                  if (p != null && !p.equals(point) && lays_near(tr, p))
-                      res = false;
-              }
-          }
-          //}
-          if (res) {
-              for (var t in hsh[i]) {
-                var triangle = hsh[i][t];
-                var p = triangle.get_3rd(points_hash[i], points_hash[j]);
-                if (p != null && !p.equals(point) && !is_divider(points_hash[i], points_hash[j], p, point)) {
-                  triangle.remove_from(hsh);
-                }
-              }
-              tr.add_to(hsh);
-              triangles_set.push(tr);
-          }
+
       }
+  }
+
+  console.log("old triangles found ", old_triangles.length);
+  for (var i = 0; i < old_triangles.length; i++) {
+    old_triangles[i].remove_from(hsh);
+    var index = triangles_set.indexOf(old_triangles[i]);
+    if (index)
+      triangles_set.splice(index, 1);
+    console.log(old_triangles[i].toString());
+  }
+  console.log("new triangles found ", new_triangles.length);
+
+  for (var i = 0; i < new_triangles.length; i++) {
+    new_triangles[i].add_to(hsh);
+    triangles_set.push(new_triangles[i]);
+    console.log(new_triangles[i].toString());
   }
 
 }
@@ -198,10 +218,10 @@ function get_triangles(points) {
       }
 
   }
-  console.log("test", lays_near(new TriangleObject
-      (new Vector(0, 0), new Vector(0, 20), new Vector(20, 0)),
-       new Vector(30, 0)
-     ));
+  //console.log("test", lays_near(new TriangleObject
+  //    (new Vector(0, 0), new Vector(0, 20), new Vector(20, 0)),
+  //     new Vector(30, 0)
+  //   ));
   return result;
 
 }
