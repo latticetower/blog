@@ -92,7 +92,7 @@ class Polygon(object):
   def find_ears(self):
     index = -1
     while True:
-      index = self.find_next_ear(-1)
+      index = self.find_next_ear(index)
       if index < 0:
         break
       print "{0}: {1}".format(index, self.unprocessed_points[index])

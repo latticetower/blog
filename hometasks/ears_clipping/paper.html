@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>paper with polygon</title>
+    <!--link rel="stylesheet" href="../css/style.css"-->
+    <script type="text/javascript" src="dist/paper-full.js"></script>
+    <script type="text/javascript" src="papered_polygon.js"></script>
+    <script type="text/paperscript" canvas="canvas">
+        //var path;
+        var poly = new CompoundPath({strokeColor: 'blue'});
+        var path = new Path({
+          strokeColor: 'grey',
+        });
+        //poly.addChild(path);
+
+        var points = [];
+
+        function joinPath() {
+          path.closePath(true);
+          points = [];
+          for (var i = 0; i < path.segments.length; i ++) {
+            points.push({'index' : i, 'next': 0, 'prev': 0});
+            if (i > 0) {
+              points[i]['prev'] = i - 1;
+              points[i - 1]['next'] = i;
+            }
+          }
+          if (points.length > 0)
+            points[0]['prev'] = points.length - 1;
+          for (var i = 0; i < points.length; i++) {
+            console.log(points[i]);
+          }
+        }
+
+        var textItem = new PointText({
+            content: 'Click and drag to draw a polygon.',
+            point: new Point(20, 30),
+            fillColor: 'black',
+        });
+        var joinPolyTextItem = new PointText({content: 'join poly', point :new Point(20, 40), fillColor: 'red'});
+        joinPolyTextItem.onMouseEnter = function(event) {
+          joinPath();
+        }
+
+        var clearPolyTextItem = new PointText({content: 'clear poly', point :new Point(20, 60), fillColor: 'red'});
+        clearPolyTextItem.onMouseEnter = function(event) {
+          points = [];
+          path.removeSegments();
+        }
+
+        var triangulatePolyTextItem = new PointText({content: 'triangulate poly', point :new Point(20, 80), fillColor: 'red'});
+        triangulatePolyTextItem.onMouseEnter = function(event) {
+          var earclipper = new EarClipper(path.segments, points);
+          showEars(earclipper.getEars(), points, path);
+        }
+
+        function showEars(ears, points, path) {
+          console.log("ear vertex indices: ", ears);
+          for (var i in ears) {
+            index1 = points[i]['prev'];
+            index2 = points[i]['next'];
+            poly.addChild(
+              new Path.Line(path.segments[index1].point, path.segments[index2].point
+            ));
+          }
+
+
+        }
+        function onMouseDown(event) {
+            path.add(event.point);
+            //p = new Point(event.point);
+            poly.addChild(new Path.Circle({
+              center: event.point,
+              radius: 3,
+              fillColor: 'blue'
+              })
+            );
+
+            //path.add(event.point);
+
+            // Create a new path and set its stroke color to black:
+
+        }
+
+
+        // While the user drags the mouse, points are added to the path
+        // at the position of the mouse:
+        function onMouseDrag(event) {
+            //path.add(event.point);
+
+            // Update the content of the text item to show how many
+            // segments it has:
+            //textItem.content = 'Segment count: ' + path.segments.length;
+        }
+
+        // When the mouse is released, we simplify the path:
+        function onMouseUp(event) {
+            //var segmentCount = path.segments.length;
+
+            // When the mouse is released, simplify it:
+            //path.simplify(10);
+
+            // Select the path, so we can see its segments:
+            //path.fullySelected = true;
+
+            //var newSegmentCount = path.segments.length;
+            //var difference = segmentCount - newSegmentCount;
+            //var percentage = 100 - Math.round(newSegmentCount / segmentCount * 100);
+            //textItem.content = difference + ' of the ' + segmentCount + ' segments were removed. Saving ' + percentage + '%';
+
+        }
+    </script>
+</head>
+<body>
+    <canvas id="canvas" resize></canvas>
+</body>
+</html>
