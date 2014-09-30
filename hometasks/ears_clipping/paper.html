@@ -18,9 +18,11 @@
 
         function joinPath() {
           path.closePath(true);
-          points = [];
-          for (var i = 0; i < path.segments.length; i ++) {
-            points.push({'index' : i, 'next': 0, 'prev': 0});
+          point_indices = [];
+          for (var i = 0; i < points.length; i ++) {
+            points[i]['index'] = i;
+            points[i]['next'] = 0;
+            points[i]['prev'] = 0;
             if (i > 0) {
               points[i]['prev'] = i - 1;
               points[i - 1]['next'] = i;
@@ -64,25 +66,31 @@
           point :new Point(20, 80),
           fillColor: 'red',
           onMouseEnter: function(event) {
-            var earclipper = new EarClipper(path.segments, points);
-            showEars(earclipper.getEars(), points, path);
+            var earclipper = new EarClipper(points);
+            showEars(earclipper.getEars(), points);
           }
         });
 
-        function showEars(ears, points, path) {
+        function showEars(ears, points) {
           console.log("ear vertex indices: ", ears);
           for (var i = 0; i < ears.length - 1; i ++) {
             //console.log(points[ears[i]]);
-            index1 = points[ears[i]]['prev'];
-            index2 = points[ears[i]]['next'];
+            index1 = ears[i][1];
+            index2 = ears[i][2];
             poly.addChild(
-              new Path.Line(path.segments[index1].point, path.segments[index2].point
+              new Path.Line(points[index1].point, points[index2].point
             ));
           }
         }
 
         function onMouseDown(event) {
             path.add(event.point);
+            points.push({
+              point: event.point,
+              index: 0,
+              prev: 0,
+              next: 0
+            });
             //p = new Point(event.point);
             poly.addChild(new Path.Circle({
               center: event.point,
@@ -90,6 +98,14 @@
               fillColor: 'blue'
               })
             );
+
+          /*
+            pp = [{x:100, y:100}, {x:140, y:200}, {x:120, y:120}, {x:200, y:140}, {x:200, y:100}];
+            for (var i = 0; i < pp.length; i++) {
+              path.add(pp[i]);
+              points.push({point: pp[i], index: 0, prev: 0, next: 0});
+              poly.addChild(new Path.Circle({center: pp[i], radius: 3, fillColor: 'blue'}));
+            }*/
         }
     </script>
 </head>
