@@ -1,0 +1,107 @@
+Statistical Learning, домашнее задание 2.1 (teengambling)
+========================================================
+Задание: Для данных teengambling (сколько денег подростки из разных социальных слоев спускают на азартные игры) провести анализ (аналогично анализу для
+toothgrowth) и определить зависимость между полом, доходом, статусом, образованием и тратами на игры. Проинтерпретировать результат. Завершить анализ графиком,
+который окончательно прояснит происходящее.
+
+Hint: В исходных данных много признаков, но далеко не все они значимые.
+
+```{r}
+library(lattice)
+library(latticeExtra)
+library(MASS)
+gambling <- read.table("teengambling.txt")
+```
+
+
+```{r}
+gambling$sex <- factor(gambling$sex, labels = c("male","female"))
+contrasts(gambling$sex) <- contr.sum
+contrasts(gambling$sex)
+```
+Построим несколько графиков, чтобы понять, как ведут себя данные:
+```{r}
+bwplot(~gamble | sex, data = gambling)
+```
+- здесь видно явную зависимость количества денег, потраченных на азартные игры, от пола игрока (а также, что мужчины из выборки ставят бОльшие суммы).
+
+```{r}
+bwplot(~gamble | verbal*sex, data = gambling)
+```
+- по этому графику, наверное, можно сказать, что мужчины представлены более разнообразно в смысле уровня образования в выборке. Можно заметить, что женщины в пределах одного уровня verbal почти не отличаются в количестве потраченных денег на азартные игры (либо они вообще не играют, либо ставят очень мало - наверное, предпочитают спускать деньги на что-то другое). Также видно, что больше всех тратят на казино не самые умные мужчины.  
+
+```{r}
+bwplot(~gamble | status, data = gambling)
+```
+
+- по status в том виде, в котором он представлен в данных, вообще ничего не понятно: слишком уж варьируется данная характеристика (при том, что самих наблюдений не так много).
+
+Теперь построим линейную модель:
+```{r}
+l <- lm(gamble ~ ., data=gambling)
+summary(l)
+```
+Значимы пол (в основном благодаря мужчинам) и доход, самым бесполезным с точки зрения линейной модели признаком выглядит status.
+
+Посмотрим, как изменится информационный критерий Акаике при удалении наименее значимых признаков:
+```{r}
+stepAIC(l)
+```
+В первую очередь на него влияет status, удаление verbal влияет, но незначительно. Поудаляем эти признаки:
+```{r}
+l <- lm(gamble ~ sex+income, data=gambling)
+summary(l)
+```
+
+Сравним с моделью, в которой учитывается взаимное влияние признаков:
+```{r}
+l.cross <- lm(gamble ~ sex*income, data=gambling)
+summary(l.cross)
+stepAIC(l.cross)
+anova(l, l.cross)
+```
+Видим, что более значимой будет являться модель, в которой учитывается взаимное влияние пола и дохода.
+
+```{r}
+gambling.agg <- aggregate(subset(gambling, select = gamble), list(sex = gambling$sex, income = gambling$income), mean)
+dp <- dotplot(factor(sex) ~ gamble, groups = sex, data = gambling.agg, auto.key = list(title = "Delivery", corner = c(0, 1)), type = "b", xlab = "mean(gambling length)", ylab = "Vitamin C dose", par.settings = simpleTheme(pch = 19))
+
+vp <- bwplot(factor(sex) ~ gamble, groups = sex, data = gambling, panel = function(...) {
+  panel.superpose(..., col = trellis.par.get("superpose.polygon")$col,
+  panel.groups = panel.violin)
+  }, auto.key = list(title = "Gambling",
+  corner = c(0, 1), points = FALSE,
+  lines = FALSE, rectangles = TRUE),
+  xlab = "Gamble", ylab = "Boys & girls",
+  par.settings = simpleTheme(alpha = 0.6,
+  pch = 19)
+)
+vp + dp
+```
+
+Видно, что в представленном наборе данных мальчики имеют склонность к азартным игры больше, чем девочки.
+
+
+*Рассмотрим только женщин*:
+```{r}
+gambling.female <- subset(gambling, sex == "female", select = -sex)
+l.female <- lm(gamble ~ ., data=gambling.female)
+summary(l.female)
+stepAIC(l.female)
+l.female <- update(l.female, . ~ .-verbal)
+summary(l.female)
+```
+Получили, что уровень образования на склонность к азартным играм не влияет. Влияют status и уровень дохода. Мы знаем, что это связанные величины, поэтому
+```{r}
+l.female <- lm(gamble ~ income*status, data=gambling.female)
+summary(l.female)
+```
+
+
+*Рассмотрим только мужчин*:
+```{r}
+gambling.male <- subset(gambling, sex == "male", select = -sex)
+l.male <- lm(gamble ~ ., data=gambling.male)
+summary(l.male)
+```
+Видим явную зависимость ставок от уровня дохода (которую мы наблюдали и в основной выборке).
