@@ -23,7 +23,7 @@ contrasts(gambling$sex)
 ```{r}
 bwplot(~gamble | sex, data = gambling)
 ```
-- здесь видно явную зависимость количества денег, потраченных на азартные игры, от пола игрока (а также, что мужчины из выборки ставят бОльшие суммы).
+- если сравнить эти два графика, то видно, что мужчины из выборки готовы потратить бОльшие суммы денег на азартные игры (средний мужчина из выборки проиграл больше, чем средняя женщина, количество потраченных денег варьируется сильнее...).
 
 ```{r}
 bwplot(~gamble | verbal*sex, data = gambling)
@@ -62,6 +62,7 @@ anova(l, l.cross)
 ```
 Видим, что более значимой будет являться модель, в которой учитывается взаимное влияние пола и дохода.
 
+**Красивый график**:
 ```{r}
 gambling.agg <- aggregate(subset(gambling, select = gamble), list(sex = gambling$sex, income = gambling$income), mean)
 dp <- dotplot(factor(sex) ~ gamble, groups = sex, data = gambling.agg, auto.key = list(title = "Delivery", corner = c(0, 1)), type = "b", xlab = "mean(gambling length)", ylab = "Vitamin C dose", par.settings = simpleTheme(pch = 19))

@@ -1,0 +1,38 @@
+# The data for this example come from a 1966 paper by Cyril Burt entitled "The
+# genetic determination of differences in intelligence: A study of monozygotic
+# twins reared apart". The data consist of IQ scores for identical twins, one
+# raised by foster parents, the other by the natural parents. We also know the
+# social class of natural parents (high, middle or low). Try to predict the IQ
+# of the twin with foster parents from the IQ of the twin with the natural
+# parents and the social class of natural parents. Cyril Burt invented some of
+# his data on identical twins. In light of this, can you see anything that might
+# lead one to suspect this data?
+
+"Foster" "Biological" "Social"
+"1" 82 82 "high"
+"2" 80 90 "high"
+"3" 88 91 "high"
+"4" 108 115 "high"
+"5" 116 115 "high"
+"6" 117 129 "high"
+"7" 132 131 "high"
+"8" 71 78 "middle"
+"9" 75 79 "middle"
+"10" 93 82 "middle"
+"11" 95 97 "middle"
+"12" 88 100 "middle"
+"13" 111 107 "middle"
+"14" 63 68 "low"
+"15" 77 73 "low"
+"16" 86 81 "low"
+"17" 83 85 "low"
+"18" 93 87 "low"
+"19" 97 87 "low"
+"20" 87 93 "low"
+"21" 94 94 "low"
+"22" 96 95 "low"
+"23" 112 97 "low"
+"24" 113 97 "low"
+"25" 106 103 "low"
+"26" 107 106 "low"
+"27" 98 111 "low"
