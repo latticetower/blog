@@ -15,6 +15,7 @@ gambling <- read.table("teengambling.txt")
 
 
 ```{r}
+gambling <- subset(gambling, gamble < 100)
 gambling$sex <- factor(gambling$sex, labels = c("male","female"))
 contrasts(gambling$sex) <- contr.sum
 contrasts(gambling$sex)
