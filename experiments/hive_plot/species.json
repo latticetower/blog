@@ -1,0 +1,1690 @@
+[
+{
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32072037",
+  "size": "6906",
+  "commonName": "GNL1",
+  "group": "I",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32079977",
+  "size": "4091",
+  "commonName": "PRR3",
+  "group": "I",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32091815",
+  "size": "14320",
+  "commonName": "ABCF1",
+  "group": "I",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32113078",
+  "size": "10867",
+  "commonName": "PPP1R10",
+  "group": "I",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32131508",
+  "size": "5632",
+  "commonName": "MRPS18B",
+  "group": "I",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32137936",
+  "size": "14043",
+  "commonName": "ATAT1",
+  "group": "I",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32152554",
+  "size": "3442",
+  "commonName": "C6orf136",
+  "group": "I",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32156832",
+  "size": "14617",
+  "commonName": "DHX16",
+  "group": "I",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32174597",
+  "size": "7064",
+  "commonName": "PPP1R18",
+  "group": "I",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32184208",
+  "size": "2308",
+  "commonName": "NRM",
+  "group": "I",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32190691",
+  "size": "11682",
+  "commonName": "MDC1",
+  "group": "I",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32206679",
+  "size": "3213",
+  "commonName": "TUBB",
+  "group": "I",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32213902",
+  "size": "11739",
+  "commonName": "FLOT1",
+  "group": "I",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32227107",
+  "size": "570",
+  "commonName": "IER3",
+  "group": "I",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32328952",
+  "size": "0",
+  "commonName": "5S_rRNA",
+  "group": "NA",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32349938",
+  "size": "10512",
+  "commonName": "DDR1",
+  "group": "I",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32367652",
+  "size": "4770",
+  "commonName": "GTF2H4",
+  "group": "I",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32373244",
+  "size": "10364",
+  "commonName": "VARSL",
+  "group": "I",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32396584",
+  "size": "10342",
+  "commonName": "DPCR1",
+  "group": "I",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32502775",
+  "size": "0",
+  "commonName": "5S_rRNA",
+  "group": "NA",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32528830",
+  "size": "3729",
+  "commonName": "CDSN",
+  "group": "I",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32546665",
+  "size": "1603",
+  "commonName": "PSORS1C2",
+  "group": "I",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32551169",
+  "size": "13191",
+  "commonName": "CCHCR1",
+  "group": "I",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32566778",
+  "size": "2425",
+  "commonName": "TCF19",
+  "group": "I",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32571099",
+  "size": "5221",
+  "commonName": "POU5F1",
+  "group": "I",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32667395",
+  "size": "2897",
+  "commonName": "FLA-Z",
+  "group": "I",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32871109",
+  "size": "0",
+  "commonName": "5S_rRNA",
+  "group": "NA",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33191585",
+  "size": "868",
+  "commonName": "MCCD1",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33192987",
+  "size": "9643",
+  "commonName": "BAT1",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33206578",
+  "size": "1281",
+  "commonName": "ATP6V1G2",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33209161",
+  "size": "8732",
+  "commonName": "NFKBIL1",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33230351",
+  "size": "952",
+  "commonName": "LTA",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33233690",
+  "size": "1768",
+  "commonName": "TNF",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33238415",
+  "size": "1786",
+  "commonName": "LTB",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33244255",
+  "size": "3654",
+  "commonName": "NCR3",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33265043",
+  "size": "1808",
+  "commonName": "AIF1",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33273983",
+  "size": "12871",
+  "commonName": "BAT2",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33288463",
+  "size": "10126",
+  "commonName": "BAT3",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33301598",
+  "size": "1943",
+  "commonName": "APOM",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33304552",
+  "size": "894",
+  "commonName": "C6orf47",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33307513",
+  "size": "1595",
+  "commonName": "BAT4",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33311513",
+  "size": "3185",
+  "commonName": "CSNK2B",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33320110",
+  "size": "4329",
+  "commonName": "LY6G5C",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33328940",
+  "size": "13963",
+  "commonName": "BAT5",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33355901",
+  "size": "2327",
+  "commonName": "LY6G6C",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33359772",
+  "size": "1662",
+  "commonName": "C6orf25",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33363497",
+  "size": "1938",
+  "commonName": "DDAH2",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33367006",
+  "size": "4779",
+  "commonName": "CLIC1",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33400323",
+  "size": "1458",
+  "commonName": "SAPCD1",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33402473",
+  "size": "8352",
+  "commonName": "VWA7",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33411647",
+  "size": "14829",
+  "commonName": "VARS",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33428200",
+  "size": "5075",
+  "commonName": "LSM2",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33435850",
+  "size": "1926",
+  "commonName": "HSPA1L",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33480702",
+  "size": "3171",
+  "commonName": "NEU1",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33484430",
+  "size": "12067",
+  "commonName": "SLC44A4",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33497278",
+  "size": "12538",
+  "commonName": "EHMT2",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33512203",
+  "size": "1380",
+  "commonName": "ZBTB12",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33564390",
+  "size": "5201",
+  "commonName": "RDBP",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33570339",
+  "size": "11194",
+  "commonName": "SKIV2L",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33581692",
+  "size": "1792",
+  "commonName": "DOM3Z",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33584077",
+  "size": "5544",
+  "commonName": "STK19",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33608200",
+  "size": "2503",
+  "commonName": "CYP21A2",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33610927",
+  "size": "37777",
+  "commonName": "TNXB",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33664502",
+  "size": "8744",
+  "commonName": "CREBL1",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33673805",
+  "size": "1050",
+  "commonName": "FKBPL",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33689980",
+  "size": "2604",
+  "commonName": "PRRT1",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33703037",
+  "size": "1821",
+  "commonName": "EGFL8",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33706184",
+  "size": "2149",
+  "commonName": "AGPAT1",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33714927",
+  "size": "1903",
+  "commonName": "RNF5",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33717651",
+  "size": "2848",
+  "commonName": "AGER",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33722601",
+  "size": "3525",
+  "commonName": "PBX2",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33727646",
+  "size": "1117",
+  "commonName": "GPSM3",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33845728",
+  "size": "0",
+  "commonName": "5S_rRNA",
+  "group": "NA",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33999570",
+  "size": "2053",
+  "commonName": "C6orf10",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34114879",
+  "size": "0",
+  "commonName": "5S_rRNA",
+  "group": "NA",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34239988",
+  "size": "14178",
+  "commonName": "BTNL2",
+  "group": "III",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34274222",
+  "size": "3174",
+  "commonName": "SLC26A3",
+  "group": "NA",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34330963",
+  "size": "39311",
+  "commonName": "FLA-DRB",
+  "group": "II",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34500578",
+  "size": "5571",
+  "commonName": "HLA-DOB",
+  "group": "II",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34532634",
+  "size": "2997",
+  "commonName": "presentation",
+  "group": "(II)",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34537212",
+  "size": "7285",
+  "commonName": "presentation",
+  "group": "(II)",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34545125",
+  "size": "5006",
+  "commonName": "presentation",
+  "group": "(II)",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34633947",
+  "size": "3495",
+  "commonName": "HLA-DMA",
+  "group": "II",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34656817",
+  "size": "5391",
+  "commonName": "BRD2",
+  "group": "II",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34685008",
+  "size": "2501",
+  "commonName": "HLA-DOA",
+  "group": "II",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34716240",
+  "size": "5866",
+  "commonName": "HLA-DPA1",
+  "group": "II",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34724407",
+  "size": "11022",
+  "commonName": "HLA-DPB1",
+  "group": "II",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34754587",
+  "size": "25228",
+  "commonName": "COL11A2",
+  "group": "EXII",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34785064",
+  "size": "1497",
+  "commonName": "RXRB",
+  "group": "EXII",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34791246",
+  "size": "2598",
+  "commonName": "SLC39A7",
+  "group": "EXII",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34794697",
+  "size": "2031",
+  "commonName": "HSD17B8",
+  "group": "EXII",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34798644",
+  "size": "3323",
+  "commonName": "RING1",
+  "group": "EXII",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34829985",
+  "size": "15084",
+  "commonName": "VPS52",
+  "group": "EXII",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34845976",
+  "size": "4553",
+  "commonName": "RPS18",
+  "group": "EXII",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34851528",
+  "size": "1152",
+  "commonName": "B3GALT4",
+  "group": "EXII",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34853389",
+  "size": "7646",
+  "commonName": "WDR46",
+  "group": "EXII",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34861793",
+  "size": "964",
+  "commonName": "PFDN6",
+  "group": "EXII",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34864164",
+  "size": "5409",
+  "commonName": "RGL2",
+  "group": "EXII",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34873795",
+  "size": "10223",
+  "commonName": "TAPBP",
+  "group": "EXII",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34888638",
+  "size": "3199",
+  "commonName": "DAXX",
+  "group": "EXII",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34960057",
+  "size": "8491",
+  "commonName": "KIFC1",
+  "group": "EXII",
+  "file": "data/catGenesGroupB2_1corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_1corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_2corrected.bed.chrB2.34917",
+  "size": "7583",
+  "commonName": "TRIM26",
+  "group": "I",
+  "file": "data/catGenesGroupB2_2corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_2corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_2corrected.bed.chrB2.58414",
+  "size": "5078",
+  "commonName": "TRIM15",
+  "group": "I",
+  "file": "data/catGenesGroupB2_2corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_2corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_2corrected.bed.chrB2.65811",
+  "size": "5666",
+  "commonName": "TRIM10",
+  "group": "I",
+  "file": "data/catGenesGroupB2_2corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_2corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_2corrected.bed.chrB2.123810",
+  "size": "2728",
+  "commonName": "PPP1R11",
+  "group": "I",
+  "file": "data/catGenesGroupB2_2corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_2corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_2corrected.bed.chrB2.129140",
+  "size": "2329",
+  "commonName": "ZNRD1",
+  "group": "I",
+  "file": "data/catGenesGroupB2_2corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_2corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_2corrected.bed.chrB2.150330",
+  "size": "2331",
+  "commonName": "ZFP57",
+  "group": "I",
+  "file": "data/catGenesGroupB2_2corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_2corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_2corrected.bed.chrB2.153567",
+  "size": "8901",
+  "commonName": "MOG",
+  "group": "EXI",
+  "file": "data/catGenesGroupB2_2corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_2corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_2corrected.bed.chrB2.182718",
+  "size": "24185",
+  "commonName": "GABBR1",
+  "group": "EXI",
+  "file": "data/catGenesGroupB2_2corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_2corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_2corrected.bed.chrB2.262954",
+  "size": "0",
+  "commonName": "5S_rRNA",
+  "group": "NA",
+  "file": "data/catGenesGroupB2_2corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_2corrected.bed"
+}, {
+  "name": "data/catGenesGroupB2_2corrected.bed.chrB2.284030",
+  "size": "942",
+  "commonName": "OR11A1",
+  "group": "OR",
+  "file": "data/catGenesGroupB2_2corrected.bed",
+  "imports": "[]",
+  "type": "data/catGenesGroupB2_2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold145.246526",
+  "size": "14596",
+  "commonName": "ABCF1",
+  "group": "I",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold786.451926",
+  "size": "2838",
+  "commonName": "AGER",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold786.464604",
+  "size": "2133",
+  "commonName": "AGPAT1",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold821.181258",
+  "size": "1599",
+  "commonName": "AIF1",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold821.144829",
+  "size": "1943",
+  "commonName": "APOM",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold821.245871",
+  "size": "1189",
+  "commonName": "ATP6V1G2",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold786.12921",
+  "size": "11462",
+  "commonName": "BTNL2",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold786.577748",
+  "size": "15103",
+  "commonName": "C4B",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold145.307770",
+  "size": "3423",
+  "commonName": "C6orf136",
+  "group": "I",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold821.87674",
+  "size": "1402",
+  "commonName": "C6orf25",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold821.142924",
+  "size": "894",
+  "commonName": "C6orf47",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold145.700511",
+  "size": "13783",
+  "commonName": "CCHCR1",
+  "group": "I",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold145.677785",
+  "size": "3818",
+  "commonName": "CDSN",
+  "group": "I",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold821.77015",
+  "size": "5039",
+  "commonName": "CLIC1",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold821.83879",
+  "size": "1728",
+  "commonName": "DDAH2",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold145.311522",
+  "size": "15143",
+  "commonName": "DHX16",
+  "group": "I",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold786.468084",
+  "size": "1815",
+  "commonName": "EGFL8",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold786.672847",
+  "size": "12337",
+  "commonName": "EHMT2",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold786.498156",
+  "size": "1050",
+  "commonName": "FKBPL",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold145.367231",
+  "size": "10866",
+  "commonName": "FLOT1",
+  "group": "I",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold823.126415",
+  "size": "24321",
+  "commonName": "GABBR1",
+  "group": "EXI",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold145.226983",
+  "size": "6892",
+  "commonName": "GNL1",
+  "group": "I",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold786.443652",
+  "size": "1114",
+  "commonName": "GPSM3",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold145.517287",
+  "size": "4777",
+  "commonName": "GTF2H4",
+  "group": "I",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold1215.902033",
+  "size": "381",
+  "commonName": "HIST1H2BA",
+  "group": "histonnes",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold546.382553",
+  "size": "267",
+  "commonName": "HMGN4",
+  "group": "EXI",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold53.181000",
+  "size": "252",
+  "commonName": "HMGN4",
+  "group": "EXI",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold771.2037171",
+  "size": "258",
+  "commonName": "HMGN4",
+  "group": "EXI",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold451.2857157",
+  "size": "237",
+  "commonName": "HMGN4",
+  "group": "EXI",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold332.3865927",
+  "size": "270",
+  "commonName": "HMGN4",
+  "group": "EXI",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold179.3893218",
+  "size": "249",
+  "commonName": "HMGN4",
+  "group": "EXI",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold1215.343263",
+  "size": "285",
+  "commonName": "HMGN4",
+  "group": "EXI",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold75.2302981",
+  "size": "259",
+  "commonName": "HMGN4",
+  "group": "EXI",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold39.1262884",
+  "size": "264",
+  "commonName": "HMGN4",
+  "group": "EXI",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold821.20985",
+  "size": "462",
+  "commonName": "LSM2",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold192.2878917",
+  "size": "283",
+  "commonName": "LSM2",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold821.203190",
+  "size": "965",
+  "commonName": "LST1",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold821.216626",
+  "size": "944",
+  "commonName": "LTA",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold821.207690",
+  "size": "1808",
+  "commonName": "LTB",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold821.124194",
+  "size": "4255",
+  "commonName": "LY6G5C",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold821.90657",
+  "size": "2306",
+  "commonName": "LY6G6C",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold821.94329",
+  "size": "2055",
+  "commonName": "LY6G6D",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold821.97922",
+  "size": "1147",
+  "commonName": "LY6G6E",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold821.100775",
+  "size": "3008",
+  "commonName": "LY6G6F",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold421.2570",
+  "size": "864",
+  "commonName": "MCCD1",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold145.345648",
+  "size": "11159",
+  "commonName": "MDC1",
+  "group": "I",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold823.171169",
+  "size": "8112",
+  "commonName": "MOG",
+  "group": "EXI",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold145.286733",
+  "size": "5637",
+  "commonName": "MRPS18B",
+  "group": "I",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold821.49545",
+  "size": "23770",
+  "commonName": "MSH5",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold821.200098",
+  "size": "2339",
+  "commonName": "NCR3",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold786.698408",
+  "size": "3165",
+  "commonName": "NEU1",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold821.230285",
+  "size": "14345",
+  "commonName": "NFKBIL1",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold781.84559",
+  "size": "1195",
+  "commonName": "NKAPL",
+  "group": "EXI",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold786.419587",
+  "size": "21850",
+  "commonName": "NOTCH4",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold145.339058",
+  "size": "2326",
+  "commonName": "NRM",
+  "group": "I",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold1020.1192254",
+  "size": "975",
+  "commonName": "OR12D2",
+  "group": "OR",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold411.1485097",
+  "size": "912",
+  "commonName": "OR12D2",
+  "group": "OR",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold10.353775",
+  "size": "978",
+  "commonName": "OR12D2",
+  "group": "OR",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold10.336796",
+  "size": "978",
+  "commonName": "OR12D2",
+  "group": "OR",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold411.1190000",
+  "size": "14471",
+  "commonName": "OR12D2",
+  "group": "OR",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold576.41205",
+  "size": "939",
+  "commonName": "OR14J1",
+  "group": "OR",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold766.58116",
+  "size": "927",
+  "commonName": "OR14J1",
+  "group": "OR",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold545.451770",
+  "size": "966",
+  "commonName": "OR14J1",
+  "group": "OR",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold1008.439750",
+  "size": "4168",
+  "commonName": "OR2B3",
+  "group": "OR",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold20.3845805",
+  "size": "903",
+  "commonName": "OR2H2",
+  "group": "OR",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold552.1441959",
+  "size": "945",
+  "commonName": "OR2H2",
+  "group": "OR",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold30.261448",
+  "size": "948",
+  "commonName": "OR2H2",
+  "group": "OR",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold213.4406057",
+  "size": "909",
+  "commonName": "OR4D1",
+  "group": "OR",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold641.180898",
+  "size": "304",
+  "commonName": "PFDN6",
+  "group": "EXII",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold781.35559",
+  "size": "24122",
+  "commonName": "PGBD1",
+  "group": "EXI",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold145.268180",
+  "size": "10943",
+  "commonName": "PPP1R10",
+  "group": "I",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold823.207149",
+  "size": "1719",
+  "commonName": "PPP1R11",
+  "group": "I",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold786.472104",
+  "size": "5477",
+  "commonName": "PPT2",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold786.472104",
+  "size": "5477",
+  "commonName": "PPT2",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold786.472104",
+  "size": "5477",
+  "commonName": "PPT2",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold303.3812200",
+  "size": "529",
+  "commonName": "PRR3",
+  "group": "I",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold303.3812200",
+  "size": "529",
+  "commonName": "PRR3",
+  "group": "I",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold982.972021",
+  "size": "520",
+  "commonName": "PRR3",
+  "group": "I",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold982.972021",
+  "size": "520",
+  "commonName": "PRR3",
+  "group": "I",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold145.696141",
+  "size": "1603",
+  "commonName": "PSORS1C2",
+  "group": "I",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold1652.37100",
+  "size": "35250",
+  "commonName": "SCGN",
+  "group": "EXI",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold786.601861",
+  "size": "11039",
+  "commonName": "SKIV2L",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold786.685971",
+  "size": "11876",
+  "commonName": "SLC44A4",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold1014.321756",
+  "size": "135082",
+  "commonName": "SMCHD1",
+  "group": "EXI",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold786.593878",
+  "size": "5475",
+  "commonName": "STK19",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold145.716133",
+  "size": "2411",
+  "commonName": "TCF19",
+  "group": "I",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold821.212456",
+  "size": "1778",
+  "commonName": "TNF",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold913.138181",
+  "size": "1417",
+  "commonName": "TRIM27",
+  "group": "EXI",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold145.361120",
+  "size": "3238",
+  "commonName": "TUBB",
+  "group": "I",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold145.361120",
+  "size": "3238",
+  "commonName": "TUBB",
+  "group": "I",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold1017.966031",
+  "size": "1320",
+  "commonName": "TUBB",
+  "group": "I",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold1017.966031",
+  "size": "1320",
+  "commonName": "TUBB",
+  "group": "I",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold823.96003",
+  "size": "442",
+  "commonName": "UBD",
+  "group": "EXI",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold821.23084",
+  "size": "14422",
+  "commonName": "VARS",
+  "group": "III",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold781.145909",
+  "size": "7050",
+  "commonName": "ZKSCAN4",
+  "group": "EXI",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold1874.49717",
+  "size": "1970",
+  "commonName": "ZKSCAN4",
+  "group": "EXI",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold781.269707",
+  "size": "3582",
+  "commonName": "ZNF165",
+  "group": "ZNF",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold799.1323093",
+  "size": "4838",
+  "commonName": "ZNF165",
+  "group": "ZNF",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold1543.121471",
+  "size": "1071",
+  "commonName": "ZNF391",
+  "group": "ZNF",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}, {
+  "name": "data/cheetahGenesB2corrected.bed.scaffold823.201488",
+  "size": "2100",
+  "commonName": "ZNRD1",
+  "group": "I",
+  "file": "data/cheetahGenesB2corrected.bed",
+  "imports": "[]",
+  "type": "data/cheetahGenesB2corrected.bed"
+}]
