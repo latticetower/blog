@@ -1,1690 +1,4834 @@
 [
 {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32072037",
+  "name": "cat.chrB2.32072037.GNL1",
   "size": "6906",
   "commonName": "GNL1",
   "group": "I",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32079977",
+  "name": "cat.chrB2.32079977.PRR3",
   "size": "4091",
   "commonName": "PRR3",
   "group": "I",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32091815",
+  "name": "cat.chrB2.32091815.ABCF1",
   "size": "14320",
   "commonName": "ABCF1",
   "group": "I",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32113078",
+  "name": "cat.chrB2.32113078.PPP1R10",
   "size": "10867",
   "commonName": "PPP1R10",
   "group": "I",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32131508",
+  "name": "cat.chrB2.32131508.MRPS18B",
   "size": "5632",
   "commonName": "MRPS18B",
   "group": "I",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32137936",
+  "name": "cat.chrB2.32137936.ATAT1",
   "size": "14043",
   "commonName": "ATAT1",
   "group": "I",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32152554",
+  "name": "cat.chrB2.32152554.C6orf136",
   "size": "3442",
   "commonName": "C6orf136",
   "group": "I",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32156832",
+  "name": "cat.chrB2.32156832.DHX16",
   "size": "14617",
   "commonName": "DHX16",
   "group": "I",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32174597",
+  "name": "cat.chrB2.32174597.PPP1R18",
   "size": "7064",
   "commonName": "PPP1R18",
   "group": "I",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32184208",
+  "name": "cat.chrB2.32184208.NRM",
   "size": "2308",
   "commonName": "NRM",
   "group": "I",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32190691",
+  "name": "cat.chrB2.32190691.MDC1",
   "size": "11682",
   "commonName": "MDC1",
   "group": "I",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32206679",
+  "name": "cat.chrB2.32206679.TUBB",
   "size": "3213",
   "commonName": "TUBB",
   "group": "I",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32213902",
+  "name": "cat.chrB2.32213902.FLOT1",
   "size": "11739",
   "commonName": "FLOT1",
   "group": "I",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32227107",
+  "name": "cat.chrB2.32227107.IER3",
   "size": "570",
   "commonName": "IER3",
   "group": "I",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32328952",
+  "name": "cat.chrB2.32328952.5S_rRNA",
   "size": "0",
   "commonName": "5S_rRNA",
   "group": "NA",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32349938",
+  "name": "cat.chrB2.32349938.DDR1",
   "size": "10512",
   "commonName": "DDR1",
   "group": "I",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32367652",
+  "name": "cat.chrB2.32367652.GTF2H4",
   "size": "4770",
   "commonName": "GTF2H4",
   "group": "I",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32373244",
+  "name": "cat.chrB2.32373244.VARSL",
   "size": "10364",
   "commonName": "VARSL",
   "group": "I",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32396584",
+  "name": "cat.chrB2.32396584.DPCR1",
   "size": "10342",
   "commonName": "DPCR1",
   "group": "I",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32502775",
+  "name": "cat.chrB2.32502775.5S_rRNA",
   "size": "0",
   "commonName": "5S_rRNA",
   "group": "NA",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32528830",
+  "name": "cat.chrB2.32528830.CDSN",
   "size": "3729",
   "commonName": "CDSN",
   "group": "I",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32546665",
+  "name": "cat.chrB2.32546665.PSORS1C2",
   "size": "1603",
   "commonName": "PSORS1C2",
   "group": "I",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32551169",
+  "name": "cat.chrB2.32551169.CCHCR1",
   "size": "13191",
   "commonName": "CCHCR1",
   "group": "I",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32566778",
+  "name": "cat.chrB2.32566778.TCF19",
   "size": "2425",
   "commonName": "TCF19",
   "group": "I",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32571099",
+  "name": "cat.chrB2.32571099.POU5F1",
   "size": "5221",
   "commonName": "POU5F1",
   "group": "I",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32667395",
+  "name": "cat.chrB2.32667395.FLA-Z",
   "size": "2897",
   "commonName": "FLA-Z",
   "group": "I",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.32871109",
+  "name": "cat.chrB2.32871109.5S_rRNA",
   "size": "0",
   "commonName": "5S_rRNA",
   "group": "NA",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33191585",
+  "name": "cat.chrB2.33191585.MCCD1",
   "size": "868",
   "commonName": "MCCD1",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33192987",
+  "name": "cat.chrB2.33192987.BAT1",
   "size": "9643",
   "commonName": "BAT1",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33206578",
+  "name": "cat.chrB2.33206578.ATP6V1G2",
   "size": "1281",
   "commonName": "ATP6V1G2",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33209161",
+  "name": "cat.chrB2.33209161.NFKBIL1",
   "size": "8732",
   "commonName": "NFKBIL1",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33230351",
+  "name": "cat.chrB2.33230351.LTA",
   "size": "952",
   "commonName": "LTA",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33233690",
+  "name": "cat.chrB2.33233690.TNF",
   "size": "1768",
   "commonName": "TNF",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33238415",
+  "name": "cat.chrB2.33238415.LTB",
   "size": "1786",
   "commonName": "LTB",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33244255",
+  "name": "cat.chrB2.33244255.NCR3",
   "size": "3654",
   "commonName": "NCR3",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33265043",
+  "name": "cat.chrB2.33265043.AIF1",
   "size": "1808",
   "commonName": "AIF1",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33273983",
+  "name": "cat.chrB2.33273983.BAT2",
   "size": "12871",
   "commonName": "BAT2",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33288463",
+  "name": "cat.chrB2.33288463.BAT3",
   "size": "10126",
   "commonName": "BAT3",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33301598",
+  "name": "cat.chrB2.33301598.APOM",
   "size": "1943",
   "commonName": "APOM",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33304552",
+  "name": "cat.chrB2.33304552.C6orf47",
   "size": "894",
   "commonName": "C6orf47",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33307513",
+  "name": "cat.chrB2.33307513.BAT4",
   "size": "1595",
   "commonName": "BAT4",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33311513",
+  "name": "cat.chrB2.33311513.CSNK2B",
   "size": "3185",
   "commonName": "CSNK2B",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33320110",
+  "name": "cat.chrB2.33320110.LY6G5C",
   "size": "4329",
   "commonName": "LY6G5C",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33328940",
+  "name": "cat.chrB2.33328940.BAT5",
   "size": "13963",
   "commonName": "BAT5",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33355901",
+  "name": "cat.chrB2.33355901.LY6G6C",
   "size": "2327",
   "commonName": "LY6G6C",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33359772",
+  "name": "cat.chrB2.33359772.C6orf25",
   "size": "1662",
   "commonName": "C6orf25",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33363497",
+  "name": "cat.chrB2.33363497.DDAH2",
   "size": "1938",
   "commonName": "DDAH2",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33367006",
+  "name": "cat.chrB2.33367006.CLIC1",
   "size": "4779",
   "commonName": "CLIC1",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33400323",
+  "name": "cat.chrB2.33400323.SAPCD1",
   "size": "1458",
   "commonName": "SAPCD1",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33402473",
+  "name": "cat.chrB2.33402473.VWA7",
   "size": "8352",
   "commonName": "VWA7",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33411647",
+  "name": "cat.chrB2.33411647.VARS",
   "size": "14829",
   "commonName": "VARS",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33428200",
+  "name": "cat.chrB2.33428200.LSM2",
   "size": "5075",
   "commonName": "LSM2",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33435850",
+  "name": "cat.chrB2.33435850.HSPA1L",
   "size": "1926",
   "commonName": "HSPA1L",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33480702",
+  "name": "cat.chrB2.33480702.NEU1",
   "size": "3171",
   "commonName": "NEU1",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33484430",
+  "name": "cat.chrB2.33484430.SLC44A4",
   "size": "12067",
   "commonName": "SLC44A4",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33497278",
+  "name": "cat.chrB2.33497278.EHMT2",
   "size": "12538",
   "commonName": "EHMT2",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33512203",
+  "name": "cat.chrB2.33512203.ZBTB12",
   "size": "1380",
   "commonName": "ZBTB12",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33564390",
+  "name": "cat.chrB2.33564390.RDBP",
   "size": "5201",
   "commonName": "RDBP",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33570339",
+  "name": "cat.chrB2.33570339.SKIV2L",
   "size": "11194",
   "commonName": "SKIV2L",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33581692",
+  "name": "cat.chrB2.33581692.DOM3Z",
   "size": "1792",
   "commonName": "DOM3Z",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33584077",
+  "name": "cat.chrB2.33584077.STK19",
   "size": "5544",
   "commonName": "STK19",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33608200",
+  "name": "cat.chrB2.33608200.CYP21A2",
   "size": "2503",
   "commonName": "CYP21A2",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33610927",
+  "name": "cat.chrB2.33610927.TNXB",
   "size": "37777",
   "commonName": "TNXB",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33664502",
+  "name": "cat.chrB2.33664502.CREBL1",
   "size": "8744",
   "commonName": "CREBL1",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33673805",
+  "name": "cat.chrB2.33673805.FKBPL",
   "size": "1050",
   "commonName": "FKBPL",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33689980",
+  "name": "cat.chrB2.33689980.PRRT1",
   "size": "2604",
   "commonName": "PRRT1",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33703037",
+  "name": "cat.chrB2.33703037.EGFL8",
   "size": "1821",
   "commonName": "EGFL8",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33706184",
+  "name": "cat.chrB2.33706184.AGPAT1",
   "size": "2149",
   "commonName": "AGPAT1",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33714927",
+  "name": "cat.chrB2.33714927.RNF5",
   "size": "1903",
   "commonName": "RNF5",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33717651",
+  "name": "cat.chrB2.33717651.AGER",
   "size": "2848",
   "commonName": "AGER",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33722601",
+  "name": "cat.chrB2.33722601.PBX2",
   "size": "3525",
   "commonName": "PBX2",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33727646",
+  "name": "cat.chrB2.33727646.GPSM3",
   "size": "1117",
   "commonName": "GPSM3",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33845728",
+  "name": "cat.chrB2.33845728.5S_rRNA",
   "size": "0",
   "commonName": "5S_rRNA",
   "group": "NA",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.33999570",
+  "name": "cat.chrB2.33999570.C6orf10",
   "size": "2053",
   "commonName": "C6orf10",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34114879",
+  "name": "cat.chrB2.34114879.5S_rRNA",
   "size": "0",
   "commonName": "5S_rRNA",
   "group": "NA",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34239988",
+  "name": "cat.chrB2.34239988.BTNL2",
   "size": "14178",
   "commonName": "BTNL2",
   "group": "III",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34274222",
+  "name": "cat.chrB2.34274222.SLC26A3",
   "size": "3174",
   "commonName": "SLC26A3",
   "group": "NA",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34330963",
+  "name": "cat.chrB2.34330963.FLA-DRB",
   "size": "39311",
   "commonName": "FLA-DRB",
   "group": "II",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34500578",
+  "name": "cat.chrB2.34500578.HLA-DOB",
   "size": "5571",
   "commonName": "HLA-DOB",
   "group": "II",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34532634",
+  "name": "cat.chrB2.34532634.presentation",
   "size": "2997",
   "commonName": "presentation",
   "group": "(II)",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34537212",
+  "name": "cat.chrB2.34537212.presentation",
   "size": "7285",
   "commonName": "presentation",
   "group": "(II)",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34545125",
+  "name": "cat.chrB2.34545125.presentation",
   "size": "5006",
   "commonName": "presentation",
   "group": "(II)",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34633947",
+  "name": "cat.chrB2.34633947.HLA-DMA",
   "size": "3495",
   "commonName": "HLA-DMA",
   "group": "II",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34656817",
+  "name": "cat.chrB2.34656817.BRD2",
   "size": "5391",
   "commonName": "BRD2",
   "group": "II",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34685008",
+  "name": "cat.chrB2.34685008.HLA-DOA",
   "size": "2501",
   "commonName": "HLA-DOA",
   "group": "II",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34716240",
+  "name": "cat.chrB2.34716240.HLA-DPA1",
   "size": "5866",
   "commonName": "HLA-DPA1",
   "group": "II",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34724407",
+  "name": "cat.chrB2.34724407.HLA-DPB1",
   "size": "11022",
   "commonName": "HLA-DPB1",
   "group": "II",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34754587",
+  "name": "cat.chrB2.34754587.COL11A2",
   "size": "25228",
   "commonName": "COL11A2",
   "group": "EXII",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34785064",
+  "name": "cat.chrB2.34785064.RXRB",
   "size": "1497",
   "commonName": "RXRB",
   "group": "EXII",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34791246",
+  "name": "cat.chrB2.34791246.SLC39A7",
   "size": "2598",
   "commonName": "SLC39A7",
   "group": "EXII",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34794697",
+  "name": "cat.chrB2.34794697.HSD17B8",
   "size": "2031",
   "commonName": "HSD17B8",
   "group": "EXII",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34798644",
+  "name": "cat.chrB2.34798644.RING1",
   "size": "3323",
   "commonName": "RING1",
   "group": "EXII",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34829985",
+  "name": "cat.chrB2.34829985.VPS52",
   "size": "15084",
   "commonName": "VPS52",
   "group": "EXII",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34845976",
+  "name": "cat.chrB2.34845976.RPS18",
   "size": "4553",
   "commonName": "RPS18",
   "group": "EXII",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34851528",
+  "name": "cat.chrB2.34851528.B3GALT4",
   "size": "1152",
   "commonName": "B3GALT4",
   "group": "EXII",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34853389",
+  "name": "cat.chrB2.34853389.WDR46",
   "size": "7646",
   "commonName": "WDR46",
   "group": "EXII",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34861793",
+  "name": "cat.chrB2.34861793.PFDN6",
   "size": "964",
   "commonName": "PFDN6",
   "group": "EXII",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34864164",
+  "name": "cat.chrB2.34864164.RGL2",
   "size": "5409",
   "commonName": "RGL2",
   "group": "EXII",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34873795",
+  "name": "cat.chrB2.34873795.TAPBP",
   "size": "10223",
   "commonName": "TAPBP",
   "group": "EXII",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34888638",
+  "name": "cat.chrB2.34888638.DAXX",
   "size": "3199",
   "commonName": "DAXX",
   "group": "EXII",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_1corrected.bed.chrB2.34960057",
+  "name": "cat.chrB2.34960057.KIFC1",
   "size": "8491",
   "commonName": "KIFC1",
   "group": "EXII",
-  "file": "data/catGenesGroupB2_1corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_1corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_1corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_2corrected.bed.chrB2.34917",
+  "name": "cat.chrB2.34917.TRIM26",
   "size": "7583",
   "commonName": "TRIM26",
   "group": "I",
-  "file": "data/catGenesGroupB2_2corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_2corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_2corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_2corrected.bed.chrB2.58414",
+  "name": "cat.chrB2.58414.TRIM15",
   "size": "5078",
   "commonName": "TRIM15",
   "group": "I",
-  "file": "data/catGenesGroupB2_2corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_2corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_2corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_2corrected.bed.chrB2.65811",
+  "name": "cat.chrB2.65811.TRIM10",
   "size": "5666",
   "commonName": "TRIM10",
   "group": "I",
-  "file": "data/catGenesGroupB2_2corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_2corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_2corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_2corrected.bed.chrB2.123810",
+  "name": "cat.chrB2.123810.PPP1R11",
   "size": "2728",
   "commonName": "PPP1R11",
   "group": "I",
-  "file": "data/catGenesGroupB2_2corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_2corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_2corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_2corrected.bed.chrB2.129140",
+  "name": "cat.chrB2.129140.ZNRD1",
   "size": "2329",
   "commonName": "ZNRD1",
   "group": "I",
-  "file": "data/catGenesGroupB2_2corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_2corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_2corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_2corrected.bed.chrB2.150330",
+  "name": "cat.chrB2.150330.ZFP57",
   "size": "2331",
   "commonName": "ZFP57",
   "group": "I",
-  "file": "data/catGenesGroupB2_2corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_2corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_2corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_2corrected.bed.chrB2.153567",
+  "name": "cat.chrB2.153567.MOG",
   "size": "8901",
   "commonName": "MOG",
   "group": "EXI",
-  "file": "data/catGenesGroupB2_2corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_2corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_2corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_2corrected.bed.chrB2.182718",
+  "name": "cat.chrB2.182718.GABBR1",
   "size": "24185",
   "commonName": "GABBR1",
   "group": "EXI",
-  "file": "data/catGenesGroupB2_2corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_2corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_2corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_2corrected.bed.chrB2.262954",
+  "name": "cat.chrB2.262954.5S_rRNA",
   "size": "0",
   "commonName": "5S_rRNA",
   "group": "NA",
-  "file": "data/catGenesGroupB2_2corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_2corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_2corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/catGenesGroupB2_2corrected.bed.chrB2.284030",
+  "name": "cat.chrB2.284030.OR11A1",
   "size": "942",
   "commonName": "OR11A1",
   "group": "OR",
-  "file": "data/catGenesGroupB2_2corrected.bed",
-  "imports": "[]",
-  "type": "data/catGenesGroupB2_2corrected.bed"
+  "file": "cat",
+  "source_file": "data/catGenesGroupB2_2corrected.bed",
+  "type": "cat"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold145.246526",
+  "name": "cheetah.scaffold145.246526.ABCF1",
   "size": "14596",
   "commonName": "ABCF1",
   "group": "I",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold786.451926",
+  "name": "cheetah.scaffold786.451926.AGER",
   "size": "2838",
   "commonName": "AGER",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold786.464604",
+  "name": "cheetah.scaffold786.464604.AGPAT1",
   "size": "2133",
   "commonName": "AGPAT1",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold821.181258",
+  "name": "cheetah.scaffold821.181258.AIF1",
   "size": "1599",
   "commonName": "AIF1",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold821.144829",
+  "name": "cheetah.scaffold821.144829.APOM",
   "size": "1943",
   "commonName": "APOM",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold821.245871",
+  "name": "cheetah.scaffold821.245871.ATP6V1G2",
   "size": "1189",
   "commonName": "ATP6V1G2",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold786.12921",
+  "name": "cheetah.scaffold786.12921.BTNL2",
   "size": "11462",
   "commonName": "BTNL2",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold786.577748",
+  "name": "cheetah.scaffold786.577748.C4B",
   "size": "15103",
   "commonName": "C4B",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold145.307770",
+  "name": "cheetah.scaffold145.307770.C6orf136",
   "size": "3423",
   "commonName": "C6orf136",
   "group": "I",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold821.87674",
+  "name": "cheetah.scaffold821.87674.C6orf25",
   "size": "1402",
   "commonName": "C6orf25",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold821.142924",
+  "name": "cheetah.scaffold821.142924.C6orf47",
   "size": "894",
   "commonName": "C6orf47",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold145.700511",
+  "name": "cheetah.scaffold145.700511.CCHCR1",
   "size": "13783",
   "commonName": "CCHCR1",
   "group": "I",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold145.677785",
+  "name": "cheetah.scaffold145.677785.CDSN",
   "size": "3818",
   "commonName": "CDSN",
   "group": "I",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold821.77015",
+  "name": "cheetah.scaffold821.77015.CLIC1",
   "size": "5039",
   "commonName": "CLIC1",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold821.83879",
+  "name": "cheetah.scaffold821.83879.DDAH2",
   "size": "1728",
   "commonName": "DDAH2",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold145.311522",
+  "name": "cheetah.scaffold145.311522.DHX16",
   "size": "15143",
   "commonName": "DHX16",
   "group": "I",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold786.468084",
+  "name": "cheetah.scaffold786.468084.EGFL8",
   "size": "1815",
   "commonName": "EGFL8",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold786.672847",
+  "name": "cheetah.scaffold786.672847.EHMT2",
   "size": "12337",
   "commonName": "EHMT2",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold786.498156",
+  "name": "cheetah.scaffold786.498156.FKBPL",
   "size": "1050",
   "commonName": "FKBPL",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold145.367231",
+  "name": "cheetah.scaffold145.367231.FLOT1",
   "size": "10866",
   "commonName": "FLOT1",
   "group": "I",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold823.126415",
+  "name": "cheetah.scaffold823.126415.GABBR1",
   "size": "24321",
   "commonName": "GABBR1",
   "group": "EXI",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold145.226983",
+  "name": "cheetah.scaffold145.226983.GNL1",
   "size": "6892",
   "commonName": "GNL1",
   "group": "I",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold786.443652",
+  "name": "cheetah.scaffold786.443652.GPSM3",
   "size": "1114",
   "commonName": "GPSM3",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold145.517287",
+  "name": "cheetah.scaffold145.517287.GTF2H4",
   "size": "4777",
   "commonName": "GTF2H4",
   "group": "I",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold1215.902033",
+  "name": "cheetah.scaffold1215.902033.HIST1H2BA",
   "size": "381",
   "commonName": "HIST1H2BA",
   "group": "histonnes",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold546.382553",
+  "name": "cheetah.scaffold546.382553.HMGN4",
   "size": "267",
   "commonName": "HMGN4",
   "group": "EXI",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold53.181000",
+  "name": "cheetah.scaffold53.181000.HMGN4",
   "size": "252",
   "commonName": "HMGN4",
   "group": "EXI",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold771.2037171",
+  "name": "cheetah.scaffold771.2037171.HMGN4",
   "size": "258",
   "commonName": "HMGN4",
   "group": "EXI",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold451.2857157",
+  "name": "cheetah.scaffold451.2857157.HMGN4",
   "size": "237",
   "commonName": "HMGN4",
   "group": "EXI",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold332.3865927",
+  "name": "cheetah.scaffold332.3865927.HMGN4",
   "size": "270",
   "commonName": "HMGN4",
   "group": "EXI",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold179.3893218",
+  "name": "cheetah.scaffold179.3893218.HMGN4",
   "size": "249",
   "commonName": "HMGN4",
   "group": "EXI",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold1215.343263",
+  "name": "cheetah.scaffold1215.343263.HMGN4",
   "size": "285",
   "commonName": "HMGN4",
   "group": "EXI",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold75.2302981",
+  "name": "cheetah.scaffold75.2302981.HMGN4",
   "size": "259",
   "commonName": "HMGN4",
   "group": "EXI",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold39.1262884",
+  "name": "cheetah.scaffold39.1262884.HMGN4",
   "size": "264",
   "commonName": "HMGN4",
   "group": "EXI",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold821.20985",
+  "name": "cheetah.scaffold821.20985.LSM2",
   "size": "462",
   "commonName": "LSM2",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold192.2878917",
+  "name": "cheetah.scaffold192.2878917.LSM2",
   "size": "283",
   "commonName": "LSM2",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold821.203190",
+  "name": "cheetah.scaffold821.203190.LST1",
   "size": "965",
   "commonName": "LST1",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold821.216626",
+  "name": "cheetah.scaffold821.216626.LTA",
   "size": "944",
   "commonName": "LTA",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold821.207690",
+  "name": "cheetah.scaffold821.207690.LTB",
   "size": "1808",
   "commonName": "LTB",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold821.124194",
+  "name": "cheetah.scaffold821.124194.LY6G5C",
   "size": "4255",
   "commonName": "LY6G5C",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold821.90657",
+  "name": "cheetah.scaffold821.90657.LY6G6C",
   "size": "2306",
   "commonName": "LY6G6C",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold821.94329",
+  "name": "cheetah.scaffold821.94329.LY6G6D",
   "size": "2055",
   "commonName": "LY6G6D",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold821.97922",
+  "name": "cheetah.scaffold821.97922.LY6G6E",
   "size": "1147",
   "commonName": "LY6G6E",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold821.100775",
+  "name": "cheetah.scaffold821.100775.LY6G6F",
   "size": "3008",
   "commonName": "LY6G6F",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold421.2570",
+  "name": "cheetah.scaffold421.2570.MCCD1",
   "size": "864",
   "commonName": "MCCD1",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold145.345648",
+  "name": "cheetah.scaffold145.345648.MDC1",
   "size": "11159",
   "commonName": "MDC1",
   "group": "I",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold823.171169",
+  "name": "cheetah.scaffold823.171169.MOG",
   "size": "8112",
   "commonName": "MOG",
   "group": "EXI",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold145.286733",
+  "name": "cheetah.scaffold145.286733.MRPS18B",
   "size": "5637",
   "commonName": "MRPS18B",
   "group": "I",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold821.49545",
+  "name": "cheetah.scaffold821.49545.MSH5",
   "size": "23770",
   "commonName": "MSH5",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold821.200098",
+  "name": "cheetah.scaffold821.200098.NCR3",
   "size": "2339",
   "commonName": "NCR3",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold786.698408",
+  "name": "cheetah.scaffold786.698408.NEU1",
   "size": "3165",
   "commonName": "NEU1",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold821.230285",
+  "name": "cheetah.scaffold821.230285.NFKBIL1",
   "size": "14345",
   "commonName": "NFKBIL1",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold781.84559",
+  "name": "cheetah.scaffold781.84559.NKAPL",
   "size": "1195",
   "commonName": "NKAPL",
   "group": "EXI",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold786.419587",
+  "name": "cheetah.scaffold786.419587.NOTCH4",
   "size": "21850",
   "commonName": "NOTCH4",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold145.339058",
+  "name": "cheetah.scaffold145.339058.NRM",
   "size": "2326",
   "commonName": "NRM",
   "group": "I",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold1020.1192254",
+  "name": "cheetah.scaffold1020.1192254.OR12D2",
   "size": "975",
   "commonName": "OR12D2",
   "group": "OR",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold411.1485097",
+  "name": "cheetah.scaffold411.1485097.OR12D2",
   "size": "912",
   "commonName": "OR12D2",
   "group": "OR",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold10.353775",
+  "name": "cheetah.scaffold10.353775.OR12D2",
   "size": "978",
   "commonName": "OR12D2",
   "group": "OR",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold10.336796",
+  "name": "cheetah.scaffold10.336796.OR12D2",
   "size": "978",
   "commonName": "OR12D2",
   "group": "OR",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold411.1190000",
+  "name": "cheetah.scaffold411.1190000.OR12D2",
   "size": "14471",
   "commonName": "OR12D2",
   "group": "OR",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold576.41205",
+  "name": "cheetah.scaffold576.41205.OR14J1",
   "size": "939",
   "commonName": "OR14J1",
   "group": "OR",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold766.58116",
+  "name": "cheetah.scaffold766.58116.OR14J1",
   "size": "927",
   "commonName": "OR14J1",
   "group": "OR",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold545.451770",
+  "name": "cheetah.scaffold545.451770.OR14J1",
   "size": "966",
   "commonName": "OR14J1",
   "group": "OR",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold1008.439750",
+  "name": "cheetah.scaffold1008.439750.OR2B3",
   "size": "4168",
   "commonName": "OR2B3",
   "group": "OR",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold20.3845805",
+  "name": "cheetah.scaffold20.3845805.OR2H2",
   "size": "903",
   "commonName": "OR2H2",
   "group": "OR",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold552.1441959",
+  "name": "cheetah.scaffold552.1441959.OR2H2",
   "size": "945",
   "commonName": "OR2H2",
   "group": "OR",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold30.261448",
+  "name": "cheetah.scaffold30.261448.OR2H2",
   "size": "948",
   "commonName": "OR2H2",
   "group": "OR",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold213.4406057",
+  "name": "cheetah.scaffold213.4406057.OR4D1",
   "size": "909",
   "commonName": "OR4D1",
   "group": "OR",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold641.180898",
+  "name": "cheetah.scaffold641.180898.PFDN6",
   "size": "304",
   "commonName": "PFDN6",
   "group": "EXII",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold781.35559",
+  "name": "cheetah.scaffold781.35559.PGBD1",
   "size": "24122",
   "commonName": "PGBD1",
   "group": "EXI",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold145.268180",
+  "name": "cheetah.scaffold145.268180.PPP1R10",
   "size": "10943",
   "commonName": "PPP1R10",
   "group": "I",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold823.207149",
+  "name": "cheetah.scaffold823.207149.PPP1R11",
   "size": "1719",
   "commonName": "PPP1R11",
   "group": "I",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold786.472104",
+  "name": "cheetah.scaffold786.472104.PPT2",
   "size": "5477",
   "commonName": "PPT2",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold786.472104",
+  "name": "cheetah.scaffold786.472104.PPT2",
   "size": "5477",
   "commonName": "PPT2",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold786.472104",
+  "name": "cheetah.scaffold786.472104.PPT2",
   "size": "5477",
   "commonName": "PPT2",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold303.3812200",
+  "name": "cheetah.scaffold303.3812200.PRR3",
   "size": "529",
   "commonName": "PRR3",
   "group": "I",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold303.3812200",
+  "name": "cheetah.scaffold303.3812200.PRR3",
   "size": "529",
   "commonName": "PRR3",
   "group": "I",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold982.972021",
+  "name": "cheetah.scaffold982.972021.PRR3",
   "size": "520",
   "commonName": "PRR3",
   "group": "I",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold982.972021",
+  "name": "cheetah.scaffold982.972021.PRR3",
   "size": "520",
   "commonName": "PRR3",
   "group": "I",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold145.696141",
+  "name": "cheetah.scaffold145.696141.PSORS1C2",
   "size": "1603",
   "commonName": "PSORS1C2",
   "group": "I",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold1652.37100",
+  "name": "cheetah.scaffold1652.37100.SCGN",
   "size": "35250",
   "commonName": "SCGN",
   "group": "EXI",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold786.601861",
+  "name": "cheetah.scaffold786.601861.SKIV2L",
   "size": "11039",
   "commonName": "SKIV2L",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold786.685971",
+  "name": "cheetah.scaffold786.685971.SLC44A4",
   "size": "11876",
   "commonName": "SLC44A4",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold1014.321756",
+  "name": "cheetah.scaffold1014.321756.SMCHD1",
   "size": "135082",
   "commonName": "SMCHD1",
   "group": "EXI",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold786.593878",
+  "name": "cheetah.scaffold786.593878.STK19",
   "size": "5475",
   "commonName": "STK19",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold145.716133",
+  "name": "cheetah.scaffold145.716133.TCF19",
   "size": "2411",
   "commonName": "TCF19",
   "group": "I",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold821.212456",
+  "name": "cheetah.scaffold821.212456.TNF",
   "size": "1778",
   "commonName": "TNF",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold913.138181",
+  "name": "cheetah.scaffold913.138181.TRIM27",
   "size": "1417",
   "commonName": "TRIM27",
   "group": "EXI",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold145.361120",
+  "name": "cheetah.scaffold145.361120.TUBB",
   "size": "3238",
   "commonName": "TUBB",
   "group": "I",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold145.361120",
+  "name": "cheetah.scaffold145.361120.TUBB",
   "size": "3238",
   "commonName": "TUBB",
   "group": "I",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold1017.966031",
+  "name": "cheetah.scaffold1017.966031.TUBB",
   "size": "1320",
   "commonName": "TUBB",
   "group": "I",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold1017.966031",
+  "name": "cheetah.scaffold1017.966031.TUBB",
   "size": "1320",
   "commonName": "TUBB",
   "group": "I",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold823.96003",
+  "name": "cheetah.scaffold823.96003.UBD",
   "size": "442",
   "commonName": "UBD",
   "group": "EXI",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold821.23084",
+  "name": "cheetah.scaffold821.23084.VARS",
   "size": "14422",
   "commonName": "VARS",
   "group": "III",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold781.145909",
+  "name": "cheetah.scaffold781.145909.ZKSCAN4",
   "size": "7050",
   "commonName": "ZKSCAN4",
   "group": "EXI",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold1874.49717",
+  "name": "cheetah.scaffold1874.49717.ZKSCAN4",
   "size": "1970",
   "commonName": "ZKSCAN4",
   "group": "EXI",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold781.269707",
+  "name": "cheetah.scaffold781.269707.ZNF165",
   "size": "3582",
   "commonName": "ZNF165",
   "group": "ZNF",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold799.1323093",
+  "name": "cheetah.scaffold799.1323093.ZNF165",
   "size": "4838",
   "commonName": "ZNF165",
   "group": "ZNF",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold1543.121471",
+  "name": "cheetah.scaffold1543.121471.ZNF391",
   "size": "1071",
   "commonName": "ZNF391",
   "group": "ZNF",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
 }, {
-  "name": "data/cheetahGenesB2corrected.bed.scaffold823.201488",
+  "name": "cheetah.scaffold823.201488.ZNRD1",
   "size": "2100",
   "commonName": "ZNRD1",
   "group": "I",
-  "file": "data/cheetahGenesB2corrected.bed",
-  "imports": "[]",
-  "type": "data/cheetahGenesB2corrected.bed"
+  "file": "cheetah",
+  "source_file": "data/cheetahGenesB2corrected.bed",
+  "type": "cheetah"
+}, {
+  "name": "dog.chr12.97511.ENPP3",
+  "size": "84376",
+  "commonName": "ENPP3",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.195725.MED23",
+  "size": "43841",
+  "commonName": "MED23",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.225356.U4",
+  "size": "0",
+  "commonName": "U4",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.243046.ARG1",
+  "size": "12201",
+  "commonName": "ARG1",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.331823.RPP21",
+  "size": "1941",
+  "commonName": "RPP21",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.375592.GNL1",
+  "size": "7694",
+  "commonName": "GNL1",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.381242.U4",
+  "size": "0",
+  "commonName": "U4",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.397040.ABCF1",
+  "size": "13908",
+  "commonName": "ABCF1",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.417679.PPP1R10",
+  "size": "10120",
+  "commonName": "PPP1R10",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.435193.MRPS18B",
+  "size": "5933",
+  "commonName": "MRPS18B",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.441897.ATAT1",
+  "size": "14255",
+  "commonName": "ATAT1",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.456729.C6orf136",
+  "size": "3590",
+  "commonName": "C6orf136",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.460775.DHX16",
+  "size": "17040",
+  "commonName": "DHX16",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.482138.NRM",
+  "size": "11007",
+  "commonName": "NRM",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.496903.MDC1",
+  "size": "10536",
+  "commonName": "MDC1",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.512944.TUBB",
+  "size": "3200",
+  "commonName": "TUBB",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.518353.FLOT1",
+  "size": "9865",
+  "commonName": "FLOT1",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.529737.IER3",
+  "size": "483",
+  "commonName": "IER3",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.551500.DPCR1",
+  "size": "161097",
+  "commonName": "DPCR1",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.635694.SNORA42",
+  "size": "0",
+  "commonName": "SNORA42",
+  "group": "NA",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.653806.DDR1",
+  "size": "16524",
+  "commonName": "DDR1",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.676676.GTF2H4",
+  "size": "4736",
+  "commonName": "GTF2H4",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.682032.VARSL",
+  "size": "11874",
+  "commonName": "VARSL",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.815482.C6orf15",
+  "size": "1150",
+  "commonName": "C6orf15",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.820466.CDSN",
+  "size": "3520",
+  "commonName": "CDSN",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.838392.PSORS1C2",
+  "size": "1231",
+  "commonName": "PSORS1C2",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.842244.CCHCR1",
+  "size": "11615",
+  "commonName": "CCHCR1",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.856212.TCF19",
+  "size": "2370",
+  "commonName": "TCF19",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.892227.DLA88",
+  "size": "3464",
+  "commonName": "DLA88",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.983572.DLA64",
+  "size": "3039",
+  "commonName": "DLA64",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1013177.DLA88",
+  "size": "8513",
+  "commonName": "DLA88",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1031187.MCCD1",
+  "size": "849",
+  "commonName": "MCCD1",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1032597.BAT1",
+  "size": "8945",
+  "commonName": "BAT1",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1037937.SNORD83",
+  "size": "0",
+  "commonName": "SNORD83",
+  "group": "NA",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1043607.SNORD83",
+  "size": "0",
+  "commonName": "SNORD83",
+  "group": "NA",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1047073.ATP6V1G1",
+  "size": "1044",
+  "commonName": "ATP6V1G1",
+  "group": "NA",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1049174.NFKBIL1",
+  "size": "8063",
+  "commonName": "NFKBIL1",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1071468.LTA",
+  "size": "943",
+  "commonName": "LTA",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1074560.TNF",
+  "size": "1712",
+  "commonName": "TNF",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1079422.LTB",
+  "size": "1731",
+  "commonName": "LTB",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1085227.LST1",
+  "size": "822",
+  "commonName": "LST1",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1086910.NCR3",
+  "size": "2571",
+  "commonName": "NCR3",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1104478.AIF1",
+  "size": "1580",
+  "commonName": "AIF1",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1112676.BAT2",
+  "size": "12684",
+  "commonName": "BAT2",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1113103.SNORA38",
+  "size": "0",
+  "commonName": "SNORA38",
+  "group": "NA",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1126820.BAT3",
+  "size": "19466",
+  "commonName": "BAT3",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1140322.APOM",
+  "size": "1889",
+  "commonName": "APOM",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1146519.BAT4",
+  "size": "2047",
+  "commonName": "BAT4",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1150957.CSNK2B",
+  "size": "57646",
+  "commonName": "CSNK2B",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1159965.LY6G5C",
+  "size": "3582",
+  "commonName": "LY6G5C",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1167970.BAT5",
+  "size": "14478",
+  "commonName": "BAT5",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1193402.LY6G6D",
+  "size": "3581",
+  "commonName": "LY6G6D",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1198300.LY6G6C",
+  "size": "2802",
+  "commonName": "LY6G6C",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1202720.C6orf25",
+  "size": "1678",
+  "commonName": "C6orf25",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1206391.DDAH2",
+  "size": "1956",
+  "commonName": "DDAH2",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1210011.CLIC1",
+  "size": "5011",
+  "commonName": "CLIC1",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1221801.MSH5",
+  "size": "21123",
+  "commonName": "MSH5",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1243973.SAPCD1",
+  "size": "1444",
+  "commonName": "SAPCD1",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1246339.VWA7",
+  "size": "7933",
+  "commonName": "VWA7",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1255016.VARS",
+  "size": "13876",
+  "commonName": "VARS",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1281471.HSPA1L",
+  "size": "1926",
+  "commonName": "HSPA1L",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1298769.HSPA1A",
+  "size": "1941",
+  "commonName": "HSPA1A",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1305611.SNORD48",
+  "size": "0",
+  "commonName": "SNORD48",
+  "group": "NA",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1306494.SNORD52",
+  "size": "0",
+  "commonName": "SNORD52",
+  "group": "NA",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1324174.NEU1",
+  "size": "3729",
+  "commonName": "NEU1",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1328398.SLC44A4",
+  "size": "12299",
+  "commonName": "SLC44A4",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1341543.EHMT2",
+  "size": "12608",
+  "commonName": "EHMT2",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1356822.ZBTB12",
+  "size": "1380",
+  "commonName": "ZBTB12",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1408625.RDBP",
+  "size": "1910",
+  "commonName": "RDBP",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1412539.SKIV2L",
+  "size": "11927",
+  "commonName": "SKIV2L",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1424644.DOM3Z",
+  "size": "1808",
+  "commonName": "DOM3Z",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1450739.CYP21A2",
+  "size": "2460",
+  "commonName": "CYP21A2",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1453418.TNXB",
+  "size": "48104",
+  "commonName": "TNXB",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1515672.CREBL1",
+  "size": "4329",
+  "commonName": "CREBL1",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1546249.PRRT1",
+  "size": "2639",
+  "commonName": "PRRT1",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1551681.PPT2",
+  "size": "5577",
+  "commonName": "PPT2",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1559409.EGFL8",
+  "size": "1860",
+  "commonName": "EGFL8",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1562547.AGPAT1",
+  "size": "2221",
+  "commonName": "AGPAT1",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1571450.RNF5",
+  "size": "1821",
+  "commonName": "RNF5",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1574422.AGER",
+  "size": "2778",
+  "commonName": "AGER",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1579230.PBX2",
+  "size": "3414",
+  "commonName": "PBX2",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1584310.GPSM3",
+  "size": "875",
+  "commonName": "GPSM3",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1586323.NOTCH4",
+  "size": "22252",
+  "commonName": "NOTCH4",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1713628.5S_rRNA",
+  "size": "0",
+  "commonName": "5S_rRNA",
+  "group": "NA",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1828937.C6orf10",
+  "size": "723",
+  "commonName": "C6orf10",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.1883350.U6",
+  "size": "0",
+  "commonName": "U6",
+  "group": "NA",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2089798.BTNL2",
+  "size": "13672",
+  "commonName": "BTNL2",
+  "group": "III",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2133123.DLA-DRA1",
+  "size": "3555",
+  "commonName": "DLA-DRA1",
+  "group": "II",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2152249.DLA-DRB1",
+  "size": "12313",
+  "commonName": "DLA-DRB1",
+  "group": "II",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2221187.DLA-DQA",
+  "size": "5322",
+  "commonName": "DLA-DQA",
+  "group": "II",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2245129.DLA-DQBC1",
+  "size": "5604",
+  "commonName": "DLA-DQBC1",
+  "group": "II",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2318243.7SK",
+  "size": "0",
+  "commonName": "7SK",
+  "group": "NA",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2378545.DLA-DOB",
+  "size": "5083",
+  "commonName": "DLA-DOB",
+  "group": "II",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2408269.presentation",
+  "size": "8629",
+  "commonName": "presentation",
+  "group": "(II)",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2419688.presentation",
+  "size": "3122",
+  "commonName": "presentation",
+  "group": "(II)",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2424464.presentation",
+  "size": "7604",
+  "commonName": "presentation",
+  "group": "(II)",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2432578.presentation",
+  "size": "5370",
+  "commonName": "presentation",
+  "group": "(II)",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2517600.DLA-DMA",
+  "size": "2928",
+  "commonName": "DLA-DMA",
+  "group": "II",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2538250.BRD2",
+  "size": "7152",
+  "commonName": "BRD2",
+  "group": "II",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2565599.DLA-DOA",
+  "size": "2688",
+  "commonName": "DLA-DOA",
+  "group": "II",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2584352.SCARNA20",
+  "size": "0",
+  "commonName": "SCARNA20",
+  "group": "NA",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2604545.HLA-DPB1",
+  "size": "3239",
+  "commonName": "HLA-DPB1",
+  "group": "II",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2627827.COL11A2",
+  "size": "7149",
+  "commonName": "COL11A2",
+  "group": "EXII",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2658174.RXRB",
+  "size": "5360",
+  "commonName": "RXRB",
+  "group": "EXII",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2663838.SLC39A7",
+  "size": "3071",
+  "commonName": "SLC39A7",
+  "group": "EXII",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2667755.HSD17B8",
+  "size": "1986",
+  "commonName": "HSD17B8",
+  "group": "EXII",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2670990.cfa-mir-219-1",
+  "size": "0",
+  "commonName": "cfa-mir-219-1",
+  "group": "NA",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2671884.RING1",
+  "size": "3277",
+  "commonName": "RING1",
+  "group": "EXII",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2698013.VPS52",
+  "size": "14546",
+  "commonName": "VPS52",
+  "group": "EXII",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2713002.RPS18",
+  "size": "5612",
+  "commonName": "RPS18",
+  "group": "EXII",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2719553.B3GALT4",
+  "size": "1152",
+  "commonName": "B3GALT4",
+  "group": "EXII",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2721432.WDR46",
+  "size": "7729",
+  "commonName": "WDR46",
+  "group": "EXII",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2729832.PFDN6",
+  "size": "925",
+  "commonName": "PFDN6",
+  "group": "EXII",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2732105.RGL2",
+  "size": "6640",
+  "commonName": "RGL2",
+  "group": "EXII",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2741359.TAPBP",
+  "size": "10258",
+  "commonName": "TAPBP",
+  "group": "EXII",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2752532.ZBTB22",
+  "size": "1923",
+  "commonName": "ZBTB22",
+  "group": "EXII",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2756162.DAXX",
+  "size": "3169",
+  "commonName": "DAXX",
+  "group": "EXII",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr12.2813625.KIFC1",
+  "size": "7459",
+  "commonName": "KIFC1",
+  "group": "EXII",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup12corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr35.26116872.OR2W1",
+  "size": "2419",
+  "commonName": "OR2W1",
+  "group": "OR",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup35corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr35.26213080.GABBR1",
+  "size": "24088",
+  "commonName": "GABBR1",
+  "group": "EXI",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup35corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr35.26256607.MOG",
+  "size": "10089",
+  "commonName": "MOG",
+  "group": "EXI",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup35corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr35.26267571.ZFP57",
+  "size": "3265",
+  "commonName": "ZFP57",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup35corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr35.26285783.ZNRD1",
+  "size": "1799",
+  "commonName": "ZNRD1",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup35corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr35.26289666.PPP1R11",
+  "size": "1581",
+  "commonName": "PPP1R11",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup35corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr35.26292780.RNF39",
+  "size": "4116",
+  "commonName": "RNF39",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup35corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr35.26350557.TRIM10",
+  "size": "5975",
+  "commonName": "TRIM10",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup35corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr35.26387778.TRIM26",
+  "size": "5208",
+  "commonName": "TRIM26",
+  "group": "I",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup35corrected.bed",
+  "type": "dog"
+}, {
+  "name": "dog.chr35.26432227.UBD",
+  "size": "28954",
+  "commonName": "UBD",
+  "group": "EXI",
+  "file": "dog",
+  "source_file": "data/dogGenesGroup35corrected.bed",
+  "type": "dog"
+}, {
+  "name": "human.chr6.7171033.presentation",
+  "size": "35451",
+  "commonName": "presentation",
+  "group": "(II)",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7140664.presentation",
+  "size": "25055",
+  "commonName": "presentation",
+  "group": "(II)",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7172106.presentation",
+  "size": "8769",
+  "commonName": "presentation",
+  "group": "(II)",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7167614.presentation",
+  "size": "3986",
+  "commonName": "presentation",
+  "group": "(II)",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.322395.TRIM38",
+  "size": "22073",
+  "commonName": "TRIM38",
+  "group": "TRIM/BUTYROPHILIN",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.817270.BTN2A1",
+  "size": "18699",
+  "commonName": "BTN2A1",
+  "group": "TRIM/BUTYROPHILIN",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.724579.BTN3A2",
+  "size": "13087",
+  "commonName": "BTN3A2",
+  "group": "TRIM/BUTYROPHILIN",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.761585.BTN3A1",
+  "size": "12979",
+  "commonName": "BTN3A1",
+  "group": "TRIM/BUTYROPHILIN",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.799820.BTN3A3",
+  "size": "12943",
+  "commonName": "BTN3A3",
+  "group": "TRIM/BUTYROPHILIN",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.742444.BTN2A2",
+  "size": "11778",
+  "commonName": "BTN2A2",
+  "group": "TRIM/BUTYROPHILIN",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.860569.BTN1A1",
+  "size": "9201",
+  "commonName": "BTN1A1",
+  "group": "TRIM/BUTYROPHILIN",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2651590.ZNF323",
+  "size": "31578",
+  "commonName": "ZNF323",
+  "group": "ZNF",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.1701514.ZNF391",
+  "size": "29289",
+  "commonName": "ZNF391",
+  "group": "ZNF",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.995638.ZNF322A",
+  "size": "23462",
+  "commonName": "ZNF322A",
+  "group": "ZNF",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.1777642.ZNF184",
+  "size": "22375",
+  "commonName": "ZNF184",
+  "group": "ZNF",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2468836.ZNF192",
+  "size": "14373",
+  "commonName": "ZNF192",
+  "group": "ZNF",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2405692.ZNF165",
+  "size": "10769",
+  "commonName": "ZNF165",
+  "group": "ZNF",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.3321682.ZNF311",
+  "size": "10531",
+  "commonName": "ZNF311",
+  "group": "ZNF",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2552190.ZNF193",
+  "size": "8190",
+  "commonName": "ZNF193",
+  "group": "ZNF",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2451458.ZNF435",
+  "size": "5522",
+  "commonName": "ZNF435",
+  "group": "ZNF",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.3595377.OR12D3",
+  "size": "181618",
+  "commonName": "OR12D3",
+  "group": "OR",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.3682127.OR5V1",
+  "size": "76737",
+  "commonName": "OR5V1",
+  "group": "OR",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.3752401.OR11A1",
+  "size": "31567",
+  "commonName": "OR11A1",
+  "group": "OR",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.3744177.OR10C1",
+  "size": "23674",
+  "commonName": "OR10C1",
+  "group": "OR",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.3784078.OR2H1",
+  "size": "7147",
+  "commonName": "OR2H1",
+  "group": "OR",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.3633523.OR14J1",
+  "size": "1116",
+  "commonName": "OR14J1",
+  "group": "OR",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2238144.OR2B2",
+  "size": "1073",
+  "commonName": "OR2B2",
+  "group": "OR",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.3914803.OR2H2",
+  "size": "1062",
+  "commonName": "OR2H2",
+  "group": "OR",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.3500431.OR2J2",
+  "size": "1040",
+  "commonName": "OR2J2",
+  "group": "OR",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.3427738.OR2J1",
+  "size": "1040",
+  "commonName": "OR2J1",
+  "group": "OR",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.3723536.OR12D2",
+  "size": "1032",
+  "commonName": "OR12D2",
+  "group": "OR",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.3371110.OR2W1",
+  "size": "1027",
+  "commonName": "OR2W1",
+  "group": "OR",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.3413204.OR2B3",
+  "size": "1006",
+  "commonName": "OR2B3",
+  "group": "OR",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2284139.OR4D1",
+  "size": "941",
+  "commonName": "OR4D1",
+  "group": "OR",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.3438788.OR2J3",
+  "size": "935",
+  "commonName": "OR2J3",
+  "group": "OR",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6905666.HLADRB1",
+  "size": "31507",
+  "commonName": "HLADRB1",
+  "group": "II",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7140664.XXbacBPG246D159",
+  "size": "25055",
+  "commonName": "XXbacBPG246D159",
+  "group": "II",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7068239.HLADQA2",
+  "size": "23512",
+  "commonName": "HLADQA2",
+  "group": "II",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7275510.HLADMA",
+  "size": "22103",
+  "commonName": "HLADMA",
+  "group": "II",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7439348.HLADPB2",
+  "size": "21041",
+  "commonName": "HLADPB2",
+  "group": "II",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6955076.HLADQA1",
+  "size": "18883",
+  "commonName": "HLADQA1",
+  "group": "II",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7261526.HLADMB",
+  "size": "18407",
+  "commonName": "HLADMB",
+  "group": "II",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7391466.HLADPA1",
+  "size": "16206",
+  "commonName": "HLADPA1",
+  "group": "II",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7264261.XXbacBPG181M175",
+  "size": "15758",
+  "commonName": "XXbacBPG181M175",
+  "group": "II",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6844240.HLADRB5",
+  "size": "12944",
+  "commonName": "HLADRB5",
+  "group": "II",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7295557.BRD2",
+  "size": "12845",
+  "commonName": "BRD2",
+  "group": "II",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7402823.HLADPB1",
+  "size": "11275",
+  "commonName": "HLADPB1",
+  "group": "II",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6986364.HLADQB1",
+  "size": "8916",
+  "commonName": "HLADQB1",
+  "group": "II",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7082995.HLADQB2",
+  "size": "7455",
+  "commonName": "HLADQB2",
+  "group": "II",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7331075.HLADOA",
+  "size": "5434",
+  "commonName": "HLADOA",
+  "group": "II",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6766739.HLADRA",
+  "size": "5204",
+  "commonName": "HLADRA",
+  "group": "II",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7139660.HLADOB",
+  "size": "4285",
+  "commonName": "HLADOB",
+  "group": "II",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6769795.AL6627961",
+  "size": "198",
+  "commonName": "AL6627961",
+  "group": "II",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7746967.SYNGAP1",
+  "size": "33619",
+  "commonName": "SYNGAP1",
+  "group": "EXII",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7489578.COL11A2",
+  "size": "29818",
+  "commonName": "COL11A2",
+  "group": "EXII",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7577169.VPS52",
+  "size": "21775",
+  "commonName": "VPS52",
+  "group": "EXII",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7718433.KIFC1",
+  "size": "18388",
+  "commonName": "KIFC1",
+  "group": "EXII",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7626591.TAPBP",
+  "size": "14693",
+  "commonName": "TAPBP",
+  "group": "EXII",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7645455.DAXX",
+  "size": "10711",
+  "commonName": "DAXX",
+  "group": "EXII",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7606005.WDR46",
+  "size": "10419",
+  "commonName": "WDR46",
+  "group": "EXII",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7616199.PFDN6",
+  "size": "9099",
+  "commonName": "PFDN6",
+  "group": "EXII",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7618551.RGL2",
+  "size": "7670",
+  "commonName": "RGL2",
+  "group": "EXII",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7520485.RXRB",
+  "size": "7100",
+  "commonName": "RXRB",
+  "group": "EXII",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7737296.PHF1",
+  "size": "6054",
+  "commonName": "PHF1",
+  "group": "EXII",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7598907.RPS18",
+  "size": "4500",
+  "commonName": "RPS18",
+  "group": "EXII",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7535392.RING1",
+  "size": "4227",
+  "commonName": "RING1",
+  "group": "EXII",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7527342.SLC39A7",
+  "size": "3994",
+  "commonName": "SLC39A7",
+  "group": "EXII",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7641303.ZBTB22",
+  "size": "3536",
+  "commonName": "ZBTB22",
+  "group": "EXII",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7781476.ZBTB9",
+  "size": "2969",
+  "commonName": "ZBTB9",
+  "group": "EXII",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7531539.HSD17B8",
+  "size": "2189",
+  "commonName": "HSD17B8",
+  "group": "EXII",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7743339.CUTA",
+  "size": "1875",
+  "commonName": "CUTA",
+  "group": "EXII",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.7604037.B3GALT4",
+  "size": "1685",
+  "commonName": "B3GALT4",
+  "group": "EXII",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.1198383.GUSBL1",
+  "size": "85070",
+  "commonName": "GUSBL1",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.1198386.AL1332551",
+  "size": "85067",
+  "commonName": "AL1332551",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.3882526.GABBR1",
+  "size": "78347",
+  "commonName": "GABBR1",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.11549.SCGN",
+  "size": "49582",
+  "commonName": "SCGN",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.192414.SLC17A3",
+  "size": "49220",
+  "commonName": "SLC17A3",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.142245.SLC17A1",
+  "size": "49162",
+  "commonName": "SLC17A1",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2830193.GPX6",
+  "size": "32622",
+  "commonName": "GPX6",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.114047.SLC17A4",
+  "size": "26492",
+  "commonName": "SLC17A4",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.1612802.POM121L2",
+  "size": "26267",
+  "commonName": "POM121L2",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.3229899.TRIM27",
+  "size": "20989",
+  "commonName": "TRIM27",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2608469.PGBD1",
+  "size": "20977",
+  "commonName": "PGBD1",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2705852.ZSCAN12",
+  "size": "20779",
+  "commonName": "ZSCAN12",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2676811.ZKSCAN3",
+  "size": "18857",
+  "commonName": "ZKSCAN3",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.272102.SLC17A2",
+  "size": "17857",
+  "commonName": "SLC17A2",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2898525.SCAND3",
+  "size": "15707",
+  "commonName": "SCAND3",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.3983878.MOG",
+  "size": "15391",
+  "commonName": "MOG",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2758827.ZSCAN23",
+  "size": "11572",
+  "commonName": "ZSCAN23",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.446629.HFE",
+  "size": "11062",
+  "commonName": "HFE",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2852822.GPX5",
+  "size": "9027",
+  "commonName": "GPX5",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.1574600.PRSS16",
+  "size": "8923",
+  "commonName": "PRSS16",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.897692.HMGN4",
+  "size": "8588",
+  "commonName": "HMGN4",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2571483.ZKSCAN4",
+  "size": "7681",
+  "commonName": "ZKSCAN4",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.3882412.UBD",
+  "size": "4410",
+  "commonName": "UBD",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.956300.ABT1",
+  "size": "3098",
+  "commonName": "ABT1",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.1459941.SMCHD1",
+  "size": "2249",
+  "commonName": "SMCHD1",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2586218.NKAPL",
+  "size": "1638",
+  "commonName": "NKAPL",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.3813663.MAS1L",
+  "size": "1136",
+  "commonName": "MAS1L",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.3270774.C6orf100",
+  "size": "660",
+  "commonName": "C6orf100",
+  "group": "EXI",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.4511352.TRIM26",
+  "size": "28972",
+  "commonName": "TRIM26",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.4898273.ABCF1",
+  "size": "25803",
+  "commonName": "ABCF1",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5441647.PSORS1C1",
+  "size": "25310",
+  "commonName": "PSORS1C1",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5203318.DDR1",
+  "size": "23735",
+  "commonName": "DDR1",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.4653376.TRIM39",
+  "size": "20375",
+  "commonName": "TRIM39",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.4953739.C6orf134",
+  "size": "19981",
+  "commonName": "C6orf134",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.4980016.DHX16",
+  "size": "19918",
+  "commonName": "DHX16",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5235139.VARSL",
+  "size": "18217",
+  "commonName": "VARSL",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.4927297.PPP1R10",
+  "size": "18212",
+  "commonName": "PPP1R10",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5026704.MDC1",
+  "size": "18082",
+  "commonName": "MDC1",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.4656479.XXbacBPG283O168",
+  "size": "17272",
+  "commonName": "XXbacBPG283O168",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5726681.MICA",
+  "size": "16455",
+  "commonName": "MICA",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.4868274.GNL1",
+  "size": "15854",
+  "commonName": "GNL1",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5469336.CCHCR1",
+  "size": "15799",
+  "commonName": "CCHCR1",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.4049672.HLAF",
+  "size": "15753",
+  "commonName": "HLAF",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5054606.FLOT1",
+  "size": "15024",
+  "commonName": "FLOT1",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5267869.DPCR1",
+  "size": "13249",
+  "commonName": "DPCR1",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5824983.MICB",
+  "size": "13038",
+  "commonName": "MICB",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.4463005.TRIM40",
+  "size": "12627",
+  "commonName": "TRIM40",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5003286.KIAA1949",
+  "size": "11506",
+  "commonName": "KIAA1949",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.4429794.TRIM31",
+  "size": "10209",
+  "commonName": "TRIM31",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.4490103.TRIM15",
+  "size": "9490",
+  "commonName": "TRIM15",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.4478842.TRIM10",
+  "size": "8989",
+  "commonName": "TRIM10",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.3999289.ZFP57",
+  "size": "8718",
+  "commonName": "ZFP57",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.4944606.MRPS18B",
+  "size": "8686",
+  "commonName": "MRPS18B",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.4883783.PRR3",
+  "size": "6837",
+  "commonName": "PRR3",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5491234.POU5F1",
+  "size": "6356",
+  "commonName": "POU5F1",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5310605.C6orf205",
+  "size": "6195",
+  "commonName": "C6orf205",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.4973936.C6orf136",
+  "size": "6171",
+  "commonName": "C6orf136",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.4385796.ZNRD1",
+  "size": "6010",
+  "commonName": "ZNRD1",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5235081.GTF2H4",
+  "size": "5922",
+  "commonName": "GTF2H4",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5485439.TCF19",
+  "size": "5673",
+  "commonName": "TCF19",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.4397163.RNF39",
+  "size": "5621",
+  "commonName": "RNF39",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5441987.CDSN",
+  "size": "5356",
+  "commonName": "CDSN",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5047098.TUBB",
+  "size": "5225",
+  "commonName": "TUBB",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.4816351.HLAE",
+  "size": "4751",
+  "commonName": "HLAE",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.4268157.HLAA",
+  "size": "4624",
+  "commonName": "HLAA",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.4153864.HLAG",
+  "size": "4158",
+  "commonName": "HLAG",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.4393606.PPP1R11",
+  "size": "3624",
+  "commonName": "PPP1R11",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5595646.HLAC",
+  "size": "3381",
+  "commonName": "HLAC",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5014944.NRM",
+  "size": "3373",
+  "commonName": "NRM",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5680769.HLAB",
+  "size": "3340",
+  "commonName": "HLAB",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5464431.PSORS1C2",
+  "size": "1816",
+  "commonName": "PSORS1C2",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.4672028.RPP21",
+  "size": "1753",
+  "commonName": "RPP21",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5070096.IER3",
+  "size": "1355",
+  "commonName": "IER3",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5438120.C6orf15",
+  "size": "1336",
+  "commonName": "C6orf15",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5258250.SFTA2",
+  "size": "822",
+  "commonName": "SFTA2",
+  "group": "I",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.483493.HIST1H2AC",
+  "size": "14963",
+  "commonName": "HIST1H2AC",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.517494.HIST1H2BD",
+  "size": "13203",
+  "commonName": "HIST1H2BD",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.1464128.HIST1H2BK",
+  "size": "9623",
+  "commonName": "HIST1H2BK",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.473753.HIST1H2BC",
+  "size": "9521",
+  "commonName": "HIST1H2BC",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.640403.HIST1H4H",
+  "size": "4479",
+  "commonName": "HIST1H4H",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2217280.HIST1H3J",
+  "size": "2724",
+  "commonName": "HIST1H3J",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.556132.HIST1H3D",
+  "size": "2452",
+  "commonName": "HIST1H3D",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.628753.HIST1H3G",
+  "size": "2410",
+  "commonName": "HIST1H3G",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2164658.HIST1H2BN",
+  "size": "1722",
+  "commonName": "HIST1H2BN",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.404732.HIST1H3C",
+  "size": "1410",
+  "commonName": "HIST1H3C",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.563978.HIST1H4E",
+  "size": "1408",
+  "commonName": "HIST1H4E",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.1466196.HIST1H4I",
+  "size": "1342",
+  "commonName": "HIST1H4I",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.558868.HIST1H2BF",
+  "size": "1194",
+  "commonName": "HIST1H2BF",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2193690.HIST1H1B",
+  "size": "789",
+  "commonName": "HIST1H1B",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.515679.HIST1H1E",
+  "size": "784",
+  "commonName": "HIST1H1E",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.376380.HIST1H1A",
+  "size": "780",
+  "commonName": "HIST1H1A",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.593560.HIST1H1D",
+  "size": "776",
+  "commonName": "HIST1H1D",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.415088.HIST1H1C",
+  "size": "731",
+  "commonName": "HIST1H1C",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.466760.HIST1H1T",
+  "size": "724",
+  "commonName": "HIST1H1T",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2192154.HIST1H2AL",
+  "size": "572",
+  "commonName": "HIST1H2AL",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.576285.HIST1H2AE",
+  "size": "546",
+  "commonName": "HIST1H2AE",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2135019.HIST1H2AI",
+  "size": "530",
+  "commonName": "HIST1H2AI",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.85411.HIST1H2AA",
+  "size": "499",
+  "commonName": "HIST1H2AA",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.543078.HIST1H2BE",
+  "size": "496",
+  "commonName": "HIST1H2BE",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2219597.HIST1H2AM",
+  "size": "486",
+  "commonName": "HIST1H2AM",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.632264.HIST1H2BI",
+  "size": "478",
+  "commonName": "HIST1H2BI",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.392440.HIST1H2AB",
+  "size": "476",
+  "commonName": "HIST1H2AB",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2136962.HIST1H3H",
+  "size": "472",
+  "commonName": "HIST1H3H",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.1459215.HIST1H2BJ",
+  "size": "468",
+  "commonName": "HIST1H2BJ",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2220323.HIST1H2BO",
+  "size": "466",
+  "commonName": "HIST1H2BO",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.379838.HIST1H3A",
+  "size": "464",
+  "commonName": "HIST1H3A",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.584503.HIST1H3E",
+  "size": "461",
+  "commonName": "HIST1H3E",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2164778.HIST1H2AK",
+  "size": "459",
+  "commonName": "HIST1H2AK",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.1473981.HIST1H2AH",
+  "size": "456",
+  "commonName": "HIST1H2AH",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2134377.HIST1H2BL",
+  "size": "452",
+  "commonName": "HIST1H2BL",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2141942.HIST1H2BM",
+  "size": "445",
+  "commonName": "HIST1H2BM",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2141200.HIST1H2AJ",
+  "size": "438",
+  "commonName": "HIST1H2AJ",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.86257.HIST1H2BA",
+  "size": "436",
+  "commonName": "HIST1H2BA",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.402575.HIST1H2BB",
+  "size": "430",
+  "commonName": "HIST1H2BB",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.610999.HIST1H2BH",
+  "size": "424",
+  "commonName": "HIST1H2BH",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.599681.HIST1H4F",
+  "size": "415",
+  "commonName": "HIST1H4F",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.463224.HIST1H4C",
+  "size": "414",
+  "commonName": "HIST1H4C",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.390998.HIST1H3B",
+  "size": "410",
+  "commonName": "HIST1H3B",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.609543.HIST1H3F",
+  "size": "410",
+  "commonName": "HIST1H3F",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2198803.HIST1H3I",
+  "size": "410",
+  "commonName": "HIST1H3I",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.558199.HIST1H2AD",
+  "size": "392",
+  "commonName": "HIST1H2AD",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.575611.HIST1H2BG",
+  "size": "380",
+  "commonName": "HIST1H2BG",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2151004.HIST1H4J",
+  "size": "373",
+  "commonName": "HIST1H4J",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.381027.HIST1H4A",
+  "size": "371",
+  "commonName": "HIST1H4A",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.605959.HIST1H4G",
+  "size": "366",
+  "commonName": "HIST1H4G",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.548058.HIST1H4D",
+  "size": "366",
+  "commonName": "HIST1H4D",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2200046.HIST1H4L",
+  "size": "363",
+  "commonName": "HIST1H4L",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.386244.HIST1H4B",
+  "size": "356",
+  "commonName": "HIST1H4B",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.2158114.HIST1H4K",
+  "size": "311",
+  "commonName": "HIST1H4K",
+  "group": "histonnes",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6335316.TNXB",
+  "size": "106915",
+  "commonName": "TNXB",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6619595.C6orf10",
+  "size": "79209",
+  "commonName": "C6orf10",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6308954.C4B",
+  "size": "53361",
+  "commonName": "C4B",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6224682.C2",
+  "size": "47887",
+  "commonName": "C2",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6425073.CREBL1",
+  "size": "30077",
+  "commonName": "CREBL1",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6521740.NOTCH4",
+  "size": "29224",
+  "commonName": "NOTCH4",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6013859.LY6G6E",
+  "size": "27110",
+  "commonName": "LY6G6E",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6066845.MSH5",
+  "size": "24903",
+  "commonName": "MSH5",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6254595.CFB",
+  "size": "24386",
+  "commonName": "CFB",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6254595.XXbacBPG116M517",
+  "size": "24350",
+  "commonName": "XXbacBPG116M517",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6308921.C4A",
+  "size": "20657",
+  "commonName": "C4A",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6718361.BTNL2",
+  "size": "20270",
+  "commonName": "BTNL2",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6480338.PPT2",
+  "size": "18537",
+  "commonName": "PPT2",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6104415.VARS",
+  "size": "18435",
+  "commonName": "VARS",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5857116.ATP6V1G2",
+  "size": "18208",
+  "commonName": "ATP6V1G2",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6206656.EHMT2",
+  "size": "17928",
+  "commonName": "EHMT2",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5947570.BAT2",
+  "size": "17098",
+  "commonName": "BAT2",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6013846.BAT5",
+  "size": "16495",
+  "commonName": "BAT5",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6190089.SLC44A4",
+  "size": "15854",
+  "commonName": "SLC44A4",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5965925.BAT3",
+  "size": "13677",
+  "commonName": "BAT3",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5857116.BAT1",
+  "size": "12229",
+  "commonName": "BAT1",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5873767.NFKBIL1",
+  "size": "11959",
+  "commonName": "NFKBIL1",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6092487.C6orf27",
+  "size": "11741",
+  "commonName": "C6orf27",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6033782.LY6G6F",
+  "size": "11033",
+  "commonName": "LY6G6F",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6033801.XXbacBPG32J319",
+  "size": "11014",
+  "commonName": "XXbacBPG32J319",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6285701.SKIV2L",
+  "size": "10951",
+  "commonName": "SKIV2L",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6297988.STK19",
+  "size": "10360",
+  "commonName": "STK19",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6495109.AGPAT1",
+  "size": "9884",
+  "commonName": "AGPAT1",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6124293.LSM2",
+  "size": "9588",
+  "commonName": "LSM2",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6057478.CLIC1",
+  "size": "9182",
+  "commonName": "CLIC1",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5992133.CSNK2B",
+  "size": "8310",
+  "commonName": "CSNK2B",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6045491.C6orf25",
+  "size": "8120",
+  "commonName": "C6orf25",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5992777.LY6G5B",
+  "size": "7896",
+  "commonName": "LY6G5B",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6003581.LY6G5C",
+  "size": "7356",
+  "commonName": "LY6G5C",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6278984.RDBP",
+  "size": "7023",
+  "commonName": "RDBP",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6475256.PRRT1",
+  "size": "6014",
+  "commonName": "PRRT1",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5979313.APOM",
+  "size": "5794",
+  "commonName": "APOM",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6511630.PBX2",
+  "size": "5453",
+  "commonName": "PBX2",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6136516.HSPA1L",
+  "size": "5446",
+  "commonName": "HSPA1L",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6184556.NEU1",
+  "size": "5247",
+  "commonName": "NEU1",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6161505.C6orf48",
+  "size": "5156",
+  "commonName": "C6orf48",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5988126.BAT4",
+  "size": "5054",
+  "commonName": "BAT4",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6505251.RNF5",
+  "size": "5038",
+  "commonName": "RNF5",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6517663.GPSM3",
+  "size": "4757",
+  "commonName": "GPSM3",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5915792.NCR3",
+  "size": "4090",
+  "commonName": "NCR3",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6491480.EGFL8",
+  "size": "3698",
+  "commonName": "EGFL8",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6053935.DDAH2",
+  "size": "3579",
+  "commonName": "DDAH2",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6365162.CYP21A2",
+  "size": "3405",
+  "commonName": "CYP21A2",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6507865.AGER",
+  "size": "3356",
+  "commonName": "AGER",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6045545.LY6G6C",
+  "size": "3197",
+  "commonName": "LY6G6C",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5902123.TNF",
+  "size": "3110",
+  "commonName": "TNF",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5913021.LST1",
+  "size": "2785",
+  "commonName": "LST1",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6296707.DOM3Z",
+  "size": "2482",
+  "commonName": "DOM3Z",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5985195.C6orf47",
+  "size": "2474",
+  "commonName": "C6orf47",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6042253.LY6G6D",
+  "size": "2448",
+  "commonName": "LY6G6D",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6089341.C6orf26",
+  "size": "2407",
+  "commonName": "C6orf26",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6142440.HSPA1A",
+  "size": "2403",
+  "commonName": "HSPA1A",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6226504.ZBTB12",
+  "size": "2385",
+  "commonName": "ZBTB12",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6154808.HSPA1B",
+  "size": "2343",
+  "commonName": "HSPA1B",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5898951.LTA",
+  "size": "2270",
+  "commonName": "LTA",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5907422.LTB",
+  "size": "1997",
+  "commonName": "LTB",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5942081.AIF1",
+  "size": "1837",
+  "commonName": "AIF1",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.6455604.FKBPL",
+  "size": "1584",
+  "commonName": "FKBPL",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
+}, {
+  "name": "human.chr6.5855614.MCCD1",
+  "size": "1515",
+  "commonName": "MCCD1",
+  "group": "III",
+  "file": "human",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "type": "human"
 }]
