@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>CS 360 Data Visualization</title>
+
+  <!-- JavaScript Libraries //-->
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+
+  <!-- CSS Style //-->
+  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900|Source+Code+Pro:300" rel="stylesheet" type="text/css">
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+  <script>
+  /* GLOBALS */
+
+  var width  = 3000;           // width of svg image
+  var height = 800;           // height of svg image
+  var margin = 20;            // amount of margin around plot area
+  var pad = margin / 2;       // actual padding amount
+  var radius = 10;             // fixed node radius
+  var yfixed = pad + radius;  // y position for all nodes
+
+  /* HELPER FUNCTIONS */
+
+  // Generates a tooltip for a SVG circle element based on its ID
+  function addTooltip(circle) {
+    var x = parseFloat(circle.attr("x"));
+    var y = parseFloat(circle.attr("y"));
+    var r = parseFloat(circle.attr("width"));
+    var text = circle.attr("id");
+
+    var tooltip = d3.select("#plot")
+    .append("text")
+    .text(text)
+    .attr("x", x)
+    .attr("y", y)
+    .attr("dy", -r * 2)
+    .attr("id", "tooltip");
+
+    var offset = tooltip.node().getBBox().width / 2;
+
+    if ((x - offset) < 0) {
+      tooltip.attr("text-anchor", "start");
+      tooltip.attr("dx", -r);
+    }
+    else if ((x + offset) > (width - margin)) {
+      tooltip.attr("text-anchor", "end");
+      tooltip.attr("dx", r);
+    }
+    else {
+      tooltip.attr("text-anchor", "middle");
+      tooltip.attr("dx", 0);
+    }
+  }
+
+  /* MAIN DRAW METHOD */
+
+  // Draws an arc diagram for the provided undirected graph
+  function arcDiagram(nodes) {
+    // create svg image
+    var svg  = d3.select("body")
+    .append("svg")
+    .attr("id", "arc")
+    .attr("width", width)
+    .attr("height", height);
+
+    // draw border around svg image
+    // svg.append("rect")
+    //     .attr("class", "outline")
+    //     .attr("width", width)
+    //     .attr("height", height);
+
+    // create plot area within svg image
+    var plot = svg.append("g")
+    .attr("id", "plot")
+    .attr("transform", "translate(" + pad + ", " + pad + ")");
+
+    nodes.byName = {};
+    var by_node_name = function(d) {
+      nodes.byName[d.name] = d;
+    };
+    nodes.forEach(by_node_name);
+    nodes.links = [];
+    // fix graph links to map to objects instead of indices
+    nodes.forEach(function(node) {
+      nodes.links.push({ 'source': node, 'target':  node});
+      node.imports.forEach(function(node_id){
+        nodes.links.push({ 'source': node, 'target':  nodes.byName[node_id]});
+      });
+    });
+
+    // must be done AFTER links are fixed
+    linearLayout(nodes);
+
+    // draw links first, so nodes appear on top
+    drawLinks(nodes.links);
+
+    // draw nodes last
+    drawNodes(nodes);
+  }
+
+  // Layout nodes linearly, sorted by group
+  function linearLayout(nodes) {
+    // sort nodes by group
+    //nodes.sort(function(a, b) {
+    //  return a.group < b.group;
+    //})
+    nodes.types = [];
+    nodes.indices = {};
+    for (var i = 0; i < nodes.length; i++) {
+      if (nodes.types.indexOf(nodes[i].type) < 0) {
+        nodes.types.push(nodes[i].type);
+        nodes.indices[nodes[i].type] = 0;
+      }
+        nodes[i].index = nodes.indices[nodes[i].type];
+        nodes.indices[nodes[i].type] += 1;
+        nodes[i].axis = nodes.types.indexOf(nodes[i].type);
+
+    }
+
+    // used to scale node index to x position
+    var xscale = d3.scale.linear()
+    .domain([0, nodes.length - 1])
+    .range([radius, width - margin - radius]);
+
+    var yscale = d3.scale.ordinal().domain(nodes.types).range(d3.range(nodes.types.length));
+
+
+    // calculate pixel location for each node
+    nodes.forEach(function(d, i) {
+      d.x = d.index*radius+1;
+      d.y = 50+200*d.axis;
+    });
+  }
+
+  // Draws nodes on plot
+  function drawNodes(nodes) {
+    // used to assign nodes color by group
+    var color = d3.scale.category20();
+
+    d3.select("#plot").selectAll(".node")
+    .data(nodes)
+    .enter()
+    .append("rect")
+    .attr("class", "node")
+    .attr("id", function(d, i) { return d.name; })
+    .attr("x", function(d, i) { return d.x; })
+    .attr("y", function(d, i) { return d.y; })
+    .attr("width",  function(d, i) { return radius; })
+    .attr("height",  function(d, i) { return radius; })
+    .style("fill",   function(d, i) { return color(d.group); })
+    .on("mouseover", function(d, i) { addTooltip(d3.select(this)); })
+    .on("mouseout",  function(d, i) { d3.select("#tooltip").remove(); });
+  }
+
+  // Draws nice arcs for each link on plot
+  function drawLinks(links) {
+    // scale to generate radians (just for lower-half of circle)
+
+    // path generator for arcs (uses polar coordinates)
+    var lineFunction = d3.svg.line()
+        .x(function(d) { return d.x; })
+        .y(function(d) { return d.y; })
+        .interpolate("monotone");
+
+    var color = d3.scale.category20c().domain(d3.range(20));
+    // add links
+    d3.select("#plot").selectAll(".link")
+    .data(links)
+    .enter()
+    .append("path")
+    .attr("class", "link")
+    .attr("d",  function(d, i) {
+      //console.log(lineFunction([d.source.x, d.source.y, d.target.x, d.target.y]));
+      return lineFunction([{'x' : d.source.x, 'y' : d.source.y}, {'x' : d.target.x, 'y' : d.target.y}]);
+      });
+    //.style("fill", function(d) { return color(d.type); });
+  }
+</script>
+</head>
+
+<body>
+  <script>
+    d3.json("species.json", arcDiagram);
+  </script>
+</body>
+</html>
