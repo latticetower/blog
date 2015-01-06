@@ -41,13 +41,13 @@ var prep_data = function(plot_info, nodes) {
       }
     }
     for (var i=0; i<nodes.length; i++) {
-      var node_name  = nodes[i].name
+      var node_name  = nodes[i].name;
       //console.log(g.groups[nodes[i].group].length);
       //console.log(g.groups[nodes[i].group]);
-      nodes[i].imports = g.groups[nodes[i].group].filter(function(x) { return x.indexOf(nodes[i].alias)!=0; });
+      //nodes[i].imports = g.groups[nodes[i].group].filter(function(x) { return x.indexOf(nodes[i].alias)!=0; });
       //nodes[i].type = nodes[i].file;
       //console.log(nodes[i].imports.length);
-      nodes[i].imports = [node_name];
+      //nodes[i].imports = [node_name];
       var imports    = nodes[i].imports;
       for (var j=0; j<imports.length; j++) {
         var imp_name = imports[j];
