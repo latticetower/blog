@@ -4392,100 +4392,16 @@
     "cat.chrB2.32072037.GNL1"
     ]
 }, {
-  "group": "OR",
-  "name": "cat.chrB2.284030.OR11A1",
-  "commonName": "OR11A1",
-  "start": "284030",
-  "chr": "chrB2",
-  "source_file": "data/catGenesGroupB2_2corrected.bed",
-  "file": "cat",
-  "type": "cat",
-  "gene_links": [
-    "cat.chrB2.284030.OR11A1"
-    ]
-}, {
-  "group": "NA",
-  "name": "cat.chrB2.262954.5S_rRNA",
-  "commonName": "5S_rRNA",
-  "start": "262954",
-  "chr": "chrB2",
-  "source_file": "data/catGenesGroupB2_2corrected.bed",
-  "file": "cat",
-  "type": "cat",
-  "gene_links": [
-    "cat.chrB2.262954.5S_rRNA"
-    ]
-}, {
-  "group": "EXI",
-  "name": "cat.chrB2.182718.GABBR1",
-  "commonName": "GABBR1",
-  "start": "182718",
-  "chr": "chrB2",
-  "source_file": "data/catGenesGroupB2_2corrected.bed",
-  "file": "cat",
-  "type": "cat",
-  "gene_links": [
-    "cat.chrB2.182718.GABBR1"
-    ]
-}, {
-  "group": "EXI",
-  "name": "cat.chrB2.153567.MOG",
-  "commonName": "MOG",
-  "start": "153567",
-  "chr": "chrB2",
-  "source_file": "data/catGenesGroupB2_2corrected.bed",
-  "file": "cat",
-  "type": "cat",
-  "gene_links": [
-    "cat.chrB2.153567.MOG"
-    ]
-}, {
   "group": "I",
-  "name": "cat.chrB2.150330.ZFP57",
-  "commonName": "ZFP57",
-  "start": "150330",
+  "name": "cat.chrB2.34917.TRIM26",
+  "commonName": "TRIM26",
+  "start": "34917",
   "chr": "chrB2",
   "source_file": "data/catGenesGroupB2_2corrected.bed",
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.150330.ZFP57"
-    ]
-}, {
-  "group": "I",
-  "name": "cat.chrB2.129140.ZNRD1",
-  "commonName": "ZNRD1",
-  "start": "129140",
-  "chr": "chrB2",
-  "source_file": "data/catGenesGroupB2_2corrected.bed",
-  "file": "cat",
-  "type": "cat",
-  "gene_links": [
-    "cat.chrB2.129140.ZNRD1"
-    ]
-}, {
-  "group": "I",
-  "name": "cat.chrB2.123810.PPP1R11",
-  "commonName": "PPP1R11",
-  "start": "123810",
-  "chr": "chrB2",
-  "source_file": "data/catGenesGroupB2_2corrected.bed",
-  "file": "cat",
-  "type": "cat",
-  "gene_links": [
-    "cat.chrB2.123810.PPP1R11"
-    ]
-}, {
-  "group": "I",
-  "name": "cat.chrB2.65811.TRIM10",
-  "commonName": "TRIM10",
-  "start": "65811",
-  "chr": "chrB2",
-  "source_file": "data/catGenesGroupB2_2corrected.bed",
-  "file": "cat",
-  "type": "cat",
-  "gene_links": [
-    "cat.chrB2.65811.TRIM10"
+    "cat.chrB2.34917.TRIM26"
     ]
 }, {
   "group": "I",
@@ -4501,15 +4417,99 @@
     ]
 }, {
   "group": "I",
-  "name": "cat.chrB2.34917.TRIM26",
-  "commonName": "TRIM26",
-  "start": "34917",
+  "name": "cat.chrB2.65811.TRIM10",
+  "commonName": "TRIM10",
+  "start": "65811",
   "chr": "chrB2",
   "source_file": "data/catGenesGroupB2_2corrected.bed",
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34917.TRIM26"
+    "cat.chrB2.65811.TRIM10"
+    ]
+}, {
+  "group": "I",
+  "name": "cat.chrB2.123810.PPP1R11",
+  "commonName": "PPP1R11",
+  "start": "123810",
+  "chr": "chrB2",
+  "source_file": "data/catGenesGroupB2_2corrected.bed",
+  "file": "cat",
+  "type": "cat",
+  "gene_links": [
+    "cat.chrB2.123810.PPP1R11"
+    ]
+}, {
+  "group": "I",
+  "name": "cat.chrB2.129140.ZNRD1",
+  "commonName": "ZNRD1",
+  "start": "129140",
+  "chr": "chrB2",
+  "source_file": "data/catGenesGroupB2_2corrected.bed",
+  "file": "cat",
+  "type": "cat",
+  "gene_links": [
+    "cat.chrB2.129140.ZNRD1"
+    ]
+}, {
+  "group": "I",
+  "name": "cat.chrB2.150330.ZFP57",
+  "commonName": "ZFP57",
+  "start": "150330",
+  "chr": "chrB2",
+  "source_file": "data/catGenesGroupB2_2corrected.bed",
+  "file": "cat",
+  "type": "cat",
+  "gene_links": [
+    "cat.chrB2.150330.ZFP57"
+    ]
+}, {
+  "group": "EXI",
+  "name": "cat.chrB2.153567.MOG",
+  "commonName": "MOG",
+  "start": "153567",
+  "chr": "chrB2",
+  "source_file": "data/catGenesGroupB2_2corrected.bed",
+  "file": "cat",
+  "type": "cat",
+  "gene_links": [
+    "cat.chrB2.153567.MOG"
+    ]
+}, {
+  "group": "EXI",
+  "name": "cat.chrB2.182718.GABBR1",
+  "commonName": "GABBR1",
+  "start": "182718",
+  "chr": "chrB2",
+  "source_file": "data/catGenesGroupB2_2corrected.bed",
+  "file": "cat",
+  "type": "cat",
+  "gene_links": [
+    "cat.chrB2.182718.GABBR1"
+    ]
+}, {
+  "group": "NA",
+  "name": "cat.chrB2.262954.5S_rRNA",
+  "commonName": "5S_rRNA",
+  "start": "262954",
+  "chr": "chrB2",
+  "source_file": "data/catGenesGroupB2_2corrected.bed",
+  "file": "cat",
+  "type": "cat",
+  "gene_links": [
+    "cat.chrB2.262954.5S_rRNA"
+    ]
+}, {
+  "group": "OR",
+  "name": "cat.chrB2.284030.OR11A1",
+  "commonName": "OR11A1",
+  "start": "284030",
+  "chr": "chrB2",
+  "source_file": "data/catGenesGroupB2_2corrected.bed",
+  "file": "cat",
+  "type": "cat",
+  "gene_links": [
+    "cat.chrB2.284030.OR11A1"
     ]
 }, {
   "group": "EXII",
@@ -6302,10 +6302,148 @@
     "cheetah.scaffold145.71136.FLA-A"
     ]
 }, {
+  "group": "I",
+  "name": "cheetah.scaffold823.289135.TRIM26",
+  "commonName": "TRIM26",
+  "start": "289135",
+  "chr": "scaffold823",
+  "source_file": "data/cheetah_mhc_corrected_map.txt",
+  "file": "cheetah",
+  "type": "cheetah",
+  "gene_links": [
+    "cat.chrB2.34917.TRIM26",
+    "cheetah.scaffold823.289135.TRIM26",
+    "dog.chr35.26387778.TRIM26",
+    "human.chr6.4511352.TRIM26"
+    ]
+}, {
+  "group": "I",
+  "name": "cheetah.scaffold823.207149.PPP1R11",
+  "commonName": "PPP1R11",
+  "start": "207149",
+  "chr": "scaffold823",
+  "source_file": "data/cheetah_mhc_corrected_map.txt",
+  "file": "cheetah",
+  "type": "cheetah",
+  "gene_links": [
+    "cat.chrB2.123810.PPP1R11",
+    "cheetah.scaffold823.207149.PPP1R11",
+    "dog.chr35.26289666.PPP1R11",
+    "human.chr6.4393606.PPP1R11"
+    ]
+}, {
+  "group": "I",
+  "name": "cheetah.scaffold823.201488.ZNRD1",
+  "commonName": "ZNRD1",
+  "start": "201488",
+  "chr": "scaffold823",
+  "source_file": "data/cheetah_mhc_corrected_map.txt",
+  "file": "cheetah",
+  "type": "cheetah",
+  "gene_links": [
+    "cat.chrB2.129140.ZNRD1",
+    "cheetah.scaffold823.201488.ZNRD1",
+    "dog.chr35.26285783.ZNRD1",
+    "human.chr6.4385796.ZNRD1"
+    ]
+}, {
+  "group": "NA",
+  "name": "cheetah.scaffold823.197138.F1PIG7",
+  "commonName": "F1PIG7",
+  "start": "197138",
+  "chr": "scaffold823",
+  "source_file": "data/cheetah_mhc_corrected_map.txt",
+  "file": "cheetah",
+  "type": "cheetah",
+  "gene_links": [
+    "cheetah.scaffold823.197138.F1PIG7"
+    ]
+}, {
+  "group": "EXI",
+  "name": "cheetah.scaffold823.171169.MOG",
+  "commonName": "MOG",
+  "start": "171169",
+  "chr": "scaffold823",
+  "source_file": "data/cheetah_mhc_corrected_map.txt",
+  "file": "cheetah",
+  "type": "cheetah",
+  "gene_links": [
+    "cat.chrB2.153567.MOG",
+    "cheetah.scaffold823.171169.MOG",
+    "dog.chr35.26256607.MOG",
+    "human.chr6.3983878.MOG"
+    ]
+}, {
+  "group": "EXI",
+  "name": "cheetah.scaffold823.126415.GABBR1",
+  "commonName": "GABBR1",
+  "start": "126415",
+  "chr": "scaffold823",
+  "source_file": "data/cheetah_mhc_corrected_map.txt",
+  "file": "cheetah",
+  "type": "cheetah",
+  "gene_links": [
+    "cat.chrB2.182718.GABBR1",
+    "cheetah.scaffold823.126415.GABBR1",
+    "dog.chr35.26213080.GABBR1",
+    "human.chr6.3882526.GABBR1"
+    ]
+}, {
+  "group": "NA",
+  "name": "cheetah.scaffold823.115291.KLF7",
+  "commonName": "KLF7",
+  "start": "115291",
+  "chr": "scaffold823",
+  "source_file": "data/cheetah_mhc_corrected_map.txt",
+  "file": "cheetah",
+  "type": "cheetah",
+  "gene_links": [
+    "cheetah.scaffold823.115291.KLF7"
+    ]
+}, {
+  "group": "EXI",
+  "name": "cheetah.scaffold823.96003.UBD",
+  "commonName": "UBD",
+  "start": "96003",
+  "chr": "scaffold823",
+  "source_file": "data/cheetah_mhc_corrected_map.txt",
+  "file": "cheetah",
+  "type": "cheetah",
+  "gene_links": [
+    "cheetah.scaffold823.96003.UBD",
+    "dog.chr35.26432227.UBD",
+    "human.chr6.3882412.UBD"
+    ]
+}, {
   "group": "OR",
-  "name": "cheetah.scaffold823.1009.OR3A1",
+  "name": "cheetah.scaffold823.79066.OR10C1-like",
+  "commonName": "OR10C1-like",
+  "start": "79066",
+  "chr": "scaffold823",
+  "source_file": "data/cheetah_mhc_corrected_map.txt",
+  "file": "cheetah",
+  "type": "cheetah",
+  "gene_links": [
+    "cheetah.scaffold823.79066.OR10C1-like"
+    ]
+}, {
+  "group": "OR",
+  "name": "cheetah.scaffold823.45728.OR10C1",
+  "commonName": "OR10C1",
+  "start": "45728",
+  "chr": "scaffold823",
+  "source_file": "data/cheetah_mhc_corrected_map.txt",
+  "file": "cheetah",
+  "type": "cheetah",
+  "gene_links": [
+    "cheetah.scaffold823.45728.OR10C1",
+    "human.chr6.3744177.OR10C1"
+    ]
+}, {
+  "group": "OR",
+  "name": "cheetah.scaffold823.31920.OR3A1",
   "commonName": "OR3A1",
-  "start": "1009",
+  "start": "31920",
   "chr": "scaffold823",
   "source_file": "data/cheetah_mhc_corrected_map.txt",
   "file": "cheetah",
@@ -6331,9 +6469,9 @@
     ]
 }, {
   "group": "OR",
-  "name": "cheetah.scaffold823.31920.OR3A1",
+  "name": "cheetah.scaffold823.1009.OR3A1",
   "commonName": "OR3A1",
-  "start": "31920",
+  "start": "1009",
   "chr": "scaffold823",
   "source_file": "data/cheetah_mhc_corrected_map.txt",
   "file": "cheetah",
@@ -6342,144 +6480,6 @@
     "cheetah.scaffold823.31920.OR3A1",
     "cheetah.scaffold823.16452.OR3A1",
     "cheetah.scaffold823.1009.OR3A1"
-    ]
-}, {
-  "group": "OR",
-  "name": "cheetah.scaffold823.45728.OR10C1",
-  "commonName": "OR10C1",
-  "start": "45728",
-  "chr": "scaffold823",
-  "source_file": "data/cheetah_mhc_corrected_map.txt",
-  "file": "cheetah",
-  "type": "cheetah",
-  "gene_links": [
-    "cheetah.scaffold823.45728.OR10C1",
-    "human.chr6.3744177.OR10C1"
-    ]
-}, {
-  "group": "OR",
-  "name": "cheetah.scaffold823.79066.OR10C1-like",
-  "commonName": "OR10C1-like",
-  "start": "79066",
-  "chr": "scaffold823",
-  "source_file": "data/cheetah_mhc_corrected_map.txt",
-  "file": "cheetah",
-  "type": "cheetah",
-  "gene_links": [
-    "cheetah.scaffold823.79066.OR10C1-like"
-    ]
-}, {
-  "group": "EXI",
-  "name": "cheetah.scaffold823.96003.UBD",
-  "commonName": "UBD",
-  "start": "96003",
-  "chr": "scaffold823",
-  "source_file": "data/cheetah_mhc_corrected_map.txt",
-  "file": "cheetah",
-  "type": "cheetah",
-  "gene_links": [
-    "cheetah.scaffold823.96003.UBD",
-    "dog.chr35.26432227.UBD",
-    "human.chr6.3882412.UBD"
-    ]
-}, {
-  "group": "NA",
-  "name": "cheetah.scaffold823.115291.KLF7",
-  "commonName": "KLF7",
-  "start": "115291",
-  "chr": "scaffold823",
-  "source_file": "data/cheetah_mhc_corrected_map.txt",
-  "file": "cheetah",
-  "type": "cheetah",
-  "gene_links": [
-    "cheetah.scaffold823.115291.KLF7"
-    ]
-}, {
-  "group": "EXI",
-  "name": "cheetah.scaffold823.126415.GABBR1",
-  "commonName": "GABBR1",
-  "start": "126415",
-  "chr": "scaffold823",
-  "source_file": "data/cheetah_mhc_corrected_map.txt",
-  "file": "cheetah",
-  "type": "cheetah",
-  "gene_links": [
-    "cat.chrB2.182718.GABBR1",
-    "cheetah.scaffold823.126415.GABBR1",
-    "dog.chr35.26213080.GABBR1",
-    "human.chr6.3882526.GABBR1"
-    ]
-}, {
-  "group": "EXI",
-  "name": "cheetah.scaffold823.171169.MOG",
-  "commonName": "MOG",
-  "start": "171169",
-  "chr": "scaffold823",
-  "source_file": "data/cheetah_mhc_corrected_map.txt",
-  "file": "cheetah",
-  "type": "cheetah",
-  "gene_links": [
-    "cat.chrB2.153567.MOG",
-    "cheetah.scaffold823.171169.MOG",
-    "dog.chr35.26256607.MOG",
-    "human.chr6.3983878.MOG"
-    ]
-}, {
-  "group": "NA",
-  "name": "cheetah.scaffold823.197138.F1PIG7",
-  "commonName": "F1PIG7",
-  "start": "197138",
-  "chr": "scaffold823",
-  "source_file": "data/cheetah_mhc_corrected_map.txt",
-  "file": "cheetah",
-  "type": "cheetah",
-  "gene_links": [
-    "cheetah.scaffold823.197138.F1PIG7"
-    ]
-}, {
-  "group": "I",
-  "name": "cheetah.scaffold823.201488.ZNRD1",
-  "commonName": "ZNRD1",
-  "start": "201488",
-  "chr": "scaffold823",
-  "source_file": "data/cheetah_mhc_corrected_map.txt",
-  "file": "cheetah",
-  "type": "cheetah",
-  "gene_links": [
-    "cat.chrB2.129140.ZNRD1",
-    "cheetah.scaffold823.201488.ZNRD1",
-    "dog.chr35.26285783.ZNRD1",
-    "human.chr6.4385796.ZNRD1"
-    ]
-}, {
-  "group": "I",
-  "name": "cheetah.scaffold823.207149.PPP1R11",
-  "commonName": "PPP1R11",
-  "start": "207149",
-  "chr": "scaffold823",
-  "source_file": "data/cheetah_mhc_corrected_map.txt",
-  "file": "cheetah",
-  "type": "cheetah",
-  "gene_links": [
-    "cat.chrB2.123810.PPP1R11",
-    "cheetah.scaffold823.207149.PPP1R11",
-    "dog.chr35.26289666.PPP1R11",
-    "human.chr6.4393606.PPP1R11"
-    ]
-}, {
-  "group": "I",
-  "name": "cheetah.scaffold823.289135.TRIM26",
-  "commonName": "TRIM26",
-  "start": "289135",
-  "chr": "scaffold823",
-  "source_file": "data/cheetah_mhc_corrected_map.txt",
-  "file": "cheetah",
-  "type": "cheetah",
-  "gene_links": [
-    "cat.chrB2.34917.TRIM26",
-    "cheetah.scaffold823.289135.TRIM26",
-    "dog.chr35.26387778.TRIM26",
-    "human.chr6.4511352.TRIM26"
     ]
 }, {
   "group": "EXII",
@@ -7898,88 +7898,28 @@
     "dog.chr12.97511.ENPP3"
     ]
 }, {
-  "group": "OR",
-  "name": "dog.chr35.26116872.OR2W1",
-  "commonName": "OR2W1",
-  "start": "26116872",
-  "chr": "chr35",
-  "source_file": "data/dogGenesGroup35corrected.bed",
-  "file": "dog",
-  "type": "dog",
-  "gene_links": [
-    "dog.chr35.26116872.OR2W1"
-    ]
-}, {
   "group": "EXI",
-  "name": "dog.chr35.26213080.GABBR1",
-  "commonName": "GABBR1",
-  "start": "26213080",
+  "name": "dog.chr35.26432227.UBD",
+  "commonName": "UBD",
+  "start": "26432227",
   "chr": "chr35",
   "source_file": "data/dogGenesGroup35corrected.bed",
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr35.26213080.GABBR1"
-    ]
-}, {
-  "group": "EXI",
-  "name": "dog.chr35.26256607.MOG",
-  "commonName": "MOG",
-  "start": "26256607",
-  "chr": "chr35",
-  "source_file": "data/dogGenesGroup35corrected.bed",
-  "file": "dog",
-  "type": "dog",
-  "gene_links": [
-    "dog.chr35.26256607.MOG"
+    "dog.chr35.26432227.UBD"
     ]
 }, {
   "group": "I",
-  "name": "dog.chr35.26267571.ZFP57",
-  "commonName": "ZFP57",
-  "start": "26267571",
+  "name": "dog.chr35.26387778.TRIM26",
+  "commonName": "TRIM26",
+  "start": "26387778",
   "chr": "chr35",
   "source_file": "data/dogGenesGroup35corrected.bed",
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr35.26267571.ZFP57"
-    ]
-}, {
-  "group": "I",
-  "name": "dog.chr35.26285783.ZNRD1",
-  "commonName": "ZNRD1",
-  "start": "26285783",
-  "chr": "chr35",
-  "source_file": "data/dogGenesGroup35corrected.bed",
-  "file": "dog",
-  "type": "dog",
-  "gene_links": [
-    "dog.chr35.26285783.ZNRD1"
-    ]
-}, {
-  "group": "I",
-  "name": "dog.chr35.26289666.PPP1R11",
-  "commonName": "PPP1R11",
-  "start": "26289666",
-  "chr": "chr35",
-  "source_file": "data/dogGenesGroup35corrected.bed",
-  "file": "dog",
-  "type": "dog",
-  "gene_links": [
-    "dog.chr35.26289666.PPP1R11"
-    ]
-}, {
-  "group": "I",
-  "name": "dog.chr35.26292780.RNF39",
-  "commonName": "RNF39",
-  "start": "26292780",
-  "chr": "chr35",
-  "source_file": "data/dogGenesGroup35corrected.bed",
-  "file": "dog",
-  "type": "dog",
-  "gene_links": [
-    "dog.chr35.26292780.RNF39"
+    "dog.chr35.26387778.TRIM26"
     ]
 }, {
   "group": "I",
@@ -7995,26 +7935,86 @@
     ]
 }, {
   "group": "I",
-  "name": "dog.chr35.26387778.TRIM26",
-  "commonName": "TRIM26",
-  "start": "26387778",
+  "name": "dog.chr35.26292780.RNF39",
+  "commonName": "RNF39",
+  "start": "26292780",
   "chr": "chr35",
   "source_file": "data/dogGenesGroup35corrected.bed",
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr35.26387778.TRIM26"
+    "dog.chr35.26292780.RNF39"
+    ]
+}, {
+  "group": "I",
+  "name": "dog.chr35.26289666.PPP1R11",
+  "commonName": "PPP1R11",
+  "start": "26289666",
+  "chr": "chr35",
+  "source_file": "data/dogGenesGroup35corrected.bed",
+  "file": "dog",
+  "type": "dog",
+  "gene_links": [
+    "dog.chr35.26289666.PPP1R11"
+    ]
+}, {
+  "group": "I",
+  "name": "dog.chr35.26285783.ZNRD1",
+  "commonName": "ZNRD1",
+  "start": "26285783",
+  "chr": "chr35",
+  "source_file": "data/dogGenesGroup35corrected.bed",
+  "file": "dog",
+  "type": "dog",
+  "gene_links": [
+    "dog.chr35.26285783.ZNRD1"
+    ]
+}, {
+  "group": "I",
+  "name": "dog.chr35.26267571.ZFP57",
+  "commonName": "ZFP57",
+  "start": "26267571",
+  "chr": "chr35",
+  "source_file": "data/dogGenesGroup35corrected.bed",
+  "file": "dog",
+  "type": "dog",
+  "gene_links": [
+    "dog.chr35.26267571.ZFP57"
     ]
 }, {
   "group": "EXI",
-  "name": "dog.chr35.26432227.UBD",
-  "commonName": "UBD",
-  "start": "26432227",
+  "name": "dog.chr35.26256607.MOG",
+  "commonName": "MOG",
+  "start": "26256607",
   "chr": "chr35",
   "source_file": "data/dogGenesGroup35corrected.bed",
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr35.26432227.UBD"
+    "dog.chr35.26256607.MOG"
+    ]
+}, {
+  "group": "EXI",
+  "name": "dog.chr35.26213080.GABBR1",
+  "commonName": "GABBR1",
+  "start": "26213080",
+  "chr": "chr35",
+  "source_file": "data/dogGenesGroup35corrected.bed",
+  "file": "dog",
+  "type": "dog",
+  "gene_links": [
+    "dog.chr35.26213080.GABBR1"
+    ]
+}, {
+  "group": "OR",
+  "name": "dog.chr35.26116872.OR2W1",
+  "commonName": "OR2W1",
+  "start": "26116872",
+  "chr": "chr35",
+  "source_file": "data/dogGenesGroup35corrected.bed",
+  "file": "dog",
+  "type": "dog",
+  "gene_links": [
+    "dog.chr35.26116872.OR2W1"
     ]
 }]
