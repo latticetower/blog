@@ -84,7 +84,7 @@
     // fix graph links to map to objects instead of indices
     nodes.forEach(function(node) {
       nodes.links.push({ 'source': node, 'target':  node});
-      node.imports.forEach(function(node_id){
+      node.gene_links.forEach(function(node_id){
         nodes.links.push({ 'source': node, 'target':  nodes.byName[node_id]});
       });
     });
@@ -130,7 +130,19 @@
     nodes.forEach(function(d, i) {
       d.x = d.index*radius+1;
       d.y = 50+200*d.axis;
+      d.width = radius;
+      d.height = radius;
     });
+  }
+
+  on_mouseover = function(node, index) {
+    console.log(node, index);
+  }
+  function on_mouseout(node, index) {
+    //
+    // Clear any highlighted nodes or links.
+    d3.select("#tooltip").remove();
+
   }
 
   // Draws nodes on plot
@@ -145,12 +157,12 @@
     .attr("class", "node")
     .attr("id", function(d, i) { return d.name; })
     .attr("x", function(d, i) { return d.x; })
-    .attr("y", function(d, i) { return d.y; })
-    .attr("width",  function(d, i) { return radius; })
-    .attr("height",  function(d, i) { return radius; })
+    .attr("y", function(d, i) { return d.y-radius/2; })
+    .attr("width",  function(d, i) { return d.width; })
+    .attr("height",  function(d, i) { return d.height; })
     .style("fill",   function(d, i) { return color(d.group); })
-    .on("mouseover", function(d, i) { addTooltip(d3.select(this)); })
-    .on("mouseout",  function(d, i) { d3.select("#tooltip").remove(); });
+    .on("mouseover", function(d, i) { addTooltip(d3.select(this));on_mouseover(d, i); })
+    .on("mouseout",  function(d, i) { on_mouseout(d, i);});
   }
 
   // Draws nice arcs for each link on plot
