@@ -18,7 +18,6 @@
 
         function joinPath() {
           path.closePath(true);
-          point_indices = [];
           for (var i = 0; i < points.length; i ++) {
             points[i]['index'] = i;
             points[i]['next'] = 0;
@@ -30,9 +29,9 @@
           }
           if (points.length > 0)
             points[0]['prev'] = points.length - 1;
-          /*for (var i = 0; i < points.length; i++) {
+          for (var i = 0; i < points.length; i++) {
             console.log(points[i]);
-          }*/
+          }
         }
 
         var textItem = new PointText({

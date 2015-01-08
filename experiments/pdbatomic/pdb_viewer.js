@@ -57,7 +57,7 @@ function init() {
     //camera.position.z = 1800;
     geometries = drawPDBChains();
     console.log(geometries);
-    geometries.add(drawTriangulation());
+    //geometries.add(drawTriangulation());
     scene.add(geometries);
     scene.add(camera);
 
