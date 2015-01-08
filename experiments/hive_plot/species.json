@@ -9,7 +9,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.995638.ZNF322A",
     "human.chr6.995638.ZNF322A"
     ]
 }, {
@@ -22,7 +21,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.956300.ABT1",
     "human.chr6.956300.ABT1"
     ]
 }, {
@@ -35,7 +33,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.897692.HMGN4",
     "human.chr6.897692.HMGN4"
     ]
 }, {
@@ -48,7 +45,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.86257.HIST1H2BA",
     "human.chr6.86257.HIST1H2BA"
     ]
 }, {
@@ -61,8 +57,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cheetah.scaffold786.386848.BTN1A1",
-    "human.chr6.860569.BTN1A1",
     "human.chr6.860569.BTN1A1"
     ]
 }, {
@@ -75,7 +69,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.85411.HIST1H2AA",
     "human.chr6.85411.HIST1H2AA"
     ]
 }, {
@@ -88,7 +81,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.817270.BTN2A1",
     "human.chr6.817270.BTN2A1"
     ]
 }, {
@@ -101,7 +93,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.799820.BTN3A3",
     "human.chr6.799820.BTN3A3"
     ]
 }, {
@@ -114,8 +105,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cheetah.scaffold415.1097733.ZBTB9",
-    "human.chr6.7781476.ZBTB9",
     "human.chr6.7781476.ZBTB9"
     ]
 }, {
@@ -128,8 +117,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cheetah.scaffold415.1106204.SYNGAP1",
-    "human.chr6.7746967.SYNGAP1",
     "human.chr6.7746967.SYNGAP1"
     ]
 }, {
@@ -142,8 +129,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cheetah.scaffold415.1133743.CUTA",
-    "human.chr6.7743339.CUTA",
     "human.chr6.7743339.CUTA"
     ]
 }, {
@@ -156,8 +141,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cheetah.scaffold415.1135838.PHF1",
-    "human.chr6.7737296.PHF1",
     "human.chr6.7737296.PHF1"
     ]
 }, {
@@ -170,10 +153,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.34960057.KIFC1",
-    "cheetah.scaffold415.1141731.KIFC1",
-    "dog.chr12.2813625.KIFC1",
-    "human.chr6.7718433.KIFC1",
     "human.chr6.7718433.KIFC1"
     ]
 }, {
@@ -186,10 +165,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.34888638.DAXX",
-    "cheetah.scaffold415.1218109.DAXX",
-    "dog.chr12.2756162.DAXX",
-    "human.chr6.7645455.DAXX",
     "human.chr6.7645455.DAXX"
     ]
 }, {
@@ -202,9 +177,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cheetah.scaffold415.1222817.ZBTB22",
-    "dog.chr12.2752532.ZBTB22",
-    "human.chr6.7641303.ZBTB22",
     "human.chr6.7641303.ZBTB22"
     ]
 }, {
@@ -217,10 +189,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.34873795.TAPBP",
-    "cheetah.scaffold415.1225672.TAPBP",
-    "dog.chr12.2741359.TAPBP",
-    "human.chr6.7626591.TAPBP",
     "human.chr6.7626591.TAPBP"
     ]
 }, {
@@ -233,10 +201,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.34864164.RGL2",
-    "cheetah.scaffold415.1239745.RGL2",
-    "dog.chr12.2732105.RGL2",
-    "human.chr6.7618551.RGL2",
     "human.chr6.7618551.RGL2"
     ]
 }, {
@@ -249,9 +213,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.34861793.PFDN6",
-    "dog.chr12.2729832.PFDN6",
-    "human.chr6.7616199.PFDN6",
     "human.chr6.7616199.PFDN6"
     ]
 }, {
@@ -264,7 +225,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.761585.BTN3A1",
     "human.chr6.761585.BTN3A1"
     ]
 }, {
@@ -277,10 +237,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.34853389.WDR46",
-    "cheetah.scaffold415.1248115.WDR46",
-    "dog.chr12.2721432.WDR46",
-    "human.chr6.7606005.WDR46",
     "human.chr6.7606005.WDR46"
     ]
 }, {
@@ -293,10 +249,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.34851528.B3GALT4",
-    "cheetah.scaffold415.1256759.B3GALT4",
-    "dog.chr12.2719553.B3GALT4",
-    "human.chr6.7604037.B3GALT4",
     "human.chr6.7604037.B3GALT4"
     ]
 }, {
@@ -309,9 +261,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.34845976.RPS18",
-    "dog.chr12.2713002.RPS18",
-    "human.chr6.7598907.RPS18",
     "human.chr6.7598907.RPS18"
     ]
 }, {
@@ -324,10 +273,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.34829985.VPS52",
-    "cheetah.scaffold415.1278502.VPS52",
-    "dog.chr12.2698013.VPS52",
-    "human.chr6.7577169.VPS52",
     "human.chr6.7577169.VPS52"
     ]
 }, {
@@ -340,10 +285,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.34798644.RING1",
-    "cheetah.scaffold415.1305935.RING1",
-    "dog.chr12.2671884.RING1",
-    "human.chr6.7535392.RING1",
     "human.chr6.7535392.RING1"
     ]
 }, {
@@ -356,9 +297,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.34794697.HSD17B8",
-    "dog.chr12.2667755.HSD17B8",
-    "human.chr6.7531539.HSD17B8",
     "human.chr6.7531539.HSD17B8"
     ]
 }, {
@@ -371,10 +309,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.34791246.SLC39A7",
-    "cheetah.scaffold415.1314115.SLC39A7",
-    "dog.chr12.2663838.SLC39A7",
-    "human.chr6.7527342.SLC39A7",
     "human.chr6.7527342.SLC39A7"
     ]
 }, {
@@ -387,10 +321,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.34785064.RXRB",
-    "cheetah.scaffold415.1317486.RXRB",
-    "dog.chr12.2658174.RXRB",
-    "human.chr6.7520485.RXRB",
     "human.chr6.7520485.RXRB"
     ]
 }, {
@@ -403,10 +333,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.34754587.COL11A2",
-    "cheetah.scaffold415.1325101.COL11A2",
-    "dog.chr12.2627827.COL11A2",
-    "human.chr6.7489578.COL11A2",
     "human.chr6.7489578.COL11A2"
     ]
 }, {
@@ -419,7 +345,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.7439348.HLADPB2",
     "human.chr6.7439348.HLADPB2"
     ]
 }, {
@@ -432,7 +357,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.742444.BTN2A2",
     "human.chr6.742444.BTN2A2"
     ]
 }, {
@@ -445,7 +369,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.7402823.HLADPB1",
     "human.chr6.7402823.HLADPB1"
     ]
 }, {
@@ -458,7 +381,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.7391466.HLADPA1",
     "human.chr6.7391466.HLADPA1"
     ]
 }, {
@@ -471,7 +393,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.7331075.HLADOA",
     "human.chr6.7331075.HLADOA"
     ]
 }, {
@@ -484,10 +405,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.34656817.BRD2",
-    "cheetah.scaffold415.1442670.BRD2",
-    "dog.chr12.2538250.BRD2",
-    "human.chr6.7295557.BRD2",
     "human.chr6.7295557.BRD2"
     ]
 }, {
@@ -500,7 +417,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.7275510.HLADMA",
     "human.chr6.7275510.HLADMA"
     ]
 }, {
@@ -513,7 +429,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.7264261.XXbacBPG181M175",
     "human.chr6.7264261.XXbacBPG181M175"
     ]
 }, {
@@ -526,7 +441,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.7261526.HLADMB",
     "human.chr6.7261526.HLADMB"
     ]
 }, {
@@ -539,7 +453,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.724579.BTN3A2",
     "human.chr6.724579.BTN3A2"
     ]
 }, {
@@ -552,10 +465,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.34537212.TAP1",
-    "cheetah.scaffold415.1560312.TAP1",
-    "dog.chr12.2424464.TAP1",
-    "human.chr6.7172106.TAP1",
     "human.chr6.7172106.TAP1"
     ]
 }, {
@@ -568,9 +477,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.34545125.PSMB9",
-    "dog.chr12.2432578.PSMB9",
-    "human.chr6.7171033.PSMB9",
     "human.chr6.7171033.PSMB9"
     ]
 }, {
@@ -583,10 +489,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.34532634.PSMB8",
-    "cheetah.scaffold415.1569211.PSMB8",
-    "dog.chr12.2419688.PSMB8",
-    "human.chr6.7167614.PSMB8",
     "human.chr6.7167614.PSMB8"
     ]
 }, {
@@ -599,9 +501,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cheetah.scaffold415.1574664.TAP2",
-    "dog.chr12.2408269.TAP2",
-    "human.chr6.7140664.TAP2",
     "human.chr6.7140664.TAP2"
     ]
 }, {
@@ -614,7 +513,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.7140664.XXbacBPG246D159",
     "human.chr6.7140664.XXbacBPG246D159"
     ]
 }, {
@@ -627,7 +525,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.7139660.HLADOB",
     "human.chr6.7139660.HLADOB"
     ]
 }, {
@@ -640,7 +537,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.7082995.HLADQB2",
     "human.chr6.7082995.HLADQB2"
     ]
 }, {
@@ -653,7 +549,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.7068239.HLADQA2",
     "human.chr6.7068239.HLADQA2"
     ]
 }, {
@@ -666,7 +561,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.6986364.HLADQB1",
     "human.chr6.6986364.HLADQB1"
     ]
 }, {
@@ -679,7 +573,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.6955076.HLADQA1",
     "human.chr6.6955076.HLADQA1"
     ]
 }, {
@@ -692,7 +585,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.6905666.HLADRB1",
     "human.chr6.6905666.HLADRB1"
     ]
 }, {
@@ -705,7 +597,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.6844240.HLADRB5",
     "human.chr6.6844240.HLADRB5"
     ]
 }, {
@@ -718,7 +609,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.6769795.AL6627961",
     "human.chr6.6769795.AL6627961"
     ]
 }, {
@@ -731,7 +621,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.6766739.HLADRA",
     "human.chr6.6766739.HLADRA"
     ]
 }, {
@@ -744,9 +633,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.34239988.BTNL2",
-    "dog.chr12.2089798.BTNL2",
-    "human.chr6.6718361.BTNL2",
     "human.chr6.6718361.BTNL2"
     ]
 }, {
@@ -759,9 +645,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33999570.C6orf10",
-    "dog.chr12.1828937.C6orf10",
-    "human.chr6.6619595.C6orf10",
     "human.chr6.6619595.C6orf10"
     ]
 }, {
@@ -774,9 +657,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cheetah.scaffold786.419587.NOTCH4",
-    "dog.chr12.1586323.NOTCH4",
-    "human.chr6.6521740.NOTCH4",
     "human.chr6.6521740.NOTCH4"
     ]
 }, {
@@ -789,10 +669,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33727646.GPSM3",
-    "cheetah.scaffold786.443652.GPSM3",
-    "dog.chr12.1584310.GPSM3",
-    "human.chr6.6517663.GPSM3",
     "human.chr6.6517663.GPSM3"
     ]
 }, {
@@ -805,9 +681,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33722601.PBX2",
-    "dog.chr12.1579230.PBX2",
-    "human.chr6.6511630.PBX2",
     "human.chr6.6511630.PBX2"
     ]
 }, {
@@ -820,10 +693,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33717651.AGER",
-    "cheetah.scaffold786.451926.AGER",
-    "dog.chr12.1574422.AGER",
-    "human.chr6.6507865.AGER",
     "human.chr6.6507865.AGER"
     ]
 }, {
@@ -836,10 +705,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33714927.RNF5",
-    "cheetah.scaffold786.452836.RNF5",
-    "dog.chr12.1571450.RNF5",
-    "human.chr6.6505251.RNF5",
     "human.chr6.6505251.RNF5"
     ]
 }, {
@@ -852,10 +717,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33706184.AGPAT1",
-    "cheetah.scaffold786.464604.AGPAT1",
-    "dog.chr12.1562547.AGPAT1",
-    "human.chr6.6495109.AGPAT1",
     "human.chr6.6495109.AGPAT1"
     ]
 }, {
@@ -868,10 +729,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33703037.EGFL8",
-    "cheetah.scaffold786.468084.EGFL8",
-    "dog.chr12.1559409.EGFL8",
-    "human.chr6.6491480.EGFL8",
     "human.chr6.6491480.EGFL8"
     ]
 }, {
@@ -884,9 +741,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cheetah.scaffold786.472104.PPT2",
-    "dog.chr12.1551681.PPT2",
-    "human.chr6.6480338.PPT2",
     "human.chr6.6480338.PPT2"
     ]
 }, {
@@ -899,9 +753,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33689980.PRRT1",
-    "dog.chr12.1546249.PRRT1",
-    "human.chr6.6475256.PRRT1",
     "human.chr6.6475256.PRRT1"
     ]
 }, {
@@ -914,9 +765,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33673805.FKBPL",
-    "cheetah.scaffold786.498156.FKBPL",
-    "human.chr6.6455604.FKBPL",
     "human.chr6.6455604.FKBPL"
     ]
 }, {
@@ -929,10 +777,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33664502.CREBL1",
-    "cheetah.scaffold786.499765.CREBL1",
-    "dog.chr12.1515672.CREBL1",
-    "human.chr6.6425073.CREBL1",
     "human.chr6.6425073.CREBL1"
     ]
 }, {
@@ -945,7 +789,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.640403.HIST1H4H",
     "human.chr6.640403.HIST1H4H"
     ]
 }, {
@@ -958,10 +801,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33608200.CYP21A2",
-    "cheetah.scaffold786.572278.CYP21A2",
-    "dog.chr12.1450739.CYP21A2",
-    "human.chr6.6365162.CYP21A2",
     "human.chr6.6365162.CYP21A2"
     ]
 }, {
@@ -974,10 +813,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33610927.TNXB",
-    "cheetah.scaffold786.525046.TNXB",
-    "dog.chr12.1453418.TNXB",
-    "human.chr6.6335316.TNXB",
     "human.chr6.6335316.TNXB"
     ]
 }, {
@@ -990,7 +825,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.632264.HIST1H2BI",
     "human.chr6.632264.HIST1H2BI"
     ]
 }, {
@@ -1003,8 +837,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cheetah.scaffold786.577748.C4B",
-    "human.chr6.6308954.C4B",
     "human.chr6.6308954.C4B"
     ]
 }, {
@@ -1017,7 +849,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.6308921.C4A",
     "human.chr6.6308921.C4A"
     ]
 }, {
@@ -1030,9 +861,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33584077.STK19",
-    "cheetah.scaffold786.593878.STK19",
-    "human.chr6.6297988.STK19",
     "human.chr6.6297988.STK19"
     ]
 }, {
@@ -1045,10 +873,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33581692.DOM3Z",
-    "cheetah.scaffold786.599910.DOM3Z",
-    "dog.chr12.1424644.DOM3Z",
-    "human.chr6.6296707.DOM3Z",
     "human.chr6.6296707.DOM3Z"
     ]
 }, {
@@ -1061,7 +885,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.628753.HIST1H3G",
     "human.chr6.628753.HIST1H3G"
     ]
 }, {
@@ -1074,10 +897,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33570339.SKIV2L",
-    "cheetah.scaffold786.601861.SKIV2L",
-    "dog.chr12.1412539.SKIV2L",
-    "human.chr6.6285701.SKIV2L",
     "human.chr6.6285701.SKIV2L"
     ]
 }, {
@@ -1090,10 +909,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33564390.RDBP",
-    "cheetah.scaffold786.613745.RDBP",
-    "dog.chr12.1408625.RDBP",
-    "human.chr6.6278984.RDBP",
     "human.chr6.6278984.RDBP"
     ]
 }, {
@@ -1106,8 +921,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cheetah.scaffold786.619216.CFB",
-    "human.chr6.6254595.CFB",
     "human.chr6.6254595.CFB"
     ]
 }, {
@@ -1120,7 +933,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.6254595.XXbacBPG116M517",
     "human.chr6.6254595.XXbacBPG116M517"
     ]
 }, {
@@ -1133,9 +945,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33512203.ZBTB12",
-    "dog.chr12.1356822.ZBTB12",
-    "human.chr6.6226504.ZBTB12",
     "human.chr6.6226504.ZBTB12"
     ]
 }, {
@@ -1148,7 +957,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.6224682.C2",
     "human.chr6.6224682.C2"
     ]
 }, {
@@ -1161,10 +969,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33497278.EHMT2",
-    "cheetah.scaffold786.672847.EHMT2",
-    "dog.chr12.1341543.EHMT2",
-    "human.chr6.6206656.EHMT2",
     "human.chr6.6206656.EHMT2"
     ]
 }, {
@@ -1177,10 +981,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33484430.SLC44A4",
-    "cheetah.scaffold786.685971.SLC44A4",
-    "dog.chr12.1328398.SLC44A4",
-    "human.chr6.6190089.SLC44A4",
     "human.chr6.6190089.SLC44A4"
     ]
 }, {
@@ -1193,10 +993,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33480702.NEU1",
-    "cheetah.scaffold786.698408.NEU1",
-    "dog.chr12.1324174.NEU1",
-    "human.chr6.6184556.NEU1",
     "human.chr6.6184556.NEU1"
     ]
 }, {
@@ -1209,7 +1005,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.6161505.C6orf48",
     "human.chr6.6161505.C6orf48"
     ]
 }, {
@@ -1222,8 +1017,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cheetah.scaffold786.730405.HSPA1B",
-    "human.chr6.6154808.HSPA1B",
     "human.chr6.6154808.HSPA1B"
     ]
 }, {
@@ -1236,8 +1029,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "dog.chr12.1298769.HSPA1A",
-    "human.chr6.6142440.HSPA1A",
     "human.chr6.6142440.HSPA1A"
     ]
 }, {
@@ -1250,9 +1041,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33435850.HSPA1L",
-    "dog.chr12.1281471.HSPA1L",
-    "human.chr6.6136516.HSPA1L",
     "human.chr6.6136516.HSPA1L"
     ]
 }, {
@@ -1265,10 +1053,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33428200.LSM2",
-    "cheetah.scaffold821.20985.LSM2",
-    "cheetah.scaffold821.20985.LSM2",
-    "human.chr6.6124293.LSM2",
     "human.chr6.6124293.LSM2"
     ]
 }, {
@@ -1281,7 +1065,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.610999.HIST1H2BH",
     "human.chr6.610999.HIST1H2BH"
     ]
 }, {
@@ -1294,11 +1077,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33411647.VARS",
-    "cheetah.scaffold821.23084.VARS",
-    "cheetah.scaffold145.522910.VARS",
-    "dog.chr12.1255016.VARS",
-    "human.chr6.6104415.VARS",
     "human.chr6.6104415.VARS"
     ]
 }, {
@@ -1311,7 +1089,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.609543.HIST1H3F",
     "human.chr6.609543.HIST1H3F"
     ]
 }, {
@@ -1324,7 +1101,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.6092487.C6orf27",
     "human.chr6.6092487.C6orf27"
     ]
 }, {
@@ -1337,7 +1113,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.6089341.C6orf26",
     "human.chr6.6089341.C6orf26"
     ]
 }, {
@@ -1350,9 +1125,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cheetah.scaffold821.49545.MSH5",
-    "dog.chr12.1221801.MSH5",
-    "human.chr6.6066845.MSH5",
     "human.chr6.6066845.MSH5"
     ]
 }, {
@@ -1365,7 +1137,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.605959.HIST1H4G",
     "human.chr6.605959.HIST1H4G"
     ]
 }, {
@@ -1378,10 +1149,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33367006.CLIC1",
-    "cheetah.scaffold821.77015.CLIC1",
-    "dog.chr12.1210011.CLIC1",
-    "human.chr6.6057478.CLIC1",
     "human.chr6.6057478.CLIC1"
     ]
 }, {
@@ -1394,10 +1161,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33363497.DDAH2",
-    "cheetah.scaffold821.83879.DDAH2",
-    "dog.chr12.1206391.DDAH2",
-    "human.chr6.6053935.DDAH2",
     "human.chr6.6053935.DDAH2"
     ]
 }, {
@@ -1410,10 +1173,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33355901.LY6G6C",
-    "cheetah.scaffold821.90657.LY6G6C",
-    "dog.chr12.1198300.LY6G6C",
-    "human.chr6.6045545.LY6G6C",
     "human.chr6.6045545.LY6G6C"
     ]
 }, {
@@ -1426,10 +1185,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33359772.C6orf25",
-    "cheetah.scaffold821.87674.C6orf25",
-    "dog.chr12.1202720.C6orf25",
-    "human.chr6.6045491.C6orf25",
     "human.chr6.6045491.C6orf25"
     ]
 }, {
@@ -1442,9 +1197,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cheetah.scaffold821.94329.LY6G6D",
-    "dog.chr12.1193402.LY6G6D",
-    "human.chr6.6042253.LY6G6D",
     "human.chr6.6042253.LY6G6D"
     ]
 }, {
@@ -1457,7 +1209,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.6033801.XXbacBPG32J319",
     "human.chr6.6033801.XXbacBPG32J319"
     ]
 }, {
@@ -1470,8 +1221,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cheetah.scaffold821.100775.LY6G6F",
-    "human.chr6.6033782.LY6G6F",
     "human.chr6.6033782.LY6G6F"
     ]
 }, {
@@ -1484,8 +1233,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cheetah.scaffold821.97922.LY6G6E",
-    "human.chr6.6013859.LY6G6E",
     "human.chr6.6013859.LY6G6E"
     ]
 }, {
@@ -1498,10 +1245,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33328940.BAT5",
-    "cheetah.scaffold821.105844.BAT5",
-    "dog.chr12.1167970.BAT5",
-    "human.chr6.6013846.BAT5",
     "human.chr6.6013846.BAT5"
     ]
 }, {
@@ -1514,10 +1257,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33320110.LY6G5C",
-    "cheetah.scaffold821.124194.LY6G5C",
-    "dog.chr12.1159965.LY6G5C",
-    "human.chr6.6003581.LY6G5C",
     "human.chr6.6003581.LY6G5C"
     ]
 }, {
@@ -1530,7 +1269,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.599681.HIST1H4F",
     "human.chr6.599681.HIST1H4F"
     ]
 }, {
@@ -1543,7 +1281,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.5992777.LY6G5B",
     "human.chr6.5992777.LY6G5B"
     ]
 }, {
@@ -1556,10 +1293,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33311513.CSNK2B",
-    "cheetah.scaffold821.132581.CSNK2B",
-    "dog.chr12.1150957.CSNK2B",
-    "human.chr6.5992133.CSNK2B",
     "human.chr6.5992133.CSNK2B"
     ]
 }, {
@@ -1572,10 +1305,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33307513.BAT4",
-    "cheetah.scaffold821.139353.BAT4",
-    "dog.chr12.1146519.BAT4",
-    "human.chr6.5988126.BAT4",
     "human.chr6.5988126.BAT4"
     ]
 }, {
@@ -1588,9 +1317,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33304552.C6orf47",
-    "cheetah.scaffold821.142924.C6orf47",
-    "human.chr6.5985195.C6orf47",
     "human.chr6.5985195.C6orf47"
     ]
 }, {
@@ -1603,10 +1329,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33301598.APOM",
-    "cheetah.scaffold821.144829.APOM",
-    "dog.chr12.1140322.APOM",
-    "human.chr6.5979313.APOM",
     "human.chr6.5979313.APOM"
     ]
 }, {
@@ -1619,10 +1341,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33288463.BAT3",
-    "cheetah.scaffold821.149815.BAT3",
-    "dog.chr12.1126820.BAT3",
-    "human.chr6.5965925.BAT3",
     "human.chr6.5965925.BAT3"
     ]
 }, {
@@ -1635,9 +1353,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33273983.BAT2",
-    "dog.chr12.1112676.BAT2",
-    "human.chr6.5947570.BAT2",
     "human.chr6.5947570.BAT2"
     ]
 }, {
@@ -1650,10 +1365,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33265043.AIF1",
-    "cheetah.scaffold821.181258.AIF1",
-    "dog.chr12.1104478.AIF1",
-    "human.chr6.5942081.AIF1",
     "human.chr6.5942081.AIF1"
     ]
 }, {
@@ -1666,7 +1377,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.593560.HIST1H1D",
     "human.chr6.593560.HIST1H1D"
     ]
 }, {
@@ -1679,10 +1389,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33244255.NCR3",
-    "cheetah.scaffold821.200098.NCR3",
-    "dog.chr12.1086910.NCR3",
-    "human.chr6.5915792.NCR3",
     "human.chr6.5915792.NCR3"
     ]
 }, {
@@ -1695,9 +1401,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cheetah.scaffold821.203190.LST1",
-    "dog.chr12.1085227.LST1",
-    "human.chr6.5913021.LST1",
     "human.chr6.5913021.LST1"
     ]
 }, {
@@ -1710,10 +1413,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33238415.LTB",
-    "cheetah.scaffold821.207690.LTB",
-    "dog.chr12.1079422.LTB",
-    "human.chr6.5907422.LTB",
     "human.chr6.5907422.LTB"
     ]
 }, {
@@ -1726,10 +1425,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33233690.TNF",
-    "cheetah.scaffold821.212456.TNF",
-    "dog.chr12.1074560.TNF",
-    "human.chr6.5902123.TNF",
     "human.chr6.5902123.TNF"
     ]
 }, {
@@ -1742,10 +1437,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33230351.LTA",
-    "cheetah.scaffold821.216626.LTA",
-    "dog.chr12.1071468.LTA",
-    "human.chr6.5898951.LTA",
     "human.chr6.5898951.LTA"
     ]
 }, {
@@ -1758,10 +1449,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33209161.NFKBIL1",
-    "cheetah.scaffold821.230285.NFKBIL1",
-    "dog.chr12.1049174.NFKBIL1",
-    "human.chr6.5873767.NFKBIL1",
     "human.chr6.5873767.NFKBIL1"
     ]
 }, {
@@ -1774,9 +1461,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33206578.ATP6V1G2",
-    "cheetah.scaffold821.245871.ATP6V1G2",
-    "human.chr6.5857116.ATP6V1G2",
     "human.chr6.5857116.ATP6V1G2"
     ]
 }, {
@@ -1789,9 +1473,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33192987.BAT1",
-    "dog.chr12.1032597.BAT1",
-    "human.chr6.5857116.BAT1",
     "human.chr6.5857116.BAT1"
     ]
 }, {
@@ -1804,10 +1485,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.33191585.MCCD1",
-    "cheetah.scaffold421.2570.MCCD1",
-    "dog.chr12.1031187.MCCD1",
-    "human.chr6.5855614.MCCD1",
     "human.chr6.5855614.MCCD1"
     ]
 }, {
@@ -1820,7 +1497,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.584503.HIST1H3E",
     "human.chr6.584503.HIST1H3E"
     ]
 }, {
@@ -1833,7 +1509,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.5824983.MICB",
     "human.chr6.5824983.MICB"
     ]
 }, {
@@ -1846,7 +1521,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.576285.HIST1H2AE",
     "human.chr6.576285.HIST1H2AE"
     ]
 }, {
@@ -1859,7 +1533,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.575611.HIST1H2BG",
     "human.chr6.575611.HIST1H2BG"
     ]
 }, {
@@ -1872,7 +1545,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.5726681.MICA",
     "human.chr6.5726681.MICA"
     ]
 }, {
@@ -1885,7 +1557,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.5680769.HLAB",
     "human.chr6.5680769.HLAB"
     ]
 }, {
@@ -1898,7 +1569,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.563978.HIST1H4E",
     "human.chr6.563978.HIST1H4E"
     ]
 }, {
@@ -1911,7 +1581,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.5595646.HLAC",
     "human.chr6.5595646.HLAC"
     ]
 }, {
@@ -1924,7 +1593,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.558868.HIST1H2BF",
     "human.chr6.558868.HIST1H2BF"
     ]
 }, {
@@ -1937,7 +1605,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.558199.HIST1H2AD",
     "human.chr6.558199.HIST1H2AD"
     ]
 }, {
@@ -1950,7 +1617,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.556132.HIST1H3D",
     "human.chr6.556132.HIST1H3D"
     ]
 }, {
@@ -1963,9 +1629,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.32571099.POU5F1",
-    "cheetah.scaffold145.720485.POU5F1",
-    "human.chr6.5491234.POU5F1",
     "human.chr6.5491234.POU5F1"
     ]
 }, {
@@ -1978,10 +1641,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.32566778.TCF19",
-    "cheetah.scaffold145.716133.TCF19",
-    "dog.chr12.856212.TCF19",
-    "human.chr6.5485439.TCF19",
     "human.chr6.5485439.TCF19"
     ]
 }, {
@@ -1994,7 +1653,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.548058.HIST1H4D",
     "human.chr6.548058.HIST1H4D"
     ]
 }, {
@@ -2007,10 +1665,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.32551169.CCHCR1",
-    "cheetah.scaffold145.700511.CCHCR1",
-    "dog.chr12.842244.CCHCR1",
-    "human.chr6.5469336.CCHCR1",
     "human.chr6.5469336.CCHCR1"
     ]
 }, {
@@ -2023,10 +1677,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.32546665.PSORS1C2",
-    "cheetah.scaffold145.696141.PSORS1C2",
-    "dog.chr12.838392.PSORS1C2",
-    "human.chr6.5464431.PSORS1C2",
     "human.chr6.5464431.PSORS1C2"
     ]
 }, {
@@ -2039,10 +1689,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.32528830.CDSN",
-    "cheetah.scaffold145.677785.CDSN",
-    "dog.chr12.820466.CDSN",
-    "human.chr6.5441987.CDSN",
     "human.chr6.5441987.CDSN"
     ]
 }, {
@@ -2055,7 +1701,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.5441647.PSORS1C1",
     "human.chr6.5441647.PSORS1C1"
     ]
 }, {
@@ -2068,9 +1713,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cheetah.scaffold145.672597.C6orf15",
-    "dog.chr12.815482.C6orf15",
-    "human.chr6.5438120.C6orf15",
     "human.chr6.5438120.C6orf15"
     ]
 }, {
@@ -2083,7 +1725,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.543078.HIST1H2BE",
     "human.chr6.543078.HIST1H2BE"
     ]
 }, {
@@ -2096,8 +1737,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cheetah.scaffold145.588296.C6orf205",
-    "human.chr6.5310605.C6orf205",
     "human.chr6.5310605.C6orf205"
     ]
 }, {
@@ -2110,10 +1749,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.32396584.DPCR1",
-    "cheetah.scaffold145.552620.DPCR1",
-    "dog.chr12.551500.DPCR1",
-    "human.chr6.5267869.DPCR1",
     "human.chr6.5267869.DPCR1"
     ]
 }, {
@@ -2126,7 +1761,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.5258250.SFTA2",
     "human.chr6.5258250.SFTA2"
     ]
 }, {
@@ -2139,9 +1773,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.32373244.VARSL",
-    "dog.chr12.682032.VARSL",
-    "human.chr6.5235139.VARSL",
     "human.chr6.5235139.VARSL"
     ]
 }, {
@@ -2154,10 +1785,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.32367652.GTF2H4",
-    "cheetah.scaffold145.517287.GTF2H4",
-    "dog.chr12.676676.GTF2H4",
-    "human.chr6.5235081.GTF2H4",
     "human.chr6.5235081.GTF2H4"
     ]
 }, {
@@ -2170,10 +1797,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.32349938.DDR1",
-    "cheetah.scaffold145.499747.DDR1",
-    "dog.chr12.653806.DDR1",
-    "human.chr6.5203318.DDR1",
     "human.chr6.5203318.DDR1"
     ]
 }, {
@@ -2186,7 +1809,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.517494.HIST1H2BD",
     "human.chr6.517494.HIST1H2BD"
     ]
 }, {
@@ -2199,7 +1821,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.515679.HIST1H1E",
     "human.chr6.515679.HIST1H1E"
     ]
 }, {
@@ -2212,10 +1833,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.32227107.IER3",
-    "cheetah.scaffold145.379554.IER3",
-    "dog.chr12.529737.IER3",
-    "human.chr6.5070096.IER3",
     "human.chr6.5070096.IER3"
     ]
 }, {
@@ -2228,10 +1845,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.32213902.FLOT1",
-    "cheetah.scaffold145.367231.FLOT1",
-    "dog.chr12.518353.FLOT1",
-    "human.chr6.5054606.FLOT1",
     "human.chr6.5054606.FLOT1"
     ]
 }, {
@@ -2244,10 +1857,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.32206679.TUBB",
-    "cheetah.scaffold145.361120.TUBB",
-    "dog.chr12.512944.TUBB",
-    "human.chr6.5047098.TUBB",
     "human.chr6.5047098.TUBB"
     ]
 }, {
@@ -2260,10 +1869,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.32190691.MDC1",
-    "cheetah.scaffold145.345648.MDC1",
-    "dog.chr12.496903.MDC1",
-    "human.chr6.5026704.MDC1",
     "human.chr6.5026704.MDC1"
     ]
 }, {
@@ -2276,10 +1881,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.32184208.NRM",
-    "cheetah.scaffold145.339058.NRM",
-    "dog.chr12.482138.NRM",
-    "human.chr6.5014944.NRM",
     "human.chr6.5014944.NRM"
     ]
 }, {
@@ -2292,7 +1893,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.5003286.KIAA1949",
     "human.chr6.5003286.KIAA1949"
     ]
 }, {
@@ -2305,10 +1905,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.32156832.DHX16",
-    "cheetah.scaffold145.311522.DHX16",
-    "dog.chr12.460775.DHX16",
-    "human.chr6.4980016.DHX16",
     "human.chr6.4980016.DHX16"
     ]
 }, {
@@ -2321,10 +1917,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.32152554.C6orf136",
-    "cheetah.scaffold145.307770.C6orf136",
-    "dog.chr12.456729.C6orf136",
-    "human.chr6.4973936.C6orf136",
     "human.chr6.4973936.C6orf136"
     ]
 }, {
@@ -2337,8 +1929,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cheetah.scaffold145.293168.C6orf134",
-    "human.chr6.4953739.C6orf134",
     "human.chr6.4953739.C6orf134"
     ]
 }, {
@@ -2351,10 +1941,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.32131508.MRPS18B",
-    "cheetah.scaffold145.286733.MRPS18B",
-    "dog.chr12.435193.MRPS18B",
-    "human.chr6.4944606.MRPS18B",
     "human.chr6.4944606.MRPS18B"
     ]
 }, {
@@ -2367,10 +1953,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.32113078.PPP1R10",
-    "cheetah.scaffold145.268180.PPP1R10",
-    "dog.chr12.417679.PPP1R10",
-    "human.chr6.4927297.PPP1R10",
     "human.chr6.4927297.PPP1R10"
     ]
 }, {
@@ -2383,10 +1965,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.32091815.ABCF1",
-    "cheetah.scaffold145.246526.ABCF1",
-    "dog.chr12.397040.ABCF1",
-    "human.chr6.4898273.ABCF1",
     "human.chr6.4898273.ABCF1"
     ]
 }, {
@@ -2399,8 +1977,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.32079977.PRR3",
-    "human.chr6.4883783.PRR3",
     "human.chr6.4883783.PRR3"
     ]
 }, {
@@ -2413,10 +1989,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.32072037.GNL1",
-    "cheetah.scaffold145.226983.GNL1",
-    "dog.chr12.375592.GNL1",
-    "human.chr6.4868274.GNL1",
     "human.chr6.4868274.GNL1"
     ]
 }, {
@@ -2429,7 +2001,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.483493.HIST1H2AC",
     "human.chr6.483493.HIST1H2AC"
     ]
 }, {
@@ -2442,7 +2013,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.4816351.HLAE",
     "human.chr6.4816351.HLAE"
     ]
 }, {
@@ -2455,7 +2025,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.473753.HIST1H2BC",
     "human.chr6.473753.HIST1H2BC"
     ]
 }, {
@@ -2468,8 +2037,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "dog.chr12.331823.RPP21",
-    "human.chr6.4672028.RPP21",
     "human.chr6.4672028.RPP21"
     ]
 }, {
@@ -2482,7 +2049,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.466760.HIST1H1T",
     "human.chr6.466760.HIST1H1T"
     ]
 }, {
@@ -2495,7 +2061,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.4656479.XXbacBPG283O168",
     "human.chr6.4656479.XXbacBPG283O168"
     ]
 }, {
@@ -2508,7 +2073,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.4653376.TRIM39",
     "human.chr6.4653376.TRIM39"
     ]
 }, {
@@ -2521,7 +2085,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.463224.HIST1H4C",
     "human.chr6.463224.HIST1H4C"
     ]
 }, {
@@ -2534,10 +2097,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.34917.TRIM26",
-    "cheetah.scaffold823.289135.TRIM26",
-    "dog.chr35.26387778.TRIM26",
-    "human.chr6.4511352.TRIM26",
     "human.chr6.4511352.TRIM26"
     ]
 }, {
@@ -2550,8 +2109,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.58414.TRIM15",
-    "human.chr6.4490103.TRIM15",
     "human.chr6.4490103.TRIM15"
     ]
 }, {
@@ -2564,9 +2121,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.65811.TRIM10",
-    "dog.chr35.26350557.TRIM10",
-    "human.chr6.4478842.TRIM10",
     "human.chr6.4478842.TRIM10"
     ]
 }, {
@@ -2579,7 +2133,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.446629.HFE",
     "human.chr6.446629.HFE"
     ]
 }, {
@@ -2592,7 +2145,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.4463005.TRIM40",
     "human.chr6.4463005.TRIM40"
     ]
 }, {
@@ -2605,7 +2157,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.4429794.TRIM31",
     "human.chr6.4429794.TRIM31"
     ]
 }, {
@@ -2618,9 +2169,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cheetah.scaffold145.103390.RNF39",
-    "dog.chr35.26292780.RNF39",
-    "human.chr6.4397163.RNF39",
     "human.chr6.4397163.RNF39"
     ]
 }, {
@@ -2633,10 +2181,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.123810.PPP1R11",
-    "cheetah.scaffold823.207149.PPP1R11",
-    "dog.chr35.26289666.PPP1R11",
-    "human.chr6.4393606.PPP1R11",
     "human.chr6.4393606.PPP1R11"
     ]
 }, {
@@ -2649,10 +2193,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.129140.ZNRD1",
-    "cheetah.scaffold823.201488.ZNRD1",
-    "dog.chr35.26285783.ZNRD1",
-    "human.chr6.4385796.ZNRD1",
     "human.chr6.4385796.ZNRD1"
     ]
 }, {
@@ -2665,7 +2205,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.4268157.HLAA",
     "human.chr6.4268157.HLAA"
     ]
 }, {
@@ -2678,7 +2217,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.4153864.HLAG",
     "human.chr6.4153864.HLAG"
     ]
 }, {
@@ -2691,7 +2229,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.415088.HIST1H1C",
     "human.chr6.415088.HIST1H1C"
     ]
 }, {
@@ -2704,7 +2241,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.4049672.HLAF",
     "human.chr6.4049672.HLAF"
     ]
 }, {
@@ -2717,7 +2253,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.404732.HIST1H3C",
     "human.chr6.404732.HIST1H3C"
     ]
 }, {
@@ -2730,7 +2265,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.402575.HIST1H2BB",
     "human.chr6.402575.HIST1H2BB"
     ]
 }, {
@@ -2743,9 +2277,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.150330.ZFP57",
-    "dog.chr35.26267571.ZFP57",
-    "human.chr6.3999289.ZFP57",
     "human.chr6.3999289.ZFP57"
     ]
 }, {
@@ -2758,10 +2289,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.153567.MOG",
-    "cheetah.scaffold823.171169.MOG",
-    "dog.chr35.26256607.MOG",
-    "human.chr6.3983878.MOG",
     "human.chr6.3983878.MOG"
     ]
 }, {
@@ -2774,7 +2301,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.392440.HIST1H2AB",
     "human.chr6.392440.HIST1H2AB"
     ]
 }, {
@@ -2787,7 +2313,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.3914803.OR2H2",
     "human.chr6.3914803.OR2H2"
     ]
 }, {
@@ -2800,7 +2325,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.390998.HIST1H3B",
     "human.chr6.390998.HIST1H3B"
     ]
 }, {
@@ -2813,10 +2337,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.182718.GABBR1",
-    "cheetah.scaffold823.126415.GABBR1",
-    "dog.chr35.26213080.GABBR1",
-    "human.chr6.3882526.GABBR1",
     "human.chr6.3882526.GABBR1"
     ]
 }, {
@@ -2829,9 +2349,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cheetah.scaffold823.96003.UBD",
-    "dog.chr35.26432227.UBD",
-    "human.chr6.3882412.UBD",
     "human.chr6.3882412.UBD"
     ]
 }, {
@@ -2844,7 +2361,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.386244.HIST1H4B",
     "human.chr6.386244.HIST1H4B"
     ]
 }, {
@@ -2857,7 +2373,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.3813663.MAS1L",
     "human.chr6.3813663.MAS1L"
     ]
 }, {
@@ -2870,7 +2385,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.381027.HIST1H4A",
     "human.chr6.381027.HIST1H4A"
     ]
 }, {
@@ -2883,7 +2397,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.379838.HIST1H3A",
     "human.chr6.379838.HIST1H3A"
     ]
 }, {
@@ -2896,7 +2409,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.3784078.OR2H1",
     "human.chr6.3784078.OR2H1"
     ]
 }, {
@@ -2909,7 +2421,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.376380.HIST1H1A",
     "human.chr6.376380.HIST1H1A"
     ]
 }, {
@@ -2922,8 +2433,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cat.chrB2.284030.OR11A1",
-    "human.chr6.3752401.OR11A1",
     "human.chr6.3752401.OR11A1"
     ]
 }, {
@@ -2936,8 +2445,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "cheetah.scaffold823.45728.OR10C1",
-    "human.chr6.3744177.OR10C1",
     "human.chr6.3744177.OR10C1"
     ]
 }, {
@@ -2950,7 +2457,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.3723536.OR12D2",
     "human.chr6.3723536.OR12D2"
     ]
 }, {
@@ -2963,7 +2469,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.3682127.OR5V1",
     "human.chr6.3682127.OR5V1"
     ]
 }, {
@@ -2976,7 +2481,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.3633523.OR14J1",
     "human.chr6.3633523.OR14J1"
     ]
 }, {
@@ -2989,7 +2493,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.3595377.OR12D3",
     "human.chr6.3595377.OR12D3"
     ]
 }, {
@@ -3002,7 +2505,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.3500431.OR2J2",
     "human.chr6.3500431.OR2J2"
     ]
 }, {
@@ -3015,7 +2517,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.3438788.OR2J3",
     "human.chr6.3438788.OR2J3"
     ]
 }, {
@@ -3028,7 +2529,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.3427738.OR2J1",
     "human.chr6.3427738.OR2J1"
     ]
 }, {
@@ -3041,7 +2541,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.3413204.OR2B3",
     "human.chr6.3413204.OR2B3"
     ]
 }, {
@@ -3054,8 +2553,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "dog.chr35.26116872.OR2W1",
-    "human.chr6.3371110.OR2W1",
     "human.chr6.3371110.OR2W1"
     ]
 }, {
@@ -3068,7 +2565,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.3321682.ZNF311",
     "human.chr6.3321682.ZNF311"
     ]
 }, {
@@ -3081,7 +2577,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.3270774.C6orf100",
     "human.chr6.3270774.C6orf100"
     ]
 }, {
@@ -3094,7 +2589,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.3229899.TRIM27",
     "human.chr6.3229899.TRIM27"
     ]
 }, {
@@ -3107,7 +2601,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.322395.TRIM38",
     "human.chr6.322395.TRIM38"
     ]
 }, {
@@ -3120,7 +2613,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2898525.SCAND3",
     "human.chr6.2898525.SCAND3"
     ]
 }, {
@@ -3133,7 +2625,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2852822.GPX5",
     "human.chr6.2852822.GPX5"
     ]
 }, {
@@ -3146,7 +2637,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2830193.GPX6",
     "human.chr6.2830193.GPX6"
     ]
 }, {
@@ -3159,7 +2649,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2758827.ZSCAN23",
     "human.chr6.2758827.ZSCAN23"
     ]
 }, {
@@ -3172,7 +2661,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.272102.SLC17A2",
     "human.chr6.272102.SLC17A2"
     ]
 }, {
@@ -3185,7 +2673,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2705852.ZSCAN12",
     "human.chr6.2705852.ZSCAN12"
     ]
 }, {
@@ -3198,7 +2685,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2676811.ZKSCAN3",
     "human.chr6.2676811.ZKSCAN3"
     ]
 }, {
@@ -3211,7 +2697,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2651590.ZNF323",
     "human.chr6.2651590.ZNF323"
     ]
 }, {
@@ -3224,7 +2709,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2608469.PGBD1",
     "human.chr6.2608469.PGBD1"
     ]
 }, {
@@ -3237,7 +2721,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2586218.NKAPL",
     "human.chr6.2586218.NKAPL"
     ]
 }, {
@@ -3250,7 +2733,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2571483.ZKSCAN4",
     "human.chr6.2571483.ZKSCAN4"
     ]
 }, {
@@ -3263,7 +2745,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2552190.ZNF193",
     "human.chr6.2552190.ZNF193"
     ]
 }, {
@@ -3276,7 +2757,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2468836.ZNF192",
     "human.chr6.2468836.ZNF192"
     ]
 }, {
@@ -3289,7 +2769,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2451458.ZNF435",
     "human.chr6.2451458.ZNF435"
     ]
 }, {
@@ -3302,7 +2781,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2405692.ZNF165",
     "human.chr6.2405692.ZNF165"
     ]
 }, {
@@ -3315,7 +2793,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2284139.OR4D1",
     "human.chr6.2284139.OR4D1"
     ]
 }, {
@@ -3328,7 +2805,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2238144.OR2B2",
     "human.chr6.2238144.OR2B2"
     ]
 }, {
@@ -3341,7 +2817,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2220323.HIST1H2BO",
     "human.chr6.2220323.HIST1H2BO"
     ]
 }, {
@@ -3354,7 +2829,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2219597.HIST1H2AM",
     "human.chr6.2219597.HIST1H2AM"
     ]
 }, {
@@ -3367,7 +2841,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2217280.HIST1H3J",
     "human.chr6.2217280.HIST1H3J"
     ]
 }, {
@@ -3380,7 +2853,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2200046.HIST1H4L",
     "human.chr6.2200046.HIST1H4L"
     ]
 }, {
@@ -3393,7 +2865,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2198803.HIST1H3I",
     "human.chr6.2198803.HIST1H3I"
     ]
 }, {
@@ -3406,7 +2877,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2193690.HIST1H1B",
     "human.chr6.2193690.HIST1H1B"
     ]
 }, {
@@ -3419,7 +2889,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2192154.HIST1H2AL",
     "human.chr6.2192154.HIST1H2AL"
     ]
 }, {
@@ -3432,7 +2901,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2164778.HIST1H2AK",
     "human.chr6.2164778.HIST1H2AK"
     ]
 }, {
@@ -3445,7 +2913,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2164658.HIST1H2BN",
     "human.chr6.2164658.HIST1H2BN"
     ]
 }, {
@@ -3458,7 +2925,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2158114.HIST1H4K",
     "human.chr6.2158114.HIST1H4K"
     ]
 }, {
@@ -3471,7 +2937,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2151004.HIST1H4J",
     "human.chr6.2151004.HIST1H4J"
     ]
 }, {
@@ -3484,7 +2949,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2141942.HIST1H2BM",
     "human.chr6.2141942.HIST1H2BM"
     ]
 }, {
@@ -3497,7 +2961,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2141200.HIST1H2AJ",
     "human.chr6.2141200.HIST1H2AJ"
     ]
 }, {
@@ -3510,7 +2973,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2136962.HIST1H3H",
     "human.chr6.2136962.HIST1H3H"
     ]
 }, {
@@ -3523,7 +2985,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2135019.HIST1H2AI",
     "human.chr6.2135019.HIST1H2AI"
     ]
 }, {
@@ -3536,7 +2997,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.2134377.HIST1H2BL",
     "human.chr6.2134377.HIST1H2BL"
     ]
 }, {
@@ -3549,7 +3009,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.192414.SLC17A3",
     "human.chr6.192414.SLC17A3"
     ]
 }, {
@@ -3562,7 +3021,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.1777642.ZNF184",
     "human.chr6.1777642.ZNF184"
     ]
 }, {
@@ -3575,7 +3033,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.1701514.ZNF391",
     "human.chr6.1701514.ZNF391"
     ]
 }, {
@@ -3588,7 +3045,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.1612802.POM121L2",
     "human.chr6.1612802.POM121L2"
     ]
 }, {
@@ -3601,7 +3057,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.1574600.PRSS16",
     "human.chr6.1574600.PRSS16"
     ]
 }, {
@@ -3614,7 +3069,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.1473981.HIST1H2AH",
     "human.chr6.1473981.HIST1H2AH"
     ]
 }, {
@@ -3627,7 +3081,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.1466196.HIST1H4I",
     "human.chr6.1466196.HIST1H4I"
     ]
 }, {
@@ -3640,7 +3093,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.1464128.HIST1H2BK",
     "human.chr6.1464128.HIST1H2BK"
     ]
 }, {
@@ -3653,7 +3105,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.1459941.SMCHD1",
     "human.chr6.1459941.SMCHD1"
     ]
 }, {
@@ -3666,7 +3117,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.1459215.HIST1H2BJ",
     "human.chr6.1459215.HIST1H2BJ"
     ]
 }, {
@@ -3679,7 +3129,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.142245.SLC17A1",
     "human.chr6.142245.SLC17A1"
     ]
 }, {
@@ -3692,7 +3141,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.1198386.AL1332551",
     "human.chr6.1198386.AL1332551"
     ]
 }, {
@@ -3705,7 +3153,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.1198383.GUSBL1",
     "human.chr6.1198383.GUSBL1"
     ]
 }, {
@@ -3718,7 +3165,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.11549.SCGN",
     "human.chr6.11549.SCGN"
     ]
 }, {
@@ -3731,7 +3177,6 @@
   "file": "human",
   "type": "human",
   "gene_links": [
-    "human.chr6.114047.SLC17A4",
     "human.chr6.114047.SLC17A4"
     ]
 }, {
@@ -3744,9 +3189,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.65811.TRIM10",
-    "dog.chr35.26350557.TRIM10",
-    "human.chr6.4478842.TRIM10",
     "cat.chrB2.65811.TRIM10"
     ]
 }, {
@@ -3759,8 +3201,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.58414.TRIM15",
-    "human.chr6.4490103.TRIM15",
     "cat.chrB2.58414.TRIM15"
     ]
 }, {
@@ -3773,10 +3213,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34960057.KIFC1",
-    "cheetah.scaffold415.1141731.KIFC1",
-    "dog.chr12.2813625.KIFC1",
-    "human.chr6.7718433.KIFC1",
     "cat.chrB2.34960057.KIFC1"
     ]
 }, {
@@ -3789,10 +3225,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34917.TRIM26",
-    "cheetah.scaffold823.289135.TRIM26",
-    "dog.chr35.26387778.TRIM26",
-    "human.chr6.4511352.TRIM26",
     "cat.chrB2.34917.TRIM26"
     ]
 }, {
@@ -3805,10 +3237,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34888638.DAXX",
-    "cheetah.scaffold415.1218109.DAXX",
-    "dog.chr12.2756162.DAXX",
-    "human.chr6.7645455.DAXX",
     "cat.chrB2.34888638.DAXX"
     ]
 }, {
@@ -3821,10 +3249,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34873795.TAPBP",
-    "cheetah.scaffold415.1225672.TAPBP",
-    "dog.chr12.2741359.TAPBP",
-    "human.chr6.7626591.TAPBP",
     "cat.chrB2.34873795.TAPBP"
     ]
 }, {
@@ -3837,10 +3261,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34864164.RGL2",
-    "cheetah.scaffold415.1239745.RGL2",
-    "dog.chr12.2732105.RGL2",
-    "human.chr6.7618551.RGL2",
     "cat.chrB2.34864164.RGL2"
     ]
 }, {
@@ -3853,9 +3273,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34861793.PFDN6",
-    "dog.chr12.2729832.PFDN6",
-    "human.chr6.7616199.PFDN6",
     "cat.chrB2.34861793.PFDN6"
     ]
 }, {
@@ -3868,10 +3285,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34853389.WDR46",
-    "cheetah.scaffold415.1248115.WDR46",
-    "dog.chr12.2721432.WDR46",
-    "human.chr6.7606005.WDR46",
     "cat.chrB2.34853389.WDR46"
     ]
 }, {
@@ -3884,10 +3297,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34851528.B3GALT4",
-    "cheetah.scaffold415.1256759.B3GALT4",
-    "dog.chr12.2719553.B3GALT4",
-    "human.chr6.7604037.B3GALT4",
     "cat.chrB2.34851528.B3GALT4"
     ]
 }, {
@@ -3900,9 +3309,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34845976.RPS18",
-    "dog.chr12.2713002.RPS18",
-    "human.chr6.7598907.RPS18",
     "cat.chrB2.34845976.RPS18"
     ]
 }, {
@@ -3915,10 +3321,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34829985.VPS52",
-    "cheetah.scaffold415.1278502.VPS52",
-    "dog.chr12.2698013.VPS52",
-    "human.chr6.7577169.VPS52",
     "cat.chrB2.34829985.VPS52"
     ]
 }, {
@@ -3931,10 +3333,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34798644.RING1",
-    "cheetah.scaffold415.1305935.RING1",
-    "dog.chr12.2671884.RING1",
-    "human.chr6.7535392.RING1",
     "cat.chrB2.34798644.RING1"
     ]
 }, {
@@ -3947,9 +3345,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34794697.HSD17B8",
-    "dog.chr12.2667755.HSD17B8",
-    "human.chr6.7531539.HSD17B8",
     "cat.chrB2.34794697.HSD17B8"
     ]
 }, {
@@ -3962,10 +3357,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34791246.SLC39A7",
-    "cheetah.scaffold415.1314115.SLC39A7",
-    "dog.chr12.2663838.SLC39A7",
-    "human.chr6.7527342.SLC39A7",
     "cat.chrB2.34791246.SLC39A7"
     ]
 }, {
@@ -3978,10 +3369,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34785064.RXRB",
-    "cheetah.scaffold415.1317486.RXRB",
-    "dog.chr12.2658174.RXRB",
-    "human.chr6.7520485.RXRB",
     "cat.chrB2.34785064.RXRB"
     ]
 }, {
@@ -3994,10 +3381,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34754587.COL11A2",
-    "cheetah.scaffold415.1325101.COL11A2",
-    "dog.chr12.2627827.COL11A2",
-    "human.chr6.7489578.COL11A2",
     "cat.chrB2.34754587.COL11A2"
     ]
 }, {
@@ -4010,8 +3393,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34724407.HLA-DPB1",
-    "dog.chr12.2604545.HLA-DPB1",
     "cat.chrB2.34724407.HLA-DPB1"
     ]
 }, {
@@ -4024,7 +3405,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34716240.HLA-DPA1",
     "cat.chrB2.34716240.HLA-DPA1"
     ]
 }, {
@@ -4037,7 +3417,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34685008.HLA-DOA",
     "cat.chrB2.34685008.HLA-DOA"
     ]
 }, {
@@ -4050,10 +3429,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34656817.BRD2",
-    "cheetah.scaffold415.1442670.BRD2",
-    "dog.chr12.2538250.BRD2",
-    "human.chr6.7295557.BRD2",
     "cat.chrB2.34656817.BRD2"
     ]
 }, {
@@ -4066,7 +3441,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34633947.HLA-DMA",
     "cat.chrB2.34633947.HLA-DMA"
     ]
 }, {
@@ -4079,9 +3453,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34545125.PSMB9",
-    "dog.chr12.2432578.PSMB9",
-    "human.chr6.7171033.PSMB9",
     "cat.chrB2.34545125.PSMB9"
     ]
 }, {
@@ -4094,10 +3465,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34537212.TAP1",
-    "cheetah.scaffold415.1560312.TAP1",
-    "dog.chr12.2424464.TAP1",
-    "human.chr6.7172106.TAP1",
     "cat.chrB2.34537212.TAP1"
     ]
 }, {
@@ -4110,10 +3477,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34532634.PSMB8",
-    "cheetah.scaffold415.1569211.PSMB8",
-    "dog.chr12.2419688.PSMB8",
-    "human.chr6.7167614.PSMB8",
     "cat.chrB2.34532634.PSMB8"
     ]
 }, {
@@ -4126,7 +3489,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34500578.HLA-DOB",
     "cat.chrB2.34500578.HLA-DOB"
     ]
 }, {
@@ -4139,7 +3501,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34330963.FLA-DRB",
     "cat.chrB2.34330963.FLA-DRB"
     ]
 }, {
@@ -4152,7 +3513,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34274222.SLC26A3",
     "cat.chrB2.34274222.SLC26A3"
     ]
 }, {
@@ -4165,9 +3525,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.34239988.BTNL2",
-    "dog.chr12.2089798.BTNL2",
-    "human.chr6.6718361.BTNL2",
     "cat.chrB2.34239988.BTNL2"
     ]
 }, {
@@ -4180,13 +3537,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32328952.5S_rRNA",
-    "cat.chrB2.32502775.5S_rRNA",
-    "cat.chrB2.32871109.5S_rRNA",
-    "cat.chrB2.33845728.5S_rRNA",
-    "cat.chrB2.34114879.5S_rRNA",
-    "cat.chrB2.262954.5S_rRNA",
-    "dog.chr12.1713628.5S_rRNA",
     "cat.chrB2.34114879.5S_rRNA"
     ]
 }, {
@@ -4199,9 +3549,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33999570.C6orf10",
-    "dog.chr12.1828937.C6orf10",
-    "human.chr6.6619595.C6orf10",
     "cat.chrB2.33999570.C6orf10"
     ]
 }, {
@@ -4214,13 +3561,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32328952.5S_rRNA",
-    "cat.chrB2.32502775.5S_rRNA",
-    "cat.chrB2.32871109.5S_rRNA",
-    "cat.chrB2.33845728.5S_rRNA",
-    "cat.chrB2.34114879.5S_rRNA",
-    "cat.chrB2.262954.5S_rRNA",
-    "dog.chr12.1713628.5S_rRNA",
     "cat.chrB2.33845728.5S_rRNA"
     ]
 }, {
@@ -4233,10 +3573,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33727646.GPSM3",
-    "cheetah.scaffold786.443652.GPSM3",
-    "dog.chr12.1584310.GPSM3",
-    "human.chr6.6517663.GPSM3",
     "cat.chrB2.33727646.GPSM3"
     ]
 }, {
@@ -4249,9 +3585,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33722601.PBX2",
-    "dog.chr12.1579230.PBX2",
-    "human.chr6.6511630.PBX2",
     "cat.chrB2.33722601.PBX2"
     ]
 }, {
@@ -4264,10 +3597,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33717651.AGER",
-    "cheetah.scaffold786.451926.AGER",
-    "dog.chr12.1574422.AGER",
-    "human.chr6.6507865.AGER",
     "cat.chrB2.33717651.AGER"
     ]
 }, {
@@ -4280,10 +3609,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33714927.RNF5",
-    "cheetah.scaffold786.452836.RNF5",
-    "dog.chr12.1571450.RNF5",
-    "human.chr6.6505251.RNF5",
     "cat.chrB2.33714927.RNF5"
     ]
 }, {
@@ -4296,10 +3621,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33706184.AGPAT1",
-    "cheetah.scaffold786.464604.AGPAT1",
-    "dog.chr12.1562547.AGPAT1",
-    "human.chr6.6495109.AGPAT1",
     "cat.chrB2.33706184.AGPAT1"
     ]
 }, {
@@ -4312,10 +3633,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33703037.EGFL8",
-    "cheetah.scaffold786.468084.EGFL8",
-    "dog.chr12.1559409.EGFL8",
-    "human.chr6.6491480.EGFL8",
     "cat.chrB2.33703037.EGFL8"
     ]
 }, {
@@ -4328,9 +3645,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33689980.PRRT1",
-    "dog.chr12.1546249.PRRT1",
-    "human.chr6.6475256.PRRT1",
     "cat.chrB2.33689980.PRRT1"
     ]
 }, {
@@ -4343,9 +3657,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33673805.FKBPL",
-    "cheetah.scaffold786.498156.FKBPL",
-    "human.chr6.6455604.FKBPL",
     "cat.chrB2.33673805.FKBPL"
     ]
 }, {
@@ -4358,10 +3669,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33664502.CREBL1",
-    "cheetah.scaffold786.499765.CREBL1",
-    "dog.chr12.1515672.CREBL1",
-    "human.chr6.6425073.CREBL1",
     "cat.chrB2.33664502.CREBL1"
     ]
 }, {
@@ -4374,10 +3681,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33610927.TNXB",
-    "cheetah.scaffold786.525046.TNXB",
-    "dog.chr12.1453418.TNXB",
-    "human.chr6.6335316.TNXB",
     "cat.chrB2.33610927.TNXB"
     ]
 }, {
@@ -4390,10 +3693,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33608200.CYP21A2",
-    "cheetah.scaffold786.572278.CYP21A2",
-    "dog.chr12.1450739.CYP21A2",
-    "human.chr6.6365162.CYP21A2",
     "cat.chrB2.33608200.CYP21A2"
     ]
 }, {
@@ -4406,9 +3705,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33584077.STK19",
-    "cheetah.scaffold786.593878.STK19",
-    "human.chr6.6297988.STK19",
     "cat.chrB2.33584077.STK19"
     ]
 }, {
@@ -4421,10 +3717,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33581692.DOM3Z",
-    "cheetah.scaffold786.599910.DOM3Z",
-    "dog.chr12.1424644.DOM3Z",
-    "human.chr6.6296707.DOM3Z",
     "cat.chrB2.33581692.DOM3Z"
     ]
 }, {
@@ -4437,10 +3729,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33570339.SKIV2L",
-    "cheetah.scaffold786.601861.SKIV2L",
-    "dog.chr12.1412539.SKIV2L",
-    "human.chr6.6285701.SKIV2L",
     "cat.chrB2.33570339.SKIV2L"
     ]
 }, {
@@ -4453,10 +3741,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33564390.RDBP",
-    "cheetah.scaffold786.613745.RDBP",
-    "dog.chr12.1408625.RDBP",
-    "human.chr6.6278984.RDBP",
     "cat.chrB2.33564390.RDBP"
     ]
 }, {
@@ -4469,9 +3753,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33512203.ZBTB12",
-    "dog.chr12.1356822.ZBTB12",
-    "human.chr6.6226504.ZBTB12",
     "cat.chrB2.33512203.ZBTB12"
     ]
 }, {
@@ -4484,10 +3765,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33497278.EHMT2",
-    "cheetah.scaffold786.672847.EHMT2",
-    "dog.chr12.1341543.EHMT2",
-    "human.chr6.6206656.EHMT2",
     "cat.chrB2.33497278.EHMT2"
     ]
 }, {
@@ -4500,10 +3777,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33484430.SLC44A4",
-    "cheetah.scaffold786.685971.SLC44A4",
-    "dog.chr12.1328398.SLC44A4",
-    "human.chr6.6190089.SLC44A4",
     "cat.chrB2.33484430.SLC44A4"
     ]
 }, {
@@ -4516,10 +3789,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33480702.NEU1",
-    "cheetah.scaffold786.698408.NEU1",
-    "dog.chr12.1324174.NEU1",
-    "human.chr6.6184556.NEU1",
     "cat.chrB2.33480702.NEU1"
     ]
 }, {
@@ -4532,9 +3801,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33435850.HSPA1L",
-    "dog.chr12.1281471.HSPA1L",
-    "human.chr6.6136516.HSPA1L",
     "cat.chrB2.33435850.HSPA1L"
     ]
 }, {
@@ -4547,10 +3813,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33428200.LSM2",
-    "cheetah.scaffold821.20985.LSM2",
-    "cheetah.scaffold821.20985.LSM2",
-    "human.chr6.6124293.LSM2",
     "cat.chrB2.33428200.LSM2"
     ]
 }, {
@@ -4563,11 +3825,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33411647.VARS",
-    "cheetah.scaffold821.23084.VARS",
-    "cheetah.scaffold145.522910.VARS",
-    "dog.chr12.1255016.VARS",
-    "human.chr6.6104415.VARS",
     "cat.chrB2.33411647.VARS"
     ]
 }, {
@@ -4580,9 +3837,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33402473.VWA7",
-    "cheetah.scaffold821.38323.VWA7",
-    "dog.chr12.1246339.VWA7",
     "cat.chrB2.33402473.VWA7"
     ]
 }, {
@@ -4595,9 +3849,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33400323.SAPCD1",
-    "cheetah.scaffold821.47430.SAPCD1",
-    "dog.chr12.1243973.SAPCD1",
     "cat.chrB2.33400323.SAPCD1"
     ]
 }, {
@@ -4610,10 +3861,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33367006.CLIC1",
-    "cheetah.scaffold821.77015.CLIC1",
-    "dog.chr12.1210011.CLIC1",
-    "human.chr6.6057478.CLIC1",
     "cat.chrB2.33367006.CLIC1"
     ]
 }, {
@@ -4626,10 +3873,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33363497.DDAH2",
-    "cheetah.scaffold821.83879.DDAH2",
-    "dog.chr12.1206391.DDAH2",
-    "human.chr6.6053935.DDAH2",
     "cat.chrB2.33363497.DDAH2"
     ]
 }, {
@@ -4642,10 +3885,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33359772.C6orf25",
-    "cheetah.scaffold821.87674.C6orf25",
-    "dog.chr12.1202720.C6orf25",
-    "human.chr6.6045491.C6orf25",
     "cat.chrB2.33359772.C6orf25"
     ]
 }, {
@@ -4658,10 +3897,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33355901.LY6G6C",
-    "cheetah.scaffold821.90657.LY6G6C",
-    "dog.chr12.1198300.LY6G6C",
-    "human.chr6.6045545.LY6G6C",
     "cat.chrB2.33355901.LY6G6C"
     ]
 }, {
@@ -4674,10 +3909,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33328940.BAT5",
-    "cheetah.scaffold821.105844.BAT5",
-    "dog.chr12.1167970.BAT5",
-    "human.chr6.6013846.BAT5",
     "cat.chrB2.33328940.BAT5"
     ]
 }, {
@@ -4690,10 +3921,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33320110.LY6G5C",
-    "cheetah.scaffold821.124194.LY6G5C",
-    "dog.chr12.1159965.LY6G5C",
-    "human.chr6.6003581.LY6G5C",
     "cat.chrB2.33320110.LY6G5C"
     ]
 }, {
@@ -4706,10 +3933,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33311513.CSNK2B",
-    "cheetah.scaffold821.132581.CSNK2B",
-    "dog.chr12.1150957.CSNK2B",
-    "human.chr6.5992133.CSNK2B",
     "cat.chrB2.33311513.CSNK2B"
     ]
 }, {
@@ -4722,10 +3945,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33307513.BAT4",
-    "cheetah.scaffold821.139353.BAT4",
-    "dog.chr12.1146519.BAT4",
-    "human.chr6.5988126.BAT4",
     "cat.chrB2.33307513.BAT4"
     ]
 }, {
@@ -4738,9 +3957,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33304552.C6orf47",
-    "cheetah.scaffold821.142924.C6orf47",
-    "human.chr6.5985195.C6orf47",
     "cat.chrB2.33304552.C6orf47"
     ]
 }, {
@@ -4753,10 +3969,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33301598.APOM",
-    "cheetah.scaffold821.144829.APOM",
-    "dog.chr12.1140322.APOM",
-    "human.chr6.5979313.APOM",
     "cat.chrB2.33301598.APOM"
     ]
 }, {
@@ -4769,10 +3981,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33288463.BAT3",
-    "cheetah.scaffold821.149815.BAT3",
-    "dog.chr12.1126820.BAT3",
-    "human.chr6.5965925.BAT3",
     "cat.chrB2.33288463.BAT3"
     ]
 }, {
@@ -4785,9 +3993,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33273983.BAT2",
-    "dog.chr12.1112676.BAT2",
-    "human.chr6.5947570.BAT2",
     "cat.chrB2.33273983.BAT2"
     ]
 }, {
@@ -4800,10 +4005,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33265043.AIF1",
-    "cheetah.scaffold821.181258.AIF1",
-    "dog.chr12.1104478.AIF1",
-    "human.chr6.5942081.AIF1",
     "cat.chrB2.33265043.AIF1"
     ]
 }, {
@@ -4816,10 +4017,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33244255.NCR3",
-    "cheetah.scaffold821.200098.NCR3",
-    "dog.chr12.1086910.NCR3",
-    "human.chr6.5915792.NCR3",
     "cat.chrB2.33244255.NCR3"
     ]
 }, {
@@ -4832,10 +4029,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33238415.LTB",
-    "cheetah.scaffold821.207690.LTB",
-    "dog.chr12.1079422.LTB",
-    "human.chr6.5907422.LTB",
     "cat.chrB2.33238415.LTB"
     ]
 }, {
@@ -4848,10 +4041,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33233690.TNF",
-    "cheetah.scaffold821.212456.TNF",
-    "dog.chr12.1074560.TNF",
-    "human.chr6.5902123.TNF",
     "cat.chrB2.33233690.TNF"
     ]
 }, {
@@ -4864,10 +4053,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33230351.LTA",
-    "cheetah.scaffold821.216626.LTA",
-    "dog.chr12.1071468.LTA",
-    "human.chr6.5898951.LTA",
     "cat.chrB2.33230351.LTA"
     ]
 }, {
@@ -4880,10 +4065,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33209161.NFKBIL1",
-    "cheetah.scaffold821.230285.NFKBIL1",
-    "dog.chr12.1049174.NFKBIL1",
-    "human.chr6.5873767.NFKBIL1",
     "cat.chrB2.33209161.NFKBIL1"
     ]
 }, {
@@ -4896,9 +4077,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33206578.ATP6V1G2",
-    "cheetah.scaffold821.245871.ATP6V1G2",
-    "human.chr6.5857116.ATP6V1G2",
     "cat.chrB2.33206578.ATP6V1G2"
     ]
 }, {
@@ -4911,9 +4089,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33192987.BAT1",
-    "dog.chr12.1032597.BAT1",
-    "human.chr6.5857116.BAT1",
     "cat.chrB2.33192987.BAT1"
     ]
 }, {
@@ -4926,10 +4101,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.33191585.MCCD1",
-    "cheetah.scaffold421.2570.MCCD1",
-    "dog.chr12.1031187.MCCD1",
-    "human.chr6.5855614.MCCD1",
     "cat.chrB2.33191585.MCCD1"
     ]
 }, {
@@ -4942,13 +4113,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32328952.5S_rRNA",
-    "cat.chrB2.32502775.5S_rRNA",
-    "cat.chrB2.32871109.5S_rRNA",
-    "cat.chrB2.33845728.5S_rRNA",
-    "cat.chrB2.34114879.5S_rRNA",
-    "cat.chrB2.262954.5S_rRNA",
-    "dog.chr12.1713628.5S_rRNA",
     "cat.chrB2.32871109.5S_rRNA"
     ]
 }, {
@@ -4961,7 +4125,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32667395.FLA-Z",
     "cat.chrB2.32667395.FLA-Z"
     ]
 }, {
@@ -4974,9 +4137,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32571099.POU5F1",
-    "cheetah.scaffold145.720485.POU5F1",
-    "human.chr6.5491234.POU5F1",
     "cat.chrB2.32571099.POU5F1"
     ]
 }, {
@@ -4989,10 +4149,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32566778.TCF19",
-    "cheetah.scaffold145.716133.TCF19",
-    "dog.chr12.856212.TCF19",
-    "human.chr6.5485439.TCF19",
     "cat.chrB2.32566778.TCF19"
     ]
 }, {
@@ -5005,10 +4161,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32551169.CCHCR1",
-    "cheetah.scaffold145.700511.CCHCR1",
-    "dog.chr12.842244.CCHCR1",
-    "human.chr6.5469336.CCHCR1",
     "cat.chrB2.32551169.CCHCR1"
     ]
 }, {
@@ -5021,10 +4173,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32546665.PSORS1C2",
-    "cheetah.scaffold145.696141.PSORS1C2",
-    "dog.chr12.838392.PSORS1C2",
-    "human.chr6.5464431.PSORS1C2",
     "cat.chrB2.32546665.PSORS1C2"
     ]
 }, {
@@ -5037,10 +4185,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32528830.CDSN",
-    "cheetah.scaffold145.677785.CDSN",
-    "dog.chr12.820466.CDSN",
-    "human.chr6.5441987.CDSN",
     "cat.chrB2.32528830.CDSN"
     ]
 }, {
@@ -5053,13 +4197,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32328952.5S_rRNA",
-    "cat.chrB2.32502775.5S_rRNA",
-    "cat.chrB2.32871109.5S_rRNA",
-    "cat.chrB2.33845728.5S_rRNA",
-    "cat.chrB2.34114879.5S_rRNA",
-    "cat.chrB2.262954.5S_rRNA",
-    "dog.chr12.1713628.5S_rRNA",
     "cat.chrB2.32502775.5S_rRNA"
     ]
 }, {
@@ -5072,10 +4209,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32396584.DPCR1",
-    "cheetah.scaffold145.552620.DPCR1",
-    "dog.chr12.551500.DPCR1",
-    "human.chr6.5267869.DPCR1",
     "cat.chrB2.32396584.DPCR1"
     ]
 }, {
@@ -5088,9 +4221,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32373244.VARSL",
-    "dog.chr12.682032.VARSL",
-    "human.chr6.5235139.VARSL",
     "cat.chrB2.32373244.VARSL"
     ]
 }, {
@@ -5103,10 +4233,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32367652.GTF2H4",
-    "cheetah.scaffold145.517287.GTF2H4",
-    "dog.chr12.676676.GTF2H4",
-    "human.chr6.5235081.GTF2H4",
     "cat.chrB2.32367652.GTF2H4"
     ]
 }, {
@@ -5119,10 +4245,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32349938.DDR1",
-    "cheetah.scaffold145.499747.DDR1",
-    "dog.chr12.653806.DDR1",
-    "human.chr6.5203318.DDR1",
     "cat.chrB2.32349938.DDR1"
     ]
 }, {
@@ -5135,13 +4257,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32328952.5S_rRNA",
-    "cat.chrB2.32502775.5S_rRNA",
-    "cat.chrB2.32871109.5S_rRNA",
-    "cat.chrB2.33845728.5S_rRNA",
-    "cat.chrB2.34114879.5S_rRNA",
-    "cat.chrB2.262954.5S_rRNA",
-    "dog.chr12.1713628.5S_rRNA",
     "cat.chrB2.32328952.5S_rRNA"
     ]
 }, {
@@ -5154,10 +4269,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32227107.IER3",
-    "cheetah.scaffold145.379554.IER3",
-    "dog.chr12.529737.IER3",
-    "human.chr6.5070096.IER3",
     "cat.chrB2.32227107.IER3"
     ]
 }, {
@@ -5170,10 +4281,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32213902.FLOT1",
-    "cheetah.scaffold145.367231.FLOT1",
-    "dog.chr12.518353.FLOT1",
-    "human.chr6.5054606.FLOT1",
     "cat.chrB2.32213902.FLOT1"
     ]
 }, {
@@ -5186,10 +4293,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32206679.TUBB",
-    "cheetah.scaffold145.361120.TUBB",
-    "dog.chr12.512944.TUBB",
-    "human.chr6.5047098.TUBB",
     "cat.chrB2.32206679.TUBB"
     ]
 }, {
@@ -5202,10 +4305,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32190691.MDC1",
-    "cheetah.scaffold145.345648.MDC1",
-    "dog.chr12.496903.MDC1",
-    "human.chr6.5026704.MDC1",
     "cat.chrB2.32190691.MDC1"
     ]
 }, {
@@ -5218,10 +4317,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32184208.NRM",
-    "cheetah.scaffold145.339058.NRM",
-    "dog.chr12.482138.NRM",
-    "human.chr6.5014944.NRM",
     "cat.chrB2.32184208.NRM"
     ]
 }, {
@@ -5234,8 +4329,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32174597.PPP1R18",
-    "cheetah.scaffold145.329568.PPP1R18",
     "cat.chrB2.32174597.PPP1R18"
     ]
 }, {
@@ -5248,10 +4341,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32156832.DHX16",
-    "cheetah.scaffold145.311522.DHX16",
-    "dog.chr12.460775.DHX16",
-    "human.chr6.4980016.DHX16",
     "cat.chrB2.32156832.DHX16"
     ]
 }, {
@@ -5264,10 +4353,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32152554.C6orf136",
-    "cheetah.scaffold145.307770.C6orf136",
-    "dog.chr12.456729.C6orf136",
-    "human.chr6.4973936.C6orf136",
     "cat.chrB2.32152554.C6orf136"
     ]
 }, {
@@ -5280,8 +4365,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32137936.ATAT1",
-    "dog.chr12.441897.ATAT1",
     "cat.chrB2.32137936.ATAT1"
     ]
 }, {
@@ -5294,10 +4377,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32131508.MRPS18B",
-    "cheetah.scaffold145.286733.MRPS18B",
-    "dog.chr12.435193.MRPS18B",
-    "human.chr6.4944606.MRPS18B",
     "cat.chrB2.32131508.MRPS18B"
     ]
 }, {
@@ -5310,10 +4389,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32113078.PPP1R10",
-    "cheetah.scaffold145.268180.PPP1R10",
-    "dog.chr12.417679.PPP1R10",
-    "human.chr6.4927297.PPP1R10",
     "cat.chrB2.32113078.PPP1R10"
     ]
 }, {
@@ -5326,10 +4401,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32091815.ABCF1",
-    "cheetah.scaffold145.246526.ABCF1",
-    "dog.chr12.397040.ABCF1",
-    "human.chr6.4898273.ABCF1",
     "cat.chrB2.32091815.ABCF1"
     ]
 }, {
@@ -5342,8 +4413,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32079977.PRR3",
-    "human.chr6.4883783.PRR3",
     "cat.chrB2.32079977.PRR3"
     ]
 }, {
@@ -5356,10 +4425,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32072037.GNL1",
-    "cheetah.scaffold145.226983.GNL1",
-    "dog.chr12.375592.GNL1",
-    "human.chr6.4868274.GNL1",
     "cat.chrB2.32072037.GNL1"
     ]
 }, {
@@ -5372,8 +4437,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.284030.OR11A1",
-    "human.chr6.3752401.OR11A1",
     "cat.chrB2.284030.OR11A1"
     ]
 }, {
@@ -5386,13 +4449,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.32328952.5S_rRNA",
-    "cat.chrB2.32502775.5S_rRNA",
-    "cat.chrB2.32871109.5S_rRNA",
-    "cat.chrB2.33845728.5S_rRNA",
-    "cat.chrB2.34114879.5S_rRNA",
-    "cat.chrB2.262954.5S_rRNA",
-    "dog.chr12.1713628.5S_rRNA",
     "cat.chrB2.262954.5S_rRNA"
     ]
 }, {
@@ -5405,10 +4461,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.182718.GABBR1",
-    "cheetah.scaffold823.126415.GABBR1",
-    "dog.chr35.26213080.GABBR1",
-    "human.chr6.3882526.GABBR1",
     "cat.chrB2.182718.GABBR1"
     ]
 }, {
@@ -5421,10 +4473,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.153567.MOG",
-    "cheetah.scaffold823.171169.MOG",
-    "dog.chr35.26256607.MOG",
-    "human.chr6.3983878.MOG",
     "cat.chrB2.153567.MOG"
     ]
 }, {
@@ -5437,9 +4485,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.150330.ZFP57",
-    "dog.chr35.26267571.ZFP57",
-    "human.chr6.3999289.ZFP57",
     "cat.chrB2.150330.ZFP57"
     ]
 }, {
@@ -5452,10 +4497,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.129140.ZNRD1",
-    "cheetah.scaffold823.201488.ZNRD1",
-    "dog.chr35.26285783.ZNRD1",
-    "human.chr6.4385796.ZNRD1",
     "cat.chrB2.129140.ZNRD1"
     ]
 }, {
@@ -5468,10 +4509,6 @@
   "file": "cat",
   "type": "cat",
   "gene_links": [
-    "cat.chrB2.123810.PPP1R11",
-    "cheetah.scaffold823.207149.PPP1R11",
-    "dog.chr35.26289666.PPP1R11",
-    "human.chr6.4393606.PPP1R11",
     "cat.chrB2.123810.PPP1R11"
     ]
 }, {
@@ -5485,8 +4522,7 @@
   "type": "cheetah",
   "gene_links": [
     "cheetah.scaffold415.1097733.ZBTB9",
-    "human.chr6.7781476.ZBTB9",
-    "cheetah.scaffold415.1097733.ZBTB9"
+    "human.chr6.7781476.ZBTB9"
     ]
 }, {
   "group": "EXII",
@@ -5499,8 +4535,7 @@
   "type": "cheetah",
   "gene_links": [
     "cheetah.scaffold415.1106204.SYNGAP1",
-    "human.chr6.7746967.SYNGAP1",
-    "cheetah.scaffold415.1106204.SYNGAP1"
+    "human.chr6.7746967.SYNGAP1"
     ]
 }, {
   "group": "EXII",
@@ -5513,8 +4548,7 @@
   "type": "cheetah",
   "gene_links": [
     "cheetah.scaffold415.1133743.CUTA",
-    "human.chr6.7743339.CUTA",
-    "cheetah.scaffold415.1133743.CUTA"
+    "human.chr6.7743339.CUTA"
     ]
 }, {
   "group": "EXII",
@@ -5527,8 +4561,7 @@
   "type": "cheetah",
   "gene_links": [
     "cheetah.scaffold415.1135838.PHF1",
-    "human.chr6.7737296.PHF1",
-    "cheetah.scaffold415.1135838.PHF1"
+    "human.chr6.7737296.PHF1"
     ]
 }, {
   "group": "EXII",
@@ -5543,8 +4576,7 @@
     "cat.chrB2.34960057.KIFC1",
     "cheetah.scaffold415.1141731.KIFC1",
     "dog.chr12.2813625.KIFC1",
-    "human.chr6.7718433.KIFC1",
-    "cheetah.scaffold415.1141731.KIFC1"
+    "human.chr6.7718433.KIFC1"
     ]
 }, {
   "group": "NA",
@@ -5556,7 +4588,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold415.1168376.DPH5",
     "cheetah.scaffold415.1168376.DPH5"
     ]
 }, {
@@ -5569,7 +4600,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold415.1212513.TIGD1",
     "cheetah.scaffold415.1212513.TIGD1"
     ]
 }, {
@@ -5585,8 +4615,7 @@
     "cat.chrB2.34888638.DAXX",
     "cheetah.scaffold415.1218109.DAXX",
     "dog.chr12.2756162.DAXX",
-    "human.chr6.7645455.DAXX",
-    "cheetah.scaffold415.1218109.DAXX"
+    "human.chr6.7645455.DAXX"
     ]
 }, {
   "group": "EXII",
@@ -5600,8 +4629,7 @@
   "gene_links": [
     "cheetah.scaffold415.1222817.ZBTB22",
     "dog.chr12.2752532.ZBTB22",
-    "human.chr6.7641303.ZBTB22",
-    "cheetah.scaffold415.1222817.ZBTB22"
+    "human.chr6.7641303.ZBTB22"
     ]
 }, {
   "group": "EXII",
@@ -5616,8 +4644,7 @@
     "cat.chrB2.34873795.TAPBP",
     "cheetah.scaffold415.1225672.TAPBP",
     "dog.chr12.2741359.TAPBP",
-    "human.chr6.7626591.TAPBP",
-    "cheetah.scaffold415.1225672.TAPBP"
+    "human.chr6.7626591.TAPBP"
     ]
 }, {
   "group": "EXII",
@@ -5632,8 +4659,7 @@
     "cat.chrB2.34864164.RGL2",
     "cheetah.scaffold415.1239745.RGL2",
     "dog.chr12.2732105.RGL2",
-    "human.chr6.7618551.RGL2",
-    "cheetah.scaffold415.1239745.RGL2"
+    "human.chr6.7618551.RGL2"
     ]
 }, {
   "group": "EXII",
@@ -5648,8 +4674,7 @@
     "cat.chrB2.34853389.WDR46",
     "cheetah.scaffold415.1248115.WDR46",
     "dog.chr12.2721432.WDR46",
-    "human.chr6.7606005.WDR46",
-    "cheetah.scaffold415.1248115.WDR46"
+    "human.chr6.7606005.WDR46"
     ]
 }, {
   "group": "EXII",
@@ -5664,8 +4689,7 @@
     "cat.chrB2.34851528.B3GALT4",
     "cheetah.scaffold415.1256759.B3GALT4",
     "dog.chr12.2719553.B3GALT4",
-    "human.chr6.7604037.B3GALT4",
-    "cheetah.scaffold415.1256759.B3GALT4"
+    "human.chr6.7604037.B3GALT4"
     ]
 }, {
   "group": "NA",
@@ -5677,7 +4701,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold415.1258949.A11169",
     "cheetah.scaffold415.1258949.A11169"
     ]
 }, {
@@ -5693,8 +4716,7 @@
     "cat.chrB2.34829985.VPS52",
     "cheetah.scaffold415.1278502.VPS52",
     "dog.chr12.2698013.VPS52",
-    "human.chr6.7577169.VPS52",
-    "cheetah.scaffold415.1278502.VPS52"
+    "human.chr6.7577169.VPS52"
     ]
 }, {
   "group": "EXII",
@@ -5709,8 +4731,7 @@
     "cat.chrB2.34798644.RING1",
     "cheetah.scaffold415.1305935.RING1",
     "dog.chr12.2671884.RING1",
-    "human.chr6.7535392.RING1",
-    "cheetah.scaffold415.1305935.RING1"
+    "human.chr6.7535392.RING1"
     ]
 }, {
   "group": "EXII",
@@ -5722,7 +4743,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold415.1311446.RING2",
     "cheetah.scaffold415.1311446.RING2"
     ]
 }, {
@@ -5738,8 +4758,7 @@
     "cat.chrB2.34791246.SLC39A7",
     "cheetah.scaffold415.1314115.SLC39A7",
     "dog.chr12.2663838.SLC39A7",
-    "human.chr6.7527342.SLC39A7",
-    "cheetah.scaffold415.1314115.SLC39A7"
+    "human.chr6.7527342.SLC39A7"
     ]
 }, {
   "group": "EXII",
@@ -5754,8 +4773,7 @@
     "cat.chrB2.34785064.RXRB",
     "cheetah.scaffold415.1317486.RXRB",
     "dog.chr12.2658174.RXRB",
-    "human.chr6.7520485.RXRB",
-    "cheetah.scaffold415.1317486.RXRB"
+    "human.chr6.7520485.RXRB"
     ]
 }, {
   "group": "EXII",
@@ -5770,8 +4788,7 @@
     "cat.chrB2.34754587.COL11A2",
     "cheetah.scaffold415.1325101.COL11A2",
     "dog.chr12.2627827.COL11A2",
-    "human.chr6.7489578.COL11A2",
-    "cheetah.scaffold415.1325101.COL11A2"
+    "human.chr6.7489578.COL11A2"
     ]
 }, {
   "group": "II",
@@ -5785,8 +4802,7 @@
   "gene_links": [
     "cheetah.scaffold415.1371897.FLA-DPB1",
     "cheetah.scaffold415.1651476.FLA-DPB1",
-    "cheetah.scaffold1311.30749.FLA-DPB1",
-    "cheetah.scaffold415.1371897.FLA-DPB1"
+    "cheetah.scaffold1311.30749.FLA-DPB1"
     ]
 }, {
   "group": "II",
@@ -5798,7 +4814,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold415.1385194.FLA-DPA1",
     "cheetah.scaffold415.1385194.FLA-DPA1"
     ]
 }, {
@@ -5811,7 +4826,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold415.1418055.FLA-DOA",
     "cheetah.scaffold415.1418055.FLA-DOA"
     ]
 }, {
@@ -5827,8 +4841,7 @@
     "cat.chrB2.34656817.BRD2",
     "cheetah.scaffold415.1442670.BRD2",
     "dog.chr12.2538250.BRD2",
-    "human.chr6.7295557.BRD2",
-    "cheetah.scaffold415.1442670.BRD2"
+    "human.chr6.7295557.BRD2"
     ]
 }, {
   "group": "II",
@@ -5840,7 +4853,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold415.1467229.FLA-DMB",
     "cheetah.scaffold415.1467229.FLA-DMB"
     ]
 }, {
@@ -5853,7 +4865,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold415.1506197.ATP6V0D2",
     "cheetah.scaffold415.1506197.ATP6V0D2"
     ]
 }, {
@@ -5869,8 +4880,7 @@
     "cat.chrB2.34537212.TAP1",
     "cheetah.scaffold415.1560312.TAP1",
     "dog.chr12.2424464.TAP1",
-    "human.chr6.7172106.TAP1",
-    "cheetah.scaffold415.1560312.TAP1"
+    "human.chr6.7172106.TAP1"
     ]
 }, {
   "group": "Antigen presentation (II)",
@@ -5885,8 +4895,7 @@
     "cat.chrB2.34532634.PSMB8",
     "cheetah.scaffold415.1569211.PSMB8",
     "dog.chr12.2419688.PSMB8",
-    "human.chr6.7167614.PSMB8",
-    "cheetah.scaffold415.1569211.PSMB8"
+    "human.chr6.7167614.PSMB8"
     ]
 }, {
   "group": "Antigen presentation (II)",
@@ -5900,8 +4909,7 @@
   "gene_links": [
     "cheetah.scaffold415.1574664.TAP2",
     "dog.chr12.2408269.TAP2",
-    "human.chr6.7140664.TAP2",
-    "cheetah.scaffold415.1574664.TAP2"
+    "human.chr6.7140664.TAP2"
     ]
 }, {
   "group": "II",
@@ -5915,8 +4923,7 @@
   "gene_links": [
     "cheetah.scaffold415.1371897.FLA-DPB1",
     "cheetah.scaffold415.1651476.FLA-DPB1",
-    "cheetah.scaffold1311.30749.FLA-DPB1",
-    "cheetah.scaffold415.1651476.FLA-DPB1"
+    "cheetah.scaffold1311.30749.FLA-DPB1"
     ]
 }, {
   "group": "NA",
@@ -5928,7 +4935,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold415.1704631.GAPDH",
     "cheetah.scaffold415.1704631.GAPDH"
     ]
 }, {
@@ -5943,7 +4949,6 @@
   "gene_links": [
     "cheetah.scaffold415.1371897.FLA-DPB1",
     "cheetah.scaffold415.1651476.FLA-DPB1",
-    "cheetah.scaffold1311.30749.FLA-DPB1",
     "cheetah.scaffold1311.30749.FLA-DPB1"
     ]
 }, {
@@ -5956,7 +4961,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold1364.30732.RPL7AP6p",
     "cheetah.scaffold1364.30732.RPL7AP6p"
     ]
 }, {
@@ -5969,7 +4973,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold1364.38906.FLA-DRB3",
     "cheetah.scaffold1364.38906.FLA-DRB3"
     ]
 }, {
@@ -5982,7 +4985,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold1583.25271.FLA-DRA",
     "cheetah.scaffold1583.25271.FLA-DRA"
     ]
 }, {
@@ -5995,7 +4997,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold868.4447.A18355",
     "cheetah.scaffold868.4447.A18355"
     ]
 }, {
@@ -6008,7 +5009,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold868.38040.ABHD17A",
     "cheetah.scaffold868.38040.ABHD17A"
     ]
 }, {
@@ -6021,7 +5021,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold786.112348.HNRNPA2B1",
     "cheetah.scaffold786.112348.HNRNPA2B1"
     ]
 }, {
@@ -6035,8 +5034,7 @@
   "type": "cheetah",
   "gene_links": [
     "cheetah.scaffold786.386848.BTN1A1",
-    "human.chr6.860569.BTN1A1",
-    "cheetah.scaffold786.386848.BTN1A1"
+    "human.chr6.860569.BTN1A1"
     ]
 }, {
   "group": "III",
@@ -6050,8 +5048,7 @@
   "gene_links": [
     "cheetah.scaffold786.419587.NOTCH4",
     "dog.chr12.1586323.NOTCH4",
-    "human.chr6.6521740.NOTCH4",
-    "cheetah.scaffold786.419587.NOTCH4"
+    "human.chr6.6521740.NOTCH4"
     ]
 }, {
   "group": "III",
@@ -6066,8 +5063,7 @@
     "cat.chrB2.33727646.GPSM3",
     "cheetah.scaffold786.443652.GPSM3",
     "dog.chr12.1584310.GPSM3",
-    "human.chr6.6517663.GPSM3",
-    "cheetah.scaffold786.443652.GPSM3"
+    "human.chr6.6517663.GPSM3"
     ]
 }, {
   "group": "III",
@@ -6082,8 +5078,7 @@
     "cat.chrB2.33717651.AGER",
     "cheetah.scaffold786.451926.AGER",
     "dog.chr12.1574422.AGER",
-    "human.chr6.6507865.AGER",
-    "cheetah.scaffold786.451926.AGER"
+    "human.chr6.6507865.AGER"
     ]
 }, {
   "group": "III",
@@ -6098,8 +5093,7 @@
     "cat.chrB2.33714927.RNF5",
     "cheetah.scaffold786.452836.RNF5",
     "dog.chr12.1571450.RNF5",
-    "human.chr6.6505251.RNF5",
-    "cheetah.scaffold786.452836.RNF5"
+    "human.chr6.6505251.RNF5"
     ]
 }, {
   "group": "III",
@@ -6114,8 +5108,7 @@
     "cat.chrB2.33706184.AGPAT1",
     "cheetah.scaffold786.464604.AGPAT1",
     "dog.chr12.1562547.AGPAT1",
-    "human.chr6.6495109.AGPAT1",
-    "cheetah.scaffold786.464604.AGPAT1"
+    "human.chr6.6495109.AGPAT1"
     ]
 }, {
   "group": "III",
@@ -6130,8 +5123,7 @@
     "cat.chrB2.33703037.EGFL8",
     "cheetah.scaffold786.468084.EGFL8",
     "dog.chr12.1559409.EGFL8",
-    "human.chr6.6491480.EGFL8",
-    "cheetah.scaffold786.468084.EGFL8"
+    "human.chr6.6491480.EGFL8"
     ]
 }, {
   "group": "III",
@@ -6145,8 +5137,7 @@
   "gene_links": [
     "cheetah.scaffold786.472104.PPT2",
     "dog.chr12.1551681.PPT2",
-    "human.chr6.6480338.PPT2",
-    "cheetah.scaffold786.472104.PPT2"
+    "human.chr6.6480338.PPT2"
     ]
 }, {
   "group": "III",
@@ -6160,8 +5151,7 @@
   "gene_links": [
     "cat.chrB2.33673805.FKBPL",
     "cheetah.scaffold786.498156.FKBPL",
-    "human.chr6.6455604.FKBPL",
-    "cheetah.scaffold786.498156.FKBPL"
+    "human.chr6.6455604.FKBPL"
     ]
 }, {
   "group": "III",
@@ -6176,8 +5166,7 @@
     "cat.chrB2.33664502.CREBL1",
     "cheetah.scaffold786.499765.CREBL1",
     "dog.chr12.1515672.CREBL1",
-    "human.chr6.6425073.CREBL1",
-    "cheetah.scaffold786.499765.CREBL1"
+    "human.chr6.6425073.CREBL1"
     ]
 }, {
   "group": "III",
@@ -6192,8 +5181,7 @@
     "cat.chrB2.33610927.TNXB",
     "cheetah.scaffold786.525046.TNXB",
     "dog.chr12.1453418.TNXB",
-    "human.chr6.6335316.TNXB",
-    "cheetah.scaffold786.525046.TNXB"
+    "human.chr6.6335316.TNXB"
     ]
 }, {
   "group": "III",
@@ -6208,8 +5196,7 @@
     "cat.chrB2.33608200.CYP21A2",
     "cheetah.scaffold786.572278.CYP21A2",
     "dog.chr12.1450739.CYP21A2",
-    "human.chr6.6365162.CYP21A2",
-    "cheetah.scaffold786.572278.CYP21A2"
+    "human.chr6.6365162.CYP21A2"
     ]
 }, {
   "group": "III",
@@ -6222,8 +5209,7 @@
   "type": "cheetah",
   "gene_links": [
     "cheetah.scaffold786.577748.C4B",
-    "human.chr6.6308954.C4B",
-    "cheetah.scaffold786.577748.C4B"
+    "human.chr6.6308954.C4B"
     ]
 }, {
   "group": "III",
@@ -6237,8 +5223,7 @@
   "gene_links": [
     "cat.chrB2.33584077.STK19",
     "cheetah.scaffold786.593878.STK19",
-    "human.chr6.6297988.STK19",
-    "cheetah.scaffold786.593878.STK19"
+    "human.chr6.6297988.STK19"
     ]
 }, {
   "group": "III",
@@ -6253,8 +5238,7 @@
     "cat.chrB2.33581692.DOM3Z",
     "cheetah.scaffold786.599910.DOM3Z",
     "dog.chr12.1424644.DOM3Z",
-    "human.chr6.6296707.DOM3Z",
-    "cheetah.scaffold786.599910.DOM3Z"
+    "human.chr6.6296707.DOM3Z"
     ]
 }, {
   "group": "III",
@@ -6269,8 +5253,7 @@
     "cat.chrB2.33570339.SKIV2L",
     "cheetah.scaffold786.601861.SKIV2L",
     "dog.chr12.1412539.SKIV2L",
-    "human.chr6.6285701.SKIV2L",
-    "cheetah.scaffold786.601861.SKIV2L"
+    "human.chr6.6285701.SKIV2L"
     ]
 }, {
   "group": "III",
@@ -6285,8 +5268,7 @@
     "cat.chrB2.33564390.RDBP",
     "cheetah.scaffold786.613745.RDBP",
     "dog.chr12.1408625.RDBP",
-    "human.chr6.6278984.RDBP",
-    "cheetah.scaffold786.613745.RDBP"
+    "human.chr6.6278984.RDBP"
     ]
 }, {
   "group": "III",
@@ -6299,8 +5281,7 @@
   "type": "cheetah",
   "gene_links": [
     "cheetah.scaffold786.619216.CFB",
-    "human.chr6.6254595.CFB",
-    "cheetah.scaffold786.619216.CFB"
+    "human.chr6.6254595.CFB"
     ]
 }, {
   "group": "III",
@@ -6315,8 +5296,7 @@
     "cat.chrB2.33497278.EHMT2",
     "cheetah.scaffold786.672847.EHMT2",
     "dog.chr12.1341543.EHMT2",
-    "human.chr6.6206656.EHMT2",
-    "cheetah.scaffold786.672847.EHMT2"
+    "human.chr6.6206656.EHMT2"
     ]
 }, {
   "group": "III",
@@ -6331,8 +5311,7 @@
     "cat.chrB2.33484430.SLC44A4",
     "cheetah.scaffold786.685971.SLC44A4",
     "dog.chr12.1328398.SLC44A4",
-    "human.chr6.6190089.SLC44A4",
-    "cheetah.scaffold786.685971.SLC44A4"
+    "human.chr6.6190089.SLC44A4"
     ]
 }, {
   "group": "III",
@@ -6347,8 +5326,7 @@
     "cat.chrB2.33480702.NEU1",
     "cheetah.scaffold786.698408.NEU1",
     "dog.chr12.1324174.NEU1",
-    "human.chr6.6184556.NEU1",
-    "cheetah.scaffold786.698408.NEU1"
+    "human.chr6.6184556.NEU1"
     ]
 }, {
   "group": "III",
@@ -6361,8 +5339,7 @@
   "type": "cheetah",
   "gene_links": [
     "cheetah.scaffold786.730405.HSPA1B",
-    "human.chr6.6154808.HSPA1B",
-    "cheetah.scaffold786.730405.HSPA1B"
+    "human.chr6.6154808.HSPA1B"
     ]
 }, {
   "group": "III",
@@ -6376,8 +5353,7 @@
   "gene_links": [
     "cat.chrB2.33206578.ATP6V1G2",
     "cheetah.scaffold821.245871.ATP6V1G2",
-    "human.chr6.5857116.ATP6V1G2",
-    "cheetah.scaffold821.245871.ATP6V1G2"
+    "human.chr6.5857116.ATP6V1G2"
     ]
 }, {
   "group": "III",
@@ -6392,8 +5368,7 @@
     "cat.chrB2.33209161.NFKBIL1",
     "cheetah.scaffold821.230285.NFKBIL1",
     "dog.chr12.1049174.NFKBIL1",
-    "human.chr6.5873767.NFKBIL1",
-    "cheetah.scaffold821.230285.NFKBIL1"
+    "human.chr6.5873767.NFKBIL1"
     ]
 }, {
   "group": "III",
@@ -6408,8 +5383,7 @@
     "cat.chrB2.33230351.LTA",
     "cheetah.scaffold821.216626.LTA",
     "dog.chr12.1071468.LTA",
-    "human.chr6.5898951.LTA",
-    "cheetah.scaffold821.216626.LTA"
+    "human.chr6.5898951.LTA"
     ]
 }, {
   "group": "III",
@@ -6424,8 +5398,7 @@
     "cat.chrB2.33233690.TNF",
     "cheetah.scaffold821.212456.TNF",
     "dog.chr12.1074560.TNF",
-    "human.chr6.5902123.TNF",
-    "cheetah.scaffold821.212456.TNF"
+    "human.chr6.5902123.TNF"
     ]
 }, {
   "group": "III",
@@ -6440,8 +5413,7 @@
     "cat.chrB2.33238415.LTB",
     "cheetah.scaffold821.207690.LTB",
     "dog.chr12.1079422.LTB",
-    "human.chr6.5907422.LTB",
-    "cheetah.scaffold821.207690.LTB"
+    "human.chr6.5907422.LTB"
     ]
 }, {
   "group": "III",
@@ -6455,8 +5427,7 @@
   "gene_links": [
     "cheetah.scaffold821.203190.LST1",
     "dog.chr12.1085227.LST1",
-    "human.chr6.5913021.LST1",
-    "cheetah.scaffold821.203190.LST1"
+    "human.chr6.5913021.LST1"
     ]
 }, {
   "group": "III",
@@ -6471,8 +5442,7 @@
     "cat.chrB2.33244255.NCR3",
     "cheetah.scaffold821.200098.NCR3",
     "dog.chr12.1086910.NCR3",
-    "human.chr6.5915792.NCR3",
-    "cheetah.scaffold821.200098.NCR3"
+    "human.chr6.5915792.NCR3"
     ]
 }, {
   "group": "III",
@@ -6487,8 +5457,7 @@
     "cat.chrB2.33265043.AIF1",
     "cheetah.scaffold821.181258.AIF1",
     "dog.chr12.1104478.AIF1",
-    "human.chr6.5942081.AIF1",
-    "cheetah.scaffold821.181258.AIF1"
+    "human.chr6.5942081.AIF1"
     ]
 }, {
   "group": "NA",
@@ -6500,7 +5469,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold821.161349.PRRC2A",
     "cheetah.scaffold821.161349.PRRC2A"
     ]
 }, {
@@ -6516,8 +5484,7 @@
     "cat.chrB2.33288463.BAT3",
     "cheetah.scaffold821.149815.BAT3",
     "dog.chr12.1126820.BAT3",
-    "human.chr6.5965925.BAT3",
-    "cheetah.scaffold821.149815.BAT3"
+    "human.chr6.5965925.BAT3"
     ]
 }, {
   "group": "III",
@@ -6532,8 +5499,7 @@
     "cat.chrB2.33301598.APOM",
     "cheetah.scaffold821.144829.APOM",
     "dog.chr12.1140322.APOM",
-    "human.chr6.5979313.APOM",
-    "cheetah.scaffold821.144829.APOM"
+    "human.chr6.5979313.APOM"
     ]
 }, {
   "group": "III",
@@ -6547,8 +5513,7 @@
   "gene_links": [
     "cat.chrB2.33304552.C6orf47",
     "cheetah.scaffold821.142924.C6orf47",
-    "human.chr6.5985195.C6orf47",
-    "cheetah.scaffold821.142924.C6orf47"
+    "human.chr6.5985195.C6orf47"
     ]
 }, {
   "group": "III",
@@ -6563,8 +5528,7 @@
     "cat.chrB2.33307513.BAT4",
     "cheetah.scaffold821.139353.BAT4",
     "dog.chr12.1146519.BAT4",
-    "human.chr6.5988126.BAT4",
-    "cheetah.scaffold821.139353.BAT4"
+    "human.chr6.5988126.BAT4"
     ]
 }, {
   "group": "III",
@@ -6579,8 +5543,7 @@
     "cat.chrB2.33311513.CSNK2B",
     "cheetah.scaffold821.132581.CSNK2B",
     "dog.chr12.1150957.CSNK2B",
-    "human.chr6.5992133.CSNK2B",
-    "cheetah.scaffold821.132581.CSNK2B"
+    "human.chr6.5992133.CSNK2B"
     ]
 }, {
   "group": "III",
@@ -6595,8 +5558,7 @@
     "cat.chrB2.33320110.LY6G5C",
     "cheetah.scaffold821.124194.LY6G5C",
     "dog.chr12.1159965.LY6G5C",
-    "human.chr6.6003581.LY6G5C",
-    "cheetah.scaffold821.124194.LY6G5C"
+    "human.chr6.6003581.LY6G5C"
     ]
 }, {
   "group": "III",
@@ -6611,8 +5573,7 @@
     "cat.chrB2.33328940.BAT5",
     "cheetah.scaffold821.105844.BAT5",
     "dog.chr12.1167970.BAT5",
-    "human.chr6.6013846.BAT5",
-    "cheetah.scaffold821.105844.BAT5"
+    "human.chr6.6013846.BAT5"
     ]
 }, {
   "group": "III",
@@ -6625,8 +5586,7 @@
   "type": "cheetah",
   "gene_links": [
     "cheetah.scaffold821.100775.LY6G6F",
-    "human.chr6.6033782.LY6G6F",
-    "cheetah.scaffold821.100775.LY6G6F"
+    "human.chr6.6033782.LY6G6F"
     ]
 }, {
   "group": "III",
@@ -6639,8 +5599,7 @@
   "type": "cheetah",
   "gene_links": [
     "cheetah.scaffold821.97922.LY6G6E",
-    "human.chr6.6013859.LY6G6E",
-    "cheetah.scaffold821.97922.LY6G6E"
+    "human.chr6.6013859.LY6G6E"
     ]
 }, {
   "group": "III",
@@ -6654,8 +5613,7 @@
   "gene_links": [
     "cheetah.scaffold821.94329.LY6G6D",
     "dog.chr12.1193402.LY6G6D",
-    "human.chr6.6042253.LY6G6D",
-    "cheetah.scaffold821.94329.LY6G6D"
+    "human.chr6.6042253.LY6G6D"
     ]
 }, {
   "group": "III",
@@ -6670,8 +5628,7 @@
     "cat.chrB2.33355901.LY6G6C",
     "cheetah.scaffold821.90657.LY6G6C",
     "dog.chr12.1198300.LY6G6C",
-    "human.chr6.6045545.LY6G6C",
-    "cheetah.scaffold821.90657.LY6G6C"
+    "human.chr6.6045545.LY6G6C"
     ]
 }, {
   "group": "III",
@@ -6686,8 +5643,7 @@
     "cat.chrB2.33359772.C6orf25",
     "cheetah.scaffold821.87674.C6orf25",
     "dog.chr12.1202720.C6orf25",
-    "human.chr6.6045491.C6orf25",
-    "cheetah.scaffold821.87674.C6orf25"
+    "human.chr6.6045491.C6orf25"
     ]
 }, {
   "group": "III",
@@ -6702,8 +5658,7 @@
     "cat.chrB2.33363497.DDAH2",
     "cheetah.scaffold821.83879.DDAH2",
     "dog.chr12.1206391.DDAH2",
-    "human.chr6.6053935.DDAH2",
-    "cheetah.scaffold821.83879.DDAH2"
+    "human.chr6.6053935.DDAH2"
     ]
 }, {
   "group": "III",
@@ -6718,8 +5673,7 @@
     "cat.chrB2.33367006.CLIC1",
     "cheetah.scaffold821.77015.CLIC1",
     "dog.chr12.1210011.CLIC1",
-    "human.chr6.6057478.CLIC1",
-    "cheetah.scaffold821.77015.CLIC1"
+    "human.chr6.6057478.CLIC1"
     ]
 }, {
   "group": "III",
@@ -6733,8 +5687,7 @@
   "gene_links": [
     "cheetah.scaffold821.49545.MSH5",
     "dog.chr12.1221801.MSH5",
-    "human.chr6.6066845.MSH5",
-    "cheetah.scaffold821.49545.MSH5"
+    "human.chr6.6066845.MSH5"
     ]
 }, {
   "group": "III",
@@ -6748,8 +5701,7 @@
   "gene_links": [
     "cat.chrB2.33400323.SAPCD1",
     "cheetah.scaffold821.47430.SAPCD1",
-    "dog.chr12.1243973.SAPCD1",
-    "cheetah.scaffold821.47430.SAPCD1"
+    "dog.chr12.1243973.SAPCD1"
     ]
 }, {
   "group": "III",
@@ -6763,8 +5715,7 @@
   "gene_links": [
     "cat.chrB2.33402473.VWA7",
     "cheetah.scaffold821.38323.VWA7",
-    "dog.chr12.1246339.VWA7",
-    "cheetah.scaffold821.38323.VWA7"
+    "dog.chr12.1246339.VWA7"
     ]
 }, {
   "group": "III",
@@ -6780,8 +5731,7 @@
     "cheetah.scaffold821.23084.VARS",
     "cheetah.scaffold145.522910.VARS",
     "dog.chr12.1255016.VARS",
-    "human.chr6.6104415.VARS",
-    "cheetah.scaffold821.23084.VARS"
+    "human.chr6.6104415.VARS"
     ]
 }, {
   "group": "III",
@@ -6796,8 +5746,7 @@
     "cat.chrB2.33428200.LSM2",
     "cheetah.scaffold821.20985.LSM2",
     "cheetah.scaffold821.20985.LSM2",
-    "human.chr6.6124293.LSM2",
-    "cheetah.scaffold821.20985.LSM2"
+    "human.chr6.6124293.LSM2"
     ]
 }, {
   "group": "III",
@@ -6812,8 +5761,7 @@
     "cat.chrB2.33428200.LSM2",
     "cheetah.scaffold821.20985.LSM2",
     "cheetah.scaffold821.20985.LSM2",
-    "human.chr6.6124293.LSM2",
-    "cheetah.scaffold821.20985.LSM2"
+    "human.chr6.6124293.LSM2"
     ]
 }, {
   "group": "NA",
@@ -6825,7 +5773,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold821.11868.HSPA6",
     "cheetah.scaffold821.11868.HSPA6"
     ]
 }, {
@@ -6838,7 +5785,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold821.7800.HSP",
     "cheetah.scaffold821.7800.HSP"
     ]
 }, {
@@ -6854,8 +5800,7 @@
     "cat.chrB2.33191585.MCCD1",
     "cheetah.scaffold421.2570.MCCD1",
     "dog.chr12.1031187.MCCD1",
-    "human.chr6.5855614.MCCD1",
-    "cheetah.scaffold421.2570.MCCD1"
+    "human.chr6.5855614.MCCD1"
     ]
 }, {
   "group": "NA",
@@ -6867,7 +5812,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold421.14055.PSMC1",
     "cheetah.scaffold421.14055.PSMC1"
     ]
 }, {
@@ -6883,8 +5827,7 @@
     "cheetah.scaffold421.61148.FLA-A",
     "cheetah.scaffold958.30966.FLA-A",
     "cheetah.scaffold145.903787.FLA-A",
-    "cheetah.scaffold145.71136.FLA-A",
-    "cheetah.scaffold421.61148.FLA-A"
+    "cheetah.scaffold145.71136.FLA-A"
     ]
 }, {
   "group": "I",
@@ -6896,7 +5839,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold868.58593.FLA-B ",
     "cheetah.scaffold868.58593.FLA-B "
     ]
 }, {
@@ -6912,8 +5854,7 @@
     "cheetah.scaffold421.61148.FLA-A",
     "cheetah.scaffold958.30966.FLA-A",
     "cheetah.scaffold145.903787.FLA-A",
-    "cheetah.scaffold145.71136.FLA-A",
-    "cheetah.scaffold958.30966.FLA-A"
+    "cheetah.scaffold145.71136.FLA-A"
     ]
 }, {
   "group": "I",
@@ -6928,8 +5869,7 @@
     "cheetah.scaffold421.61148.FLA-A",
     "cheetah.scaffold958.30966.FLA-A",
     "cheetah.scaffold145.903787.FLA-A",
-    "cheetah.scaffold145.71136.FLA-A",
-    "cheetah.scaffold145.903787.FLA-A"
+    "cheetah.scaffold145.71136.FLA-A"
     ]
 }, {
   "group": "I",
@@ -6941,7 +5881,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold145.818251.FLA-Ap",
     "cheetah.scaffold145.818251.FLA-Ap"
     ]
 }, {
@@ -6956,8 +5895,7 @@
   "gene_links": [
     "cat.chrB2.32571099.POU5F1",
     "cheetah.scaffold145.720485.POU5F1",
-    "human.chr6.5491234.POU5F1",
-    "cheetah.scaffold145.720485.POU5F1"
+    "human.chr6.5491234.POU5F1"
     ]
 }, {
   "group": "I",
@@ -6972,8 +5910,7 @@
     "cat.chrB2.32566778.TCF19",
     "cheetah.scaffold145.716133.TCF19",
     "dog.chr12.856212.TCF19",
-    "human.chr6.5485439.TCF19",
-    "cheetah.scaffold145.716133.TCF19"
+    "human.chr6.5485439.TCF19"
     ]
 }, {
   "group": "I",
@@ -6988,8 +5925,7 @@
     "cat.chrB2.32551169.CCHCR1",
     "cheetah.scaffold145.700511.CCHCR1",
     "dog.chr12.842244.CCHCR1",
-    "human.chr6.5469336.CCHCR1",
-    "cheetah.scaffold145.700511.CCHCR1"
+    "human.chr6.5469336.CCHCR1"
     ]
 }, {
   "group": "I",
@@ -7004,8 +5940,7 @@
     "cat.chrB2.32546665.PSORS1C2",
     "cheetah.scaffold145.696141.PSORS1C2",
     "dog.chr12.838392.PSORS1C2",
-    "human.chr6.5464431.PSORS1C2",
-    "cheetah.scaffold145.696141.PSORS1C2"
+    "human.chr6.5464431.PSORS1C2"
     ]
 }, {
   "group": "I",
@@ -7020,8 +5955,7 @@
     "cat.chrB2.32528830.CDSN",
     "cheetah.scaffold145.677785.CDSN",
     "dog.chr12.820466.CDSN",
-    "human.chr6.5441987.CDSN",
-    "cheetah.scaffold145.677785.CDSN"
+    "human.chr6.5441987.CDSN"
     ]
 }, {
   "group": "NA",
@@ -7035,8 +5969,7 @@
   "gene_links": [
     "cheetah.scaffold145.672597.C6orf15",
     "dog.chr12.815482.C6orf15",
-    "human.chr6.5438120.C6orf15",
-    "cheetah.scaffold145.672597.C6orf15"
+    "human.chr6.5438120.C6orf15"
     ]
 }, {
   "group": "I",
@@ -7049,8 +5982,7 @@
   "type": "cheetah",
   "gene_links": [
     "cheetah.scaffold145.588296.C6orf205",
-    "human.chr6.5310605.C6orf205",
-    "cheetah.scaffold145.588296.C6orf205"
+    "human.chr6.5310605.C6orf205"
     ]
 }, {
   "group": "I",
@@ -7065,8 +5997,7 @@
     "cat.chrB2.32396584.DPCR1",
     "cheetah.scaffold145.552620.DPCR1",
     "dog.chr12.551500.DPCR1",
-    "human.chr6.5267869.DPCR1",
-    "cheetah.scaffold145.552620.DPCR1"
+    "human.chr6.5267869.DPCR1"
     ]
 }, {
   "group": "III",
@@ -7082,8 +6013,7 @@
     "cheetah.scaffold821.23084.VARS",
     "cheetah.scaffold145.522910.VARS",
     "dog.chr12.1255016.VARS",
-    "human.chr6.6104415.VARS",
-    "cheetah.scaffold145.522910.VARS"
+    "human.chr6.6104415.VARS"
     ]
 }, {
   "group": "I",
@@ -7098,8 +6028,7 @@
     "cat.chrB2.32367652.GTF2H4",
     "cheetah.scaffold145.517287.GTF2H4",
     "dog.chr12.676676.GTF2H4",
-    "human.chr6.5235081.GTF2H4",
-    "cheetah.scaffold145.517287.GTF2H4"
+    "human.chr6.5235081.GTF2H4"
     ]
 }, {
   "group": "I",
@@ -7114,8 +6043,7 @@
     "cat.chrB2.32349938.DDR1",
     "cheetah.scaffold145.499747.DDR1",
     "dog.chr12.653806.DDR1",
-    "human.chr6.5203318.DDR1",
-    "cheetah.scaffold145.499747.DDR1"
+    "human.chr6.5203318.DDR1"
     ]
 }, {
   "group": "I",
@@ -7130,8 +6058,7 @@
     "cat.chrB2.32227107.IER3",
     "cheetah.scaffold145.379554.IER3",
     "dog.chr12.529737.IER3",
-    "human.chr6.5070096.IER3",
-    "cheetah.scaffold145.379554.IER3"
+    "human.chr6.5070096.IER3"
     ]
 }, {
   "group": "I",
@@ -7146,8 +6073,7 @@
     "cat.chrB2.32213902.FLOT1",
     "cheetah.scaffold145.367231.FLOT1",
     "dog.chr12.518353.FLOT1",
-    "human.chr6.5054606.FLOT1",
-    "cheetah.scaffold145.367231.FLOT1"
+    "human.chr6.5054606.FLOT1"
     ]
 }, {
   "group": "I",
@@ -7162,8 +6088,7 @@
     "cat.chrB2.32206679.TUBB",
     "cheetah.scaffold145.361120.TUBB",
     "dog.chr12.512944.TUBB",
-    "human.chr6.5047098.TUBB",
-    "cheetah.scaffold145.361120.TUBB"
+    "human.chr6.5047098.TUBB"
     ]
 }, {
   "group": "I",
@@ -7178,8 +6103,7 @@
     "cat.chrB2.32190691.MDC1",
     "cheetah.scaffold145.345648.MDC1",
     "dog.chr12.496903.MDC1",
-    "human.chr6.5026704.MDC1",
-    "cheetah.scaffold145.345648.MDC1"
+    "human.chr6.5026704.MDC1"
     ]
 }, {
   "group": "I",
@@ -7194,8 +6118,7 @@
     "cat.chrB2.32184208.NRM",
     "cheetah.scaffold145.339058.NRM",
     "dog.chr12.482138.NRM",
-    "human.chr6.5014944.NRM",
-    "cheetah.scaffold145.339058.NRM"
+    "human.chr6.5014944.NRM"
     ]
 }, {
   "group": "I",
@@ -7208,7 +6131,6 @@
   "type": "cheetah",
   "gene_links": [
     "cat.chrB2.32174597.PPP1R18",
-    "cheetah.scaffold145.329568.PPP1R18",
     "cheetah.scaffold145.329568.PPP1R18"
     ]
 }, {
@@ -7224,8 +6146,7 @@
     "cat.chrB2.32156832.DHX16",
     "cheetah.scaffold145.311522.DHX16",
     "dog.chr12.460775.DHX16",
-    "human.chr6.4980016.DHX16",
-    "cheetah.scaffold145.311522.DHX16"
+    "human.chr6.4980016.DHX16"
     ]
 }, {
   "group": "I",
@@ -7240,8 +6161,7 @@
     "cat.chrB2.32152554.C6orf136",
     "cheetah.scaffold145.307770.C6orf136",
     "dog.chr12.456729.C6orf136",
-    "human.chr6.4973936.C6orf136",
-    "cheetah.scaffold145.307770.C6orf136"
+    "human.chr6.4973936.C6orf136"
     ]
 }, {
   "group": "I",
@@ -7254,8 +6174,7 @@
   "type": "cheetah",
   "gene_links": [
     "cheetah.scaffold145.293168.C6orf134",
-    "human.chr6.4953739.C6orf134",
-    "cheetah.scaffold145.293168.C6orf134"
+    "human.chr6.4953739.C6orf134"
     ]
 }, {
   "group": "I",
@@ -7270,8 +6189,7 @@
     "cat.chrB2.32131508.MRPS18B",
     "cheetah.scaffold145.286733.MRPS18B",
     "dog.chr12.435193.MRPS18B",
-    "human.chr6.4944606.MRPS18B",
-    "cheetah.scaffold145.286733.MRPS18B"
+    "human.chr6.4944606.MRPS18B"
     ]
 }, {
   "group": "I",
@@ -7286,8 +6204,7 @@
     "cat.chrB2.32113078.PPP1R10",
     "cheetah.scaffold145.268180.PPP1R10",
     "dog.chr12.417679.PPP1R10",
-    "human.chr6.4927297.PPP1R10",
-    "cheetah.scaffold145.268180.PPP1R10"
+    "human.chr6.4927297.PPP1R10"
     ]
 }, {
   "group": "I",
@@ -7302,8 +6219,7 @@
     "cat.chrB2.32091815.ABCF1",
     "cheetah.scaffold145.246526.ABCF1",
     "dog.chr12.397040.ABCF1",
-    "human.chr6.4898273.ABCF1",
-    "cheetah.scaffold145.246526.ABCF1"
+    "human.chr6.4898273.ABCF1"
     ]
 }, {
   "group": "NA",
@@ -7315,7 +6231,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold145.234908.F1PZR8",
     "cheetah.scaffold145.234908.F1PZR8"
     ]
 }, {
@@ -7331,8 +6246,7 @@
     "cat.chrB2.32072037.GNL1",
     "cheetah.scaffold145.226983.GNL1",
     "dog.chr12.375592.GNL1",
-    "human.chr6.4868274.GNL1",
-    "cheetah.scaffold145.226983.GNL1"
+    "human.chr6.4868274.GNL1"
     ]
 }, {
   "group": "NA",
@@ -7344,7 +6258,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold145.195403.EEF1A2",
     "cheetah.scaffold145.195403.EEF1A2"
     ]
 }, {
@@ -7357,7 +6270,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold145.161849.PABPC4",
     "cheetah.scaffold145.161849.PABPC4"
     ]
 }, {
@@ -7372,8 +6284,7 @@
   "gene_links": [
     "cheetah.scaffold145.103390.RNF39",
     "dog.chr35.26292780.RNF39",
-    "human.chr6.4397163.RNF39",
-    "cheetah.scaffold145.103390.RNF39"
+    "human.chr6.4397163.RNF39"
     ]
 }, {
   "group": "I",
@@ -7388,7 +6299,6 @@
     "cheetah.scaffold421.61148.FLA-A",
     "cheetah.scaffold958.30966.FLA-A",
     "cheetah.scaffold145.903787.FLA-A",
-    "cheetah.scaffold145.71136.FLA-A",
     "cheetah.scaffold145.71136.FLA-A"
     ]
 }, {
@@ -7404,8 +6314,7 @@
     "cat.chrB2.34917.TRIM26",
     "cheetah.scaffold823.289135.TRIM26",
     "dog.chr35.26387778.TRIM26",
-    "human.chr6.4511352.TRIM26",
-    "cheetah.scaffold823.289135.TRIM26"
+    "human.chr6.4511352.TRIM26"
     ]
 }, {
   "group": "I",
@@ -7420,8 +6329,7 @@
     "cat.chrB2.123810.PPP1R11",
     "cheetah.scaffold823.207149.PPP1R11",
     "dog.chr35.26289666.PPP1R11",
-    "human.chr6.4393606.PPP1R11",
-    "cheetah.scaffold823.207149.PPP1R11"
+    "human.chr6.4393606.PPP1R11"
     ]
 }, {
   "group": "I",
@@ -7436,8 +6344,7 @@
     "cat.chrB2.129140.ZNRD1",
     "cheetah.scaffold823.201488.ZNRD1",
     "dog.chr35.26285783.ZNRD1",
-    "human.chr6.4385796.ZNRD1",
-    "cheetah.scaffold823.201488.ZNRD1"
+    "human.chr6.4385796.ZNRD1"
     ]
 }, {
   "group": "NA",
@@ -7449,7 +6356,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold823.197138.F1PIG7",
     "cheetah.scaffold823.197138.F1PIG7"
     ]
 }, {
@@ -7465,8 +6371,7 @@
     "cat.chrB2.153567.MOG",
     "cheetah.scaffold823.171169.MOG",
     "dog.chr35.26256607.MOG",
-    "human.chr6.3983878.MOG",
-    "cheetah.scaffold823.171169.MOG"
+    "human.chr6.3983878.MOG"
     ]
 }, {
   "group": "EXI",
@@ -7481,8 +6386,7 @@
     "cat.chrB2.182718.GABBR1",
     "cheetah.scaffold823.126415.GABBR1",
     "dog.chr35.26213080.GABBR1",
-    "human.chr6.3882526.GABBR1",
-    "cheetah.scaffold823.126415.GABBR1"
+    "human.chr6.3882526.GABBR1"
     ]
 }, {
   "group": "NA",
@@ -7494,7 +6398,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold823.115291.KLF7",
     "cheetah.scaffold823.115291.KLF7"
     ]
 }, {
@@ -7509,8 +6412,7 @@
   "gene_links": [
     "cheetah.scaffold823.96003.UBD",
     "dog.chr35.26432227.UBD",
-    "human.chr6.3882412.UBD",
-    "cheetah.scaffold823.96003.UBD"
+    "human.chr6.3882412.UBD"
     ]
 }, {
   "group": "OR",
@@ -7522,7 +6424,6 @@
   "file": "cheetah",
   "type": "cheetah",
   "gene_links": [
-    "cheetah.scaffold823.79066.OR10C1-like",
     "cheetah.scaffold823.79066.OR10C1-like"
     ]
 }, {
@@ -7536,8 +6437,7 @@
   "type": "cheetah",
   "gene_links": [
     "cheetah.scaffold823.45728.OR10C1",
-    "human.chr6.3744177.OR10C1",
-    "cheetah.scaffold823.45728.OR10C1"
+    "human.chr6.3744177.OR10C1"
     ]
 }, {
   "group": "OR",
@@ -7551,8 +6451,7 @@
   "gene_links": [
     "cheetah.scaffold823.31920.OR3A1",
     "cheetah.scaffold823.16452.OR3A1",
-    "cheetah.scaffold823.1009.OR3A1",
-    "cheetah.scaffold823.31920.OR3A1"
+    "cheetah.scaffold823.1009.OR3A1"
     ]
 }, {
   "group": "OR",
@@ -7566,8 +6465,7 @@
   "gene_links": [
     "cheetah.scaffold823.31920.OR3A1",
     "cheetah.scaffold823.16452.OR3A1",
-    "cheetah.scaffold823.1009.OR3A1",
-    "cheetah.scaffold823.16452.OR3A1"
+    "cheetah.scaffold823.1009.OR3A1"
     ]
 }, {
   "group": "OR",
@@ -7581,7 +6479,6 @@
   "gene_links": [
     "cheetah.scaffold823.31920.OR3A1",
     "cheetah.scaffold823.16452.OR3A1",
-    "cheetah.scaffold823.1009.OR3A1",
     "cheetah.scaffold823.1009.OR3A1"
     ]
 }, {
@@ -7594,8 +6491,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.892227.DLA88",
-    "dog.chr12.1013177.DLA88",
     "dog.chr12.1013177.DLA88"
     ]
 }, {
@@ -7608,10 +6503,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33191585.MCCD1",
-    "cheetah.scaffold421.2570.MCCD1",
-    "dog.chr12.1031187.MCCD1",
-    "human.chr6.5855614.MCCD1",
     "dog.chr12.1031187.MCCD1"
     ]
 }, {
@@ -7624,9 +6515,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33192987.BAT1",
-    "dog.chr12.1032597.BAT1",
-    "human.chr6.5857116.BAT1",
     "dog.chr12.1032597.BAT1"
     ]
 }, {
@@ -7639,8 +6527,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.1037937.SNORD83",
-    "dog.chr12.1043607.SNORD83",
     "dog.chr12.1037937.SNORD83"
     ]
 }, {
@@ -7653,8 +6539,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.1037937.SNORD83",
-    "dog.chr12.1043607.SNORD83",
     "dog.chr12.1043607.SNORD83"
     ]
 }, {
@@ -7667,7 +6551,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.1047073.ATP6V1G1",
     "dog.chr12.1047073.ATP6V1G1"
     ]
 }, {
@@ -7680,10 +6563,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33209161.NFKBIL1",
-    "cheetah.scaffold821.230285.NFKBIL1",
-    "dog.chr12.1049174.NFKBIL1",
-    "human.chr6.5873767.NFKBIL1",
     "dog.chr12.1049174.NFKBIL1"
     ]
 }, {
@@ -7696,10 +6575,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33230351.LTA",
-    "cheetah.scaffold821.216626.LTA",
-    "dog.chr12.1071468.LTA",
-    "human.chr6.5898951.LTA",
     "dog.chr12.1071468.LTA"
     ]
 }, {
@@ -7712,10 +6587,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33233690.TNF",
-    "cheetah.scaffold821.212456.TNF",
-    "dog.chr12.1074560.TNF",
-    "human.chr6.5902123.TNF",
     "dog.chr12.1074560.TNF"
     ]
 }, {
@@ -7728,10 +6599,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33238415.LTB",
-    "cheetah.scaffold821.207690.LTB",
-    "dog.chr12.1079422.LTB",
-    "human.chr6.5907422.LTB",
     "dog.chr12.1079422.LTB"
     ]
 }, {
@@ -7744,9 +6611,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cheetah.scaffold821.203190.LST1",
-    "dog.chr12.1085227.LST1",
-    "human.chr6.5913021.LST1",
     "dog.chr12.1085227.LST1"
     ]
 }, {
@@ -7759,10 +6623,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33244255.NCR3",
-    "cheetah.scaffold821.200098.NCR3",
-    "dog.chr12.1086910.NCR3",
-    "human.chr6.5915792.NCR3",
     "dog.chr12.1086910.NCR3"
     ]
 }, {
@@ -7775,10 +6635,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33265043.AIF1",
-    "cheetah.scaffold821.181258.AIF1",
-    "dog.chr12.1104478.AIF1",
-    "human.chr6.5942081.AIF1",
     "dog.chr12.1104478.AIF1"
     ]
 }, {
@@ -7791,9 +6647,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33273983.BAT2",
-    "dog.chr12.1112676.BAT2",
-    "human.chr6.5947570.BAT2",
     "dog.chr12.1112676.BAT2"
     ]
 }, {
@@ -7806,7 +6659,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.1113103.SNORA38",
     "dog.chr12.1113103.SNORA38"
     ]
 }, {
@@ -7819,10 +6671,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33288463.BAT3",
-    "cheetah.scaffold821.149815.BAT3",
-    "dog.chr12.1126820.BAT3",
-    "human.chr6.5965925.BAT3",
     "dog.chr12.1126820.BAT3"
     ]
 }, {
@@ -7835,10 +6683,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33301598.APOM",
-    "cheetah.scaffold821.144829.APOM",
-    "dog.chr12.1140322.APOM",
-    "human.chr6.5979313.APOM",
     "dog.chr12.1140322.APOM"
     ]
 }, {
@@ -7851,10 +6695,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33307513.BAT4",
-    "cheetah.scaffold821.139353.BAT4",
-    "dog.chr12.1146519.BAT4",
-    "human.chr6.5988126.BAT4",
     "dog.chr12.1146519.BAT4"
     ]
 }, {
@@ -7867,10 +6707,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33311513.CSNK2B",
-    "cheetah.scaffold821.132581.CSNK2B",
-    "dog.chr12.1150957.CSNK2B",
-    "human.chr6.5992133.CSNK2B",
     "dog.chr12.1150957.CSNK2B"
     ]
 }, {
@@ -7883,10 +6719,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33320110.LY6G5C",
-    "cheetah.scaffold821.124194.LY6G5C",
-    "dog.chr12.1159965.LY6G5C",
-    "human.chr6.6003581.LY6G5C",
     "dog.chr12.1159965.LY6G5C"
     ]
 }, {
@@ -7899,10 +6731,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33328940.BAT5",
-    "cheetah.scaffold821.105844.BAT5",
-    "dog.chr12.1167970.BAT5",
-    "human.chr6.6013846.BAT5",
     "dog.chr12.1167970.BAT5"
     ]
 }, {
@@ -7915,9 +6743,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cheetah.scaffold821.94329.LY6G6D",
-    "dog.chr12.1193402.LY6G6D",
-    "human.chr6.6042253.LY6G6D",
     "dog.chr12.1193402.LY6G6D"
     ]
 }, {
@@ -7930,10 +6755,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33355901.LY6G6C",
-    "cheetah.scaffold821.90657.LY6G6C",
-    "dog.chr12.1198300.LY6G6C",
-    "human.chr6.6045545.LY6G6C",
     "dog.chr12.1198300.LY6G6C"
     ]
 }, {
@@ -7946,10 +6767,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33359772.C6orf25",
-    "cheetah.scaffold821.87674.C6orf25",
-    "dog.chr12.1202720.C6orf25",
-    "human.chr6.6045491.C6orf25",
     "dog.chr12.1202720.C6orf25"
     ]
 }, {
@@ -7962,10 +6779,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33363497.DDAH2",
-    "cheetah.scaffold821.83879.DDAH2",
-    "dog.chr12.1206391.DDAH2",
-    "human.chr6.6053935.DDAH2",
     "dog.chr12.1206391.DDAH2"
     ]
 }, {
@@ -7978,10 +6791,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33367006.CLIC1",
-    "cheetah.scaffold821.77015.CLIC1",
-    "dog.chr12.1210011.CLIC1",
-    "human.chr6.6057478.CLIC1",
     "dog.chr12.1210011.CLIC1"
     ]
 }, {
@@ -7994,9 +6803,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cheetah.scaffold821.49545.MSH5",
-    "dog.chr12.1221801.MSH5",
-    "human.chr6.6066845.MSH5",
     "dog.chr12.1221801.MSH5"
     ]
 }, {
@@ -8009,9 +6815,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33400323.SAPCD1",
-    "cheetah.scaffold821.47430.SAPCD1",
-    "dog.chr12.1243973.SAPCD1",
     "dog.chr12.1243973.SAPCD1"
     ]
 }, {
@@ -8024,9 +6827,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33402473.VWA7",
-    "cheetah.scaffold821.38323.VWA7",
-    "dog.chr12.1246339.VWA7",
     "dog.chr12.1246339.VWA7"
     ]
 }, {
@@ -8039,11 +6839,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33411647.VARS",
-    "cheetah.scaffold821.23084.VARS",
-    "cheetah.scaffold145.522910.VARS",
-    "dog.chr12.1255016.VARS",
-    "human.chr6.6104415.VARS",
     "dog.chr12.1255016.VARS"
     ]
 }, {
@@ -8056,9 +6851,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33435850.HSPA1L",
-    "dog.chr12.1281471.HSPA1L",
-    "human.chr6.6136516.HSPA1L",
     "dog.chr12.1281471.HSPA1L"
     ]
 }, {
@@ -8071,8 +6863,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.1298769.HSPA1A",
-    "human.chr6.6142440.HSPA1A",
     "dog.chr12.1298769.HSPA1A"
     ]
 }, {
@@ -8085,7 +6875,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.1305611.SNORD48",
     "dog.chr12.1305611.SNORD48"
     ]
 }, {
@@ -8098,7 +6887,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.1306494.SNORD52",
     "dog.chr12.1306494.SNORD52"
     ]
 }, {
@@ -8111,10 +6899,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33480702.NEU1",
-    "cheetah.scaffold786.698408.NEU1",
-    "dog.chr12.1324174.NEU1",
-    "human.chr6.6184556.NEU1",
     "dog.chr12.1324174.NEU1"
     ]
 }, {
@@ -8127,10 +6911,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33484430.SLC44A4",
-    "cheetah.scaffold786.685971.SLC44A4",
-    "dog.chr12.1328398.SLC44A4",
-    "human.chr6.6190089.SLC44A4",
     "dog.chr12.1328398.SLC44A4"
     ]
 }, {
@@ -8143,10 +6923,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33497278.EHMT2",
-    "cheetah.scaffold786.672847.EHMT2",
-    "dog.chr12.1341543.EHMT2",
-    "human.chr6.6206656.EHMT2",
     "dog.chr12.1341543.EHMT2"
     ]
 }, {
@@ -8159,9 +6935,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33512203.ZBTB12",
-    "dog.chr12.1356822.ZBTB12",
-    "human.chr6.6226504.ZBTB12",
     "dog.chr12.1356822.ZBTB12"
     ]
 }, {
@@ -8174,10 +6947,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33564390.RDBP",
-    "cheetah.scaffold786.613745.RDBP",
-    "dog.chr12.1408625.RDBP",
-    "human.chr6.6278984.RDBP",
     "dog.chr12.1408625.RDBP"
     ]
 }, {
@@ -8190,10 +6959,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33570339.SKIV2L",
-    "cheetah.scaffold786.601861.SKIV2L",
-    "dog.chr12.1412539.SKIV2L",
-    "human.chr6.6285701.SKIV2L",
     "dog.chr12.1412539.SKIV2L"
     ]
 }, {
@@ -8206,10 +6971,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33581692.DOM3Z",
-    "cheetah.scaffold786.599910.DOM3Z",
-    "dog.chr12.1424644.DOM3Z",
-    "human.chr6.6296707.DOM3Z",
     "dog.chr12.1424644.DOM3Z"
     ]
 }, {
@@ -8222,10 +6983,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33608200.CYP21A2",
-    "cheetah.scaffold786.572278.CYP21A2",
-    "dog.chr12.1450739.CYP21A2",
-    "human.chr6.6365162.CYP21A2",
     "dog.chr12.1450739.CYP21A2"
     ]
 }, {
@@ -8238,10 +6995,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33610927.TNXB",
-    "cheetah.scaffold786.525046.TNXB",
-    "dog.chr12.1453418.TNXB",
-    "human.chr6.6335316.TNXB",
     "dog.chr12.1453418.TNXB"
     ]
 }, {
@@ -8254,10 +7007,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33664502.CREBL1",
-    "cheetah.scaffold786.499765.CREBL1",
-    "dog.chr12.1515672.CREBL1",
-    "human.chr6.6425073.CREBL1",
     "dog.chr12.1515672.CREBL1"
     ]
 }, {
@@ -8270,9 +7019,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33689980.PRRT1",
-    "dog.chr12.1546249.PRRT1",
-    "human.chr6.6475256.PRRT1",
     "dog.chr12.1546249.PRRT1"
     ]
 }, {
@@ -8285,9 +7031,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cheetah.scaffold786.472104.PPT2",
-    "dog.chr12.1551681.PPT2",
-    "human.chr6.6480338.PPT2",
     "dog.chr12.1551681.PPT2"
     ]
 }, {
@@ -8300,10 +7043,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33703037.EGFL8",
-    "cheetah.scaffold786.468084.EGFL8",
-    "dog.chr12.1559409.EGFL8",
-    "human.chr6.6491480.EGFL8",
     "dog.chr12.1559409.EGFL8"
     ]
 }, {
@@ -8316,10 +7055,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33706184.AGPAT1",
-    "cheetah.scaffold786.464604.AGPAT1",
-    "dog.chr12.1562547.AGPAT1",
-    "human.chr6.6495109.AGPAT1",
     "dog.chr12.1562547.AGPAT1"
     ]
 }, {
@@ -8332,10 +7067,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33714927.RNF5",
-    "cheetah.scaffold786.452836.RNF5",
-    "dog.chr12.1571450.RNF5",
-    "human.chr6.6505251.RNF5",
     "dog.chr12.1571450.RNF5"
     ]
 }, {
@@ -8348,10 +7079,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33717651.AGER",
-    "cheetah.scaffold786.451926.AGER",
-    "dog.chr12.1574422.AGER",
-    "human.chr6.6507865.AGER",
     "dog.chr12.1574422.AGER"
     ]
 }, {
@@ -8364,9 +7091,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33722601.PBX2",
-    "dog.chr12.1579230.PBX2",
-    "human.chr6.6511630.PBX2",
     "dog.chr12.1579230.PBX2"
     ]
 }, {
@@ -8379,10 +7103,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33727646.GPSM3",
-    "cheetah.scaffold786.443652.GPSM3",
-    "dog.chr12.1584310.GPSM3",
-    "human.chr6.6517663.GPSM3",
     "dog.chr12.1584310.GPSM3"
     ]
 }, {
@@ -8395,9 +7115,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cheetah.scaffold786.419587.NOTCH4",
-    "dog.chr12.1586323.NOTCH4",
-    "human.chr6.6521740.NOTCH4",
     "dog.chr12.1586323.NOTCH4"
     ]
 }, {
@@ -8410,13 +7127,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.32328952.5S_rRNA",
-    "cat.chrB2.32502775.5S_rRNA",
-    "cat.chrB2.32871109.5S_rRNA",
-    "cat.chrB2.33845728.5S_rRNA",
-    "cat.chrB2.34114879.5S_rRNA",
-    "cat.chrB2.262954.5S_rRNA",
-    "dog.chr12.1713628.5S_rRNA",
     "dog.chr12.1713628.5S_rRNA"
     ]
 }, {
@@ -8429,9 +7139,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.33999570.C6orf10",
-    "dog.chr12.1828937.C6orf10",
-    "human.chr6.6619595.C6orf10",
     "dog.chr12.1828937.C6orf10"
     ]
 }, {
@@ -8444,7 +7151,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.1883350.U6",
     "dog.chr12.1883350.U6"
     ]
 }, {
@@ -8457,7 +7163,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.195725.MED23",
     "dog.chr12.195725.MED23"
     ]
 }, {
@@ -8470,9 +7175,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.34239988.BTNL2",
-    "dog.chr12.2089798.BTNL2",
-    "human.chr6.6718361.BTNL2",
     "dog.chr12.2089798.BTNL2"
     ]
 }, {
@@ -8485,7 +7187,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.2133123.DLA-DRA1",
     "dog.chr12.2133123.DLA-DRA1"
     ]
 }, {
@@ -8498,7 +7199,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.2152249.DLA-DRB1",
     "dog.chr12.2152249.DLA-DRB1"
     ]
 }, {
@@ -8511,7 +7211,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.2221187.DLA-DQA",
     "dog.chr12.2221187.DLA-DQA"
     ]
 }, {
@@ -8524,7 +7223,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.2245129.DLA-DQBC1",
     "dog.chr12.2245129.DLA-DQBC1"
     ]
 }, {
@@ -8537,8 +7235,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.225356.U4",
-    "dog.chr12.381242.U4",
     "dog.chr12.225356.U4"
     ]
 }, {
@@ -8551,7 +7247,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.2318243.7SK",
     "dog.chr12.2318243.7SK"
     ]
 }, {
@@ -8564,7 +7259,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.2378545.DLA-DOB",
     "dog.chr12.2378545.DLA-DOB"
     ]
 }, {
@@ -8577,9 +7271,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cheetah.scaffold415.1574664.TAP2",
-    "dog.chr12.2408269.TAP2",
-    "human.chr6.7140664.TAP2",
     "dog.chr12.2408269.TAP2"
     ]
 }, {
@@ -8592,10 +7283,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.34532634.PSMB8",
-    "cheetah.scaffold415.1569211.PSMB8",
-    "dog.chr12.2419688.PSMB8",
-    "human.chr6.7167614.PSMB8",
     "dog.chr12.2419688.PSMB8"
     ]
 }, {
@@ -8608,10 +7295,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.34537212.TAP1",
-    "cheetah.scaffold415.1560312.TAP1",
-    "dog.chr12.2424464.TAP1",
-    "human.chr6.7172106.TAP1",
     "dog.chr12.2424464.TAP1"
     ]
 }, {
@@ -8624,7 +7307,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.243046.ARG1",
     "dog.chr12.243046.ARG1"
     ]
 }, {
@@ -8637,9 +7319,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.34545125.PSMB9",
-    "dog.chr12.2432578.PSMB9",
-    "human.chr6.7171033.PSMB9",
     "dog.chr12.2432578.PSMB9"
     ]
 }, {
@@ -8652,7 +7331,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.2517600.DLA-DMA",
     "dog.chr12.2517600.DLA-DMA"
     ]
 }, {
@@ -8665,10 +7343,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.34656817.BRD2",
-    "cheetah.scaffold415.1442670.BRD2",
-    "dog.chr12.2538250.BRD2",
-    "human.chr6.7295557.BRD2",
     "dog.chr12.2538250.BRD2"
     ]
 }, {
@@ -8681,7 +7355,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.2565599.DLA-DOA",
     "dog.chr12.2565599.DLA-DOA"
     ]
 }, {
@@ -8694,7 +7367,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.2584352.SCARNA20",
     "dog.chr12.2584352.SCARNA20"
     ]
 }, {
@@ -8707,8 +7379,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.34724407.HLA-DPB1",
-    "dog.chr12.2604545.HLA-DPB1",
     "dog.chr12.2604545.HLA-DPB1"
     ]
 }, {
@@ -8721,10 +7391,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.34754587.COL11A2",
-    "cheetah.scaffold415.1325101.COL11A2",
-    "dog.chr12.2627827.COL11A2",
-    "human.chr6.7489578.COL11A2",
     "dog.chr12.2627827.COL11A2"
     ]
 }, {
@@ -8737,10 +7403,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.34785064.RXRB",
-    "cheetah.scaffold415.1317486.RXRB",
-    "dog.chr12.2658174.RXRB",
-    "human.chr6.7520485.RXRB",
     "dog.chr12.2658174.RXRB"
     ]
 }, {
@@ -8753,10 +7415,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.34791246.SLC39A7",
-    "cheetah.scaffold415.1314115.SLC39A7",
-    "dog.chr12.2663838.SLC39A7",
-    "human.chr6.7527342.SLC39A7",
     "dog.chr12.2663838.SLC39A7"
     ]
 }, {
@@ -8769,9 +7427,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.34794697.HSD17B8",
-    "dog.chr12.2667755.HSD17B8",
-    "human.chr6.7531539.HSD17B8",
     "dog.chr12.2667755.HSD17B8"
     ]
 }, {
@@ -8784,7 +7439,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.2670990.cfa-mir-219-1",
     "dog.chr12.2670990.cfa-mir-219-1"
     ]
 }, {
@@ -8797,10 +7451,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.34798644.RING1",
-    "cheetah.scaffold415.1305935.RING1",
-    "dog.chr12.2671884.RING1",
-    "human.chr6.7535392.RING1",
     "dog.chr12.2671884.RING1"
     ]
 }, {
@@ -8813,10 +7463,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.34829985.VPS52",
-    "cheetah.scaffold415.1278502.VPS52",
-    "dog.chr12.2698013.VPS52",
-    "human.chr6.7577169.VPS52",
     "dog.chr12.2698013.VPS52"
     ]
 }, {
@@ -8829,9 +7475,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.34845976.RPS18",
-    "dog.chr12.2713002.RPS18",
-    "human.chr6.7598907.RPS18",
     "dog.chr12.2713002.RPS18"
     ]
 }, {
@@ -8844,10 +7487,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.34851528.B3GALT4",
-    "cheetah.scaffold415.1256759.B3GALT4",
-    "dog.chr12.2719553.B3GALT4",
-    "human.chr6.7604037.B3GALT4",
     "dog.chr12.2719553.B3GALT4"
     ]
 }, {
@@ -8860,10 +7499,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.34853389.WDR46",
-    "cheetah.scaffold415.1248115.WDR46",
-    "dog.chr12.2721432.WDR46",
-    "human.chr6.7606005.WDR46",
     "dog.chr12.2721432.WDR46"
     ]
 }, {
@@ -8876,9 +7511,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.34861793.PFDN6",
-    "dog.chr12.2729832.PFDN6",
-    "human.chr6.7616199.PFDN6",
     "dog.chr12.2729832.PFDN6"
     ]
 }, {
@@ -8891,10 +7523,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.34864164.RGL2",
-    "cheetah.scaffold415.1239745.RGL2",
-    "dog.chr12.2732105.RGL2",
-    "human.chr6.7618551.RGL2",
     "dog.chr12.2732105.RGL2"
     ]
 }, {
@@ -8907,10 +7535,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.34873795.TAPBP",
-    "cheetah.scaffold415.1225672.TAPBP",
-    "dog.chr12.2741359.TAPBP",
-    "human.chr6.7626591.TAPBP",
     "dog.chr12.2741359.TAPBP"
     ]
 }, {
@@ -8923,9 +7547,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cheetah.scaffold415.1222817.ZBTB22",
-    "dog.chr12.2752532.ZBTB22",
-    "human.chr6.7641303.ZBTB22",
     "dog.chr12.2752532.ZBTB22"
     ]
 }, {
@@ -8938,10 +7559,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.34888638.DAXX",
-    "cheetah.scaffold415.1218109.DAXX",
-    "dog.chr12.2756162.DAXX",
-    "human.chr6.7645455.DAXX",
     "dog.chr12.2756162.DAXX"
     ]
 }, {
@@ -8954,10 +7571,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.34960057.KIFC1",
-    "cheetah.scaffold415.1141731.KIFC1",
-    "dog.chr12.2813625.KIFC1",
-    "human.chr6.7718433.KIFC1",
     "dog.chr12.2813625.KIFC1"
     ]
 }, {
@@ -8970,8 +7583,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.331823.RPP21",
-    "human.chr6.4672028.RPP21",
     "dog.chr12.331823.RPP21"
     ]
 }, {
@@ -8984,10 +7595,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.32072037.GNL1",
-    "cheetah.scaffold145.226983.GNL1",
-    "dog.chr12.375592.GNL1",
-    "human.chr6.4868274.GNL1",
     "dog.chr12.375592.GNL1"
     ]
 }, {
@@ -9000,8 +7607,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.225356.U4",
-    "dog.chr12.381242.U4",
     "dog.chr12.381242.U4"
     ]
 }, {
@@ -9014,10 +7619,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.32091815.ABCF1",
-    "cheetah.scaffold145.246526.ABCF1",
-    "dog.chr12.397040.ABCF1",
-    "human.chr6.4898273.ABCF1",
     "dog.chr12.397040.ABCF1"
     ]
 }, {
@@ -9030,10 +7631,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.32113078.PPP1R10",
-    "cheetah.scaffold145.268180.PPP1R10",
-    "dog.chr12.417679.PPP1R10",
-    "human.chr6.4927297.PPP1R10",
     "dog.chr12.417679.PPP1R10"
     ]
 }, {
@@ -9046,10 +7643,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.32131508.MRPS18B",
-    "cheetah.scaffold145.286733.MRPS18B",
-    "dog.chr12.435193.MRPS18B",
-    "human.chr6.4944606.MRPS18B",
     "dog.chr12.435193.MRPS18B"
     ]
 }, {
@@ -9062,8 +7655,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.32137936.ATAT1",
-    "dog.chr12.441897.ATAT1",
     "dog.chr12.441897.ATAT1"
     ]
 }, {
@@ -9076,10 +7667,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.32152554.C6orf136",
-    "cheetah.scaffold145.307770.C6orf136",
-    "dog.chr12.456729.C6orf136",
-    "human.chr6.4973936.C6orf136",
     "dog.chr12.456729.C6orf136"
     ]
 }, {
@@ -9092,10 +7679,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.32156832.DHX16",
-    "cheetah.scaffold145.311522.DHX16",
-    "dog.chr12.460775.DHX16",
-    "human.chr6.4980016.DHX16",
     "dog.chr12.460775.DHX16"
     ]
 }, {
@@ -9108,10 +7691,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.32184208.NRM",
-    "cheetah.scaffold145.339058.NRM",
-    "dog.chr12.482138.NRM",
-    "human.chr6.5014944.NRM",
     "dog.chr12.482138.NRM"
     ]
 }, {
@@ -9124,10 +7703,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.32190691.MDC1",
-    "cheetah.scaffold145.345648.MDC1",
-    "dog.chr12.496903.MDC1",
-    "human.chr6.5026704.MDC1",
     "dog.chr12.496903.MDC1"
     ]
 }, {
@@ -9140,10 +7715,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.32206679.TUBB",
-    "cheetah.scaffold145.361120.TUBB",
-    "dog.chr12.512944.TUBB",
-    "human.chr6.5047098.TUBB",
     "dog.chr12.512944.TUBB"
     ]
 }, {
@@ -9156,10 +7727,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.32213902.FLOT1",
-    "cheetah.scaffold145.367231.FLOT1",
-    "dog.chr12.518353.FLOT1",
-    "human.chr6.5054606.FLOT1",
     "dog.chr12.518353.FLOT1"
     ]
 }, {
@@ -9172,10 +7739,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.32227107.IER3",
-    "cheetah.scaffold145.379554.IER3",
-    "dog.chr12.529737.IER3",
-    "human.chr6.5070096.IER3",
     "dog.chr12.529737.IER3"
     ]
 }, {
@@ -9188,10 +7751,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.32396584.DPCR1",
-    "cheetah.scaffold145.552620.DPCR1",
-    "dog.chr12.551500.DPCR1",
-    "human.chr6.5267869.DPCR1",
     "dog.chr12.551500.DPCR1"
     ]
 }, {
@@ -9204,7 +7763,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.635694.SNORA42",
     "dog.chr12.635694.SNORA42"
     ]
 }, {
@@ -9217,10 +7775,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.32349938.DDR1",
-    "cheetah.scaffold145.499747.DDR1",
-    "dog.chr12.653806.DDR1",
-    "human.chr6.5203318.DDR1",
     "dog.chr12.653806.DDR1"
     ]
 }, {
@@ -9233,10 +7787,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.32367652.GTF2H4",
-    "cheetah.scaffold145.517287.GTF2H4",
-    "dog.chr12.676676.GTF2H4",
-    "human.chr6.5235081.GTF2H4",
     "dog.chr12.676676.GTF2H4"
     ]
 }, {
@@ -9249,9 +7799,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.32373244.VARSL",
-    "dog.chr12.682032.VARSL",
-    "human.chr6.5235139.VARSL",
     "dog.chr12.682032.VARSL"
     ]
 }, {
@@ -9264,9 +7811,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cheetah.scaffold145.672597.C6orf15",
-    "dog.chr12.815482.C6orf15",
-    "human.chr6.5438120.C6orf15",
     "dog.chr12.815482.C6orf15"
     ]
 }, {
@@ -9279,10 +7823,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.32528830.CDSN",
-    "cheetah.scaffold145.677785.CDSN",
-    "dog.chr12.820466.CDSN",
-    "human.chr6.5441987.CDSN",
     "dog.chr12.820466.CDSN"
     ]
 }, {
@@ -9295,10 +7835,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.32546665.PSORS1C2",
-    "cheetah.scaffold145.696141.PSORS1C2",
-    "dog.chr12.838392.PSORS1C2",
-    "human.chr6.5464431.PSORS1C2",
     "dog.chr12.838392.PSORS1C2"
     ]
 }, {
@@ -9311,10 +7847,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.32551169.CCHCR1",
-    "cheetah.scaffold145.700511.CCHCR1",
-    "dog.chr12.842244.CCHCR1",
-    "human.chr6.5469336.CCHCR1",
     "dog.chr12.842244.CCHCR1"
     ]
 }, {
@@ -9327,10 +7859,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.32566778.TCF19",
-    "cheetah.scaffold145.716133.TCF19",
-    "dog.chr12.856212.TCF19",
-    "human.chr6.5485439.TCF19",
     "dog.chr12.856212.TCF19"
     ]
 }, {
@@ -9343,8 +7871,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.892227.DLA88",
-    "dog.chr12.1013177.DLA88",
     "dog.chr12.892227.DLA88"
     ]
 }, {
@@ -9357,7 +7883,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.97511.ENPP3",
     "dog.chr12.97511.ENPP3"
     ]
 }, {
@@ -9370,7 +7895,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr12.983572.DLA64",
     "dog.chr12.983572.DLA64"
     ]
 }, {
@@ -9383,8 +7907,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "dog.chr35.26116872.OR2W1",
-    "human.chr6.3371110.OR2W1",
     "dog.chr35.26116872.OR2W1"
     ]
 }, {
@@ -9397,10 +7919,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.182718.GABBR1",
-    "cheetah.scaffold823.126415.GABBR1",
-    "dog.chr35.26213080.GABBR1",
-    "human.chr6.3882526.GABBR1",
     "dog.chr35.26213080.GABBR1"
     ]
 }, {
@@ -9413,10 +7931,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.153567.MOG",
-    "cheetah.scaffold823.171169.MOG",
-    "dog.chr35.26256607.MOG",
-    "human.chr6.3983878.MOG",
     "dog.chr35.26256607.MOG"
     ]
 }, {
@@ -9429,9 +7943,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.150330.ZFP57",
-    "dog.chr35.26267571.ZFP57",
-    "human.chr6.3999289.ZFP57",
     "dog.chr35.26267571.ZFP57"
     ]
 }, {
@@ -9444,10 +7955,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.129140.ZNRD1",
-    "cheetah.scaffold823.201488.ZNRD1",
-    "dog.chr35.26285783.ZNRD1",
-    "human.chr6.4385796.ZNRD1",
     "dog.chr35.26285783.ZNRD1"
     ]
 }, {
@@ -9460,10 +7967,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.123810.PPP1R11",
-    "cheetah.scaffold823.207149.PPP1R11",
-    "dog.chr35.26289666.PPP1R11",
-    "human.chr6.4393606.PPP1R11",
     "dog.chr35.26289666.PPP1R11"
     ]
 }, {
@@ -9476,9 +7979,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cheetah.scaffold145.103390.RNF39",
-    "dog.chr35.26292780.RNF39",
-    "human.chr6.4397163.RNF39",
     "dog.chr35.26292780.RNF39"
     ]
 }, {
@@ -9491,9 +7991,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.65811.TRIM10",
-    "dog.chr35.26350557.TRIM10",
-    "human.chr6.4478842.TRIM10",
     "dog.chr35.26350557.TRIM10"
     ]
 }, {
@@ -9506,10 +8003,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cat.chrB2.34917.TRIM26",
-    "cheetah.scaffold823.289135.TRIM26",
-    "dog.chr35.26387778.TRIM26",
-    "human.chr6.4511352.TRIM26",
     "dog.chr35.26387778.TRIM26"
     ]
 }, {
@@ -9522,9 +8015,6 @@
   "file": "dog",
   "type": "dog",
   "gene_links": [
-    "cheetah.scaffold823.96003.UBD",
-    "dog.chr35.26432227.UBD",
-    "human.chr6.3882412.UBD",
     "dog.chr35.26432227.UBD"
     ]
 }]
