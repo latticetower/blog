@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8">
-  <title>CS 360 Data Visualization</title>
+  <title></title>
 
   <!-- JavaScript Libraries //-->
   <script src="http://d3js.org/d3.v3.min.js"></script>
@@ -125,10 +125,28 @@
 
     var yscale = d3.scale.ordinal().domain(nodes.types).range(d3.range(nodes.types.length));
 
-
+    var lastChr = "";
+    var lastFile = "";
+    var lastPos = 1;
     // calculate pixel location for each node
     nodes.forEach(function(d, i) {
-      d.x = d.index*radius+1;
+      if (d.index == 0) {
+        lastChr = d.chr;
+        lastPos = 1;
+        lastFile = d.source_file;
+      } else {
+        //console.log(d.index);
+        lastPos = lastPos + radius;
+        if (lastChr != d.chr) {
+          lastPos = lastPos + radius*2;
+          lastChr = d.chr;
+        }
+        if (lastFile != d.source_file) {
+          lastFile = d.source_file;
+          //lastPos = lastPos + radius*2;
+        }
+      }
+      d.x = lastPos;
       d.y = 50+200*d.axis;
       d.width = radius;
       d.height = radius;
@@ -136,7 +154,7 @@
   }
 
   on_mouseover = function(node, index) {
-    console.log(node, index);
+    //console.log(node, index);
   }
   function on_mouseout(node, index) {
     //
@@ -184,7 +202,7 @@
     .attr("class", "link")
     .attr("d",  function(d, i) {
       //console.log(lineFunction([d.source.x, d.source.y, d.target.x, d.target.y]));
-      return lineFunction([{'x' : d.source.x, 'y' : d.source.y}, {'x' : d.target.x, 'y' : d.target.y}]);
+      return lineFunction([{'x' : d.source.x+d.source.width/2, 'y' : d.source.y}, {'x' : d.target.x+d.target.width/2, 'y' : d.target.y}]);
       });
     //.style("fill", function(d) { return color(d.type); });
   }

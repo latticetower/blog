@@ -1,5 +1,3740 @@
 [
 {
+  "group": "ZNF",
+  "name": "human.chr6.995638.ZNF322A",
+  "commonName": "ZNF322A",
+  "start": "995638",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.995638.ZNF322A",
+    "human.chr6.995638.ZNF322A"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.956300.ABT1",
+  "commonName": "ABT1",
+  "start": "956300",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.956300.ABT1",
+    "human.chr6.956300.ABT1"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.897692.HMGN4",
+  "commonName": "HMGN4",
+  "start": "897692",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.897692.HMGN4",
+    "human.chr6.897692.HMGN4"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.86257.HIST1H2BA",
+  "commonName": "HIST1H2BA",
+  "start": "86257",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.86257.HIST1H2BA",
+    "human.chr6.86257.HIST1H2BA"
+    ]
+}, {
+  "group": "TRIM/BUTYROPHILIN",
+  "name": "human.chr6.860569.BTN1A1",
+  "commonName": "BTN1A1",
+  "start": "860569",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cheetah.scaffold786.386848.BTN1A1",
+    "human.chr6.860569.BTN1A1",
+    "human.chr6.860569.BTN1A1"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.85411.HIST1H2AA",
+  "commonName": "HIST1H2AA",
+  "start": "85411",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.85411.HIST1H2AA",
+    "human.chr6.85411.HIST1H2AA"
+    ]
+}, {
+  "group": "TRIM/BUTYROPHILIN",
+  "name": "human.chr6.817270.BTN2A1",
+  "commonName": "BTN2A1",
+  "start": "817270",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.817270.BTN2A1",
+    "human.chr6.817270.BTN2A1"
+    ]
+}, {
+  "group": "TRIM/BUTYROPHILIN",
+  "name": "human.chr6.799820.BTN3A3",
+  "commonName": "BTN3A3",
+  "start": "799820",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.799820.BTN3A3",
+    "human.chr6.799820.BTN3A3"
+    ]
+}, {
+  "group": "EXII",
+  "name": "human.chr6.7781476.ZBTB9",
+  "commonName": "ZBTB9",
+  "start": "7781476",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cheetah.scaffold415.1097733.ZBTB9",
+    "human.chr6.7781476.ZBTB9",
+    "human.chr6.7781476.ZBTB9"
+    ]
+}, {
+  "group": "EXII",
+  "name": "human.chr6.7746967.SYNGAP1",
+  "commonName": "SYNGAP1",
+  "start": "7746967",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cheetah.scaffold415.1106204.SYNGAP1",
+    "human.chr6.7746967.SYNGAP1",
+    "human.chr6.7746967.SYNGAP1"
+    ]
+}, {
+  "group": "EXII",
+  "name": "human.chr6.7743339.CUTA",
+  "commonName": "CUTA",
+  "start": "7743339",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cheetah.scaffold415.1133743.CUTA",
+    "human.chr6.7743339.CUTA",
+    "human.chr6.7743339.CUTA"
+    ]
+}, {
+  "group": "EXII",
+  "name": "human.chr6.7737296.PHF1",
+  "commonName": "PHF1",
+  "start": "7737296",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cheetah.scaffold415.1135838.PHF1",
+    "human.chr6.7737296.PHF1",
+    "human.chr6.7737296.PHF1"
+    ]
+}, {
+  "group": "EXII",
+  "name": "human.chr6.7718433.KIFC1",
+  "commonName": "KIFC1",
+  "start": "7718433",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.34960057.KIFC1",
+    "cheetah.scaffold415.1141731.KIFC1",
+    "dog.chr12.2813625.KIFC1",
+    "human.chr6.7718433.KIFC1",
+    "human.chr6.7718433.KIFC1"
+    ]
+}, {
+  "group": "EXII",
+  "name": "human.chr6.7645455.DAXX",
+  "commonName": "DAXX",
+  "start": "7645455",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.34888638.DAXX",
+    "cheetah.scaffold415.1218109.DAXX",
+    "dog.chr12.2756162.DAXX",
+    "human.chr6.7645455.DAXX",
+    "human.chr6.7645455.DAXX"
+    ]
+}, {
+  "group": "EXII",
+  "name": "human.chr6.7641303.ZBTB22",
+  "commonName": "ZBTB22",
+  "start": "7641303",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cheetah.scaffold415.1222817.ZBTB22",
+    "dog.chr12.2752532.ZBTB22",
+    "human.chr6.7641303.ZBTB22",
+    "human.chr6.7641303.ZBTB22"
+    ]
+}, {
+  "group": "EXII",
+  "name": "human.chr6.7626591.TAPBP",
+  "commonName": "TAPBP",
+  "start": "7626591",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.34873795.TAPBP",
+    "cheetah.scaffold415.1225672.TAPBP",
+    "dog.chr12.2741359.TAPBP",
+    "human.chr6.7626591.TAPBP",
+    "human.chr6.7626591.TAPBP"
+    ]
+}, {
+  "group": "EXII",
+  "name": "human.chr6.7618551.RGL2",
+  "commonName": "RGL2",
+  "start": "7618551",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.34864164.RGL2",
+    "cheetah.scaffold415.1239745.RGL2",
+    "dog.chr12.2732105.RGL2",
+    "human.chr6.7618551.RGL2",
+    "human.chr6.7618551.RGL2"
+    ]
+}, {
+  "group": "EXII",
+  "name": "human.chr6.7616199.PFDN6",
+  "commonName": "PFDN6",
+  "start": "7616199",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.34861793.PFDN6",
+    "dog.chr12.2729832.PFDN6",
+    "human.chr6.7616199.PFDN6",
+    "human.chr6.7616199.PFDN6"
+    ]
+}, {
+  "group": "TRIM/BUTYROPHILIN",
+  "name": "human.chr6.761585.BTN3A1",
+  "commonName": "BTN3A1",
+  "start": "761585",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.761585.BTN3A1",
+    "human.chr6.761585.BTN3A1"
+    ]
+}, {
+  "group": "EXII",
+  "name": "human.chr6.7606005.WDR46",
+  "commonName": "WDR46",
+  "start": "7606005",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.34853389.WDR46",
+    "cheetah.scaffold415.1248115.WDR46",
+    "dog.chr12.2721432.WDR46",
+    "human.chr6.7606005.WDR46",
+    "human.chr6.7606005.WDR46"
+    ]
+}, {
+  "group": "EXII",
+  "name": "human.chr6.7604037.B3GALT4",
+  "commonName": "B3GALT4",
+  "start": "7604037",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.34851528.B3GALT4",
+    "cheetah.scaffold415.1256759.B3GALT4",
+    "dog.chr12.2719553.B3GALT4",
+    "human.chr6.7604037.B3GALT4",
+    "human.chr6.7604037.B3GALT4"
+    ]
+}, {
+  "group": "EXII",
+  "name": "human.chr6.7598907.RPS18",
+  "commonName": "RPS18",
+  "start": "7598907",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.34845976.RPS18",
+    "dog.chr12.2713002.RPS18",
+    "human.chr6.7598907.RPS18",
+    "human.chr6.7598907.RPS18"
+    ]
+}, {
+  "group": "EXII",
+  "name": "human.chr6.7577169.VPS52",
+  "commonName": "VPS52",
+  "start": "7577169",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.34829985.VPS52",
+    "cheetah.scaffold415.1278502.VPS52",
+    "dog.chr12.2698013.VPS52",
+    "human.chr6.7577169.VPS52",
+    "human.chr6.7577169.VPS52"
+    ]
+}, {
+  "group": "EXII",
+  "name": "human.chr6.7535392.RING1",
+  "commonName": "RING1",
+  "start": "7535392",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.34798644.RING1",
+    "cheetah.scaffold415.1305935.RING1",
+    "dog.chr12.2671884.RING1",
+    "human.chr6.7535392.RING1",
+    "human.chr6.7535392.RING1"
+    ]
+}, {
+  "group": "EXII",
+  "name": "human.chr6.7531539.HSD17B8",
+  "commonName": "HSD17B8",
+  "start": "7531539",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.34794697.HSD17B8",
+    "dog.chr12.2667755.HSD17B8",
+    "human.chr6.7531539.HSD17B8",
+    "human.chr6.7531539.HSD17B8"
+    ]
+}, {
+  "group": "EXII",
+  "name": "human.chr6.7527342.SLC39A7",
+  "commonName": "SLC39A7",
+  "start": "7527342",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.34791246.SLC39A7",
+    "cheetah.scaffold415.1314115.SLC39A7",
+    "dog.chr12.2663838.SLC39A7",
+    "human.chr6.7527342.SLC39A7",
+    "human.chr6.7527342.SLC39A7"
+    ]
+}, {
+  "group": "EXII",
+  "name": "human.chr6.7520485.RXRB",
+  "commonName": "RXRB",
+  "start": "7520485",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.34785064.RXRB",
+    "cheetah.scaffold415.1317486.RXRB",
+    "dog.chr12.2658174.RXRB",
+    "human.chr6.7520485.RXRB",
+    "human.chr6.7520485.RXRB"
+    ]
+}, {
+  "group": "EXII",
+  "name": "human.chr6.7489578.COL11A2",
+  "commonName": "COL11A2",
+  "start": "7489578",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.34754587.COL11A2",
+    "cheetah.scaffold415.1325101.COL11A2",
+    "dog.chr12.2627827.COL11A2",
+    "human.chr6.7489578.COL11A2",
+    "human.chr6.7489578.COL11A2"
+    ]
+}, {
+  "group": "II",
+  "name": "human.chr6.7439348.HLADPB2",
+  "commonName": "HLADPB2",
+  "start": "7439348",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.7439348.HLADPB2",
+    "human.chr6.7439348.HLADPB2"
+    ]
+}, {
+  "group": "TRIM/BUTYROPHILIN",
+  "name": "human.chr6.742444.BTN2A2",
+  "commonName": "BTN2A2",
+  "start": "742444",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.742444.BTN2A2",
+    "human.chr6.742444.BTN2A2"
+    ]
+}, {
+  "group": "II",
+  "name": "human.chr6.7402823.HLADPB1",
+  "commonName": "HLADPB1",
+  "start": "7402823",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.7402823.HLADPB1",
+    "human.chr6.7402823.HLADPB1"
+    ]
+}, {
+  "group": "II",
+  "name": "human.chr6.7391466.HLADPA1",
+  "commonName": "HLADPA1",
+  "start": "7391466",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.7391466.HLADPA1",
+    "human.chr6.7391466.HLADPA1"
+    ]
+}, {
+  "group": "II",
+  "name": "human.chr6.7331075.HLADOA",
+  "commonName": "HLADOA",
+  "start": "7331075",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.7331075.HLADOA",
+    "human.chr6.7331075.HLADOA"
+    ]
+}, {
+  "group": "II",
+  "name": "human.chr6.7295557.BRD2",
+  "commonName": "BRD2",
+  "start": "7295557",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.34656817.BRD2",
+    "cheetah.scaffold415.1442670.BRD2",
+    "dog.chr12.2538250.BRD2",
+    "human.chr6.7295557.BRD2",
+    "human.chr6.7295557.BRD2"
+    ]
+}, {
+  "group": "II",
+  "name": "human.chr6.7275510.HLADMA",
+  "commonName": "HLADMA",
+  "start": "7275510",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.7275510.HLADMA",
+    "human.chr6.7275510.HLADMA"
+    ]
+}, {
+  "group": "II",
+  "name": "human.chr6.7264261.XXbacBPG181M175",
+  "commonName": "XXbacBPG181M175",
+  "start": "7264261",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.7264261.XXbacBPG181M175",
+    "human.chr6.7264261.XXbacBPG181M175"
+    ]
+}, {
+  "group": "II",
+  "name": "human.chr6.7261526.HLADMB",
+  "commonName": "HLADMB",
+  "start": "7261526",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.7261526.HLADMB",
+    "human.chr6.7261526.HLADMB"
+    ]
+}, {
+  "group": "TRIM/BUTYROPHILIN",
+  "name": "human.chr6.724579.BTN3A2",
+  "commonName": "BTN3A2",
+  "start": "724579",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.724579.BTN3A2",
+    "human.chr6.724579.BTN3A2"
+    ]
+}, {
+  "group": "Antigen presentation (II)",
+  "name": "human.chr6.7172106.TAP1",
+  "commonName": "TAP1",
+  "start": "7172106",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.34537212.TAP1",
+    "cheetah.scaffold415.1560312.TAP1",
+    "dog.chr12.2424464.TAP1",
+    "human.chr6.7172106.TAP1",
+    "human.chr6.7172106.TAP1"
+    ]
+}, {
+  "group": "Antigen presentation (II)",
+  "name": "human.chr6.7171033.PSMB9",
+  "commonName": "PSMB9",
+  "start": "7171033",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.34545125.PSMB9",
+    "dog.chr12.2432578.PSMB9",
+    "human.chr6.7171033.PSMB9",
+    "human.chr6.7171033.PSMB9"
+    ]
+}, {
+  "group": "Antigen presentation (II)",
+  "name": "human.chr6.7167614.PSMB8",
+  "commonName": "PSMB8",
+  "start": "7167614",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.34532634.PSMB8",
+    "cheetah.scaffold415.1569211.PSMB8",
+    "dog.chr12.2419688.PSMB8",
+    "human.chr6.7167614.PSMB8",
+    "human.chr6.7167614.PSMB8"
+    ]
+}, {
+  "group": "Antigen presentation (II)",
+  "name": "human.chr6.7140664.TAP2",
+  "commonName": "TAP2",
+  "start": "7140664",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cheetah.scaffold415.1574664.TAP2",
+    "dog.chr12.2408269.TAP2",
+    "human.chr6.7140664.TAP2",
+    "human.chr6.7140664.TAP2"
+    ]
+}, {
+  "group": "II",
+  "name": "human.chr6.7140664.XXbacBPG246D159",
+  "commonName": "XXbacBPG246D159",
+  "start": "7140664",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.7140664.XXbacBPG246D159",
+    "human.chr6.7140664.XXbacBPG246D159"
+    ]
+}, {
+  "group": "II",
+  "name": "human.chr6.7139660.HLADOB",
+  "commonName": "HLADOB",
+  "start": "7139660",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.7139660.HLADOB",
+    "human.chr6.7139660.HLADOB"
+    ]
+}, {
+  "group": "II",
+  "name": "human.chr6.7082995.HLADQB2",
+  "commonName": "HLADQB2",
+  "start": "7082995",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.7082995.HLADQB2",
+    "human.chr6.7082995.HLADQB2"
+    ]
+}, {
+  "group": "II",
+  "name": "human.chr6.7068239.HLADQA2",
+  "commonName": "HLADQA2",
+  "start": "7068239",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.7068239.HLADQA2",
+    "human.chr6.7068239.HLADQA2"
+    ]
+}, {
+  "group": "II",
+  "name": "human.chr6.6986364.HLADQB1",
+  "commonName": "HLADQB1",
+  "start": "6986364",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.6986364.HLADQB1",
+    "human.chr6.6986364.HLADQB1"
+    ]
+}, {
+  "group": "II",
+  "name": "human.chr6.6955076.HLADQA1",
+  "commonName": "HLADQA1",
+  "start": "6955076",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.6955076.HLADQA1",
+    "human.chr6.6955076.HLADQA1"
+    ]
+}, {
+  "group": "II",
+  "name": "human.chr6.6905666.HLADRB1",
+  "commonName": "HLADRB1",
+  "start": "6905666",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.6905666.HLADRB1",
+    "human.chr6.6905666.HLADRB1"
+    ]
+}, {
+  "group": "II",
+  "name": "human.chr6.6844240.HLADRB5",
+  "commonName": "HLADRB5",
+  "start": "6844240",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.6844240.HLADRB5",
+    "human.chr6.6844240.HLADRB5"
+    ]
+}, {
+  "group": "II",
+  "name": "human.chr6.6769795.AL6627961",
+  "commonName": "AL6627961",
+  "start": "6769795",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.6769795.AL6627961",
+    "human.chr6.6769795.AL6627961"
+    ]
+}, {
+  "group": "II",
+  "name": "human.chr6.6766739.HLADRA",
+  "commonName": "HLADRA",
+  "start": "6766739",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.6766739.HLADRA",
+    "human.chr6.6766739.HLADRA"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6718361.BTNL2",
+  "commonName": "BTNL2",
+  "start": "6718361",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.34239988.BTNL2",
+    "dog.chr12.2089798.BTNL2",
+    "human.chr6.6718361.BTNL2",
+    "human.chr6.6718361.BTNL2"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6619595.C6orf10",
+  "commonName": "C6orf10",
+  "start": "6619595",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33999570.C6orf10",
+    "dog.chr12.1828937.C6orf10",
+    "human.chr6.6619595.C6orf10",
+    "human.chr6.6619595.C6orf10"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6521740.NOTCH4",
+  "commonName": "NOTCH4",
+  "start": "6521740",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cheetah.scaffold786.419587.NOTCH4",
+    "dog.chr12.1586323.NOTCH4",
+    "human.chr6.6521740.NOTCH4",
+    "human.chr6.6521740.NOTCH4"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6517663.GPSM3",
+  "commonName": "GPSM3",
+  "start": "6517663",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33727646.GPSM3",
+    "cheetah.scaffold786.443652.GPSM3",
+    "dog.chr12.1584310.GPSM3",
+    "human.chr6.6517663.GPSM3",
+    "human.chr6.6517663.GPSM3"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6511630.PBX2",
+  "commonName": "PBX2",
+  "start": "6511630",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33722601.PBX2",
+    "dog.chr12.1579230.PBX2",
+    "human.chr6.6511630.PBX2",
+    "human.chr6.6511630.PBX2"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6507865.AGER",
+  "commonName": "AGER",
+  "start": "6507865",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33717651.AGER",
+    "cheetah.scaffold786.451926.AGER",
+    "dog.chr12.1574422.AGER",
+    "human.chr6.6507865.AGER",
+    "human.chr6.6507865.AGER"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6505251.RNF5",
+  "commonName": "RNF5",
+  "start": "6505251",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33714927.RNF5",
+    "cheetah.scaffold786.452836.RNF5",
+    "dog.chr12.1571450.RNF5",
+    "human.chr6.6505251.RNF5",
+    "human.chr6.6505251.RNF5"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6495109.AGPAT1",
+  "commonName": "AGPAT1",
+  "start": "6495109",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33706184.AGPAT1",
+    "cheetah.scaffold786.464604.AGPAT1",
+    "dog.chr12.1562547.AGPAT1",
+    "human.chr6.6495109.AGPAT1",
+    "human.chr6.6495109.AGPAT1"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6491480.EGFL8",
+  "commonName": "EGFL8",
+  "start": "6491480",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33703037.EGFL8",
+    "cheetah.scaffold786.468084.EGFL8",
+    "dog.chr12.1559409.EGFL8",
+    "human.chr6.6491480.EGFL8",
+    "human.chr6.6491480.EGFL8"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6480338.PPT2",
+  "commonName": "PPT2",
+  "start": "6480338",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cheetah.scaffold786.472104.PPT2",
+    "dog.chr12.1551681.PPT2",
+    "human.chr6.6480338.PPT2",
+    "human.chr6.6480338.PPT2"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6475256.PRRT1",
+  "commonName": "PRRT1",
+  "start": "6475256",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33689980.PRRT1",
+    "dog.chr12.1546249.PRRT1",
+    "human.chr6.6475256.PRRT1",
+    "human.chr6.6475256.PRRT1"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6455604.FKBPL",
+  "commonName": "FKBPL",
+  "start": "6455604",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33673805.FKBPL",
+    "cheetah.scaffold786.498156.FKBPL",
+    "human.chr6.6455604.FKBPL",
+    "human.chr6.6455604.FKBPL"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6425073.CREBL1",
+  "commonName": "CREBL1",
+  "start": "6425073",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33664502.CREBL1",
+    "cheetah.scaffold786.499765.CREBL1",
+    "dog.chr12.1515672.CREBL1",
+    "human.chr6.6425073.CREBL1",
+    "human.chr6.6425073.CREBL1"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.640403.HIST1H4H",
+  "commonName": "HIST1H4H",
+  "start": "640403",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.640403.HIST1H4H",
+    "human.chr6.640403.HIST1H4H"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6365162.CYP21A2",
+  "commonName": "CYP21A2",
+  "start": "6365162",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33608200.CYP21A2",
+    "cheetah.scaffold786.572278.CYP21A2",
+    "dog.chr12.1450739.CYP21A2",
+    "human.chr6.6365162.CYP21A2",
+    "human.chr6.6365162.CYP21A2"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6335316.TNXB",
+  "commonName": "TNXB",
+  "start": "6335316",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33610927.TNXB",
+    "cheetah.scaffold786.525046.TNXB",
+    "dog.chr12.1453418.TNXB",
+    "human.chr6.6335316.TNXB",
+    "human.chr6.6335316.TNXB"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.632264.HIST1H2BI",
+  "commonName": "HIST1H2BI",
+  "start": "632264",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.632264.HIST1H2BI",
+    "human.chr6.632264.HIST1H2BI"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6308954.C4B",
+  "commonName": "C4B",
+  "start": "6308954",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cheetah.scaffold786.577748.C4B",
+    "human.chr6.6308954.C4B",
+    "human.chr6.6308954.C4B"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6308921.C4A",
+  "commonName": "C4A",
+  "start": "6308921",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.6308921.C4A",
+    "human.chr6.6308921.C4A"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6297988.STK19",
+  "commonName": "STK19",
+  "start": "6297988",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33584077.STK19",
+    "cheetah.scaffold786.593878.STK19",
+    "human.chr6.6297988.STK19",
+    "human.chr6.6297988.STK19"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6296707.DOM3Z",
+  "commonName": "DOM3Z",
+  "start": "6296707",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33581692.DOM3Z",
+    "cheetah.scaffold786.599910.DOM3Z",
+    "dog.chr12.1424644.DOM3Z",
+    "human.chr6.6296707.DOM3Z",
+    "human.chr6.6296707.DOM3Z"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.628753.HIST1H3G",
+  "commonName": "HIST1H3G",
+  "start": "628753",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.628753.HIST1H3G",
+    "human.chr6.628753.HIST1H3G"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6285701.SKIV2L",
+  "commonName": "SKIV2L",
+  "start": "6285701",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33570339.SKIV2L",
+    "cheetah.scaffold786.601861.SKIV2L",
+    "dog.chr12.1412539.SKIV2L",
+    "human.chr6.6285701.SKIV2L",
+    "human.chr6.6285701.SKIV2L"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6278984.RDBP",
+  "commonName": "RDBP",
+  "start": "6278984",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33564390.RDBP",
+    "cheetah.scaffold786.613745.RDBP",
+    "dog.chr12.1408625.RDBP",
+    "human.chr6.6278984.RDBP",
+    "human.chr6.6278984.RDBP"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6254595.CFB",
+  "commonName": "CFB",
+  "start": "6254595",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cheetah.scaffold786.619216.CFB",
+    "human.chr6.6254595.CFB",
+    "human.chr6.6254595.CFB"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6254595.XXbacBPG116M517",
+  "commonName": "XXbacBPG116M517",
+  "start": "6254595",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.6254595.XXbacBPG116M517",
+    "human.chr6.6254595.XXbacBPG116M517"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6226504.ZBTB12",
+  "commonName": "ZBTB12",
+  "start": "6226504",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33512203.ZBTB12",
+    "dog.chr12.1356822.ZBTB12",
+    "human.chr6.6226504.ZBTB12",
+    "human.chr6.6226504.ZBTB12"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6224682.C2",
+  "commonName": "C2",
+  "start": "6224682",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.6224682.C2",
+    "human.chr6.6224682.C2"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6206656.EHMT2",
+  "commonName": "EHMT2",
+  "start": "6206656",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33497278.EHMT2",
+    "cheetah.scaffold786.672847.EHMT2",
+    "dog.chr12.1341543.EHMT2",
+    "human.chr6.6206656.EHMT2",
+    "human.chr6.6206656.EHMT2"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6190089.SLC44A4",
+  "commonName": "SLC44A4",
+  "start": "6190089",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33484430.SLC44A4",
+    "cheetah.scaffold786.685971.SLC44A4",
+    "dog.chr12.1328398.SLC44A4",
+    "human.chr6.6190089.SLC44A4",
+    "human.chr6.6190089.SLC44A4"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6184556.NEU1",
+  "commonName": "NEU1",
+  "start": "6184556",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33480702.NEU1",
+    "cheetah.scaffold786.698408.NEU1",
+    "dog.chr12.1324174.NEU1",
+    "human.chr6.6184556.NEU1",
+    "human.chr6.6184556.NEU1"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6161505.C6orf48",
+  "commonName": "C6orf48",
+  "start": "6161505",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.6161505.C6orf48",
+    "human.chr6.6161505.C6orf48"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6154808.HSPA1B",
+  "commonName": "HSPA1B",
+  "start": "6154808",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cheetah.scaffold786.730405.HSPA1B",
+    "human.chr6.6154808.HSPA1B",
+    "human.chr6.6154808.HSPA1B"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6142440.HSPA1A",
+  "commonName": "HSPA1A",
+  "start": "6142440",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "dog.chr12.1298769.HSPA1A",
+    "human.chr6.6142440.HSPA1A",
+    "human.chr6.6142440.HSPA1A"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6136516.HSPA1L",
+  "commonName": "HSPA1L",
+  "start": "6136516",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33435850.HSPA1L",
+    "dog.chr12.1281471.HSPA1L",
+    "human.chr6.6136516.HSPA1L",
+    "human.chr6.6136516.HSPA1L"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6124293.LSM2",
+  "commonName": "LSM2",
+  "start": "6124293",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33428200.LSM2",
+    "cheetah.scaffold821.20985.LSM2",
+    "cheetah.scaffold821.20985.LSM2",
+    "human.chr6.6124293.LSM2",
+    "human.chr6.6124293.LSM2"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.610999.HIST1H2BH",
+  "commonName": "HIST1H2BH",
+  "start": "610999",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.610999.HIST1H2BH",
+    "human.chr6.610999.HIST1H2BH"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6104415.VARS",
+  "commonName": "VARS",
+  "start": "6104415",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33411647.VARS",
+    "cheetah.scaffold821.23084.VARS",
+    "cheetah.scaffold145.522910.VARS",
+    "dog.chr12.1255016.VARS",
+    "human.chr6.6104415.VARS",
+    "human.chr6.6104415.VARS"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.609543.HIST1H3F",
+  "commonName": "HIST1H3F",
+  "start": "609543",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.609543.HIST1H3F",
+    "human.chr6.609543.HIST1H3F"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6092487.C6orf27",
+  "commonName": "C6orf27",
+  "start": "6092487",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.6092487.C6orf27",
+    "human.chr6.6092487.C6orf27"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6089341.C6orf26",
+  "commonName": "C6orf26",
+  "start": "6089341",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.6089341.C6orf26",
+    "human.chr6.6089341.C6orf26"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6066845.MSH5",
+  "commonName": "MSH5",
+  "start": "6066845",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cheetah.scaffold821.49545.MSH5",
+    "dog.chr12.1221801.MSH5",
+    "human.chr6.6066845.MSH5",
+    "human.chr6.6066845.MSH5"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.605959.HIST1H4G",
+  "commonName": "HIST1H4G",
+  "start": "605959",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.605959.HIST1H4G",
+    "human.chr6.605959.HIST1H4G"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6057478.CLIC1",
+  "commonName": "CLIC1",
+  "start": "6057478",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33367006.CLIC1",
+    "cheetah.scaffold821.77015.CLIC1",
+    "dog.chr12.1210011.CLIC1",
+    "human.chr6.6057478.CLIC1",
+    "human.chr6.6057478.CLIC1"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6053935.DDAH2",
+  "commonName": "DDAH2",
+  "start": "6053935",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33363497.DDAH2",
+    "cheetah.scaffold821.83879.DDAH2",
+    "dog.chr12.1206391.DDAH2",
+    "human.chr6.6053935.DDAH2",
+    "human.chr6.6053935.DDAH2"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6045545.LY6G6C",
+  "commonName": "LY6G6C",
+  "start": "6045545",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33355901.LY6G6C",
+    "cheetah.scaffold821.90657.LY6G6C",
+    "dog.chr12.1198300.LY6G6C",
+    "human.chr6.6045545.LY6G6C",
+    "human.chr6.6045545.LY6G6C"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6045491.C6orf25",
+  "commonName": "C6orf25",
+  "start": "6045491",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33359772.C6orf25",
+    "cheetah.scaffold821.87674.C6orf25",
+    "dog.chr12.1202720.C6orf25",
+    "human.chr6.6045491.C6orf25",
+    "human.chr6.6045491.C6orf25"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6042253.LY6G6D",
+  "commonName": "LY6G6D",
+  "start": "6042253",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cheetah.scaffold821.94329.LY6G6D",
+    "dog.chr12.1193402.LY6G6D",
+    "human.chr6.6042253.LY6G6D",
+    "human.chr6.6042253.LY6G6D"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6033801.XXbacBPG32J319",
+  "commonName": "XXbacBPG32J319",
+  "start": "6033801",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.6033801.XXbacBPG32J319",
+    "human.chr6.6033801.XXbacBPG32J319"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6033782.LY6G6F",
+  "commonName": "LY6G6F",
+  "start": "6033782",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cheetah.scaffold821.100775.LY6G6F",
+    "human.chr6.6033782.LY6G6F",
+    "human.chr6.6033782.LY6G6F"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6013859.LY6G6E",
+  "commonName": "LY6G6E",
+  "start": "6013859",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cheetah.scaffold821.97922.LY6G6E",
+    "human.chr6.6013859.LY6G6E",
+    "human.chr6.6013859.LY6G6E"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6013846.BAT5",
+  "commonName": "BAT5",
+  "start": "6013846",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33328940.BAT5",
+    "cheetah.scaffold821.105844.BAT5",
+    "dog.chr12.1167970.BAT5",
+    "human.chr6.6013846.BAT5",
+    "human.chr6.6013846.BAT5"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.6003581.LY6G5C",
+  "commonName": "LY6G5C",
+  "start": "6003581",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33320110.LY6G5C",
+    "cheetah.scaffold821.124194.LY6G5C",
+    "dog.chr12.1159965.LY6G5C",
+    "human.chr6.6003581.LY6G5C",
+    "human.chr6.6003581.LY6G5C"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.599681.HIST1H4F",
+  "commonName": "HIST1H4F",
+  "start": "599681",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.599681.HIST1H4F",
+    "human.chr6.599681.HIST1H4F"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.5992777.LY6G5B",
+  "commonName": "LY6G5B",
+  "start": "5992777",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.5992777.LY6G5B",
+    "human.chr6.5992777.LY6G5B"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.5992133.CSNK2B",
+  "commonName": "CSNK2B",
+  "start": "5992133",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33311513.CSNK2B",
+    "cheetah.scaffold821.132581.CSNK2B",
+    "dog.chr12.1150957.CSNK2B",
+    "human.chr6.5992133.CSNK2B",
+    "human.chr6.5992133.CSNK2B"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.5988126.BAT4",
+  "commonName": "BAT4",
+  "start": "5988126",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33307513.BAT4",
+    "cheetah.scaffold821.139353.BAT4",
+    "dog.chr12.1146519.BAT4",
+    "human.chr6.5988126.BAT4",
+    "human.chr6.5988126.BAT4"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.5985195.C6orf47",
+  "commonName": "C6orf47",
+  "start": "5985195",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33304552.C6orf47",
+    "cheetah.scaffold821.142924.C6orf47",
+    "human.chr6.5985195.C6orf47",
+    "human.chr6.5985195.C6orf47"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.5979313.APOM",
+  "commonName": "APOM",
+  "start": "5979313",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33301598.APOM",
+    "cheetah.scaffold821.144829.APOM",
+    "dog.chr12.1140322.APOM",
+    "human.chr6.5979313.APOM",
+    "human.chr6.5979313.APOM"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.5965925.BAT3",
+  "commonName": "BAT3",
+  "start": "5965925",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33288463.BAT3",
+    "cheetah.scaffold821.149815.BAT3",
+    "dog.chr12.1126820.BAT3",
+    "human.chr6.5965925.BAT3",
+    "human.chr6.5965925.BAT3"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.5947570.BAT2",
+  "commonName": "BAT2",
+  "start": "5947570",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33273983.BAT2",
+    "dog.chr12.1112676.BAT2",
+    "human.chr6.5947570.BAT2",
+    "human.chr6.5947570.BAT2"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.5942081.AIF1",
+  "commonName": "AIF1",
+  "start": "5942081",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33265043.AIF1",
+    "cheetah.scaffold821.181258.AIF1",
+    "dog.chr12.1104478.AIF1",
+    "human.chr6.5942081.AIF1",
+    "human.chr6.5942081.AIF1"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.593560.HIST1H1D",
+  "commonName": "HIST1H1D",
+  "start": "593560",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.593560.HIST1H1D",
+    "human.chr6.593560.HIST1H1D"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.5915792.NCR3",
+  "commonName": "NCR3",
+  "start": "5915792",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33244255.NCR3",
+    "cheetah.scaffold821.200098.NCR3",
+    "dog.chr12.1086910.NCR3",
+    "human.chr6.5915792.NCR3",
+    "human.chr6.5915792.NCR3"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.5913021.LST1",
+  "commonName": "LST1",
+  "start": "5913021",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cheetah.scaffold821.203190.LST1",
+    "dog.chr12.1085227.LST1",
+    "human.chr6.5913021.LST1",
+    "human.chr6.5913021.LST1"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.5907422.LTB",
+  "commonName": "LTB",
+  "start": "5907422",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33238415.LTB",
+    "cheetah.scaffold821.207690.LTB",
+    "dog.chr12.1079422.LTB",
+    "human.chr6.5907422.LTB",
+    "human.chr6.5907422.LTB"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.5902123.TNF",
+  "commonName": "TNF",
+  "start": "5902123",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33233690.TNF",
+    "cheetah.scaffold821.212456.TNF",
+    "dog.chr12.1074560.TNF",
+    "human.chr6.5902123.TNF",
+    "human.chr6.5902123.TNF"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.5898951.LTA",
+  "commonName": "LTA",
+  "start": "5898951",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33230351.LTA",
+    "cheetah.scaffold821.216626.LTA",
+    "dog.chr12.1071468.LTA",
+    "human.chr6.5898951.LTA",
+    "human.chr6.5898951.LTA"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.5873767.NFKBIL1",
+  "commonName": "NFKBIL1",
+  "start": "5873767",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33209161.NFKBIL1",
+    "cheetah.scaffold821.230285.NFKBIL1",
+    "dog.chr12.1049174.NFKBIL1",
+    "human.chr6.5873767.NFKBIL1",
+    "human.chr6.5873767.NFKBIL1"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.5857116.ATP6V1G2",
+  "commonName": "ATP6V1G2",
+  "start": "5857116",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33206578.ATP6V1G2",
+    "cheetah.scaffold821.245871.ATP6V1G2",
+    "human.chr6.5857116.ATP6V1G2",
+    "human.chr6.5857116.ATP6V1G2"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.5857116.BAT1",
+  "commonName": "BAT1",
+  "start": "5857116",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33192987.BAT1",
+    "dog.chr12.1032597.BAT1",
+    "human.chr6.5857116.BAT1",
+    "human.chr6.5857116.BAT1"
+    ]
+}, {
+  "group": "III",
+  "name": "human.chr6.5855614.MCCD1",
+  "commonName": "MCCD1",
+  "start": "5855614",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.33191585.MCCD1",
+    "cheetah.scaffold421.2570.MCCD1",
+    "dog.chr12.1031187.MCCD1",
+    "human.chr6.5855614.MCCD1",
+    "human.chr6.5855614.MCCD1"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.584503.HIST1H3E",
+  "commonName": "HIST1H3E",
+  "start": "584503",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.584503.HIST1H3E",
+    "human.chr6.584503.HIST1H3E"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.5824983.MICB",
+  "commonName": "MICB",
+  "start": "5824983",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.5824983.MICB",
+    "human.chr6.5824983.MICB"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.576285.HIST1H2AE",
+  "commonName": "HIST1H2AE",
+  "start": "576285",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.576285.HIST1H2AE",
+    "human.chr6.576285.HIST1H2AE"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.575611.HIST1H2BG",
+  "commonName": "HIST1H2BG",
+  "start": "575611",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.575611.HIST1H2BG",
+    "human.chr6.575611.HIST1H2BG"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.5726681.MICA",
+  "commonName": "MICA",
+  "start": "5726681",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.5726681.MICA",
+    "human.chr6.5726681.MICA"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.5680769.HLAB",
+  "commonName": "HLAB",
+  "start": "5680769",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.5680769.HLAB",
+    "human.chr6.5680769.HLAB"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.563978.HIST1H4E",
+  "commonName": "HIST1H4E",
+  "start": "563978",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.563978.HIST1H4E",
+    "human.chr6.563978.HIST1H4E"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.5595646.HLAC",
+  "commonName": "HLAC",
+  "start": "5595646",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.5595646.HLAC",
+    "human.chr6.5595646.HLAC"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.558868.HIST1H2BF",
+  "commonName": "HIST1H2BF",
+  "start": "558868",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.558868.HIST1H2BF",
+    "human.chr6.558868.HIST1H2BF"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.558199.HIST1H2AD",
+  "commonName": "HIST1H2AD",
+  "start": "558199",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.558199.HIST1H2AD",
+    "human.chr6.558199.HIST1H2AD"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.556132.HIST1H3D",
+  "commonName": "HIST1H3D",
+  "start": "556132",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.556132.HIST1H3D",
+    "human.chr6.556132.HIST1H3D"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.5491234.POU5F1",
+  "commonName": "POU5F1",
+  "start": "5491234",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.32571099.POU5F1",
+    "cheetah.scaffold145.720485.POU5F1",
+    "human.chr6.5491234.POU5F1",
+    "human.chr6.5491234.POU5F1"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.5485439.TCF19",
+  "commonName": "TCF19",
+  "start": "5485439",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.32566778.TCF19",
+    "cheetah.scaffold145.716133.TCF19",
+    "dog.chr12.856212.TCF19",
+    "human.chr6.5485439.TCF19",
+    "human.chr6.5485439.TCF19"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.548058.HIST1H4D",
+  "commonName": "HIST1H4D",
+  "start": "548058",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.548058.HIST1H4D",
+    "human.chr6.548058.HIST1H4D"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.5469336.CCHCR1",
+  "commonName": "CCHCR1",
+  "start": "5469336",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.32551169.CCHCR1",
+    "cheetah.scaffold145.700511.CCHCR1",
+    "dog.chr12.842244.CCHCR1",
+    "human.chr6.5469336.CCHCR1",
+    "human.chr6.5469336.CCHCR1"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.5464431.PSORS1C2",
+  "commonName": "PSORS1C2",
+  "start": "5464431",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.32546665.PSORS1C2",
+    "cheetah.scaffold145.696141.PSORS1C2",
+    "dog.chr12.838392.PSORS1C2",
+    "human.chr6.5464431.PSORS1C2",
+    "human.chr6.5464431.PSORS1C2"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.5441987.CDSN",
+  "commonName": "CDSN",
+  "start": "5441987",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.32528830.CDSN",
+    "cheetah.scaffold145.677785.CDSN",
+    "dog.chr12.820466.CDSN",
+    "human.chr6.5441987.CDSN",
+    "human.chr6.5441987.CDSN"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.5441647.PSORS1C1",
+  "commonName": "PSORS1C1",
+  "start": "5441647",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.5441647.PSORS1C1",
+    "human.chr6.5441647.PSORS1C1"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.5438120.C6orf15",
+  "commonName": "C6orf15",
+  "start": "5438120",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cheetah.scaffold145.672597.C6orf15",
+    "dog.chr12.815482.C6orf15",
+    "human.chr6.5438120.C6orf15",
+    "human.chr6.5438120.C6orf15"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.543078.HIST1H2BE",
+  "commonName": "HIST1H2BE",
+  "start": "543078",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.543078.HIST1H2BE",
+    "human.chr6.543078.HIST1H2BE"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.5310605.C6orf205",
+  "commonName": "C6orf205",
+  "start": "5310605",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cheetah.scaffold145.588296.C6orf205",
+    "human.chr6.5310605.C6orf205",
+    "human.chr6.5310605.C6orf205"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.5267869.DPCR1",
+  "commonName": "DPCR1",
+  "start": "5267869",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.32396584.DPCR1",
+    "cheetah.scaffold145.552620.DPCR1",
+    "dog.chr12.551500.DPCR1",
+    "human.chr6.5267869.DPCR1",
+    "human.chr6.5267869.DPCR1"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.5258250.SFTA2",
+  "commonName": "SFTA2",
+  "start": "5258250",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.5258250.SFTA2",
+    "human.chr6.5258250.SFTA2"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.5235139.VARSL",
+  "commonName": "VARSL",
+  "start": "5235139",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.32373244.VARSL",
+    "dog.chr12.682032.VARSL",
+    "human.chr6.5235139.VARSL",
+    "human.chr6.5235139.VARSL"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.5235081.GTF2H4",
+  "commonName": "GTF2H4",
+  "start": "5235081",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.32367652.GTF2H4",
+    "cheetah.scaffold145.517287.GTF2H4",
+    "dog.chr12.676676.GTF2H4",
+    "human.chr6.5235081.GTF2H4",
+    "human.chr6.5235081.GTF2H4"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.5203318.DDR1",
+  "commonName": "DDR1",
+  "start": "5203318",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.32349938.DDR1",
+    "cheetah.scaffold145.499747.DDR1",
+    "dog.chr12.653806.DDR1",
+    "human.chr6.5203318.DDR1",
+    "human.chr6.5203318.DDR1"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.517494.HIST1H2BD",
+  "commonName": "HIST1H2BD",
+  "start": "517494",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.517494.HIST1H2BD",
+    "human.chr6.517494.HIST1H2BD"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.515679.HIST1H1E",
+  "commonName": "HIST1H1E",
+  "start": "515679",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.515679.HIST1H1E",
+    "human.chr6.515679.HIST1H1E"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.5070096.IER3",
+  "commonName": "IER3",
+  "start": "5070096",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.32227107.IER3",
+    "cheetah.scaffold145.379554.IER3",
+    "dog.chr12.529737.IER3",
+    "human.chr6.5070096.IER3",
+    "human.chr6.5070096.IER3"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.5054606.FLOT1",
+  "commonName": "FLOT1",
+  "start": "5054606",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.32213902.FLOT1",
+    "cheetah.scaffold145.367231.FLOT1",
+    "dog.chr12.518353.FLOT1",
+    "human.chr6.5054606.FLOT1",
+    "human.chr6.5054606.FLOT1"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.5047098.TUBB",
+  "commonName": "TUBB",
+  "start": "5047098",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.32206679.TUBB",
+    "cheetah.scaffold145.361120.TUBB",
+    "dog.chr12.512944.TUBB",
+    "human.chr6.5047098.TUBB",
+    "human.chr6.5047098.TUBB"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.5026704.MDC1",
+  "commonName": "MDC1",
+  "start": "5026704",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.32190691.MDC1",
+    "cheetah.scaffold145.345648.MDC1",
+    "dog.chr12.496903.MDC1",
+    "human.chr6.5026704.MDC1",
+    "human.chr6.5026704.MDC1"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.5014944.NRM",
+  "commonName": "NRM",
+  "start": "5014944",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.32184208.NRM",
+    "cheetah.scaffold145.339058.NRM",
+    "dog.chr12.482138.NRM",
+    "human.chr6.5014944.NRM",
+    "human.chr6.5014944.NRM"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.5003286.KIAA1949",
+  "commonName": "KIAA1949",
+  "start": "5003286",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.5003286.KIAA1949",
+    "human.chr6.5003286.KIAA1949"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.4980016.DHX16",
+  "commonName": "DHX16",
+  "start": "4980016",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.32156832.DHX16",
+    "cheetah.scaffold145.311522.DHX16",
+    "dog.chr12.460775.DHX16",
+    "human.chr6.4980016.DHX16",
+    "human.chr6.4980016.DHX16"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.4973936.C6orf136",
+  "commonName": "C6orf136",
+  "start": "4973936",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.32152554.C6orf136",
+    "cheetah.scaffold145.307770.C6orf136",
+    "dog.chr12.456729.C6orf136",
+    "human.chr6.4973936.C6orf136",
+    "human.chr6.4973936.C6orf136"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.4953739.C6orf134",
+  "commonName": "C6orf134",
+  "start": "4953739",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cheetah.scaffold145.293168.C6orf134",
+    "human.chr6.4953739.C6orf134",
+    "human.chr6.4953739.C6orf134"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.4944606.MRPS18B",
+  "commonName": "MRPS18B",
+  "start": "4944606",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.32131508.MRPS18B",
+    "cheetah.scaffold145.286733.MRPS18B",
+    "dog.chr12.435193.MRPS18B",
+    "human.chr6.4944606.MRPS18B",
+    "human.chr6.4944606.MRPS18B"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.4927297.PPP1R10",
+  "commonName": "PPP1R10",
+  "start": "4927297",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.32113078.PPP1R10",
+    "cheetah.scaffold145.268180.PPP1R10",
+    "dog.chr12.417679.PPP1R10",
+    "human.chr6.4927297.PPP1R10",
+    "human.chr6.4927297.PPP1R10"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.4898273.ABCF1",
+  "commonName": "ABCF1",
+  "start": "4898273",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.32091815.ABCF1",
+    "cheetah.scaffold145.246526.ABCF1",
+    "dog.chr12.397040.ABCF1",
+    "human.chr6.4898273.ABCF1",
+    "human.chr6.4898273.ABCF1"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.4883783.PRR3",
+  "commonName": "PRR3",
+  "start": "4883783",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.32079977.PRR3",
+    "human.chr6.4883783.PRR3",
+    "human.chr6.4883783.PRR3"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.4868274.GNL1",
+  "commonName": "GNL1",
+  "start": "4868274",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.32072037.GNL1",
+    "cheetah.scaffold145.226983.GNL1",
+    "dog.chr12.375592.GNL1",
+    "human.chr6.4868274.GNL1",
+    "human.chr6.4868274.GNL1"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.483493.HIST1H2AC",
+  "commonName": "HIST1H2AC",
+  "start": "483493",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.483493.HIST1H2AC",
+    "human.chr6.483493.HIST1H2AC"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.4816351.HLAE",
+  "commonName": "HLAE",
+  "start": "4816351",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.4816351.HLAE",
+    "human.chr6.4816351.HLAE"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.473753.HIST1H2BC",
+  "commonName": "HIST1H2BC",
+  "start": "473753",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.473753.HIST1H2BC",
+    "human.chr6.473753.HIST1H2BC"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.4672028.RPP21",
+  "commonName": "RPP21",
+  "start": "4672028",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "dog.chr12.331823.RPP21",
+    "human.chr6.4672028.RPP21",
+    "human.chr6.4672028.RPP21"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.466760.HIST1H1T",
+  "commonName": "HIST1H1T",
+  "start": "466760",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.466760.HIST1H1T",
+    "human.chr6.466760.HIST1H1T"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.4656479.XXbacBPG283O168",
+  "commonName": "XXbacBPG283O168",
+  "start": "4656479",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.4656479.XXbacBPG283O168",
+    "human.chr6.4656479.XXbacBPG283O168"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.4653376.TRIM39",
+  "commonName": "TRIM39",
+  "start": "4653376",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.4653376.TRIM39",
+    "human.chr6.4653376.TRIM39"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.463224.HIST1H4C",
+  "commonName": "HIST1H4C",
+  "start": "463224",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.463224.HIST1H4C",
+    "human.chr6.463224.HIST1H4C"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.4511352.TRIM26",
+  "commonName": "TRIM26",
+  "start": "4511352",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.34917.TRIM26",
+    "cheetah.scaffold823.289135.TRIM26",
+    "dog.chr35.26387778.TRIM26",
+    "human.chr6.4511352.TRIM26",
+    "human.chr6.4511352.TRIM26"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.4490103.TRIM15",
+  "commonName": "TRIM15",
+  "start": "4490103",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.58414.TRIM15",
+    "human.chr6.4490103.TRIM15",
+    "human.chr6.4490103.TRIM15"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.4478842.TRIM10",
+  "commonName": "TRIM10",
+  "start": "4478842",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.65811.TRIM10",
+    "dog.chr35.26350557.TRIM10",
+    "human.chr6.4478842.TRIM10",
+    "human.chr6.4478842.TRIM10"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.446629.HFE",
+  "commonName": "HFE",
+  "start": "446629",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.446629.HFE",
+    "human.chr6.446629.HFE"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.4463005.TRIM40",
+  "commonName": "TRIM40",
+  "start": "4463005",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.4463005.TRIM40",
+    "human.chr6.4463005.TRIM40"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.4429794.TRIM31",
+  "commonName": "TRIM31",
+  "start": "4429794",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.4429794.TRIM31",
+    "human.chr6.4429794.TRIM31"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.4397163.RNF39",
+  "commonName": "RNF39",
+  "start": "4397163",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cheetah.scaffold145.103390.RNF39",
+    "dog.chr35.26292780.RNF39",
+    "human.chr6.4397163.RNF39",
+    "human.chr6.4397163.RNF39"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.4393606.PPP1R11",
+  "commonName": "PPP1R11",
+  "start": "4393606",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.123810.PPP1R11",
+    "cheetah.scaffold823.207149.PPP1R11",
+    "dog.chr35.26289666.PPP1R11",
+    "human.chr6.4393606.PPP1R11",
+    "human.chr6.4393606.PPP1R11"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.4385796.ZNRD1",
+  "commonName": "ZNRD1",
+  "start": "4385796",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.129140.ZNRD1",
+    "cheetah.scaffold823.201488.ZNRD1",
+    "dog.chr35.26285783.ZNRD1",
+    "human.chr6.4385796.ZNRD1",
+    "human.chr6.4385796.ZNRD1"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.4268157.HLAA",
+  "commonName": "HLAA",
+  "start": "4268157",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.4268157.HLAA",
+    "human.chr6.4268157.HLAA"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.4153864.HLAG",
+  "commonName": "HLAG",
+  "start": "4153864",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.4153864.HLAG",
+    "human.chr6.4153864.HLAG"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.415088.HIST1H1C",
+  "commonName": "HIST1H1C",
+  "start": "415088",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.415088.HIST1H1C",
+    "human.chr6.415088.HIST1H1C"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.4049672.HLAF",
+  "commonName": "HLAF",
+  "start": "4049672",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.4049672.HLAF",
+    "human.chr6.4049672.HLAF"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.404732.HIST1H3C",
+  "commonName": "HIST1H3C",
+  "start": "404732",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.404732.HIST1H3C",
+    "human.chr6.404732.HIST1H3C"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.402575.HIST1H2BB",
+  "commonName": "HIST1H2BB",
+  "start": "402575",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.402575.HIST1H2BB",
+    "human.chr6.402575.HIST1H2BB"
+    ]
+}, {
+  "group": "I",
+  "name": "human.chr6.3999289.ZFP57",
+  "commonName": "ZFP57",
+  "start": "3999289",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.150330.ZFP57",
+    "dog.chr35.26267571.ZFP57",
+    "human.chr6.3999289.ZFP57",
+    "human.chr6.3999289.ZFP57"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.3983878.MOG",
+  "commonName": "MOG",
+  "start": "3983878",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.153567.MOG",
+    "cheetah.scaffold823.171169.MOG",
+    "dog.chr35.26256607.MOG",
+    "human.chr6.3983878.MOG",
+    "human.chr6.3983878.MOG"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.392440.HIST1H2AB",
+  "commonName": "HIST1H2AB",
+  "start": "392440",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.392440.HIST1H2AB",
+    "human.chr6.392440.HIST1H2AB"
+    ]
+}, {
+  "group": "OR",
+  "name": "human.chr6.3914803.OR2H2",
+  "commonName": "OR2H2",
+  "start": "3914803",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.3914803.OR2H2",
+    "human.chr6.3914803.OR2H2"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.390998.HIST1H3B",
+  "commonName": "HIST1H3B",
+  "start": "390998",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.390998.HIST1H3B",
+    "human.chr6.390998.HIST1H3B"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.3882526.GABBR1",
+  "commonName": "GABBR1",
+  "start": "3882526",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.182718.GABBR1",
+    "cheetah.scaffold823.126415.GABBR1",
+    "dog.chr35.26213080.GABBR1",
+    "human.chr6.3882526.GABBR1",
+    "human.chr6.3882526.GABBR1"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.3882412.UBD",
+  "commonName": "UBD",
+  "start": "3882412",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cheetah.scaffold823.96003.UBD",
+    "dog.chr35.26432227.UBD",
+    "human.chr6.3882412.UBD",
+    "human.chr6.3882412.UBD"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.386244.HIST1H4B",
+  "commonName": "HIST1H4B",
+  "start": "386244",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.386244.HIST1H4B",
+    "human.chr6.386244.HIST1H4B"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.3813663.MAS1L",
+  "commonName": "MAS1L",
+  "start": "3813663",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.3813663.MAS1L",
+    "human.chr6.3813663.MAS1L"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.381027.HIST1H4A",
+  "commonName": "HIST1H4A",
+  "start": "381027",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.381027.HIST1H4A",
+    "human.chr6.381027.HIST1H4A"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.379838.HIST1H3A",
+  "commonName": "HIST1H3A",
+  "start": "379838",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.379838.HIST1H3A",
+    "human.chr6.379838.HIST1H3A"
+    ]
+}, {
+  "group": "OR",
+  "name": "human.chr6.3784078.OR2H1",
+  "commonName": "OR2H1",
+  "start": "3784078",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.3784078.OR2H1",
+    "human.chr6.3784078.OR2H1"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.376380.HIST1H1A",
+  "commonName": "HIST1H1A",
+  "start": "376380",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.376380.HIST1H1A",
+    "human.chr6.376380.HIST1H1A"
+    ]
+}, {
+  "group": "OR",
+  "name": "human.chr6.3752401.OR11A1",
+  "commonName": "OR11A1",
+  "start": "3752401",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cat.chrB2.284030.OR11A1",
+    "human.chr6.3752401.OR11A1",
+    "human.chr6.3752401.OR11A1"
+    ]
+}, {
+  "group": "OR",
+  "name": "human.chr6.3744177.OR10C1",
+  "commonName": "OR10C1",
+  "start": "3744177",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "cheetah.scaffold823.45728.OR10C1",
+    "human.chr6.3744177.OR10C1",
+    "human.chr6.3744177.OR10C1"
+    ]
+}, {
+  "group": "OR",
+  "name": "human.chr6.3723536.OR12D2",
+  "commonName": "OR12D2",
+  "start": "3723536",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.3723536.OR12D2",
+    "human.chr6.3723536.OR12D2"
+    ]
+}, {
+  "group": "OR",
+  "name": "human.chr6.3682127.OR5V1",
+  "commonName": "OR5V1",
+  "start": "3682127",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.3682127.OR5V1",
+    "human.chr6.3682127.OR5V1"
+    ]
+}, {
+  "group": "OR",
+  "name": "human.chr6.3633523.OR14J1",
+  "commonName": "OR14J1",
+  "start": "3633523",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.3633523.OR14J1",
+    "human.chr6.3633523.OR14J1"
+    ]
+}, {
+  "group": "OR",
+  "name": "human.chr6.3595377.OR12D3",
+  "commonName": "OR12D3",
+  "start": "3595377",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.3595377.OR12D3",
+    "human.chr6.3595377.OR12D3"
+    ]
+}, {
+  "group": "OR",
+  "name": "human.chr6.3500431.OR2J2",
+  "commonName": "OR2J2",
+  "start": "3500431",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.3500431.OR2J2",
+    "human.chr6.3500431.OR2J2"
+    ]
+}, {
+  "group": "OR",
+  "name": "human.chr6.3438788.OR2J3",
+  "commonName": "OR2J3",
+  "start": "3438788",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.3438788.OR2J3",
+    "human.chr6.3438788.OR2J3"
+    ]
+}, {
+  "group": "OR",
+  "name": "human.chr6.3427738.OR2J1",
+  "commonName": "OR2J1",
+  "start": "3427738",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.3427738.OR2J1",
+    "human.chr6.3427738.OR2J1"
+    ]
+}, {
+  "group": "OR",
+  "name": "human.chr6.3413204.OR2B3",
+  "commonName": "OR2B3",
+  "start": "3413204",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.3413204.OR2B3",
+    "human.chr6.3413204.OR2B3"
+    ]
+}, {
+  "group": "OR",
+  "name": "human.chr6.3371110.OR2W1",
+  "commonName": "OR2W1",
+  "start": "3371110",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "dog.chr35.26116872.OR2W1",
+    "human.chr6.3371110.OR2W1",
+    "human.chr6.3371110.OR2W1"
+    ]
+}, {
+  "group": "ZNF",
+  "name": "human.chr6.3321682.ZNF311",
+  "commonName": "ZNF311",
+  "start": "3321682",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.3321682.ZNF311",
+    "human.chr6.3321682.ZNF311"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.3270774.C6orf100",
+  "commonName": "C6orf100",
+  "start": "3270774",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.3270774.C6orf100",
+    "human.chr6.3270774.C6orf100"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.3229899.TRIM27",
+  "commonName": "TRIM27",
+  "start": "3229899",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.3229899.TRIM27",
+    "human.chr6.3229899.TRIM27"
+    ]
+}, {
+  "group": "TRIM/BUTYROPHILIN",
+  "name": "human.chr6.322395.TRIM38",
+  "commonName": "TRIM38",
+  "start": "322395",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.322395.TRIM38",
+    "human.chr6.322395.TRIM38"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.2898525.SCAND3",
+  "commonName": "SCAND3",
+  "start": "2898525",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2898525.SCAND3",
+    "human.chr6.2898525.SCAND3"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.2852822.GPX5",
+  "commonName": "GPX5",
+  "start": "2852822",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2852822.GPX5",
+    "human.chr6.2852822.GPX5"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.2830193.GPX6",
+  "commonName": "GPX6",
+  "start": "2830193",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2830193.GPX6",
+    "human.chr6.2830193.GPX6"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.2758827.ZSCAN23",
+  "commonName": "ZSCAN23",
+  "start": "2758827",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2758827.ZSCAN23",
+    "human.chr6.2758827.ZSCAN23"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.272102.SLC17A2",
+  "commonName": "SLC17A2",
+  "start": "272102",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.272102.SLC17A2",
+    "human.chr6.272102.SLC17A2"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.2705852.ZSCAN12",
+  "commonName": "ZSCAN12",
+  "start": "2705852",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2705852.ZSCAN12",
+    "human.chr6.2705852.ZSCAN12"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.2676811.ZKSCAN3",
+  "commonName": "ZKSCAN3",
+  "start": "2676811",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2676811.ZKSCAN3",
+    "human.chr6.2676811.ZKSCAN3"
+    ]
+}, {
+  "group": "ZNF",
+  "name": "human.chr6.2651590.ZNF323",
+  "commonName": "ZNF323",
+  "start": "2651590",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2651590.ZNF323",
+    "human.chr6.2651590.ZNF323"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.2608469.PGBD1",
+  "commonName": "PGBD1",
+  "start": "2608469",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2608469.PGBD1",
+    "human.chr6.2608469.PGBD1"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.2586218.NKAPL",
+  "commonName": "NKAPL",
+  "start": "2586218",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2586218.NKAPL",
+    "human.chr6.2586218.NKAPL"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.2571483.ZKSCAN4",
+  "commonName": "ZKSCAN4",
+  "start": "2571483",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2571483.ZKSCAN4",
+    "human.chr6.2571483.ZKSCAN4"
+    ]
+}, {
+  "group": "ZNF",
+  "name": "human.chr6.2552190.ZNF193",
+  "commonName": "ZNF193",
+  "start": "2552190",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2552190.ZNF193",
+    "human.chr6.2552190.ZNF193"
+    ]
+}, {
+  "group": "ZNF",
+  "name": "human.chr6.2468836.ZNF192",
+  "commonName": "ZNF192",
+  "start": "2468836",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2468836.ZNF192",
+    "human.chr6.2468836.ZNF192"
+    ]
+}, {
+  "group": "ZNF",
+  "name": "human.chr6.2451458.ZNF435",
+  "commonName": "ZNF435",
+  "start": "2451458",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2451458.ZNF435",
+    "human.chr6.2451458.ZNF435"
+    ]
+}, {
+  "group": "ZNF",
+  "name": "human.chr6.2405692.ZNF165",
+  "commonName": "ZNF165",
+  "start": "2405692",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2405692.ZNF165",
+    "human.chr6.2405692.ZNF165"
+    ]
+}, {
+  "group": "OR",
+  "name": "human.chr6.2284139.OR4D1",
+  "commonName": "OR4D1",
+  "start": "2284139",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2284139.OR4D1",
+    "human.chr6.2284139.OR4D1"
+    ]
+}, {
+  "group": "OR",
+  "name": "human.chr6.2238144.OR2B2",
+  "commonName": "OR2B2",
+  "start": "2238144",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2238144.OR2B2",
+    "human.chr6.2238144.OR2B2"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.2220323.HIST1H2BO",
+  "commonName": "HIST1H2BO",
+  "start": "2220323",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2220323.HIST1H2BO",
+    "human.chr6.2220323.HIST1H2BO"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.2219597.HIST1H2AM",
+  "commonName": "HIST1H2AM",
+  "start": "2219597",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2219597.HIST1H2AM",
+    "human.chr6.2219597.HIST1H2AM"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.2217280.HIST1H3J",
+  "commonName": "HIST1H3J",
+  "start": "2217280",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2217280.HIST1H3J",
+    "human.chr6.2217280.HIST1H3J"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.2200046.HIST1H4L",
+  "commonName": "HIST1H4L",
+  "start": "2200046",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2200046.HIST1H4L",
+    "human.chr6.2200046.HIST1H4L"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.2198803.HIST1H3I",
+  "commonName": "HIST1H3I",
+  "start": "2198803",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2198803.HIST1H3I",
+    "human.chr6.2198803.HIST1H3I"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.2193690.HIST1H1B",
+  "commonName": "HIST1H1B",
+  "start": "2193690",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2193690.HIST1H1B",
+    "human.chr6.2193690.HIST1H1B"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.2192154.HIST1H2AL",
+  "commonName": "HIST1H2AL",
+  "start": "2192154",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2192154.HIST1H2AL",
+    "human.chr6.2192154.HIST1H2AL"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.2164778.HIST1H2AK",
+  "commonName": "HIST1H2AK",
+  "start": "2164778",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2164778.HIST1H2AK",
+    "human.chr6.2164778.HIST1H2AK"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.2164658.HIST1H2BN",
+  "commonName": "HIST1H2BN",
+  "start": "2164658",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2164658.HIST1H2BN",
+    "human.chr6.2164658.HIST1H2BN"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.2158114.HIST1H4K",
+  "commonName": "HIST1H4K",
+  "start": "2158114",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2158114.HIST1H4K",
+    "human.chr6.2158114.HIST1H4K"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.2151004.HIST1H4J",
+  "commonName": "HIST1H4J",
+  "start": "2151004",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2151004.HIST1H4J",
+    "human.chr6.2151004.HIST1H4J"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.2141942.HIST1H2BM",
+  "commonName": "HIST1H2BM",
+  "start": "2141942",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2141942.HIST1H2BM",
+    "human.chr6.2141942.HIST1H2BM"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.2141200.HIST1H2AJ",
+  "commonName": "HIST1H2AJ",
+  "start": "2141200",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2141200.HIST1H2AJ",
+    "human.chr6.2141200.HIST1H2AJ"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.2136962.HIST1H3H",
+  "commonName": "HIST1H3H",
+  "start": "2136962",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2136962.HIST1H3H",
+    "human.chr6.2136962.HIST1H3H"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.2135019.HIST1H2AI",
+  "commonName": "HIST1H2AI",
+  "start": "2135019",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2135019.HIST1H2AI",
+    "human.chr6.2135019.HIST1H2AI"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.2134377.HIST1H2BL",
+  "commonName": "HIST1H2BL",
+  "start": "2134377",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.2134377.HIST1H2BL",
+    "human.chr6.2134377.HIST1H2BL"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.192414.SLC17A3",
+  "commonName": "SLC17A3",
+  "start": "192414",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.192414.SLC17A3",
+    "human.chr6.192414.SLC17A3"
+    ]
+}, {
+  "group": "ZNF",
+  "name": "human.chr6.1777642.ZNF184",
+  "commonName": "ZNF184",
+  "start": "1777642",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.1777642.ZNF184",
+    "human.chr6.1777642.ZNF184"
+    ]
+}, {
+  "group": "ZNF",
+  "name": "human.chr6.1701514.ZNF391",
+  "commonName": "ZNF391",
+  "start": "1701514",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.1701514.ZNF391",
+    "human.chr6.1701514.ZNF391"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.1612802.POM121L2",
+  "commonName": "POM121L2",
+  "start": "1612802",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.1612802.POM121L2",
+    "human.chr6.1612802.POM121L2"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.1574600.PRSS16",
+  "commonName": "PRSS16",
+  "start": "1574600",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.1574600.PRSS16",
+    "human.chr6.1574600.PRSS16"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.1473981.HIST1H2AH",
+  "commonName": "HIST1H2AH",
+  "start": "1473981",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.1473981.HIST1H2AH",
+    "human.chr6.1473981.HIST1H2AH"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.1466196.HIST1H4I",
+  "commonName": "HIST1H4I",
+  "start": "1466196",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.1466196.HIST1H4I",
+    "human.chr6.1466196.HIST1H4I"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.1464128.HIST1H2BK",
+  "commonName": "HIST1H2BK",
+  "start": "1464128",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.1464128.HIST1H2BK",
+    "human.chr6.1464128.HIST1H2BK"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.1459941.SMCHD1",
+  "commonName": "SMCHD1",
+  "start": "1459941",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.1459941.SMCHD1",
+    "human.chr6.1459941.SMCHD1"
+    ]
+}, {
+  "group": "histonnes",
+  "name": "human.chr6.1459215.HIST1H2BJ",
+  "commonName": "HIST1H2BJ",
+  "start": "1459215",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.1459215.HIST1H2BJ",
+    "human.chr6.1459215.HIST1H2BJ"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.142245.SLC17A1",
+  "commonName": "SLC17A1",
+  "start": "142245",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.142245.SLC17A1",
+    "human.chr6.142245.SLC17A1"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.1198386.AL1332551",
+  "commonName": "AL1332551",
+  "start": "1198386",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.1198386.AL1332551",
+    "human.chr6.1198386.AL1332551"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.1198383.GUSBL1",
+  "commonName": "GUSBL1",
+  "start": "1198383",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.1198383.GUSBL1",
+    "human.chr6.1198383.GUSBL1"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.11549.SCGN",
+  "commonName": "SCGN",
+  "start": "11549",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.11549.SCGN",
+    "human.chr6.11549.SCGN"
+    ]
+}, {
+  "group": "EXI",
+  "name": "human.chr6.114047.SLC17A4",
+  "commonName": "SLC17A4",
+  "start": "114047",
+  "chr": "chr6",
+  "source_file": "data/humanGnesGroup6corrected.bed",
+  "file": "human",
+  "type": "human",
+  "gene_links": [
+    "human.chr6.114047.SLC17A4",
+    "human.chr6.114047.SLC17A4"
+    ]
+}, {
   "group": "I",
   "name": "cat.chrB2.65811.TRIM10",
   "commonName": "TRIM10",
@@ -5791,3740 +9526,5 @@
     "dog.chr35.26432227.UBD",
     "human.chr6.3882412.UBD",
     "dog.chr35.26432227.UBD"
-    ]
-}, {
-  "group": "ZNF",
-  "name": "human.chr6.995638.ZNF322A",
-  "commonName": "ZNF322A",
-  "start": "995638",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.995638.ZNF322A",
-    "human.chr6.995638.ZNF322A"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.956300.ABT1",
-  "commonName": "ABT1",
-  "start": "956300",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.956300.ABT1",
-    "human.chr6.956300.ABT1"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.897692.HMGN4",
-  "commonName": "HMGN4",
-  "start": "897692",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.897692.HMGN4",
-    "human.chr6.897692.HMGN4"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.86257.HIST1H2BA",
-  "commonName": "HIST1H2BA",
-  "start": "86257",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.86257.HIST1H2BA",
-    "human.chr6.86257.HIST1H2BA"
-    ]
-}, {
-  "group": "TRIM/BUTYROPHILIN",
-  "name": "human.chr6.860569.BTN1A1",
-  "commonName": "BTN1A1",
-  "start": "860569",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cheetah.scaffold786.386848.BTN1A1",
-    "human.chr6.860569.BTN1A1",
-    "human.chr6.860569.BTN1A1"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.85411.HIST1H2AA",
-  "commonName": "HIST1H2AA",
-  "start": "85411",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.85411.HIST1H2AA",
-    "human.chr6.85411.HIST1H2AA"
-    ]
-}, {
-  "group": "TRIM/BUTYROPHILIN",
-  "name": "human.chr6.817270.BTN2A1",
-  "commonName": "BTN2A1",
-  "start": "817270",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.817270.BTN2A1",
-    "human.chr6.817270.BTN2A1"
-    ]
-}, {
-  "group": "TRIM/BUTYROPHILIN",
-  "name": "human.chr6.799820.BTN3A3",
-  "commonName": "BTN3A3",
-  "start": "799820",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.799820.BTN3A3",
-    "human.chr6.799820.BTN3A3"
-    ]
-}, {
-  "group": "EXII",
-  "name": "human.chr6.7781476.ZBTB9",
-  "commonName": "ZBTB9",
-  "start": "7781476",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cheetah.scaffold415.1097733.ZBTB9",
-    "human.chr6.7781476.ZBTB9",
-    "human.chr6.7781476.ZBTB9"
-    ]
-}, {
-  "group": "EXII",
-  "name": "human.chr6.7746967.SYNGAP1",
-  "commonName": "SYNGAP1",
-  "start": "7746967",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cheetah.scaffold415.1106204.SYNGAP1",
-    "human.chr6.7746967.SYNGAP1",
-    "human.chr6.7746967.SYNGAP1"
-    ]
-}, {
-  "group": "EXII",
-  "name": "human.chr6.7743339.CUTA",
-  "commonName": "CUTA",
-  "start": "7743339",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cheetah.scaffold415.1133743.CUTA",
-    "human.chr6.7743339.CUTA",
-    "human.chr6.7743339.CUTA"
-    ]
-}, {
-  "group": "EXII",
-  "name": "human.chr6.7737296.PHF1",
-  "commonName": "PHF1",
-  "start": "7737296",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cheetah.scaffold415.1135838.PHF1",
-    "human.chr6.7737296.PHF1",
-    "human.chr6.7737296.PHF1"
-    ]
-}, {
-  "group": "EXII",
-  "name": "human.chr6.7718433.KIFC1",
-  "commonName": "KIFC1",
-  "start": "7718433",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.34960057.KIFC1",
-    "cheetah.scaffold415.1141731.KIFC1",
-    "dog.chr12.2813625.KIFC1",
-    "human.chr6.7718433.KIFC1",
-    "human.chr6.7718433.KIFC1"
-    ]
-}, {
-  "group": "EXII",
-  "name": "human.chr6.7645455.DAXX",
-  "commonName": "DAXX",
-  "start": "7645455",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.34888638.DAXX",
-    "cheetah.scaffold415.1218109.DAXX",
-    "dog.chr12.2756162.DAXX",
-    "human.chr6.7645455.DAXX",
-    "human.chr6.7645455.DAXX"
-    ]
-}, {
-  "group": "EXII",
-  "name": "human.chr6.7641303.ZBTB22",
-  "commonName": "ZBTB22",
-  "start": "7641303",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cheetah.scaffold415.1222817.ZBTB22",
-    "dog.chr12.2752532.ZBTB22",
-    "human.chr6.7641303.ZBTB22",
-    "human.chr6.7641303.ZBTB22"
-    ]
-}, {
-  "group": "EXII",
-  "name": "human.chr6.7626591.TAPBP",
-  "commonName": "TAPBP",
-  "start": "7626591",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.34873795.TAPBP",
-    "cheetah.scaffold415.1225672.TAPBP",
-    "dog.chr12.2741359.TAPBP",
-    "human.chr6.7626591.TAPBP",
-    "human.chr6.7626591.TAPBP"
-    ]
-}, {
-  "group": "EXII",
-  "name": "human.chr6.7618551.RGL2",
-  "commonName": "RGL2",
-  "start": "7618551",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.34864164.RGL2",
-    "cheetah.scaffold415.1239745.RGL2",
-    "dog.chr12.2732105.RGL2",
-    "human.chr6.7618551.RGL2",
-    "human.chr6.7618551.RGL2"
-    ]
-}, {
-  "group": "EXII",
-  "name": "human.chr6.7616199.PFDN6",
-  "commonName": "PFDN6",
-  "start": "7616199",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.34861793.PFDN6",
-    "dog.chr12.2729832.PFDN6",
-    "human.chr6.7616199.PFDN6",
-    "human.chr6.7616199.PFDN6"
-    ]
-}, {
-  "group": "TRIM/BUTYROPHILIN",
-  "name": "human.chr6.761585.BTN3A1",
-  "commonName": "BTN3A1",
-  "start": "761585",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.761585.BTN3A1",
-    "human.chr6.761585.BTN3A1"
-    ]
-}, {
-  "group": "EXII",
-  "name": "human.chr6.7606005.WDR46",
-  "commonName": "WDR46",
-  "start": "7606005",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.34853389.WDR46",
-    "cheetah.scaffold415.1248115.WDR46",
-    "dog.chr12.2721432.WDR46",
-    "human.chr6.7606005.WDR46",
-    "human.chr6.7606005.WDR46"
-    ]
-}, {
-  "group": "EXII",
-  "name": "human.chr6.7604037.B3GALT4",
-  "commonName": "B3GALT4",
-  "start": "7604037",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.34851528.B3GALT4",
-    "cheetah.scaffold415.1256759.B3GALT4",
-    "dog.chr12.2719553.B3GALT4",
-    "human.chr6.7604037.B3GALT4",
-    "human.chr6.7604037.B3GALT4"
-    ]
-}, {
-  "group": "EXII",
-  "name": "human.chr6.7598907.RPS18",
-  "commonName": "RPS18",
-  "start": "7598907",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.34845976.RPS18",
-    "dog.chr12.2713002.RPS18",
-    "human.chr6.7598907.RPS18",
-    "human.chr6.7598907.RPS18"
-    ]
-}, {
-  "group": "EXII",
-  "name": "human.chr6.7577169.VPS52",
-  "commonName": "VPS52",
-  "start": "7577169",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.34829985.VPS52",
-    "cheetah.scaffold415.1278502.VPS52",
-    "dog.chr12.2698013.VPS52",
-    "human.chr6.7577169.VPS52",
-    "human.chr6.7577169.VPS52"
-    ]
-}, {
-  "group": "EXII",
-  "name": "human.chr6.7535392.RING1",
-  "commonName": "RING1",
-  "start": "7535392",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.34798644.RING1",
-    "cheetah.scaffold415.1305935.RING1",
-    "dog.chr12.2671884.RING1",
-    "human.chr6.7535392.RING1",
-    "human.chr6.7535392.RING1"
-    ]
-}, {
-  "group": "EXII",
-  "name": "human.chr6.7531539.HSD17B8",
-  "commonName": "HSD17B8",
-  "start": "7531539",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.34794697.HSD17B8",
-    "dog.chr12.2667755.HSD17B8",
-    "human.chr6.7531539.HSD17B8",
-    "human.chr6.7531539.HSD17B8"
-    ]
-}, {
-  "group": "EXII",
-  "name": "human.chr6.7527342.SLC39A7",
-  "commonName": "SLC39A7",
-  "start": "7527342",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.34791246.SLC39A7",
-    "cheetah.scaffold415.1314115.SLC39A7",
-    "dog.chr12.2663838.SLC39A7",
-    "human.chr6.7527342.SLC39A7",
-    "human.chr6.7527342.SLC39A7"
-    ]
-}, {
-  "group": "EXII",
-  "name": "human.chr6.7520485.RXRB",
-  "commonName": "RXRB",
-  "start": "7520485",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.34785064.RXRB",
-    "cheetah.scaffold415.1317486.RXRB",
-    "dog.chr12.2658174.RXRB",
-    "human.chr6.7520485.RXRB",
-    "human.chr6.7520485.RXRB"
-    ]
-}, {
-  "group": "EXII",
-  "name": "human.chr6.7489578.COL11A2",
-  "commonName": "COL11A2",
-  "start": "7489578",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.34754587.COL11A2",
-    "cheetah.scaffold415.1325101.COL11A2",
-    "dog.chr12.2627827.COL11A2",
-    "human.chr6.7489578.COL11A2",
-    "human.chr6.7489578.COL11A2"
-    ]
-}, {
-  "group": "II",
-  "name": "human.chr6.7439348.HLADPB2",
-  "commonName": "HLADPB2",
-  "start": "7439348",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.7439348.HLADPB2",
-    "human.chr6.7439348.HLADPB2"
-    ]
-}, {
-  "group": "TRIM/BUTYROPHILIN",
-  "name": "human.chr6.742444.BTN2A2",
-  "commonName": "BTN2A2",
-  "start": "742444",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.742444.BTN2A2",
-    "human.chr6.742444.BTN2A2"
-    ]
-}, {
-  "group": "II",
-  "name": "human.chr6.7402823.HLADPB1",
-  "commonName": "HLADPB1",
-  "start": "7402823",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.7402823.HLADPB1",
-    "human.chr6.7402823.HLADPB1"
-    ]
-}, {
-  "group": "II",
-  "name": "human.chr6.7391466.HLADPA1",
-  "commonName": "HLADPA1",
-  "start": "7391466",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.7391466.HLADPA1",
-    "human.chr6.7391466.HLADPA1"
-    ]
-}, {
-  "group": "II",
-  "name": "human.chr6.7331075.HLADOA",
-  "commonName": "HLADOA",
-  "start": "7331075",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.7331075.HLADOA",
-    "human.chr6.7331075.HLADOA"
-    ]
-}, {
-  "group": "II",
-  "name": "human.chr6.7295557.BRD2",
-  "commonName": "BRD2",
-  "start": "7295557",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.34656817.BRD2",
-    "cheetah.scaffold415.1442670.BRD2",
-    "dog.chr12.2538250.BRD2",
-    "human.chr6.7295557.BRD2",
-    "human.chr6.7295557.BRD2"
-    ]
-}, {
-  "group": "II",
-  "name": "human.chr6.7275510.HLADMA",
-  "commonName": "HLADMA",
-  "start": "7275510",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.7275510.HLADMA",
-    "human.chr6.7275510.HLADMA"
-    ]
-}, {
-  "group": "II",
-  "name": "human.chr6.7264261.XXbacBPG181M175",
-  "commonName": "XXbacBPG181M175",
-  "start": "7264261",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.7264261.XXbacBPG181M175",
-    "human.chr6.7264261.XXbacBPG181M175"
-    ]
-}, {
-  "group": "II",
-  "name": "human.chr6.7261526.HLADMB",
-  "commonName": "HLADMB",
-  "start": "7261526",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.7261526.HLADMB",
-    "human.chr6.7261526.HLADMB"
-    ]
-}, {
-  "group": "TRIM/BUTYROPHILIN",
-  "name": "human.chr6.724579.BTN3A2",
-  "commonName": "BTN3A2",
-  "start": "724579",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.724579.BTN3A2",
-    "human.chr6.724579.BTN3A2"
-    ]
-}, {
-  "group": "Antigen presentation (II)",
-  "name": "human.chr6.7172106.TAP1",
-  "commonName": "TAP1",
-  "start": "7172106",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.34537212.TAP1",
-    "cheetah.scaffold415.1560312.TAP1",
-    "dog.chr12.2424464.TAP1",
-    "human.chr6.7172106.TAP1",
-    "human.chr6.7172106.TAP1"
-    ]
-}, {
-  "group": "Antigen presentation (II)",
-  "name": "human.chr6.7171033.PSMB9",
-  "commonName": "PSMB9",
-  "start": "7171033",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.34545125.PSMB9",
-    "dog.chr12.2432578.PSMB9",
-    "human.chr6.7171033.PSMB9",
-    "human.chr6.7171033.PSMB9"
-    ]
-}, {
-  "group": "Antigen presentation (II)",
-  "name": "human.chr6.7167614.PSMB8",
-  "commonName": "PSMB8",
-  "start": "7167614",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.34532634.PSMB8",
-    "cheetah.scaffold415.1569211.PSMB8",
-    "dog.chr12.2419688.PSMB8",
-    "human.chr6.7167614.PSMB8",
-    "human.chr6.7167614.PSMB8"
-    ]
-}, {
-  "group": "Antigen presentation (II)",
-  "name": "human.chr6.7140664.TAP2",
-  "commonName": "TAP2",
-  "start": "7140664",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cheetah.scaffold415.1574664.TAP2",
-    "dog.chr12.2408269.TAP2",
-    "human.chr6.7140664.TAP2",
-    "human.chr6.7140664.TAP2"
-    ]
-}, {
-  "group": "II",
-  "name": "human.chr6.7140664.XXbacBPG246D159",
-  "commonName": "XXbacBPG246D159",
-  "start": "7140664",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.7140664.XXbacBPG246D159",
-    "human.chr6.7140664.XXbacBPG246D159"
-    ]
-}, {
-  "group": "II",
-  "name": "human.chr6.7139660.HLADOB",
-  "commonName": "HLADOB",
-  "start": "7139660",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.7139660.HLADOB",
-    "human.chr6.7139660.HLADOB"
-    ]
-}, {
-  "group": "II",
-  "name": "human.chr6.7082995.HLADQB2",
-  "commonName": "HLADQB2",
-  "start": "7082995",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.7082995.HLADQB2",
-    "human.chr6.7082995.HLADQB2"
-    ]
-}, {
-  "group": "II",
-  "name": "human.chr6.7068239.HLADQA2",
-  "commonName": "HLADQA2",
-  "start": "7068239",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.7068239.HLADQA2",
-    "human.chr6.7068239.HLADQA2"
-    ]
-}, {
-  "group": "II",
-  "name": "human.chr6.6986364.HLADQB1",
-  "commonName": "HLADQB1",
-  "start": "6986364",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.6986364.HLADQB1",
-    "human.chr6.6986364.HLADQB1"
-    ]
-}, {
-  "group": "II",
-  "name": "human.chr6.6955076.HLADQA1",
-  "commonName": "HLADQA1",
-  "start": "6955076",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.6955076.HLADQA1",
-    "human.chr6.6955076.HLADQA1"
-    ]
-}, {
-  "group": "II",
-  "name": "human.chr6.6905666.HLADRB1",
-  "commonName": "HLADRB1",
-  "start": "6905666",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.6905666.HLADRB1",
-    "human.chr6.6905666.HLADRB1"
-    ]
-}, {
-  "group": "II",
-  "name": "human.chr6.6844240.HLADRB5",
-  "commonName": "HLADRB5",
-  "start": "6844240",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.6844240.HLADRB5",
-    "human.chr6.6844240.HLADRB5"
-    ]
-}, {
-  "group": "II",
-  "name": "human.chr6.6769795.AL6627961",
-  "commonName": "AL6627961",
-  "start": "6769795",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.6769795.AL6627961",
-    "human.chr6.6769795.AL6627961"
-    ]
-}, {
-  "group": "II",
-  "name": "human.chr6.6766739.HLADRA",
-  "commonName": "HLADRA",
-  "start": "6766739",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.6766739.HLADRA",
-    "human.chr6.6766739.HLADRA"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6718361.BTNL2",
-  "commonName": "BTNL2",
-  "start": "6718361",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.34239988.BTNL2",
-    "dog.chr12.2089798.BTNL2",
-    "human.chr6.6718361.BTNL2",
-    "human.chr6.6718361.BTNL2"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6619595.C6orf10",
-  "commonName": "C6orf10",
-  "start": "6619595",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33999570.C6orf10",
-    "dog.chr12.1828937.C6orf10",
-    "human.chr6.6619595.C6orf10",
-    "human.chr6.6619595.C6orf10"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6521740.NOTCH4",
-  "commonName": "NOTCH4",
-  "start": "6521740",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cheetah.scaffold786.419587.NOTCH4",
-    "dog.chr12.1586323.NOTCH4",
-    "human.chr6.6521740.NOTCH4",
-    "human.chr6.6521740.NOTCH4"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6517663.GPSM3",
-  "commonName": "GPSM3",
-  "start": "6517663",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33727646.GPSM3",
-    "cheetah.scaffold786.443652.GPSM3",
-    "dog.chr12.1584310.GPSM3",
-    "human.chr6.6517663.GPSM3",
-    "human.chr6.6517663.GPSM3"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6511630.PBX2",
-  "commonName": "PBX2",
-  "start": "6511630",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33722601.PBX2",
-    "dog.chr12.1579230.PBX2",
-    "human.chr6.6511630.PBX2",
-    "human.chr6.6511630.PBX2"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6507865.AGER",
-  "commonName": "AGER",
-  "start": "6507865",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33717651.AGER",
-    "cheetah.scaffold786.451926.AGER",
-    "dog.chr12.1574422.AGER",
-    "human.chr6.6507865.AGER",
-    "human.chr6.6507865.AGER"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6505251.RNF5",
-  "commonName": "RNF5",
-  "start": "6505251",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33714927.RNF5",
-    "cheetah.scaffold786.452836.RNF5",
-    "dog.chr12.1571450.RNF5",
-    "human.chr6.6505251.RNF5",
-    "human.chr6.6505251.RNF5"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6495109.AGPAT1",
-  "commonName": "AGPAT1",
-  "start": "6495109",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33706184.AGPAT1",
-    "cheetah.scaffold786.464604.AGPAT1",
-    "dog.chr12.1562547.AGPAT1",
-    "human.chr6.6495109.AGPAT1",
-    "human.chr6.6495109.AGPAT1"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6491480.EGFL8",
-  "commonName": "EGFL8",
-  "start": "6491480",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33703037.EGFL8",
-    "cheetah.scaffold786.468084.EGFL8",
-    "dog.chr12.1559409.EGFL8",
-    "human.chr6.6491480.EGFL8",
-    "human.chr6.6491480.EGFL8"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6480338.PPT2",
-  "commonName": "PPT2",
-  "start": "6480338",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cheetah.scaffold786.472104.PPT2",
-    "dog.chr12.1551681.PPT2",
-    "human.chr6.6480338.PPT2",
-    "human.chr6.6480338.PPT2"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6475256.PRRT1",
-  "commonName": "PRRT1",
-  "start": "6475256",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33689980.PRRT1",
-    "dog.chr12.1546249.PRRT1",
-    "human.chr6.6475256.PRRT1",
-    "human.chr6.6475256.PRRT1"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6455604.FKBPL",
-  "commonName": "FKBPL",
-  "start": "6455604",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33673805.FKBPL",
-    "cheetah.scaffold786.498156.FKBPL",
-    "human.chr6.6455604.FKBPL",
-    "human.chr6.6455604.FKBPL"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6425073.CREBL1",
-  "commonName": "CREBL1",
-  "start": "6425073",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33664502.CREBL1",
-    "cheetah.scaffold786.499765.CREBL1",
-    "dog.chr12.1515672.CREBL1",
-    "human.chr6.6425073.CREBL1",
-    "human.chr6.6425073.CREBL1"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.640403.HIST1H4H",
-  "commonName": "HIST1H4H",
-  "start": "640403",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.640403.HIST1H4H",
-    "human.chr6.640403.HIST1H4H"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6365162.CYP21A2",
-  "commonName": "CYP21A2",
-  "start": "6365162",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33608200.CYP21A2",
-    "cheetah.scaffold786.572278.CYP21A2",
-    "dog.chr12.1450739.CYP21A2",
-    "human.chr6.6365162.CYP21A2",
-    "human.chr6.6365162.CYP21A2"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6335316.TNXB",
-  "commonName": "TNXB",
-  "start": "6335316",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33610927.TNXB",
-    "cheetah.scaffold786.525046.TNXB",
-    "dog.chr12.1453418.TNXB",
-    "human.chr6.6335316.TNXB",
-    "human.chr6.6335316.TNXB"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.632264.HIST1H2BI",
-  "commonName": "HIST1H2BI",
-  "start": "632264",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.632264.HIST1H2BI",
-    "human.chr6.632264.HIST1H2BI"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6308954.C4B",
-  "commonName": "C4B",
-  "start": "6308954",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cheetah.scaffold786.577748.C4B",
-    "human.chr6.6308954.C4B",
-    "human.chr6.6308954.C4B"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6308921.C4A",
-  "commonName": "C4A",
-  "start": "6308921",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.6308921.C4A",
-    "human.chr6.6308921.C4A"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6297988.STK19",
-  "commonName": "STK19",
-  "start": "6297988",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33584077.STK19",
-    "cheetah.scaffold786.593878.STK19",
-    "human.chr6.6297988.STK19",
-    "human.chr6.6297988.STK19"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6296707.DOM3Z",
-  "commonName": "DOM3Z",
-  "start": "6296707",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33581692.DOM3Z",
-    "cheetah.scaffold786.599910.DOM3Z",
-    "dog.chr12.1424644.DOM3Z",
-    "human.chr6.6296707.DOM3Z",
-    "human.chr6.6296707.DOM3Z"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.628753.HIST1H3G",
-  "commonName": "HIST1H3G",
-  "start": "628753",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.628753.HIST1H3G",
-    "human.chr6.628753.HIST1H3G"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6285701.SKIV2L",
-  "commonName": "SKIV2L",
-  "start": "6285701",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33570339.SKIV2L",
-    "cheetah.scaffold786.601861.SKIV2L",
-    "dog.chr12.1412539.SKIV2L",
-    "human.chr6.6285701.SKIV2L",
-    "human.chr6.6285701.SKIV2L"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6278984.RDBP",
-  "commonName": "RDBP",
-  "start": "6278984",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33564390.RDBP",
-    "cheetah.scaffold786.613745.RDBP",
-    "dog.chr12.1408625.RDBP",
-    "human.chr6.6278984.RDBP",
-    "human.chr6.6278984.RDBP"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6254595.CFB",
-  "commonName": "CFB",
-  "start": "6254595",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cheetah.scaffold786.619216.CFB",
-    "human.chr6.6254595.CFB",
-    "human.chr6.6254595.CFB"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6254595.XXbacBPG116M517",
-  "commonName": "XXbacBPG116M517",
-  "start": "6254595",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.6254595.XXbacBPG116M517",
-    "human.chr6.6254595.XXbacBPG116M517"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6226504.ZBTB12",
-  "commonName": "ZBTB12",
-  "start": "6226504",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33512203.ZBTB12",
-    "dog.chr12.1356822.ZBTB12",
-    "human.chr6.6226504.ZBTB12",
-    "human.chr6.6226504.ZBTB12"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6224682.C2",
-  "commonName": "C2",
-  "start": "6224682",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.6224682.C2",
-    "human.chr6.6224682.C2"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6206656.EHMT2",
-  "commonName": "EHMT2",
-  "start": "6206656",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33497278.EHMT2",
-    "cheetah.scaffold786.672847.EHMT2",
-    "dog.chr12.1341543.EHMT2",
-    "human.chr6.6206656.EHMT2",
-    "human.chr6.6206656.EHMT2"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6190089.SLC44A4",
-  "commonName": "SLC44A4",
-  "start": "6190089",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33484430.SLC44A4",
-    "cheetah.scaffold786.685971.SLC44A4",
-    "dog.chr12.1328398.SLC44A4",
-    "human.chr6.6190089.SLC44A4",
-    "human.chr6.6190089.SLC44A4"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6184556.NEU1",
-  "commonName": "NEU1",
-  "start": "6184556",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33480702.NEU1",
-    "cheetah.scaffold786.698408.NEU1",
-    "dog.chr12.1324174.NEU1",
-    "human.chr6.6184556.NEU1",
-    "human.chr6.6184556.NEU1"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6161505.C6orf48",
-  "commonName": "C6orf48",
-  "start": "6161505",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.6161505.C6orf48",
-    "human.chr6.6161505.C6orf48"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6154808.HSPA1B",
-  "commonName": "HSPA1B",
-  "start": "6154808",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cheetah.scaffold786.730405.HSPA1B",
-    "human.chr6.6154808.HSPA1B",
-    "human.chr6.6154808.HSPA1B"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6142440.HSPA1A",
-  "commonName": "HSPA1A",
-  "start": "6142440",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "dog.chr12.1298769.HSPA1A",
-    "human.chr6.6142440.HSPA1A",
-    "human.chr6.6142440.HSPA1A"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6136516.HSPA1L",
-  "commonName": "HSPA1L",
-  "start": "6136516",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33435850.HSPA1L",
-    "dog.chr12.1281471.HSPA1L",
-    "human.chr6.6136516.HSPA1L",
-    "human.chr6.6136516.HSPA1L"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6124293.LSM2",
-  "commonName": "LSM2",
-  "start": "6124293",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33428200.LSM2",
-    "cheetah.scaffold821.20985.LSM2",
-    "cheetah.scaffold821.20985.LSM2",
-    "human.chr6.6124293.LSM2",
-    "human.chr6.6124293.LSM2"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.610999.HIST1H2BH",
-  "commonName": "HIST1H2BH",
-  "start": "610999",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.610999.HIST1H2BH",
-    "human.chr6.610999.HIST1H2BH"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6104415.VARS",
-  "commonName": "VARS",
-  "start": "6104415",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33411647.VARS",
-    "cheetah.scaffold821.23084.VARS",
-    "cheetah.scaffold145.522910.VARS",
-    "dog.chr12.1255016.VARS",
-    "human.chr6.6104415.VARS",
-    "human.chr6.6104415.VARS"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.609543.HIST1H3F",
-  "commonName": "HIST1H3F",
-  "start": "609543",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.609543.HIST1H3F",
-    "human.chr6.609543.HIST1H3F"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6092487.C6orf27",
-  "commonName": "C6orf27",
-  "start": "6092487",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.6092487.C6orf27",
-    "human.chr6.6092487.C6orf27"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6089341.C6orf26",
-  "commonName": "C6orf26",
-  "start": "6089341",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.6089341.C6orf26",
-    "human.chr6.6089341.C6orf26"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6066845.MSH5",
-  "commonName": "MSH5",
-  "start": "6066845",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cheetah.scaffold821.49545.MSH5",
-    "dog.chr12.1221801.MSH5",
-    "human.chr6.6066845.MSH5",
-    "human.chr6.6066845.MSH5"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.605959.HIST1H4G",
-  "commonName": "HIST1H4G",
-  "start": "605959",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.605959.HIST1H4G",
-    "human.chr6.605959.HIST1H4G"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6057478.CLIC1",
-  "commonName": "CLIC1",
-  "start": "6057478",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33367006.CLIC1",
-    "cheetah.scaffold821.77015.CLIC1",
-    "dog.chr12.1210011.CLIC1",
-    "human.chr6.6057478.CLIC1",
-    "human.chr6.6057478.CLIC1"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6053935.DDAH2",
-  "commonName": "DDAH2",
-  "start": "6053935",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33363497.DDAH2",
-    "cheetah.scaffold821.83879.DDAH2",
-    "dog.chr12.1206391.DDAH2",
-    "human.chr6.6053935.DDAH2",
-    "human.chr6.6053935.DDAH2"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6045545.LY6G6C",
-  "commonName": "LY6G6C",
-  "start": "6045545",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33355901.LY6G6C",
-    "cheetah.scaffold821.90657.LY6G6C",
-    "dog.chr12.1198300.LY6G6C",
-    "human.chr6.6045545.LY6G6C",
-    "human.chr6.6045545.LY6G6C"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6045491.C6orf25",
-  "commonName": "C6orf25",
-  "start": "6045491",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33359772.C6orf25",
-    "cheetah.scaffold821.87674.C6orf25",
-    "dog.chr12.1202720.C6orf25",
-    "human.chr6.6045491.C6orf25",
-    "human.chr6.6045491.C6orf25"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6042253.LY6G6D",
-  "commonName": "LY6G6D",
-  "start": "6042253",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cheetah.scaffold821.94329.LY6G6D",
-    "dog.chr12.1193402.LY6G6D",
-    "human.chr6.6042253.LY6G6D",
-    "human.chr6.6042253.LY6G6D"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6033801.XXbacBPG32J319",
-  "commonName": "XXbacBPG32J319",
-  "start": "6033801",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.6033801.XXbacBPG32J319",
-    "human.chr6.6033801.XXbacBPG32J319"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6033782.LY6G6F",
-  "commonName": "LY6G6F",
-  "start": "6033782",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cheetah.scaffold821.100775.LY6G6F",
-    "human.chr6.6033782.LY6G6F",
-    "human.chr6.6033782.LY6G6F"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6013859.LY6G6E",
-  "commonName": "LY6G6E",
-  "start": "6013859",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cheetah.scaffold821.97922.LY6G6E",
-    "human.chr6.6013859.LY6G6E",
-    "human.chr6.6013859.LY6G6E"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6013846.BAT5",
-  "commonName": "BAT5",
-  "start": "6013846",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33328940.BAT5",
-    "cheetah.scaffold821.105844.BAT5",
-    "dog.chr12.1167970.BAT5",
-    "human.chr6.6013846.BAT5",
-    "human.chr6.6013846.BAT5"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.6003581.LY6G5C",
-  "commonName": "LY6G5C",
-  "start": "6003581",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33320110.LY6G5C",
-    "cheetah.scaffold821.124194.LY6G5C",
-    "dog.chr12.1159965.LY6G5C",
-    "human.chr6.6003581.LY6G5C",
-    "human.chr6.6003581.LY6G5C"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.599681.HIST1H4F",
-  "commonName": "HIST1H4F",
-  "start": "599681",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.599681.HIST1H4F",
-    "human.chr6.599681.HIST1H4F"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.5992777.LY6G5B",
-  "commonName": "LY6G5B",
-  "start": "5992777",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.5992777.LY6G5B",
-    "human.chr6.5992777.LY6G5B"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.5992133.CSNK2B",
-  "commonName": "CSNK2B",
-  "start": "5992133",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33311513.CSNK2B",
-    "cheetah.scaffold821.132581.CSNK2B",
-    "dog.chr12.1150957.CSNK2B",
-    "human.chr6.5992133.CSNK2B",
-    "human.chr6.5992133.CSNK2B"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.5988126.BAT4",
-  "commonName": "BAT4",
-  "start": "5988126",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33307513.BAT4",
-    "cheetah.scaffold821.139353.BAT4",
-    "dog.chr12.1146519.BAT4",
-    "human.chr6.5988126.BAT4",
-    "human.chr6.5988126.BAT4"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.5985195.C6orf47",
-  "commonName": "C6orf47",
-  "start": "5985195",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33304552.C6orf47",
-    "cheetah.scaffold821.142924.C6orf47",
-    "human.chr6.5985195.C6orf47",
-    "human.chr6.5985195.C6orf47"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.5979313.APOM",
-  "commonName": "APOM",
-  "start": "5979313",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33301598.APOM",
-    "cheetah.scaffold821.144829.APOM",
-    "dog.chr12.1140322.APOM",
-    "human.chr6.5979313.APOM",
-    "human.chr6.5979313.APOM"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.5965925.BAT3",
-  "commonName": "BAT3",
-  "start": "5965925",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33288463.BAT3",
-    "cheetah.scaffold821.149815.BAT3",
-    "dog.chr12.1126820.BAT3",
-    "human.chr6.5965925.BAT3",
-    "human.chr6.5965925.BAT3"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.5947570.BAT2",
-  "commonName": "BAT2",
-  "start": "5947570",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33273983.BAT2",
-    "dog.chr12.1112676.BAT2",
-    "human.chr6.5947570.BAT2",
-    "human.chr6.5947570.BAT2"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.5942081.AIF1",
-  "commonName": "AIF1",
-  "start": "5942081",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33265043.AIF1",
-    "cheetah.scaffold821.181258.AIF1",
-    "dog.chr12.1104478.AIF1",
-    "human.chr6.5942081.AIF1",
-    "human.chr6.5942081.AIF1"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.593560.HIST1H1D",
-  "commonName": "HIST1H1D",
-  "start": "593560",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.593560.HIST1H1D",
-    "human.chr6.593560.HIST1H1D"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.5915792.NCR3",
-  "commonName": "NCR3",
-  "start": "5915792",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33244255.NCR3",
-    "cheetah.scaffold821.200098.NCR3",
-    "dog.chr12.1086910.NCR3",
-    "human.chr6.5915792.NCR3",
-    "human.chr6.5915792.NCR3"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.5913021.LST1",
-  "commonName": "LST1",
-  "start": "5913021",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cheetah.scaffold821.203190.LST1",
-    "dog.chr12.1085227.LST1",
-    "human.chr6.5913021.LST1",
-    "human.chr6.5913021.LST1"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.5907422.LTB",
-  "commonName": "LTB",
-  "start": "5907422",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33238415.LTB",
-    "cheetah.scaffold821.207690.LTB",
-    "dog.chr12.1079422.LTB",
-    "human.chr6.5907422.LTB",
-    "human.chr6.5907422.LTB"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.5902123.TNF",
-  "commonName": "TNF",
-  "start": "5902123",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33233690.TNF",
-    "cheetah.scaffold821.212456.TNF",
-    "dog.chr12.1074560.TNF",
-    "human.chr6.5902123.TNF",
-    "human.chr6.5902123.TNF"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.5898951.LTA",
-  "commonName": "LTA",
-  "start": "5898951",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33230351.LTA",
-    "cheetah.scaffold821.216626.LTA",
-    "dog.chr12.1071468.LTA",
-    "human.chr6.5898951.LTA",
-    "human.chr6.5898951.LTA"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.5873767.NFKBIL1",
-  "commonName": "NFKBIL1",
-  "start": "5873767",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33209161.NFKBIL1",
-    "cheetah.scaffold821.230285.NFKBIL1",
-    "dog.chr12.1049174.NFKBIL1",
-    "human.chr6.5873767.NFKBIL1",
-    "human.chr6.5873767.NFKBIL1"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.5857116.ATP6V1G2",
-  "commonName": "ATP6V1G2",
-  "start": "5857116",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33206578.ATP6V1G2",
-    "cheetah.scaffold821.245871.ATP6V1G2",
-    "human.chr6.5857116.ATP6V1G2",
-    "human.chr6.5857116.ATP6V1G2"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.5857116.BAT1",
-  "commonName": "BAT1",
-  "start": "5857116",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33192987.BAT1",
-    "dog.chr12.1032597.BAT1",
-    "human.chr6.5857116.BAT1",
-    "human.chr6.5857116.BAT1"
-    ]
-}, {
-  "group": "III",
-  "name": "human.chr6.5855614.MCCD1",
-  "commonName": "MCCD1",
-  "start": "5855614",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.33191585.MCCD1",
-    "cheetah.scaffold421.2570.MCCD1",
-    "dog.chr12.1031187.MCCD1",
-    "human.chr6.5855614.MCCD1",
-    "human.chr6.5855614.MCCD1"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.584503.HIST1H3E",
-  "commonName": "HIST1H3E",
-  "start": "584503",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.584503.HIST1H3E",
-    "human.chr6.584503.HIST1H3E"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.5824983.MICB",
-  "commonName": "MICB",
-  "start": "5824983",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.5824983.MICB",
-    "human.chr6.5824983.MICB"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.576285.HIST1H2AE",
-  "commonName": "HIST1H2AE",
-  "start": "576285",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.576285.HIST1H2AE",
-    "human.chr6.576285.HIST1H2AE"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.575611.HIST1H2BG",
-  "commonName": "HIST1H2BG",
-  "start": "575611",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.575611.HIST1H2BG",
-    "human.chr6.575611.HIST1H2BG"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.5726681.MICA",
-  "commonName": "MICA",
-  "start": "5726681",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.5726681.MICA",
-    "human.chr6.5726681.MICA"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.5680769.HLAB",
-  "commonName": "HLAB",
-  "start": "5680769",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.5680769.HLAB",
-    "human.chr6.5680769.HLAB"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.563978.HIST1H4E",
-  "commonName": "HIST1H4E",
-  "start": "563978",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.563978.HIST1H4E",
-    "human.chr6.563978.HIST1H4E"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.5595646.HLAC",
-  "commonName": "HLAC",
-  "start": "5595646",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.5595646.HLAC",
-    "human.chr6.5595646.HLAC"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.558868.HIST1H2BF",
-  "commonName": "HIST1H2BF",
-  "start": "558868",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.558868.HIST1H2BF",
-    "human.chr6.558868.HIST1H2BF"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.558199.HIST1H2AD",
-  "commonName": "HIST1H2AD",
-  "start": "558199",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.558199.HIST1H2AD",
-    "human.chr6.558199.HIST1H2AD"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.556132.HIST1H3D",
-  "commonName": "HIST1H3D",
-  "start": "556132",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.556132.HIST1H3D",
-    "human.chr6.556132.HIST1H3D"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.5491234.POU5F1",
-  "commonName": "POU5F1",
-  "start": "5491234",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.32571099.POU5F1",
-    "cheetah.scaffold145.720485.POU5F1",
-    "human.chr6.5491234.POU5F1",
-    "human.chr6.5491234.POU5F1"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.5485439.TCF19",
-  "commonName": "TCF19",
-  "start": "5485439",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.32566778.TCF19",
-    "cheetah.scaffold145.716133.TCF19",
-    "dog.chr12.856212.TCF19",
-    "human.chr6.5485439.TCF19",
-    "human.chr6.5485439.TCF19"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.548058.HIST1H4D",
-  "commonName": "HIST1H4D",
-  "start": "548058",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.548058.HIST1H4D",
-    "human.chr6.548058.HIST1H4D"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.5469336.CCHCR1",
-  "commonName": "CCHCR1",
-  "start": "5469336",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.32551169.CCHCR1",
-    "cheetah.scaffold145.700511.CCHCR1",
-    "dog.chr12.842244.CCHCR1",
-    "human.chr6.5469336.CCHCR1",
-    "human.chr6.5469336.CCHCR1"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.5464431.PSORS1C2",
-  "commonName": "PSORS1C2",
-  "start": "5464431",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.32546665.PSORS1C2",
-    "cheetah.scaffold145.696141.PSORS1C2",
-    "dog.chr12.838392.PSORS1C2",
-    "human.chr6.5464431.PSORS1C2",
-    "human.chr6.5464431.PSORS1C2"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.5441987.CDSN",
-  "commonName": "CDSN",
-  "start": "5441987",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.32528830.CDSN",
-    "cheetah.scaffold145.677785.CDSN",
-    "dog.chr12.820466.CDSN",
-    "human.chr6.5441987.CDSN",
-    "human.chr6.5441987.CDSN"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.5441647.PSORS1C1",
-  "commonName": "PSORS1C1",
-  "start": "5441647",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.5441647.PSORS1C1",
-    "human.chr6.5441647.PSORS1C1"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.5438120.C6orf15",
-  "commonName": "C6orf15",
-  "start": "5438120",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cheetah.scaffold145.672597.C6orf15",
-    "dog.chr12.815482.C6orf15",
-    "human.chr6.5438120.C6orf15",
-    "human.chr6.5438120.C6orf15"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.543078.HIST1H2BE",
-  "commonName": "HIST1H2BE",
-  "start": "543078",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.543078.HIST1H2BE",
-    "human.chr6.543078.HIST1H2BE"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.5310605.C6orf205",
-  "commonName": "C6orf205",
-  "start": "5310605",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cheetah.scaffold145.588296.C6orf205",
-    "human.chr6.5310605.C6orf205",
-    "human.chr6.5310605.C6orf205"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.5267869.DPCR1",
-  "commonName": "DPCR1",
-  "start": "5267869",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.32396584.DPCR1",
-    "cheetah.scaffold145.552620.DPCR1",
-    "dog.chr12.551500.DPCR1",
-    "human.chr6.5267869.DPCR1",
-    "human.chr6.5267869.DPCR1"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.5258250.SFTA2",
-  "commonName": "SFTA2",
-  "start": "5258250",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.5258250.SFTA2",
-    "human.chr6.5258250.SFTA2"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.5235139.VARSL",
-  "commonName": "VARSL",
-  "start": "5235139",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.32373244.VARSL",
-    "dog.chr12.682032.VARSL",
-    "human.chr6.5235139.VARSL",
-    "human.chr6.5235139.VARSL"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.5235081.GTF2H4",
-  "commonName": "GTF2H4",
-  "start": "5235081",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.32367652.GTF2H4",
-    "cheetah.scaffold145.517287.GTF2H4",
-    "dog.chr12.676676.GTF2H4",
-    "human.chr6.5235081.GTF2H4",
-    "human.chr6.5235081.GTF2H4"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.5203318.DDR1",
-  "commonName": "DDR1",
-  "start": "5203318",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.32349938.DDR1",
-    "cheetah.scaffold145.499747.DDR1",
-    "dog.chr12.653806.DDR1",
-    "human.chr6.5203318.DDR1",
-    "human.chr6.5203318.DDR1"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.517494.HIST1H2BD",
-  "commonName": "HIST1H2BD",
-  "start": "517494",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.517494.HIST1H2BD",
-    "human.chr6.517494.HIST1H2BD"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.515679.HIST1H1E",
-  "commonName": "HIST1H1E",
-  "start": "515679",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.515679.HIST1H1E",
-    "human.chr6.515679.HIST1H1E"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.5070096.IER3",
-  "commonName": "IER3",
-  "start": "5070096",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.32227107.IER3",
-    "cheetah.scaffold145.379554.IER3",
-    "dog.chr12.529737.IER3",
-    "human.chr6.5070096.IER3",
-    "human.chr6.5070096.IER3"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.5054606.FLOT1",
-  "commonName": "FLOT1",
-  "start": "5054606",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.32213902.FLOT1",
-    "cheetah.scaffold145.367231.FLOT1",
-    "dog.chr12.518353.FLOT1",
-    "human.chr6.5054606.FLOT1",
-    "human.chr6.5054606.FLOT1"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.5047098.TUBB",
-  "commonName": "TUBB",
-  "start": "5047098",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.32206679.TUBB",
-    "cheetah.scaffold145.361120.TUBB",
-    "dog.chr12.512944.TUBB",
-    "human.chr6.5047098.TUBB",
-    "human.chr6.5047098.TUBB"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.5026704.MDC1",
-  "commonName": "MDC1",
-  "start": "5026704",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.32190691.MDC1",
-    "cheetah.scaffold145.345648.MDC1",
-    "dog.chr12.496903.MDC1",
-    "human.chr6.5026704.MDC1",
-    "human.chr6.5026704.MDC1"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.5014944.NRM",
-  "commonName": "NRM",
-  "start": "5014944",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.32184208.NRM",
-    "cheetah.scaffold145.339058.NRM",
-    "dog.chr12.482138.NRM",
-    "human.chr6.5014944.NRM",
-    "human.chr6.5014944.NRM"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.5003286.KIAA1949",
-  "commonName": "KIAA1949",
-  "start": "5003286",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.5003286.KIAA1949",
-    "human.chr6.5003286.KIAA1949"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.4980016.DHX16",
-  "commonName": "DHX16",
-  "start": "4980016",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.32156832.DHX16",
-    "cheetah.scaffold145.311522.DHX16",
-    "dog.chr12.460775.DHX16",
-    "human.chr6.4980016.DHX16",
-    "human.chr6.4980016.DHX16"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.4973936.C6orf136",
-  "commonName": "C6orf136",
-  "start": "4973936",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.32152554.C6orf136",
-    "cheetah.scaffold145.307770.C6orf136",
-    "dog.chr12.456729.C6orf136",
-    "human.chr6.4973936.C6orf136",
-    "human.chr6.4973936.C6orf136"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.4953739.C6orf134",
-  "commonName": "C6orf134",
-  "start": "4953739",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cheetah.scaffold145.293168.C6orf134",
-    "human.chr6.4953739.C6orf134",
-    "human.chr6.4953739.C6orf134"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.4944606.MRPS18B",
-  "commonName": "MRPS18B",
-  "start": "4944606",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.32131508.MRPS18B",
-    "cheetah.scaffold145.286733.MRPS18B",
-    "dog.chr12.435193.MRPS18B",
-    "human.chr6.4944606.MRPS18B",
-    "human.chr6.4944606.MRPS18B"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.4927297.PPP1R10",
-  "commonName": "PPP1R10",
-  "start": "4927297",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.32113078.PPP1R10",
-    "cheetah.scaffold145.268180.PPP1R10",
-    "dog.chr12.417679.PPP1R10",
-    "human.chr6.4927297.PPP1R10",
-    "human.chr6.4927297.PPP1R10"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.4898273.ABCF1",
-  "commonName": "ABCF1",
-  "start": "4898273",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.32091815.ABCF1",
-    "cheetah.scaffold145.246526.ABCF1",
-    "dog.chr12.397040.ABCF1",
-    "human.chr6.4898273.ABCF1",
-    "human.chr6.4898273.ABCF1"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.4883783.PRR3",
-  "commonName": "PRR3",
-  "start": "4883783",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.32079977.PRR3",
-    "human.chr6.4883783.PRR3",
-    "human.chr6.4883783.PRR3"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.4868274.GNL1",
-  "commonName": "GNL1",
-  "start": "4868274",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.32072037.GNL1",
-    "cheetah.scaffold145.226983.GNL1",
-    "dog.chr12.375592.GNL1",
-    "human.chr6.4868274.GNL1",
-    "human.chr6.4868274.GNL1"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.483493.HIST1H2AC",
-  "commonName": "HIST1H2AC",
-  "start": "483493",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.483493.HIST1H2AC",
-    "human.chr6.483493.HIST1H2AC"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.4816351.HLAE",
-  "commonName": "HLAE",
-  "start": "4816351",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.4816351.HLAE",
-    "human.chr6.4816351.HLAE"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.473753.HIST1H2BC",
-  "commonName": "HIST1H2BC",
-  "start": "473753",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.473753.HIST1H2BC",
-    "human.chr6.473753.HIST1H2BC"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.4672028.RPP21",
-  "commonName": "RPP21",
-  "start": "4672028",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "dog.chr12.331823.RPP21",
-    "human.chr6.4672028.RPP21",
-    "human.chr6.4672028.RPP21"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.466760.HIST1H1T",
-  "commonName": "HIST1H1T",
-  "start": "466760",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.466760.HIST1H1T",
-    "human.chr6.466760.HIST1H1T"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.4656479.XXbacBPG283O168",
-  "commonName": "XXbacBPG283O168",
-  "start": "4656479",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.4656479.XXbacBPG283O168",
-    "human.chr6.4656479.XXbacBPG283O168"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.4653376.TRIM39",
-  "commonName": "TRIM39",
-  "start": "4653376",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.4653376.TRIM39",
-    "human.chr6.4653376.TRIM39"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.463224.HIST1H4C",
-  "commonName": "HIST1H4C",
-  "start": "463224",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.463224.HIST1H4C",
-    "human.chr6.463224.HIST1H4C"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.4511352.TRIM26",
-  "commonName": "TRIM26",
-  "start": "4511352",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.34917.TRIM26",
-    "cheetah.scaffold823.289135.TRIM26",
-    "dog.chr35.26387778.TRIM26",
-    "human.chr6.4511352.TRIM26",
-    "human.chr6.4511352.TRIM26"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.4490103.TRIM15",
-  "commonName": "TRIM15",
-  "start": "4490103",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.58414.TRIM15",
-    "human.chr6.4490103.TRIM15",
-    "human.chr6.4490103.TRIM15"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.4478842.TRIM10",
-  "commonName": "TRIM10",
-  "start": "4478842",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.65811.TRIM10",
-    "dog.chr35.26350557.TRIM10",
-    "human.chr6.4478842.TRIM10",
-    "human.chr6.4478842.TRIM10"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.446629.HFE",
-  "commonName": "HFE",
-  "start": "446629",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.446629.HFE",
-    "human.chr6.446629.HFE"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.4463005.TRIM40",
-  "commonName": "TRIM40",
-  "start": "4463005",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.4463005.TRIM40",
-    "human.chr6.4463005.TRIM40"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.4429794.TRIM31",
-  "commonName": "TRIM31",
-  "start": "4429794",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.4429794.TRIM31",
-    "human.chr6.4429794.TRIM31"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.4397163.RNF39",
-  "commonName": "RNF39",
-  "start": "4397163",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cheetah.scaffold145.103390.RNF39",
-    "dog.chr35.26292780.RNF39",
-    "human.chr6.4397163.RNF39",
-    "human.chr6.4397163.RNF39"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.4393606.PPP1R11",
-  "commonName": "PPP1R11",
-  "start": "4393606",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.123810.PPP1R11",
-    "cheetah.scaffold823.207149.PPP1R11",
-    "dog.chr35.26289666.PPP1R11",
-    "human.chr6.4393606.PPP1R11",
-    "human.chr6.4393606.PPP1R11"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.4385796.ZNRD1",
-  "commonName": "ZNRD1",
-  "start": "4385796",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.129140.ZNRD1",
-    "cheetah.scaffold823.201488.ZNRD1",
-    "dog.chr35.26285783.ZNRD1",
-    "human.chr6.4385796.ZNRD1",
-    "human.chr6.4385796.ZNRD1"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.4268157.HLAA",
-  "commonName": "HLAA",
-  "start": "4268157",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.4268157.HLAA",
-    "human.chr6.4268157.HLAA"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.4153864.HLAG",
-  "commonName": "HLAG",
-  "start": "4153864",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.4153864.HLAG",
-    "human.chr6.4153864.HLAG"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.415088.HIST1H1C",
-  "commonName": "HIST1H1C",
-  "start": "415088",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.415088.HIST1H1C",
-    "human.chr6.415088.HIST1H1C"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.4049672.HLAF",
-  "commonName": "HLAF",
-  "start": "4049672",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.4049672.HLAF",
-    "human.chr6.4049672.HLAF"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.404732.HIST1H3C",
-  "commonName": "HIST1H3C",
-  "start": "404732",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.404732.HIST1H3C",
-    "human.chr6.404732.HIST1H3C"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.402575.HIST1H2BB",
-  "commonName": "HIST1H2BB",
-  "start": "402575",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.402575.HIST1H2BB",
-    "human.chr6.402575.HIST1H2BB"
-    ]
-}, {
-  "group": "I",
-  "name": "human.chr6.3999289.ZFP57",
-  "commonName": "ZFP57",
-  "start": "3999289",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.150330.ZFP57",
-    "dog.chr35.26267571.ZFP57",
-    "human.chr6.3999289.ZFP57",
-    "human.chr6.3999289.ZFP57"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.3983878.MOG",
-  "commonName": "MOG",
-  "start": "3983878",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.153567.MOG",
-    "cheetah.scaffold823.171169.MOG",
-    "dog.chr35.26256607.MOG",
-    "human.chr6.3983878.MOG",
-    "human.chr6.3983878.MOG"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.392440.HIST1H2AB",
-  "commonName": "HIST1H2AB",
-  "start": "392440",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.392440.HIST1H2AB",
-    "human.chr6.392440.HIST1H2AB"
-    ]
-}, {
-  "group": "OR",
-  "name": "human.chr6.3914803.OR2H2",
-  "commonName": "OR2H2",
-  "start": "3914803",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.3914803.OR2H2",
-    "human.chr6.3914803.OR2H2"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.390998.HIST1H3B",
-  "commonName": "HIST1H3B",
-  "start": "390998",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.390998.HIST1H3B",
-    "human.chr6.390998.HIST1H3B"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.3882526.GABBR1",
-  "commonName": "GABBR1",
-  "start": "3882526",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.182718.GABBR1",
-    "cheetah.scaffold823.126415.GABBR1",
-    "dog.chr35.26213080.GABBR1",
-    "human.chr6.3882526.GABBR1",
-    "human.chr6.3882526.GABBR1"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.3882412.UBD",
-  "commonName": "UBD",
-  "start": "3882412",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cheetah.scaffold823.96003.UBD",
-    "dog.chr35.26432227.UBD",
-    "human.chr6.3882412.UBD",
-    "human.chr6.3882412.UBD"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.386244.HIST1H4B",
-  "commonName": "HIST1H4B",
-  "start": "386244",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.386244.HIST1H4B",
-    "human.chr6.386244.HIST1H4B"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.3813663.MAS1L",
-  "commonName": "MAS1L",
-  "start": "3813663",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.3813663.MAS1L",
-    "human.chr6.3813663.MAS1L"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.381027.HIST1H4A",
-  "commonName": "HIST1H4A",
-  "start": "381027",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.381027.HIST1H4A",
-    "human.chr6.381027.HIST1H4A"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.379838.HIST1H3A",
-  "commonName": "HIST1H3A",
-  "start": "379838",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.379838.HIST1H3A",
-    "human.chr6.379838.HIST1H3A"
-    ]
-}, {
-  "group": "OR",
-  "name": "human.chr6.3784078.OR2H1",
-  "commonName": "OR2H1",
-  "start": "3784078",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.3784078.OR2H1",
-    "human.chr6.3784078.OR2H1"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.376380.HIST1H1A",
-  "commonName": "HIST1H1A",
-  "start": "376380",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.376380.HIST1H1A",
-    "human.chr6.376380.HIST1H1A"
-    ]
-}, {
-  "group": "OR",
-  "name": "human.chr6.3752401.OR11A1",
-  "commonName": "OR11A1",
-  "start": "3752401",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cat.chrB2.284030.OR11A1",
-    "human.chr6.3752401.OR11A1",
-    "human.chr6.3752401.OR11A1"
-    ]
-}, {
-  "group": "OR",
-  "name": "human.chr6.3744177.OR10C1",
-  "commonName": "OR10C1",
-  "start": "3744177",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "cheetah.scaffold823.45728.OR10C1",
-    "human.chr6.3744177.OR10C1",
-    "human.chr6.3744177.OR10C1"
-    ]
-}, {
-  "group": "OR",
-  "name": "human.chr6.3723536.OR12D2",
-  "commonName": "OR12D2",
-  "start": "3723536",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.3723536.OR12D2",
-    "human.chr6.3723536.OR12D2"
-    ]
-}, {
-  "group": "OR",
-  "name": "human.chr6.3682127.OR5V1",
-  "commonName": "OR5V1",
-  "start": "3682127",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.3682127.OR5V1",
-    "human.chr6.3682127.OR5V1"
-    ]
-}, {
-  "group": "OR",
-  "name": "human.chr6.3633523.OR14J1",
-  "commonName": "OR14J1",
-  "start": "3633523",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.3633523.OR14J1",
-    "human.chr6.3633523.OR14J1"
-    ]
-}, {
-  "group": "OR",
-  "name": "human.chr6.3595377.OR12D3",
-  "commonName": "OR12D3",
-  "start": "3595377",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.3595377.OR12D3",
-    "human.chr6.3595377.OR12D3"
-    ]
-}, {
-  "group": "OR",
-  "name": "human.chr6.3500431.OR2J2",
-  "commonName": "OR2J2",
-  "start": "3500431",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.3500431.OR2J2",
-    "human.chr6.3500431.OR2J2"
-    ]
-}, {
-  "group": "OR",
-  "name": "human.chr6.3438788.OR2J3",
-  "commonName": "OR2J3",
-  "start": "3438788",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.3438788.OR2J3",
-    "human.chr6.3438788.OR2J3"
-    ]
-}, {
-  "group": "OR",
-  "name": "human.chr6.3427738.OR2J1",
-  "commonName": "OR2J1",
-  "start": "3427738",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.3427738.OR2J1",
-    "human.chr6.3427738.OR2J1"
-    ]
-}, {
-  "group": "OR",
-  "name": "human.chr6.3413204.OR2B3",
-  "commonName": "OR2B3",
-  "start": "3413204",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.3413204.OR2B3",
-    "human.chr6.3413204.OR2B3"
-    ]
-}, {
-  "group": "OR",
-  "name": "human.chr6.3371110.OR2W1",
-  "commonName": "OR2W1",
-  "start": "3371110",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "dog.chr35.26116872.OR2W1",
-    "human.chr6.3371110.OR2W1",
-    "human.chr6.3371110.OR2W1"
-    ]
-}, {
-  "group": "ZNF",
-  "name": "human.chr6.3321682.ZNF311",
-  "commonName": "ZNF311",
-  "start": "3321682",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.3321682.ZNF311",
-    "human.chr6.3321682.ZNF311"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.3270774.C6orf100",
-  "commonName": "C6orf100",
-  "start": "3270774",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.3270774.C6orf100",
-    "human.chr6.3270774.C6orf100"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.3229899.TRIM27",
-  "commonName": "TRIM27",
-  "start": "3229899",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.3229899.TRIM27",
-    "human.chr6.3229899.TRIM27"
-    ]
-}, {
-  "group": "TRIM/BUTYROPHILIN",
-  "name": "human.chr6.322395.TRIM38",
-  "commonName": "TRIM38",
-  "start": "322395",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.322395.TRIM38",
-    "human.chr6.322395.TRIM38"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.2898525.SCAND3",
-  "commonName": "SCAND3",
-  "start": "2898525",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2898525.SCAND3",
-    "human.chr6.2898525.SCAND3"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.2852822.GPX5",
-  "commonName": "GPX5",
-  "start": "2852822",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2852822.GPX5",
-    "human.chr6.2852822.GPX5"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.2830193.GPX6",
-  "commonName": "GPX6",
-  "start": "2830193",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2830193.GPX6",
-    "human.chr6.2830193.GPX6"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.2758827.ZSCAN23",
-  "commonName": "ZSCAN23",
-  "start": "2758827",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2758827.ZSCAN23",
-    "human.chr6.2758827.ZSCAN23"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.272102.SLC17A2",
-  "commonName": "SLC17A2",
-  "start": "272102",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.272102.SLC17A2",
-    "human.chr6.272102.SLC17A2"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.2705852.ZSCAN12",
-  "commonName": "ZSCAN12",
-  "start": "2705852",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2705852.ZSCAN12",
-    "human.chr6.2705852.ZSCAN12"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.2676811.ZKSCAN3",
-  "commonName": "ZKSCAN3",
-  "start": "2676811",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2676811.ZKSCAN3",
-    "human.chr6.2676811.ZKSCAN3"
-    ]
-}, {
-  "group": "ZNF",
-  "name": "human.chr6.2651590.ZNF323",
-  "commonName": "ZNF323",
-  "start": "2651590",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2651590.ZNF323",
-    "human.chr6.2651590.ZNF323"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.2608469.PGBD1",
-  "commonName": "PGBD1",
-  "start": "2608469",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2608469.PGBD1",
-    "human.chr6.2608469.PGBD1"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.2586218.NKAPL",
-  "commonName": "NKAPL",
-  "start": "2586218",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2586218.NKAPL",
-    "human.chr6.2586218.NKAPL"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.2571483.ZKSCAN4",
-  "commonName": "ZKSCAN4",
-  "start": "2571483",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2571483.ZKSCAN4",
-    "human.chr6.2571483.ZKSCAN4"
-    ]
-}, {
-  "group": "ZNF",
-  "name": "human.chr6.2552190.ZNF193",
-  "commonName": "ZNF193",
-  "start": "2552190",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2552190.ZNF193",
-    "human.chr6.2552190.ZNF193"
-    ]
-}, {
-  "group": "ZNF",
-  "name": "human.chr6.2468836.ZNF192",
-  "commonName": "ZNF192",
-  "start": "2468836",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2468836.ZNF192",
-    "human.chr6.2468836.ZNF192"
-    ]
-}, {
-  "group": "ZNF",
-  "name": "human.chr6.2451458.ZNF435",
-  "commonName": "ZNF435",
-  "start": "2451458",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2451458.ZNF435",
-    "human.chr6.2451458.ZNF435"
-    ]
-}, {
-  "group": "ZNF",
-  "name": "human.chr6.2405692.ZNF165",
-  "commonName": "ZNF165",
-  "start": "2405692",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2405692.ZNF165",
-    "human.chr6.2405692.ZNF165"
-    ]
-}, {
-  "group": "OR",
-  "name": "human.chr6.2284139.OR4D1",
-  "commonName": "OR4D1",
-  "start": "2284139",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2284139.OR4D1",
-    "human.chr6.2284139.OR4D1"
-    ]
-}, {
-  "group": "OR",
-  "name": "human.chr6.2238144.OR2B2",
-  "commonName": "OR2B2",
-  "start": "2238144",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2238144.OR2B2",
-    "human.chr6.2238144.OR2B2"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.2220323.HIST1H2BO",
-  "commonName": "HIST1H2BO",
-  "start": "2220323",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2220323.HIST1H2BO",
-    "human.chr6.2220323.HIST1H2BO"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.2219597.HIST1H2AM",
-  "commonName": "HIST1H2AM",
-  "start": "2219597",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2219597.HIST1H2AM",
-    "human.chr6.2219597.HIST1H2AM"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.2217280.HIST1H3J",
-  "commonName": "HIST1H3J",
-  "start": "2217280",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2217280.HIST1H3J",
-    "human.chr6.2217280.HIST1H3J"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.2200046.HIST1H4L",
-  "commonName": "HIST1H4L",
-  "start": "2200046",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2200046.HIST1H4L",
-    "human.chr6.2200046.HIST1H4L"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.2198803.HIST1H3I",
-  "commonName": "HIST1H3I",
-  "start": "2198803",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2198803.HIST1H3I",
-    "human.chr6.2198803.HIST1H3I"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.2193690.HIST1H1B",
-  "commonName": "HIST1H1B",
-  "start": "2193690",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2193690.HIST1H1B",
-    "human.chr6.2193690.HIST1H1B"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.2192154.HIST1H2AL",
-  "commonName": "HIST1H2AL",
-  "start": "2192154",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2192154.HIST1H2AL",
-    "human.chr6.2192154.HIST1H2AL"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.2164778.HIST1H2AK",
-  "commonName": "HIST1H2AK",
-  "start": "2164778",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2164778.HIST1H2AK",
-    "human.chr6.2164778.HIST1H2AK"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.2164658.HIST1H2BN",
-  "commonName": "HIST1H2BN",
-  "start": "2164658",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2164658.HIST1H2BN",
-    "human.chr6.2164658.HIST1H2BN"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.2158114.HIST1H4K",
-  "commonName": "HIST1H4K",
-  "start": "2158114",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2158114.HIST1H4K",
-    "human.chr6.2158114.HIST1H4K"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.2151004.HIST1H4J",
-  "commonName": "HIST1H4J",
-  "start": "2151004",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2151004.HIST1H4J",
-    "human.chr6.2151004.HIST1H4J"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.2141942.HIST1H2BM",
-  "commonName": "HIST1H2BM",
-  "start": "2141942",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2141942.HIST1H2BM",
-    "human.chr6.2141942.HIST1H2BM"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.2141200.HIST1H2AJ",
-  "commonName": "HIST1H2AJ",
-  "start": "2141200",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2141200.HIST1H2AJ",
-    "human.chr6.2141200.HIST1H2AJ"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.2136962.HIST1H3H",
-  "commonName": "HIST1H3H",
-  "start": "2136962",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2136962.HIST1H3H",
-    "human.chr6.2136962.HIST1H3H"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.2135019.HIST1H2AI",
-  "commonName": "HIST1H2AI",
-  "start": "2135019",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2135019.HIST1H2AI",
-    "human.chr6.2135019.HIST1H2AI"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.2134377.HIST1H2BL",
-  "commonName": "HIST1H2BL",
-  "start": "2134377",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.2134377.HIST1H2BL",
-    "human.chr6.2134377.HIST1H2BL"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.192414.SLC17A3",
-  "commonName": "SLC17A3",
-  "start": "192414",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.192414.SLC17A3",
-    "human.chr6.192414.SLC17A3"
-    ]
-}, {
-  "group": "ZNF",
-  "name": "human.chr6.1777642.ZNF184",
-  "commonName": "ZNF184",
-  "start": "1777642",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.1777642.ZNF184",
-    "human.chr6.1777642.ZNF184"
-    ]
-}, {
-  "group": "ZNF",
-  "name": "human.chr6.1701514.ZNF391",
-  "commonName": "ZNF391",
-  "start": "1701514",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.1701514.ZNF391",
-    "human.chr6.1701514.ZNF391"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.1612802.POM121L2",
-  "commonName": "POM121L2",
-  "start": "1612802",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.1612802.POM121L2",
-    "human.chr6.1612802.POM121L2"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.1574600.PRSS16",
-  "commonName": "PRSS16",
-  "start": "1574600",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.1574600.PRSS16",
-    "human.chr6.1574600.PRSS16"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.1473981.HIST1H2AH",
-  "commonName": "HIST1H2AH",
-  "start": "1473981",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.1473981.HIST1H2AH",
-    "human.chr6.1473981.HIST1H2AH"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.1466196.HIST1H4I",
-  "commonName": "HIST1H4I",
-  "start": "1466196",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.1466196.HIST1H4I",
-    "human.chr6.1466196.HIST1H4I"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.1464128.HIST1H2BK",
-  "commonName": "HIST1H2BK",
-  "start": "1464128",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.1464128.HIST1H2BK",
-    "human.chr6.1464128.HIST1H2BK"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.1459941.SMCHD1",
-  "commonName": "SMCHD1",
-  "start": "1459941",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.1459941.SMCHD1",
-    "human.chr6.1459941.SMCHD1"
-    ]
-}, {
-  "group": "histonnes",
-  "name": "human.chr6.1459215.HIST1H2BJ",
-  "commonName": "HIST1H2BJ",
-  "start": "1459215",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.1459215.HIST1H2BJ",
-    "human.chr6.1459215.HIST1H2BJ"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.142245.SLC17A1",
-  "commonName": "SLC17A1",
-  "start": "142245",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.142245.SLC17A1",
-    "human.chr6.142245.SLC17A1"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.1198386.AL1332551",
-  "commonName": "AL1332551",
-  "start": "1198386",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.1198386.AL1332551",
-    "human.chr6.1198386.AL1332551"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.1198383.GUSBL1",
-  "commonName": "GUSBL1",
-  "start": "1198383",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.1198383.GUSBL1",
-    "human.chr6.1198383.GUSBL1"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.11549.SCGN",
-  "commonName": "SCGN",
-  "start": "11549",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.11549.SCGN",
-    "human.chr6.11549.SCGN"
-    ]
-}, {
-  "group": "EXI",
-  "name": "human.chr6.114047.SLC17A4",
-  "commonName": "SLC17A4",
-  "start": "114047",
-  "chr": "chr6",
-  "source_file": "data/humanGnesGroup6corrected.bed",
-  "file": "human",
-  "type": "human",
-  "gene_links": [
-    "human.chr6.114047.SLC17A4",
-    "human.chr6.114047.SLC17A4"
     ]
 }]
