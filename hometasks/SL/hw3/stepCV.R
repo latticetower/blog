@@ -12,10 +12,6 @@ addterm2.default <-
       scope <- add.scope(object, update.formula(object, scope))
     if(!length(scope))
       stop("no terms in scope for adding to object")
-    #     newform <- update.formula(object,
-    #                               paste(". ~ . +", paste(scope, collapse="+")))
-    #     data <- model.frame(update(object, newform)) # remove NAs
-    #     object <- update(object, data = data)
     ns <- length(scope)
     ans <- matrix(nrow = ns + 1L, ncol = 2L,
                   dimnames = list(c("<none>", scope), c("rank", "performance")))
@@ -54,10 +50,8 @@ addterm2.default <-
 
 dropterm2 <- function(object, ...) UseMethod("dropterm2")
 
-dropterm2.default <-
-  function(object, scope, scale = 0, test = c("none"),
-           k = 2, sorted = FALSE, trace = FALSE, ...)
-  {
+dropterm2.default <- function(object, scope, scale = 0, test = c("none"),
+           k = 2, sorted = FALSE, trace = FALSE, ...) {
     tl <- attr(terms(object), "term.labels")
     if(missing(scope)) scope <- drop.scope(object)
     else {
@@ -101,42 +95,20 @@ dropterm2.default <-
     attr(aod, "heading") <- head
     aod
   }
-# file MASS/R/stepAIC.R
-# copyright (C) 1994-2007 W. N. Venables and B. D. Ripley
+# modified file MASS/R/stepAIC.R
 #
-#  This program is free software; you can redistribute it and/or modify
-#  it under the terms of the GNU General Public License as published by
-#  the Free Software Foundation; either version 2 or 3 of the License
-#  (at your option).
-#
-#  This program is distributed in the hope that it will be useful,
-#  but WITHOUT ANY WARRANTY; without even the implied warranty of
-#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#  GNU General Public License for more details.
-#
-#  A copy of the GNU General Public License is available at
-#  http://www.r-project.org/Licenses/
-#
-stepCV <-
-  function(object, scope, scale = 0,
+stepCV <- function(object, scope, scale = 0,
            direction = c("both", "backward", "forward"),
            trace = 1, keep = NULL, steps = 1000, use.start = FALSE, k = 2, ...)
 {
-    mydeviance <- function(x, ...)
-    {
-        dev <- deviance(x)
-        if(!is.null(dev)) dev else extractCV(x, k=0)[2L]
-    }
 
-    cut.string <- function(string)
-    {
+    cut.string <- function(string) {
         if(length(string) > 1L)
             string[-1L] <- paste("\n", string[-1L], sep = "")
         string
     }
 
-    re.arrange <- function(keep)
-    {
+    re.arrange <- function(keep) {
         namr <- names(k1 <- keep[[1L]])
         namc <- names(keep)
         nc <- length(keep)
@@ -144,8 +116,7 @@ stepCV <-
         array(unlist(keep, recursive = FALSE), c(nr, nc), list(namr, namc))
     }
 
-    step.results <- function(models, fit, object, usingCp=FALSE)
-    {
+    step.results <- function(models, fit, object, usingCp=FALSE) {
         change <- sapply(models, "[[", "change")
         rank <- sapply(models, "[[", "rank")
         performance <- sapply(models, "[[", "performance")
@@ -246,6 +217,7 @@ stepCV <-
                     change <- rev(rownames(aod)[zdf])[1L]
             }
         }
+        
         if(is.null(change)) {
             if(forward && length(scope$add)) {
                 aodf <- addterm2(fit, scope$add, scale = scale,
@@ -269,6 +241,7 @@ stepCV <-
           		print(aod[o,  ])
           		utils::flush.console()
           	    }
+            if (abs(aod[o,  ]$Df[1]) < 2) break
             if(o[1L] == 1) break
             change <- rownames(aod)[o[1L]]
         }
@@ -281,8 +254,6 @@ stepCV <-
             stop("number of rows in use has changed: remove missing values?")
         Terms <- terms(fit)
         resCV <- extractCV(fit, scale, k = k, ...)# was bAIC
-        #edf <- bAIC[1L]
-        #bAIC <- bAIC[2L]
         rank <- resCV[1L]
         performance <- resCV[2L]
         if(trace) {
@@ -291,7 +262,7 @@ stepCV <-
 	    utils::flush.console()
 	}
         ## add a tolerance as dropping 0-df terms might increase AIC slightly
-        if(performance >= CV + 1e-7) break
+        if(performance - CV <= 2) break
         nm <- nm + 1
         models[[nm]] <-
             list(rank = rank, performance=performance,
@@ -304,8 +275,7 @@ stepCV <-
 
 extractCV <- function(object, ...) UseMethod("extractCV")
 
-extractCV.lm <- function(fit, scale, k = 2, ...)
-{
+extractCV.lm <- function(fit, scale, k = 2, ...) {
   t <- tune(lm, formula(fit$terms), data = fit$model)
   c(t$best.model$rank, t$best.performance)
 }

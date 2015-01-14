@@ -1,4 +1,4 @@
-Title
+Задание 1.4.(stepCV)
 ========================================================
 Задание 1.4. Написать на R функцию stepCV, аналогичную stepAIC, но использующую кросс-валидацию для проверки значимости признака. Нужно следовать при этом принципу иерархии — нельзя выкидывать признаки более низкого порядка, если есть признаки более высокого. Функция должна работать со всеми методами, с которыми работает stepAIC.
 
@@ -8,6 +8,7 @@ Hint: Можно расковырять оригинальную функцию 
 ```r
 library(MASS)
 library(e1071)
+library(rmarkdown)
 ```
 
 
@@ -15,44 +16,52 @@ library(e1071)
 source("stepCV.R")
 ```
 
-Пример
+Пример посложнее
 
 
 ```r
-l <- lm(y~. , epil)
+Advertising <- read.csv("data/Advertising.csv")
+l <- lm(Sales~. , Advertising)
 stepCV(l, trace = TRUE)
 ```
 
 ```
-## Start:  CV.performance=64.32
-## y ~ trt + base + age + V4 + subject + period + lbase + lage
+## Start:  CV.performance=3.06
+## Sales ~ X + TV + Radio + Newspaper
 ## 
-##                  Df rank      CV
-## - base    -40.80114    8 103.797
-## - lbase    -5.87600    8  68.872
-## - subject  -1.12091    8  64.117
-## <none>                 9  62.996
-## - V4        0.21232    8  62.783
-## - lage      0.86694    8  62.129
-## - age       1.00570    8  61.990
-## - trt       1.36480    8  61.631
-## - period    2.90006    8  60.096
+##                     Df rank      CV
+## - TV        -15.855293    4 18.7673
+## - Radio      -7.030925    4  9.9429
+## - X          -0.049747    4  2.9618
+## <none>                    5  2.9120
+## - Newspaper   0.022077    4  2.8899
 ## 
-## Step:  CV.performance=105.16
-## y ~ trt + age + V4 + subject + period + lbase + lage
+## Step:  CV.performance=19.22
+## Sales ~ X + Radio + Newspaper
+## 
+##                    Df rank     CV
+## - Radio     -7.502128    3 26.322
+## <none>                   4 18.819
+## - Newspaper  0.051988    3 18.767
+## - X          0.359721    3 18.460
+## 
+## Step:  CV.performance=27.09
+## Sales ~ X + Newspaper
+## 
+##                   Df rank     CV
+## - Newspaper -0.57776    2 27.493
+## <none>                  3 26.915
+## - X          0.62277    2 26.292
 ```
 
 ```
 ## 
 ## Call:
-## lm(formula = y ~ trt + age + V4 + subject + period + lbase + 
-##     lage, data = epil)
+## lm(formula = Sales ~ X + Newspaper, data = Advertising)
 ## 
 ## Coefficients:
-##  (Intercept)  trtprogabide           age            V4       subject  
-##     39.77134      -3.11864      -1.09672      -0.72316       0.06868  
-##       period         lbase          lage  
-##     -0.27119      10.24944      33.40300
+## (Intercept)            X    Newspaper  
+##    12.52105     -0.00150      0.05408
 ```
 
 Можно сравнить результат с stepAIC:
@@ -62,65 +71,42 @@ stepAIC(l, trace = TRUE)
 ```
 
 ```
-## Start:  AIC=963.38
-## y ~ trt + base + age + V4 + subject + period + lbase + lage
+## Start:  AIC=214.71
+## Sales ~ X + TV + Radio + Newspaper
 ## 
-##           Df Sum of Sq   RSS     AIC
-## - period   1       8.7 12969  961.53
-## - V4       1       9.3 12970  961.54
-## - age      1      67.3 13028  962.60
-## - trt      1     103.7 13064  963.26
-## - lage     1     104.4 13065  963.27
-## <none>                 12960  963.38
-## - subject  1     132.8 13093  963.78
-## - lbase    1    1376.2 14337  985.19
-## - base     1    9300.0 22260 1089.03
+##             Df Sum of Sq    RSS    AIC
+## - Newspaper  1      0.13  556.7 212.75
+## - X          1      0.22  556.8 212.79
+## <none>                    556.6 214.71
+## - Radio      1   1354.48 1911.1 459.42
+## - TV         1   3056.91 3613.5 586.82
 ## 
-## Step:  AIC=961.53
-## y ~ trt + base + age + V4 + subject + lbase + lage
+## Step:  AIC=212.75
+## Sales ~ X + TV + Radio
 ## 
-##           Df Sum of Sq   RSS     AIC
-## - age      1      67.3 13036  960.76
-## - V4       1      70.9 13040  960.82
-## - trt      1     103.7 13073  961.41
-## - lage     1     104.4 13074  961.43
-## <none>                 12969  961.53
-## - subject  1     132.8 13102  961.94
-## - lbase    1    1376.2 14345  983.34
-## - base     1    9300.0 22269 1087.12
+##         Df Sum of Sq    RSS    AIC
+## - X      1      0.18  556.9 210.82
+## <none>                556.7 212.75
+## - Radio  1   1522.57 2079.3 474.29
+## - TV     1   3060.94 3617.7 585.05
 ## 
-## Step:  AIC=960.76
-## y ~ trt + base + V4 + subject + lbase + lage
+## Step:  AIC=210.82
+## Sales ~ TV + Radio
 ## 
-##           Df Sum of Sq   RSS     AIC
-## - V4       1      70.9 13107  960.04
-## <none>                 13036  960.76
-## - trt      1     111.8 13148  960.77
-## - subject  1     130.0 13166  961.10
-## - lage     1     329.4 13366  964.64
-## - lbase    1    1431.0 14468  983.34
-## - base     1    9368.6 22405 1086.56
-## 
-## Step:  AIC=960.04
-## y ~ trt + base + subject + lbase + lage
-## 
-##           Df Sum of Sq   RSS     AIC
-## <none>                 13107  960.04
-## - trt      1     111.8 13219  960.04
-## - subject  1     130.0 13237  960.37
-## - lage     1     329.4 13437  963.89
-## - lbase    1    1431.0 14538  982.49
-## - base     1    9368.6 22476 1085.30
+##         Df Sum of Sq    RSS    AIC
+## <none>                556.9 210.82
+## - Radio  1    1545.6 2102.5 474.52
+## - TV     1    3061.6 3618.5 583.10
 ```
 
 ```
 ## 
 ## Call:
-## lm(formula = y ~ trt + base + subject + lbase + lage, data = epil)
+## lm(formula = Sales ~ TV + Radio, data = Advertising)
 ## 
 ## Coefficients:
-##  (Intercept)  trtprogabide          base       subject         lbase  
-##     -10.2977       -2.7702        0.5570        0.0873       -7.7688  
-##         lage  
-##       5.4846
+## (Intercept)           TV        Radio  
+##     2.92110      0.04575      0.18799
 ```
+
+Результаты получаются разные (Sales~X + Newspaper при вызове stepCV, при вызове stepAIC - другой результат)
