@@ -211,6 +211,7 @@ stepCV <- function(object, scope, scale = 0,
                     warning("0 df terms are changing CV")
                     zdf <- zdf[!ch]
                 }
+                print(zdf)
                 ## drop zero df terms first: one at time since they
                 ## may mask each other
                 if(length(zdf) > 0L)
@@ -241,7 +242,8 @@ stepCV <- function(object, scope, scale = 0,
           		print(aod[o,  ])
           		utils::flush.console()
           	    }
-            if (abs(aod[o,  ]$Df[1]) < 2) break
+            if (is.na(abs(aod[o,  ]$Df[1]))) break
+            if (aod[o,  ]$Df[1]>-1) break
             if(o[1L] == 1) break
             change <- rownames(aod)[o[1L]]
         }
@@ -262,7 +264,8 @@ stepCV <- function(object, scope, scale = 0,
 	    utils::flush.console()
 	}
         ## add a tolerance as dropping 0-df terms might increase AIC slightly
-        if(performance - CV <= 2) break
+      	if (is.na(abs(aod[o,  ]$Df[1]))) break
+      	if (aod[o,  ]$Df[1]>-1) break
         nm <- nm + 1
         models[[nm]] <-
             list(rank = rank, performance=performance,
