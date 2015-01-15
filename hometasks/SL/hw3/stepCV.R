@@ -5,7 +5,7 @@ addterm2 <-
 
 addterm2.default <-
   function(object, scope, scale = 0, test = c("none"),
-           k = 2, sorted = FALSE, trace = FALSE, ...)
+           k = 2, sorted = FALSE, trace = FALSE, data, ...)
   {
     if(missing(scope) || is.null(scope)) stop("no terms in scope")
     if(!is.character(scope))
@@ -15,7 +15,7 @@ addterm2.default <-
     ns <- length(scope)
     ans <- matrix(nrow = ns + 1L, ncol = 2L,
                   dimnames = list(c("<none>", scope), c("rank", "performance")))
-    ans[1L,  ] <- extractCV(object, scale, k = k, ...)
+    ans[1L,  ] <- extractCV(object, data, scale, k = k, ...)
     n0 <- nobs(object, use.fallback = TRUE)
     env <- environment(formula(object))
     for(i in seq_len(ns)) {
@@ -31,14 +31,14 @@ addterm2.default <-
         nnew <- nobs(nfit, use.fallback = TRUE)
         if (all(is.finite(c(n0, nnew))) && nnew != n0)
           stop("number of rows in use has changed: remove missing values?")
-        extractCV(nfit, scale, k = k, ...)
+        extractCV(nfit, data, scale, k = k, ...)
       } else NA_real_
     }
-    dfs <- ans[, 1L] - ans[1L, 1L]
+    dfs <- ans[1L , 2L] - ans[, 2L]
+    dfs <- ans[1L, 2L] - ans[, 2L]
     dfs[1L] <- NA
-    aod <- data.frame(Df = dfs, AIC = ans[, 2L])
-    o <- if(sorted) order(aod$AIC) else seq_along(aod$AIC)
-    #test <- match.arg(test)
+    aod <- data.frame(Df = dfs, rank = ans[, 1L], CV = ans[, 2L])
+    o <- if(sorted) order(aod$CV) else seq_along(aod$CV)
     aod <- aod[o, ]
     head <- c("Single term additions", "\nModel:", deparse(formula(object)))
     if(scale > 0)
@@ -51,7 +51,7 @@ addterm2.default <-
 dropterm2 <- function(object, ...) UseMethod("dropterm2")
 
 dropterm2.default <- function(object, scope, scale = 0, test = c("none"),
-           k = 2, sorted = FALSE, trace = FALSE, ...) {
+           k = 2, sorted = FALSE, trace = FALSE, data=NULL, ...) {
     tl <- attr(terms(object), "term.labels")
     if(missing(scope)) scope <- drop.scope(object)
     else {
@@ -64,7 +64,7 @@ dropterm2.default <- function(object, scope, scale = 0, test = c("none"),
     ans <- matrix(nrow = ns + 1L, ncol = 2L,
                   dimnames =  list(c("<none>", scope), c("rank", "performance")))
     
-    ans[1,  ] <- extractCV(object, scale, k = k, ...)
+    ans[1,  ] <- extractCV(object, data, scale, k = k, ...)
     n0 <- nobs(object, use.fallback = TRUE)
     env <- environment(formula(object))
     for(i in seq_len(ns)) {
@@ -76,7 +76,7 @@ dropterm2.default <- function(object, scope, scale = 0, test = c("none"),
       nfit <- update(object, as.formula(paste("~ . -", tt)),
                      evaluate = FALSE)
       nfit <- eval(nfit, envir=env) # was  eval.parent(nfit)
-      ans[i+1, ] <- extractCV(nfit, scale, k = k, ...)
+      ans[i+1, ] <- extractCV(nfit, data, scale, k = k, ...)
       nnew <- nobs(nfit, use.fallback = TRUE)
       if(all(is.finite(c(n0, nnew))) && nnew != n0)
         stop("number of rows in use has changed: remove missing values?")
@@ -99,9 +99,9 @@ dropterm2.default <- function(object, scope, scale = 0, test = c("none"),
 #
 stepCV <- function(object, scope, scale = 0,
            direction = c("both", "backward", "forward"),
-           trace = 1, keep = NULL, steps = 1000, use.start = FALSE, k = 2, ...)
+           trace = 1, keep = NULL, steps = 1000, use.start = FALSE, k = 2,  
+           data = NULL, ...)
 {
-
     cut.string <- function(string) {
         if(length(string) > 1L)
             string[-1L] <- paste("\n", string[-1L], sep = "")
@@ -169,8 +169,8 @@ stepCV <- function(object, scope, scale = 0,
     if(!is.null(keep)) keep.list <- vector("list", steps)
     n <- nobs(object, use.fallback = TRUE)  # might be NA
     fit <- object
-    resCV <- extractCV(fit, scale, k = k, ...)
-	  rank <- resCV[1L]
+    resCV <- extractCV(fit, data, scale, k = k, ...)
+    rank <- resCV[1L]
 	  performance <- resCV[2L]
     if(is.na(performance))
         stop("performance is not defined for this model, so 'stepCV' cannot proceed")
@@ -198,7 +198,7 @@ stepCV <- function(object, scope, scale = 0,
         change <- NULL
         if(backward && length(scope$drop)) {
             aod <- dropterm2(fit, scope$drop, scale = scale,
-                            trace = max(0, trace - 1), k = k, ...)
+                            trace = max(0, trace - 1), k = k, data=data, ...)
             rn <- row.names(aod)
             row.names(aod) <- c(rn[1L], paste("-", rn[-1L], sep=" "))
             ## drop all zero df terms first.
@@ -211,17 +211,15 @@ stepCV <- function(object, scope, scale = 0,
                     warning("0 df terms are changing CV")
                     zdf <- zdf[!ch]
                 }
-                print(zdf)
                 ## drop zero df terms first: one at time since they
                 ## may mask each other
                 if(length(zdf) > 0L)
                     change <- rev(rownames(aod)[zdf])[1L]
             }
         }
-        
         if(is.null(change)) {
             if(forward && length(scope$add)) {
-                aodf <- addterm2(fit, scope$add, scale = scale,
+                aodf <- addterm2(fit, data = data, scope$add, scale = scale,
                                 trace = max(0, trace - 1), k = k, ...)
                 rn <- row.names(aodf)
                 row.names(aodf) <- c(rn[1L], paste("+", rn[-1L], sep=" "))
@@ -243,7 +241,7 @@ stepCV <- function(object, scope, scale = 0,
           		utils::flush.console()
           	    }
             if (is.na(abs(aod[o,  ]$Df[1]))) break
-            if (aod[o,  ]$Df[1]>-1) break
+            if (aod[o,  ]$Df[1] > -0.1) break
             if(o[1L] == 1) break
             change <- rownames(aod)[o[1L]]
         }
@@ -255,7 +253,8 @@ stepCV <- function(object, scope, scale = 0,
         if(all(is.finite(c(n, nnew))) && nnew != n)
             stop("number of rows in use has changed: remove missing values?")
         Terms <- terms(fit)
-        resCV <- extractCV(fit, scale, k = k, ...)# was bAIC
+        resCV <- extractCV(fit, data, scale, k = k, ...)# was bAIC
+        
         rank <- resCV[1L]
         performance <- resCV[2L]
         if(trace) {
@@ -264,8 +263,8 @@ stepCV <- function(object, scope, scale = 0,
 	    utils::flush.console()
 	}
         ## add a tolerance as dropping 0-df terms might increase AIC slightly
-      	if (is.na(abs(aod[o,  ]$Df[1]))) break
-      	if (aod[o,  ]$Df[1]>-1) break
+      	if (is.na(aod[o,  ]$Df[1])) break
+      	if (aod[o,  ]$Df[1] > -0.1) break
         nm <- nm + 1
         models[[nm]] <-
             list(rank = rank, performance=performance,
@@ -278,9 +277,13 @@ stepCV <- function(object, scope, scale = 0,
 
 extractCV <- function(object, ...) UseMethod("extractCV")
 
-extractCV.lm <- function(fit, scale, k = 2, ...) {
-  t <- tune(lm, formula(fit$terms), data = fit$model)
-  c(t$best.model$rank, t$best.performance)
+extractCV.lm <- function(fit, model, scale, k = 2, ...) {
+  if (length(attr(fit$terms, "factors")) > 0) {
+    t <- tune(lm, formula(fit$terms), data = model)
+    c(t$best.model$rank, t$best.performance)
+  } else {
+    c(attr(fit$terms, "response"), 0)
+  }
 }
 
 terms.gls <- terms.lme <- function(x, ...) terms(formula(x), ...)
