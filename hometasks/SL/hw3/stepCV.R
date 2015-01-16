@@ -5,7 +5,7 @@ addterm2 <-
 
 addterm2.default <-
   function(object, scope, scale = 0, test = c("none"),
-           k = 2, sorted = FALSE, trace = FALSE, data, ...)
+           k = 2, sorted = FALSE, trace = FALSE, ...)
   {
     if(missing(scope) || is.null(scope)) stop("no terms in scope")
     if(!is.character(scope))
@@ -15,7 +15,7 @@ addterm2.default <-
     ns <- length(scope)
     ans <- matrix(nrow = ns + 1L, ncol = 2L,
                   dimnames = list(c("<none>", scope), c("rank", "performance")))
-    ans[1L,  ] <- extractCV(object, data, scale, k = k, ...)
+    ans[1L,  ] <- extractCV(object, scale, k = k, ...)
     n0 <- nobs(object, use.fallback = TRUE)
     env <- environment(formula(object))
     for(i in seq_len(ns)) {
@@ -31,7 +31,7 @@ addterm2.default <-
         nnew <- nobs(nfit, use.fallback = TRUE)
         if (all(is.finite(c(n0, nnew))) && nnew != n0)
           stop("number of rows in use has changed: remove missing values?")
-        extractCV(nfit, data, scale, k = k, ...)
+        extractCV(nfit,  scale, k = k, ...)
       } else NA_real_
     }
     dfs <- ans[1L , 2L] - ans[, 2L]
@@ -51,7 +51,7 @@ addterm2.default <-
 dropterm2 <- function(object, ...) UseMethod("dropterm2")
 
 dropterm2.default <- function(object, scope, scale = 0, test = c("none"),
-           k = 2, sorted = FALSE, trace = FALSE, data=NULL, ...) {
+           k = 2, sorted = FALSE, trace = FALSE, ...) {
     tl <- attr(terms(object), "term.labels")
     if(missing(scope)) scope <- drop.scope(object)
     else {
@@ -64,7 +64,7 @@ dropterm2.default <- function(object, scope, scale = 0, test = c("none"),
     ans <- matrix(nrow = ns + 1L, ncol = 2L,
                   dimnames =  list(c("<none>", scope), c("rank", "performance")))
     
-    ans[1,  ] <- extractCV(object, data, scale, k = k, ...)
+    ans[1,  ] <- extractCV(object,  scale, k = k, ...)
     n0 <- nobs(object, use.fallback = TRUE)
     env <- environment(formula(object))
     for(i in seq_len(ns)) {
@@ -76,7 +76,7 @@ dropterm2.default <- function(object, scope, scale = 0, test = c("none"),
       nfit <- update(object, as.formula(paste("~ . -", tt)),
                      evaluate = FALSE)
       nfit <- eval(nfit, envir=env) # was  eval.parent(nfit)
-      ans[i+1, ] <- extractCV(nfit, data, scale, k = k, ...)
+      ans[i+1, ] <- extractCV(nfit,  scale, k = k, ...)
       nnew <- nobs(nfit, use.fallback = TRUE)
       if(all(is.finite(c(n0, nnew))) && nnew != n0)
         stop("number of rows in use has changed: remove missing values?")
@@ -99,8 +99,7 @@ dropterm2.default <- function(object, scope, scale = 0, test = c("none"),
 #
 stepCV <- function(object, scope, scale = 0,
            direction = c("both", "backward", "forward"),
-           trace = 1, keep = NULL, steps = 1000, use.start = FALSE, k = 2,  
-           data = NULL, ...)
+           trace = 1, keep = NULL, steps = 1000, use.start = FALSE, k = 2, ...)
 {
     cut.string <- function(string) {
         if(length(string) > 1L)
@@ -169,7 +168,7 @@ stepCV <- function(object, scope, scale = 0,
     if(!is.null(keep)) keep.list <- vector("list", steps)
     n <- nobs(object, use.fallback = TRUE)  # might be NA
     fit <- object
-    resCV <- extractCV(fit, data, scale, k = k, ...)
+    resCV <- extractCV(fit,  scale, k = k, ...)
     rank <- resCV[1L]
 	  performance <- resCV[2L]
     if(is.na(performance))
@@ -198,7 +197,7 @@ stepCV <- function(object, scope, scale = 0,
         change <- NULL
         if(backward && length(scope$drop)) {
             aod <- dropterm2(fit, scope$drop, scale = scale,
-                            trace = max(0, trace - 1), k = k, data=data, ...)
+                            trace = max(0, trace - 1), k = k, ...)
             rn <- row.names(aod)
             row.names(aod) <- c(rn[1L], paste("-", rn[-1L], sep=" "))
             ## drop all zero df terms first.
@@ -219,7 +218,7 @@ stepCV <- function(object, scope, scale = 0,
         }
         if(is.null(change)) {
             if(forward && length(scope$add)) {
-                aodf <- addterm2(fit, data = data, scope$add, scale = scale,
+                aodf <- addterm2(fit, scope$add, scale = scale,
                                 trace = max(0, trace - 1), k = k, ...)
                 rn <- row.names(aodf)
                 row.names(aodf) <- c(rn[1L], paste("+", rn[-1L], sep=" "))
@@ -253,7 +252,7 @@ stepCV <- function(object, scope, scale = 0,
         if(all(is.finite(c(n, nnew))) && nnew != n)
             stop("number of rows in use has changed: remove missing values?")
         Terms <- terms(fit)
-        resCV <- extractCV(fit, data, scale, k = k, ...)# was bAIC
+        resCV <- extractCV(fit,  scale, k = k, ...)# was bAIC
         
         rank <- resCV[1L]
         performance <- resCV[2L]
@@ -277,9 +276,9 @@ stepCV <- function(object, scope, scale = 0,
 
 extractCV <- function(object, ...) UseMethod("extractCV")
 
-extractCV.lm <- function(fit, model, scale, k = 2, ...) {
+extractCV.lm <- function(fit, scale, k = 2, ...) {
   if (length(attr(fit$terms, "factors")) > 0) {
-    t <- tune(lm, formula(fit$terms), data = model)
+    t <- tune(lm, formula(fit$terms), data = eval(fit$call$data))
     c(t$best.model$rank, t$best.performance)
   } else {
     c(attr(fit$terms, "response"), 0)

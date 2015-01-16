@@ -18,9 +18,9 @@ source("stepCV.R")
 ```{r}
 Advertising <- read.csv("data/Advertising.csv")[, - c(1)]
 l <- lm(Sales~. , Advertising)
-stepCV(l, trace = TRUE, direction="backward", data = Advertising)
-stepCV((lm(Sales~1, Advertising)), trace = TRUE, direction="forward", scope=Sales~I(Radio*Newspaper) + Radio + TV, data = Advertising )
-stepCV((lm(Sales~TV+Radio, Advertising)), trace = TRUE, direction="both", scope=list(lower=Sales~1, upper=Sales~I(Radio*Newspaper) + Radio + TV), data = Advertising)$anova
+stepCV(l, trace = TRUE, direction="backward")
+stepCV((lm(Sales~1, Advertising)), trace = TRUE, direction="forward", scope=Sales~I(Radio*Newspaper) + Radio + TV )
+stepCV((lm(Sales~TV+Radio, Advertising)), trace = TRUE, direction="both", scope=list(lower=Sales~1, upper=Sales~I(Radio*Newspaper) + Radio + TV))$anova
 ```
 
 Можно сравнить результат с stepAIC:

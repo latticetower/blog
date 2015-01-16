@@ -21,7 +21,7 @@ source("stepCV.R")
 ```r
 Advertising <- read.csv("data/Advertising.csv")[, - c(1)]
 l <- lm(Sales~. , Advertising)
-stepCV(l, trace = TRUE, direction="backward", data = Advertising)
+stepCV(l, trace = TRUE, direction="backward")
 ```
 
 ```
@@ -29,25 +29,25 @@ stepCV(l, trace = TRUE, direction="backward", data = Advertising)
 ## Sales ~ TV + Radio + Newspaper
 ## 
 ##                     Df rank      CV
-## - TV        -15.880674    3 18.7643
-## - Radio      -6.968705    3  9.8523
-## - Newspaper  -0.085503    3  2.9691
-## <none>                    4  2.8836
+## - TV        -15.919825    3 18.8590
+## - Radio      -7.107173    3 10.0463
+## <none>                    4  2.9391
+## - Newspaper   0.035548    3  2.9036
 ## 
-## Step:  CV.performance=19.27
+## Step:  CV.performance=18.67
 ## Sales ~ Radio + Newspaper
 ## 
-##                   Df rank     CV
-## - Radio     -7.81900    2 26.381
-## - Newspaper -0.28481    2 18.846
-## <none>                  3 18.562
+##                    Df rank     CV
+## - Radio     -7.603313    2 26.125
+## <none>                   3 18.522
+## - Newspaper  0.040492    2 18.481
 ## 
-## Step:  CV.performance=26.31
+## Step:  CV.performance=26.29
 ## Sales ~ Newspaper
 ## 
 ##                 Df rank     CV
-## <none>                2 26.343
-## - Newspaper 26.343    1  0.000
+## <none>                2 26.453
+## - Newspaper 26.453    1  0.000
 ```
 
 ```
@@ -61,7 +61,7 @@ stepCV(l, trace = TRUE, direction="backward", data = Advertising)
 ```
 
 ```r
-stepCV((lm(Sales~1, Advertising)), trace = TRUE, direction="forward", scope=Sales~I(Radio*Newspaper) + Radio + TV, data = Advertising )
+stepCV((lm(Sales~1, Advertising)), trace = TRUE, direction="forward", scope=Sales~I(Radio*Newspaper) + Radio + TV )
 ```
 
 ```
@@ -69,18 +69,18 @@ stepCV((lm(Sales~1, Advertising)), trace = TRUE, direction="forward", scope=Sale
 ## Sales ~ 1
 ## 
 ##                             Df rank     CV
-## + I(Radio * Newspaper) -22.988    2 22.988
-## + Radio                -18.335    2 18.335
-## + TV                   -10.829    2 10.829
+## + I(Radio * Newspaper) -23.175    2 23.175
+## + Radio                -18.663    2 18.663
+## + TV                   -10.760    2 10.760
 ## <none>                            1  0.000
 ## 
-## Step:  CV.performance=23.06
+## Step:  CV.performance=23.04
 ## Sales ~ I(Radio * Newspaper)
 ## 
 ##              Df rank      CV
-## <none>             2 23.0699
-## + Radio  3.9288    3 19.1411
-## + TV    16.2736    3  6.7963
+## <none>             2 23.0136
+## + Radio  3.4019    3 19.6117
+## + TV    16.1870    3  6.8267
 ```
 
 ```
@@ -94,45 +94,45 @@ stepCV((lm(Sales~1, Advertising)), trace = TRUE, direction="forward", scope=Sale
 ```
 
 ```r
-stepCV((lm(Sales~TV+Radio, Advertising)), trace = TRUE, direction="both", scope=list(lower=Sales~1, upper=Sales~I(Radio*Newspaper) + Radio + TV), data = Advertising)$anova
+stepCV((lm(Sales~TV+Radio, Advertising)), trace = TRUE, direction="both", scope=list(lower=Sales~1, upper=Sales~I(Radio*Newspaper) + Radio + TV))$anova
 ```
 
 ```
-## Start:  CV.performance=2.88
+## Start:  CV.performance=2.85
 ## Sales ~ TV + Radio
 ## 
 ##                                Df rank      CV
-## - TV                   -15.513795    2 18.3865
-## - Radio                 -7.910542    2 10.7832
-## + I(Radio * Newspaper)   0.026471    4  2.9702
-## <none>                               3  2.8727
+## - TV                   -15.695533    2 18.6138
+## - Radio                 -8.033049    2 10.9513
+## + I(Radio * Newspaper)  -0.025309    4  2.9713
+## <none>                               3  2.9183
 ## 
-## Step:  CV.performance=18.44
+## Step:  CV.performance=18.23
 ## Sales ~ Radio
 ## 
 ##                              Df rank      CV
-## + I(Radio * Newspaper) -0.45779    3 18.9446
-## <none>                             2 18.3045
-## + TV                   15.53938    3  2.9474
-## - Radio                18.30451    1  0.0000
+## + I(Radio * Newspaper) -0.37409    3 18.8667
+## <none>                             2 18.7553
+## + TV                   15.62982    3  2.8628
+## - Radio                18.75534    1  0.0000
 ## 
-## Step:  CV.performance=19.33
+## Step:  CV.performance=19.17
 ## Sales ~ Radio + I(Radio * Newspaper)
 ## 
-##                              Df rank      CV
-## - Radio                -4.66810    2 23.5180
-## <none>                             3 18.8499
-## - I(Radio * Newspaper)  0.50387    2 18.3460
-## + TV                   15.79309    4  2.9926
+##                             Df rank      CV
+## - Radio                -3.7722    2 22.6757
+## <none>                            3 18.9035
+## - I(Radio * Newspaper)  0.3772    2 18.5263
+## + TV                   16.0099    4  3.0819
 ## 
 ## Step:  CV.performance=22.88
 ## Sales ~ I(Radio * Newspaper)
 ## 
-##                            Df rank      CV
-## <none>                           2 22.8902
-## + Radio                 3.748    3 18.8672
-## + TV                   15.744    3  6.8711
-## - I(Radio * Newspaper) 22.890    1  0.0000
+##                             Df rank      CV
+## <none>                            2 23.3504
+## + Radio                 4.1621    3 18.9031
+## + TV                   15.9881    3  7.0771
+## - I(Radio * Newspaper) 23.3504    1  0.0000
 ```
 
 ```
@@ -147,10 +147,10 @@ stepCV((lm(Sales~TV+Radio, Advertising)), trace = TRUE, direction="both", scope=
 ## 
 ## 
 ##                     Step performance rank        CV
-## 1                           2.884226    3  2.884226
-## 2                   - TV   18.439401    2 18.439401
-## 3 + I(Radio * Newspaper)   19.327842    3 19.327842
-## 4                - Radio   22.880074    2 22.880074
+## 1                           2.845712    3  2.845712
+## 2                   - TV   18.230915    2 18.230915
+## 3 + I(Radio * Newspaper)   19.168760    3 19.168760
+## 4                - Radio   22.875072    2 22.875072
 ```
 
 Можно сравнить результат с stepAIC:
