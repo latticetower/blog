@@ -1,0 +1,59 @@
+Задание 1.2 (glaucomaMVF)
+========================================================
+
+Задание 1.2 (SVM, простое). Используя SVM, построить классификатор для данных
+GlaucomaMVF. Сравнить между собой разные ядра (линейное, полиномиальное, гауссов-
+ское), объяснить результат.
+
+
+```{r echo=FALSE, include=FALSE}
+library(e1071) # svm()
+library(kernlab) # ksvm()
+library(klaR) # svmlight ()
+library(svmpath) # svmpath()
+library(MASS)
+library(lattice)
+library(latticeExtra)
+```
+
+```{r glaucoma_linear}
+glaucomaMVF <- read.table("data/GlaucomaMVF.txt", header = TRUE)
+
+svm.linear <- svm(Class ~ ., data = glaucomaMVF, type = "C-classification", kernel = "linear")
+table(actual = glaucomaMVF$Class, predicted = predict(svm.linear))
+
+tn.linear <- tune.svm(Class ~ ., data = glaucomaMVF, type= "C-classification", kernel = "linear", 
+         cost = 2^(-15:10))
+tn.linear
+
+xyplot(tn.linear$performances[, "error"] ~ log(tn.linear$performances[, "cost"]), type = "b", xlab="cost", ylab="error")
+
+table(actual = glaucomaMVF$Class, predicted = predict(tn.linear$best.model))
+```
+
+Видим, что если использовать линейное ядро, данные относительно неплохо разделяются. Посмотрим, что произойдет, если использовать полиномиальное однородное ядро. 
+
+```{r glaucoma_polynomial}
+tn.polynomial <- tune.svm(Class ~ ., data = glaucomaMVF, type = "C-classification", kernel = "polynomial", cost = 2^(-5:15))
+tn.polynomial
+
+xyplot(tn.polynomial$performances[, "error"] ~ log(tn.polynomial$performances[, "cost"]), 
+       type = "b", xlab="cost", ylab="error")
+
+table(actual=glaucomaMVF$Class, predicted = predict(tn.polynomial$best.model))
+```
+
+Получили, что наилучшие результаты при использовании полиномиального ядра достигаются при cost=`r tn.polynomial$best.parameters$cost`
+
+```{r glaucoma_radial}
+tn.radial <- tune.svm(Class ~ ., data = glaucomaMVF, type = "C-classification", kernel = "radial", cost = 2^(-5:10), gamma=2^(-15:0)) 
+tn.radial
+
+
+plot(tn.radial, transform.x = log, transform.y = log, color.palette = rainbow)
+
+
+table(actual=glaucomaMVF$Class, predicted = predict(tn.radial$best.model))
+```
+
+При использовании радиального ядра наилучшие результаты достигаются при gamma=`r tn.radial$best.parameters$gamma`.
