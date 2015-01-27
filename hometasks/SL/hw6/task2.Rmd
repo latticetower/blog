@@ -33,16 +33,15 @@ table(actual = glaucomaMVF$Class, predicted = predict(tn.linear$best.model))
 Видим, что если использовать линейное ядро, данные относительно неплохо разделяются. Посмотрим, что произойдет, если использовать полиномиальное однородное ядро. 
 
 ```{r glaucoma_polynomial}
-tn.polynomial <- tune.svm(Class ~ ., data = glaucomaMVF, type = "C-classification", kernel = "polynomial", cost = 2^(-5:10), degree=1:10, coef0=-100:100)
-opt.cost <- tn.polynomial$best.parameters$cost
+tn.polynomial <- tune.svm(Class ~ ., data = glaucomaMVF, type = "C-classification", kernel = "polynomial", degree=2, cost=2^(-10:5), coef0=2^(-5:5))
+
 tn.polynomial
 
-tn.polynomial <- tune.svm(Class ~ ., data = glaucomaMVF, type = "C-classification", kernel = "polynomial", cost = opt.cost, degree=1:10)
+tn.polynomial <- tune.svm(Class ~ ., data = glaucomaMVF, type = "C-classification", kernel = "polynomial", cost=2^(-10:5), degree=1:10)
 tn.polynomial
 opt.degree<- tn.polynomial$best.parameters$degree
 
-xyplot(tn.polynomial$performances[, "error"] ~ (tn.polynomial$performances[, "degree"]), 
-       type = "b", xlab="degree", ylab="error")
+#xyplot(tn.polynomial$performances[, "error"] ~ (tn.polynomial$performances[, "degree"]),       type = "b", xlab="degree", ylab="error")
 
 table(actual=glaucomaMVF$Class, predicted = predict(tn.polynomial$best.model))
 ```
@@ -52,21 +51,29 @@ table(actual=glaucomaMVF$Class, predicted = predict(tn.polynomial$best.model))
 Попробуем добавить неоднородности:
 
 ```{r glaucoma_polynomial2}
-tn.polynomial2 <- tune.svm(Class ~ ., data = glaucomaMVF, type = "C-classification", kernel = "polynomial", cost = opt.cost, degree=opt.degree, coef0=-100:100)
+tn.polynomial2 <- tune.svm(Class ~ ., data = glaucomaMVF, type = "C-classification", kernel = "polynomial", cost=2^(-10:5), degree=opt.degree, coef0=2^(-5:5))
 tn.polynomial2
 
-xyplot(tn.polynomial2$performances[, "error"] ~ (tn.polynomial2$performances[, "coef0"]), 
-       type = "b", xlab="coef0", ylab="error")
+#xyplot(tn.polynomial2$performances[, "error"] ~ (tn.polynomial2$performances[, "coef0"]), type = "b", xlab="coef0", ylab="error")
 
 table(actual=glaucomaMVF$Class, predicted = predict(tn.polynomial2$best.model))
 ```
 
 Видим, что на результат значение coef0 никак не влияет (ничего удивительного, степень полинома 1, а если плоскость сдвигать относительно самой себя, результат никак не изменится).
 
+```{r glaucoma_polynomial3}
+tn.polynomial3 <- tune.svm(Class ~ ., data = glaucomaMVF, type = "C-classification", kernel = "polynomial", cost=2^(-10:5), coef0=2^(-5:5))
+tn.polynomial3
+
+plot(tn.polynomial3, transform.x = log, transform.y = log, color.palette = rainbow)
+
+table(actual=glaucomaMVF$Class, predicted = predict(tn.polynomial3$best.model))
+```
+
 Попробуем то же самое проделать с радиальным ядром.
 
-```{r glaucoma_radial}
-tn.radial <- tune.svm(Class ~ ., data = glaucomaMVF, type = "C-classification", kernel = "radial", cost = 2^(-5:10), gamma=2^(-15:0)) 
+```{r glaucoma_radial, eval=FALSE, include=FALSE}
+tn.radial <- tune.svm(Class ~ ., data = glaucomaMVF, type = "C-classification", kernel = "radial", cost = 2^(-5:5), gamma=2^(-15:-3)) 
 tn.radial
 
 
@@ -76,4 +83,4 @@ plot(tn.radial, transform.x = log, transform.y = log, color.palette = rainbow)
 table(actual=glaucomaMVF$Class, predicted = predict(tn.radial$best.model))
 ```
 
-При использовании радиального ядра наилучшие результаты достигаются при gamma=`r tn.radial$best.parameters$gamma`.
+При использовании радиального ядра наилучшие результаты достигаются при gamma=r tn.radial$best.parameters$gamma.

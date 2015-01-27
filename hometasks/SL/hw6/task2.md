@@ -35,10 +35,10 @@ tn.linear
 ## - sampling method: 10-fold cross validation 
 ## 
 ## - best parameters:
-##    cost
-##  0.0625
+##   cost
+##  0.125
 ## 
-## - best performance: 0.09875
+## - best performance: 0.11125
 ```
 
 ```r
@@ -54,7 +54,7 @@ table(actual = glaucomaMVF$Class, predicted = predict(tn.linear$best.model))
 ```
 ##           predicted
 ## actual     glaucoma normal
-##   glaucoma       69      6
+##   glaucoma       70      5
 ##   normal          4     74
 ```
 
@@ -62,10 +62,26 @@ table(actual = glaucomaMVF$Class, predicted = predict(tn.linear$best.model))
 
 
 ```r
-tn.polynomial <- tune.svm(Class ~ ., data = glaucomaMVF, type = "C-classification", kernel = "polynomial", cost = 2^(-5:10), degree=1:10)
-opt.cost <- tn.polynomial$best.parameters$cost
+tn.polynomial <- tune.svm(Class ~ ., data = glaucomaMVF, type = "C-classification", kernel = "polynomial", degree=2, cost=2^(-10:5), coef0=2^(-5:5))
 
-tn.polynomial <- tune.svm(Class ~ ., data = glaucomaMVF, type = "C-classification", kernel = "polynomial", cost = opt.cost, degree=1:10)
+tn.polynomial
+```
+
+```
+## 
+## Parameter tuning of 'svm':
+## 
+## - sampling method: 10-fold cross validation 
+## 
+## - best parameters:
+##  degree coef0 cost
+##       2    32    1
+## 
+## - best performance: 0.09166667
+```
+
+```r
+tn.polynomial <- tune.svm(Class ~ ., data = glaucomaMVF, type = "C-classification", kernel = "polynomial", cost=2^(-10:5), degree=1:10)
 tn.polynomial
 ```
 
@@ -77,38 +93,33 @@ tn.polynomial
 ## 
 ## - best parameters:
 ##  degree cost
-##       1   32
+##       1   16
 ## 
-## - best performance: 0.1175
+## - best performance: 0.105
 ```
 
 ```r
 opt.degree<- tn.polynomial$best.parameters$degree
 
-xyplot(tn.polynomial$performances[, "error"] ~ (tn.polynomial$performances[, "degree"]), 
-       type = "b", xlab="degree", ylab="error")
-```
+#xyplot(tn.polynomial$performances[, "error"] ~ (tn.polynomial$performances[, "degree"]),       type = "b", xlab="degree", ylab="error")
 
-![plot of chunk glaucoma_polynomial](figure/glaucoma_polynomial-1.png) 
-
-```r
 table(actual=glaucomaMVF$Class, predicted = predict(tn.polynomial$best.model))
 ```
 
 ```
 ##           predicted
 ## actual     glaucoma normal
-##   glaucoma       75      0
-##   normal          2     76
+##   glaucoma       74      1
+##   normal          3     75
 ```
 
-Получили, что наилучшие результаты при использовании полиномиального ядра достигаются при cost=32, при степени полинома 1. То есть получили все то же линейное ядро.
+Получили, что наилучшие результаты при использовании полиномиального ядра достигаются при cost=16, при степени полинома 1. То есть получили все то же линейное ядро.
 
 Попробуем добавить неоднородности:
 
 
 ```r
-tn.polynomial2 <- tune.svm(Class ~ ., data = glaucomaMVF, type = "C-classification", kernel = "polynomial", cost = opt.cost, degree=opt.degree, coef0=-100:100)
+tn.polynomial2 <- tune.svm(Class ~ ., data = glaucomaMVF, type = "C-classification", kernel = "polynomial", cost=2^(-10:5), degree=opt.degree, coef0=2^(-5:5))
 tn.polynomial2
 ```
 
@@ -119,20 +130,15 @@ tn.polynomial2
 ## - sampling method: 10-fold cross validation 
 ## 
 ## - best parameters:
-##  degree coef0 cost
-##       1  -100   32
+##  degree   coef0 cost
+##       1 0.03125   32
 ## 
-## - best performance: 0.1054167
+## - best performance: 0.1179167
 ```
 
 ```r
-xyplot(tn.polynomial2$performances[, "error"] ~ (tn.polynomial2$performances[, "coef0"]), 
-       type = "b", xlab="coef0", ylab="error")
-```
+#xyplot(tn.polynomial2$performances[, "error"] ~ (tn.polynomial2$performances[, "coef0"]), type = "b", xlab="coef0", ylab="error")
 
-![plot of chunk glaucoma_polynomial2](figure/glaucoma_polynomial2-1.png) 
-
-```r
 table(actual=glaucomaMVF$Class, predicted = predict(tn.polynomial2$best.model))
 ```
 
@@ -145,12 +151,10 @@ table(actual=glaucomaMVF$Class, predicted = predict(tn.polynomial2$best.model))
 
 Видим, что на результат значение coef0 никак не влияет (ничего удивительного, степень полинома 1, а если плоскость сдвигать относительно самой себя, результат никак не изменится).
 
-Попробуем то же самое проделать с радиальным ядром.
-
 
 ```r
-tn.radial <- tune.svm(Class ~ ., data = glaucomaMVF, type = "C-classification", kernel = "radial", cost = 2^(-5:10), gamma=2^(-15:0)) 
-tn.radial
+tn.polynomial3 <- tune.svm(Class ~ ., data = glaucomaMVF, type = "C-classification", kernel = "polynomial", cost=2^(-10:5), coef0=2^(-5:5))
+tn.polynomial3
 ```
 
 ```
@@ -160,27 +164,31 @@ tn.radial
 ## - sampling method: 10-fold cross validation 
 ## 
 ## - best parameters:
-##         gamma cost
-##  0.0002441406  128
+##  coef0      cost
+##     32 0.0078125
 ## 
-## - best performance: 0.1245833
+## - best performance: 0.1045833
 ```
 
 ```r
-plot(tn.radial, transform.x = log, transform.y = log, color.palette = rainbow)
+plot(tn.polynomial3, transform.x = log, transform.y = log, color.palette = rainbow)
 ```
 
-![plot of chunk glaucoma_radial](figure/glaucoma_radial-1.png) 
+![plot of chunk glaucoma_polynomial3](figure/glaucoma_polynomial3-1.png) 
 
 ```r
-table(actual=glaucomaMVF$Class, predicted = predict(tn.radial$best.model))
+table(actual=glaucomaMVF$Class, predicted = predict(tn.polynomial3$best.model))
 ```
 
 ```
 ##           predicted
 ## actual     glaucoma normal
-##   glaucoma       69      6
-##   normal          4     74
+##   glaucoma       75      0
+##   normal          2     76
 ```
 
-При использовании радиального ядра наилучшие результаты достигаются при gamma=2.4414062 &times; 10<sup>-4</sup>.
+Попробуем то же самое проделать с радиальным ядром.
+
+
+
+При использовании радиального ядра наилучшие результаты достигаются при gamma=r tn.radial$best.parameters$gamma.
