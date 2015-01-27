@@ -1,0 +1,189 @@
+Title
+========================================================
+Задание 1.1. Рассмотрим данные concrete. Описание и сами данные в архиве, кратко суть. Данные по прочности разных сортов бетона в зависимости от пропорций компонент и времени залития. Надо построить регрессию на прочность.
+
+Предлагается использовать линейную регрессию и понять, что и как влияет на качество бетона. Обратите внимание, что параметры между собой зависимы, поэтому коэффициенты следует интерепретировать аккуратнее. Рекомендую построить одномерные графики зависимостей прочности от всего остального и попробовать определить характер. Возможно, что зависимость будет немонотонная, тогда стоит ввести
+дополнительный фактор “больше ли значение предиктора некоторого порога”. Некоторые предикторы могут оказаться не совсем непрерывными, возможно, что их стоит рассмотреть как факторы.
+
+Попробуйте улучшить модель, добавляя эффекты взаимодействия, степени, логарифмы и прочее.
+Разумеется, полученную модель нужно проверить с помощью test-train и/или кросс-
+валидации.
+
+```{r}
+library(knitr)
+library(lattice)
+library(MASS)
+library(latticeExtra)
+library(rgl)
+library(e1071)
+library(corrplot)
+library(latticeExtra)
+```
+
+```{r}
+my_data <- read.csv("data/Concrete_Data.csv", sep = ",", comment.char = "#")
+print(colnames(my_data))
+```
+
+
+```{r}
+source("stepCV.R")
+```
+
+Посмотрим, как прочность бетона зависит от других параметров, для этого построим графики:
+
+```{r concrete_pair_plots, fig.width=10, fig.height=20}
+dependent.vars <- setdiff(colnames(my_data), "ConcreteCompressiveStrength")
+
+#layout(matrix(c(1,1,2,3), 2, 2, byrow = TRUE))
+par(mfrow=c(4,2))
+for(dep in dependent.vars) {
+  formula <- as.formula(paste("ConcreteCompressiveStrength~", dep));
+  scatter.smooth(my_data[, dep], my_data[,"ConcreteCompressiveStrength"], xlab=dep, ylab="ConcreteCompressiveStrength", col="blue",lpars=list(col="green"))
+
+}
+```
+
+В качестве простого первого приближения можем рассмотреть зависимость прочности от качества цемента, и использовать эту модель для сравнения с другими моделями
+
+```{r}
+fit1 <- lm(ConcreteCompressiveStrength~ Cement, data=my_data)
+summary(fit1)
+```
+
+Сразу бросается в глаза: похожесть графиков CoarseAggregate и FineAggregate; дискретность и неравномерность распределения значений Age. С этим в первую очередь можно что-то сделать, но для начала учтем зависимость между параметрами в модели. Для этого посмотрим, насколько параметры зависят между собой:
+
+```{r}
+levelplot(abs(cor(my_data)), xlab="", ylab="")
+```
+
+Судя по картинке, в модели надо учитывать взаимодействие пар FineAggregate и Water, Superplasticizer и FlyAsh, Superplasticizer и Water, FlyAsh и Cement, а также тройки параметров Superplasticizer, FlyAsh и Water. По графикам выше ясно, что Age распределен неоднородно, к тому же дискретен. Попробуем добавить его в модель в виде фактора (и выберем лучший способ из 2).
+
+```{r}
+fit2 <- lm(ConcreteCompressiveStrength~ Cement + BlastFurnaceSlag + FlyAsh + 
+    Water + Superplasticizer + CoarseAggregate + FineAggregate + 
+    factor(Age)+FineAggregate*Water + Superplasticizer*FlyAsh+
+    Superplasticizer*Water+Superplasticizer*FlyAsh*Water+FlyAsh*Cement, 
+    data=my_data)
+summary(fit2)
+
+my_data$AgeAsFactor <- ifelse(my_data$Age > mean(my_data[,"Age"]), "new", "old")
+
+fit3 <- lm(ConcreteCompressiveStrength ~ Cement + BlastFurnaceSlag + FlyAsh + 
+  Water + Superplasticizer + CoarseAggregate + FineAggregate + AgeAsFactor +
+  FineAggregate*Water + Superplasticizer*FlyAsh+Superplasticizer*Water+
+  Superplasticizer*FlyAsh*Water + FlyAsh*Cement, data=my_data)
+
+summary(fit3)
+anova(fit2, fit3)
+```
+
+Вторая модель, в которой мы разделили бетон по возрасту на 2 группы, оказалась лучше. Попробуем на ней запустить stepAIC:
+
+```{r}
+step_aic_results <- stepAIC(fit3)
+formula1 <- as.formula(attr(step_aic_results$model, "terms"))
+fit4 <- lm(formula1, data=my_data)
+summary(fit4)
+```
+
+Теперь посмотрим на пару признаков CoarseAggregate и FineAggregate:
+
+```{r}
+fit5<-lm(ConcreteCompressiveStrength ~ CoarseAggregate + FineAggregate, data=my_data)
+summary(fit5)
+```
+
+В линейной модели, если оставить только эти 2 параметра, множители почти равны. Посмотрим на модель, в которой вместо пары отдельных параметров их сумма.
+
+```{r}
+
+fit6 <- lm(ConcreteCompressiveStrength ~ Cement + BlastFurnaceSlag + FlyAsh + Water + Superplasticizer + I(CoarseAggregate + FineAggregate) + AgeAsFactor + Water: FineAggregate + FlyAsh:Superplasticizer + 
+Water:Superplasticizer + FlyAsh:Water + FlyAsh:Water:Superplasticizer
+    , data=my_data)
+summary(fit6)
+anova(fit4, fit6)
+```
+Вроде бы такая модель действительно чуть получше.
+
+Посмотрим, что еще можно выкинуть.
+
+```{r}
+xyplot(ConcreteCompressiveStrength~ BlastFurnaceSlag, my_data, panel=function(...) {panel.xyplot(...); panel.loess(...);})
+```
+График выглядит подозрительно: данные очень неоднородные. Среднее `r mean(my_data$BlastFurnaceSlag)`, то есть бОльшая часть наблюдений сосредоточена около 0. Попробуем преобразовать в фактор, а также выкинуть параметр из модели и определить, что лучше.
+
+*Да, далее я использую в модели не разделение Age на 2 группы, а factor(Age) - как оказалось после удаления части параметров, если в модели учитывать factor(Age), она ведет себя лучше и ошибка при кросс-валидации меньше.*
+
+```{r}
+my_data$BlastFurnaceSlagAsFactor <- ifelse(my_data$BlastFurnaceSlag > mean(my_data[,"BlastFurnaceSlag"]), "low", "high")
+
+fit7 <- lm(ConcreteCompressiveStrength ~ Cement + FlyAsh + BlastFurnaceSlagAsFactor + Water + Superplasticizer + I(CoarseAggregate + FineAggregate) + factor(Age) + Water:FineAggregate + FlyAsh:Superplasticizer + 
+    Water:Superplasticizer + FlyAsh:Water + FlyAsh:Water:Superplasticizer
+    , data=my_data)
+summary(fit7)
+
+fit8 <- lm(ConcreteCompressiveStrength ~ Cement + FlyAsh + Water + Superplasticizer + I(CoarseAggregate + FineAggregate) + factor(Age) + Water:FineAggregate + FlyAsh:Superplasticizer + (Water):Superplasticizer + FlyAsh:Water + FlyAsh:Water:Superplasticizer, data=my_data)
+
+summary(fit8)
+anova(fit6, fit7, fit8)
+
+stepAIC(fit8)
+```
+
+Судя по всему, выкидывание BlastFurnaceSlag улучшило модель. По критерию Акайке в модели все признаки значимы.
+
+```{r}
+
+xyplot(ConcreteCompressiveStrength~ FlyAsh, my_data, panel=function(...) {panel.xyplot(...); panel.loess(...);})
+```
+Здесь данные тоже неоднородные. Среднее `r mean(my_data$FlyAsh)`, то есть бОльшая часть наблюдений сосредоточена около 0. Попробуем преобразовать в фактор, а также выкинуть параметр из модели и определить, что лучше.
+
+```{r}
+my_data$FlyAshAsFactor <- ifelse(my_data$FlyAsh > mean(my_data[,"FlyAsh"]), "low", "high")
+
+fit9 <- lm(ConcreteCompressiveStrength ~ Cement + FlyAshAsFactor + Water + Superplasticizer + I(CoarseAggregate + FineAggregate) + factor(Age) + Water:FineAggregate + FlyAsh:Superplasticizer + 
+    Water:Superplasticizer + FlyAsh:Water + FlyAsh:Water:Superplasticizer
+    , data=my_data)
+summary(fit9)
+
+fit10 <- lm(ConcreteCompressiveStrength ~ Cement + Water + Superplasticizer + I(CoarseAggregate + FineAggregate) + factor(Age) + Water:FineAggregate + FlyAsh:Superplasticizer + Water:Superplasticizer + FlyAsh:Water + FlyAsh:Water:Superplasticizer, data=my_data)
+
+summary(fit10)
+
+#next- pretend that FlyAsh never existed
+fit11 <- lm(ConcreteCompressiveStrength ~ Cement + Water + Superplasticizer + I(CoarseAggregate + FineAggregate) + factor(Age) + Water:FineAggregate + Water:Superplasticizer, data=my_data)
+
+summary(fit11)
+
+#return age as factor(Age), removed Water:Superplasticizer (from stepAIC)
+fit12 <- lm(ConcreteCompressiveStrength ~ Cement + (Water) + Superplasticizer + I(CoarseAggregate + FineAggregate) + factor(Age) + (Water):FineAggregate, data=my_data)
+
+summary(fit12)
+anova(fit8, fit9, fit10, fit11)
+
+stepAIC(fit12)
+
+```
+
+```{r}
+i<-1
+for (model in list(fit1, fit2, fit3, fit4, fit5, fit6, fit7, fit8, fit9, fit10, fit11, fit12)){
+  print(i)
+  print(tune(lm, as.formula(model$terms), data = my_data, 
+                            tunecontrol = tune.control(sampling = "cross")))
+  i<-i+1
+}
+
+```
+
+Выводы: 1) важно использовать factor(Age) в модели (те модели, где он есть, показывают существенно меньшую ошибку при кросс-валидации); 2) CoarseAggregate и FineAggregate одинаково влияют на качество бетона; 3) мне нравится модель fit7:
+
+```{r}
+fit7 <- lm(formula = ConcreteCompressiveStrength ~ Cement + FlyAsh + 
+BlastFurnaceSlagAsFactor + Water + Superplasticizer + 
+I(CoarseAggregate + FineAggregate) + factor(Age) + Water:FineAggregate + 
+  FlyAsh:Superplasticizer + Water:Superplasticizer + FlyAsh:Water + FlyAsh:Water:Superplasticizer,  data = my_data)
+```
+
+Она дает небольшую ошибку кросс-валидации (по сравнению с другими моделями) и учитывает взаимодействие параметров. 
