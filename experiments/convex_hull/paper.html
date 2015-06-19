@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>paper with polygon</title>
+    <!--link rel="stylesheet" href="../css/style.css"-->
+    <script type="text/javascript" src="dist/paper-full.js"></script>
+    <script type="text/javascript" src="papered_polygon.js"></script>
+    <script type="text/paperscript" canvas="canvas">
+        //var path;
+        var poly = new CompoundPath({strokeColor: 'blue'});
+        var path = new Path({
+          strokeColor: 'grey',
+        });
+
+        var points = [];
+
+        function makeConvexHull() {
+          var ind = [];
+          for (var i = 1; i < points.length; i++) {
+            ind.push(i);
+          }
+          ind0 = 0;
+          for (var i = 0; i < ind.length; i++) {
+            //console.log(points[i].point);
+            if (points[ind[i]].point.x < points[ind0].point.x) {
+              var tmp = ind0;
+              ind0 = ind[i];
+              ind[i] = tmp;
+            }
+          }
+          ind.sort(function(a, b){
+            return Math.sign(rotate(points[ind0].point, points[a].point, points[b].point));
+          });
+          var chull = [ind0];
+          if (ind.length > 0)
+            chull.push(ind[0]);
+          for (var i = 1; i < ind.length; i++) {
+            while (rotate(points[chull[chull.length - 2]].point,
+                          points[chull[chull.length - 1]].point,
+                          points[ind[i]].point) > 0){
+              chull.pop();
+            }
+            chull.push(ind[i]);
+          }
+          for (var i = 1; i < chull.length; i++) {
+            poly.addChild(
+              new Path.Line(points[chull[i - 1]].point, points[chull[i]].point)
+              );
+          }
+          if (chull.length > 0){
+            poly.addChild(
+              new Path.Line(points[chull[0]].point, points[chull[chull.length-1]].point
+              ));
+            }
+        }
+
+        var textItem = new PointText({
+            content: 'Click and drag to draw a polygon.',
+            point: new Point(20, 30),
+            fillColor: 'black',
+        });
+        var joinPolyTextItem = new PointText({
+          content: 'make convex hull',
+          point :new Point(20, 40),
+          fillColor: 'red',
+          onMouseEnter: function(event) {
+            makeConvexHull();
+          }
+        });
+
+
+        var clearPolyTextItem = new PointText({
+          content: 'clear poly',
+          point :new Point(20, 60),
+          fillColor: 'red',
+          onMouseEnter: function(event) {
+            points = [];
+            path.removeSegments();
+            poly.removeChildren();
+          }
+        });
+
+
+        function rotate(A, B, C) {
+          return (B.x - A.x)*(C.y - B.y) - (B.y - A.y)*(C.x - B.x);
+        }
+        function onMouseDown(event) {
+            //path.add(event.point);
+            points.push({
+              point: event.point,
+              index: 0,
+              prev: 0,
+              next: 0
+            });
+            //p = new Point(event.point);
+            poly.addChild(new Path.Circle({
+              center: event.point,
+              radius: 3,
+              fillColor: 'blue'
+              })
+            );
+
+        }
+    </script>
+</head>
+<body>
+    <canvas id="canvas" resize></canvas>
+</body>
+</html>
