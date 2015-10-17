@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://js1k.com/2013-spring/shim.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>JS1k, 1k demo submission [ID]</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<canvas id="c"></canvas>
+		<script>
+			var b = document.body;
+			var c = document.getElementsByTagName('canvas')[0];
+			var a = c.getContext('2d');
+			document.body.clientWidth; // fix bug in webkit: http://qfox.nl/weblog/218
+		</script>
+		<script>
+// start of submission //
+function n(a,b,c,d,i,k,m,n,p,q){function x(){r++;var g=.1*r;g>n*j&&h(s),a.strokeStyle=p?"red":"teal",a.lineWidth=2+q*(1-2*(g+1)/n/j),a.beginPath(),a.moveTo(t,w),u=.5+.25/n,v=.5+1/8/n,o=-e(g)*(1-g/j/n),z=f(g)*(1-g/j/n),t=k+(g>0?b*u+d*v+(o*b+d*z)*u:(1+g)*d/2),w=m+(g>0?c*u+i*v+(o*c+i*z)*v:(1+g)*i/2),a.lineTo(t,w),a.stroke(),a.closePath()}var r=-9,s=g(x,l),t=k,w=m}function p(a,b,c,g,h,l,o){var q=b+g,r=c+h;if(i(function(){n(a,-h/2,g/2,.7*g,.7*h,b,c,2+4*d[k](),0,1)},m),i(function(){n(a,h/2,-g/2,.7*g,.7*h,b+g/2,c+h/2,1+4*d[k](),0,1)},2*m),o>2+5*d[k]())return i(function(){n(a,-h/3,g/3,.5*g,.5*h,q,r,1+2*d[k](),1,-1)},3*m),i(function(){n(a,h/3,-g/3,.5*g,.5*h,q,r,1+2*d[k](),1,-1)},3*m),void 0;var s=j/9+d[k]()/6,t=(1+d[k]())*s,u=(1+d[k]())*s,v=l*(g*e(-t)-h*f(-t)),w=l*(g*f(-t)+h*e(-t)),x=l*(g*e(u)-h*f(u)),y=l*(g*f(u)+h*e(u));i(function(){p(a,q,r,x,y,l,o+1)},3*m),i(function(){p(a,q,r,v,w,l,o+1)},4*m)}var d=Math,e=d.cos,f=d.sin,g=setInterval,h=clearInterval,i=setTimeout,j=d.PI,k="random",l=50,m=12*l;p(a,100,150,0,-40,.8,1)
+		</script>
+	
+
+</body></html>
