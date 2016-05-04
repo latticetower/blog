@@ -19,7 +19,9 @@ LYLAS \|\| LYLAB, me.
 
 But if you insist...
 
-[This wierd thing](../experiments/pdbatomic/viewer.html) draws lines obtained from .PDB data in "ATOM" section. To see something simply select local .pdb file.
+[This weird thing](../experiments/pdbatomic/viewer.html) draws lines obtained from .PDB data in "ATOM" section. To see something simply select local .pdb file.
   ".pdb" == special bioinformatics file format with protein information (you can find all details [here](ftp://ftp.wwpdb.org/pub/pdb/doc/format_descriptions/Format_v33_A4.pdf)).
 
 You can open some of my hometasks on [NGS (Next Generation Sequencing)](../hometasks/NGS/3/hometask3.html) and [MSA (Molecular Sequence Analysis)](../hometasks/msa1/hometask.html). I made them with the help of markdown, and they look nice - the only reason why they are still here.
+
+These are quite old - you can find something new at [Github](https://github.com/latticetower).
