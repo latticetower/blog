@@ -1,58 +1,23 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+---
+layout: default
+---
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<div class="home">
 
-    <title>Latticetower.github.io by latticetower</title>
-  </head>
+  <h1 class="page-heading">Posts</h1>
 
-  <body>
-    <header>
-      <div class="inner">
-        <h1>Latticetower's experiments sandbox</h1>
-        <h2></h2>
-        <a href="https://github.com/latticetower" class="button"><small>Follow me on</small>GitHub</a>
-      </div>
-    </header>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-<p>Hello</p>
+  <!--p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p-->
 
-
-<p>I am a small part of universe, bioinformatics newbie, bureaucracy agent, A.Tennysson poetry fan. </p>
-
-<p>And this is just a dummy test page.</p>
-
-<p>For my own evil testing purposes.</p>
-<p>You shouldn't be there, not now</p>
-<p> LYLAS||LYLAB, me.
-<p></p>
-<p>But if you insist...
-<ul>
-  <li>
-    <a href="experiments/pdbatomic/viewer.html">This wierd thing</a> draws lines obtained from .PDB data in "ATOM" section. To see something simply select local .pdb file.
-  ".pdb" == special bioinformatics file format with protein information (you can find all details <a href="ftp://ftp.wwpdb.org/pub/pdb/doc/format_descriptions/Format_v33_A4.pdf">here</a>).
-</li>
-<li>
-  You can open some of my hometasks on <a href="hometasks/NGS/3/hometask3.html">NGS (Next Generation Sequencing)</a> and <a href="hometasks/msa1/hometask.html">MSA (Molecular Sequence Analysis)</a>.
-  I made them with the help of markdown, and they look nice - the only reason why they are still here.
-</li>
-</ul>
-  </section>
-  </div>
-  </div>
-  </body>
-</html>
+</div>
