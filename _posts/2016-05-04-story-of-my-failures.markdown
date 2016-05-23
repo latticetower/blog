@@ -6,7 +6,7 @@ tags: ["old things", "new hopes", "outreachy"]
 categories: outreachy  thoughts
 ---
 
-Few days ago my friend sent me [this story](http://www.independent.co.uk/news/business/news/a-princeton-psychology-professor-has-posted-his-cv-of-failures-online-a7006701.html). She wanted to encourage me to do things I'm afraid to fail, and to inspire me to move to something exciting from my previous greatest failure.
+Few days ago my friend sent me [this story](http://www.independent.co.uk/news/business/news/a-princeton-psychology-professor-has-posted-his-cv-of-failures-online-a7006701.html){:target="_blank"}. She wanted to encourage me to do things I'm afraid to fail, and to inspire me to move to something exciting from my previous greatest failure.
 
 The story reminds me of one particular situation in my past, which describes well who am I and what will always be.
 
