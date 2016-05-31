@@ -2,7 +2,7 @@
 layout: post
 title:  "Story of my failures"
 date: 2016-05-04 23:30:00 +0300
-tags: ["old things", "new hopes", "outreachy"]
+tags: ["old things", "new hopes", "Outreachy"]
 categories: outreachy  thoughts
 ---
 
