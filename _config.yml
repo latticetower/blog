@@ -36,7 +36,7 @@ github_username:  latticetower
 #
 production_url : http://latticetower.github.io
 
-gems: ["jekyll-sitemap", "jekyll-auto-image"]
+gems: ["jekyll-sitemap", "jekyll-auto-image", "jekyll-gist"]
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
