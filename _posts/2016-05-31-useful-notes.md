@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Outreachy notes: project setup"
 date: 2016-05-31 8:29:00 +0300
 categories: outreachy useful
