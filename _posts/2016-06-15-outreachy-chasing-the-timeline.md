@@ -16,19 +16,9 @@ That's what my initial timeline looks like:
 
 And that's what I've done for now:
    
-Following table contains packages I worked on for by June, 15, 2015:
+{% gist 5ae8d6212b1f44ea8dd5fde117b11d10 %}
 
-|       Package            |  What I did         | 
-| --------------------- | -------------------------- |
-| Concavity       | 1 test + *1 serious bug fixed*  |
-| Conservation-code       | 2 tests + 1 small patch    |
-| Dssp     | 1 test + example files |
-| Profbval | 1 test |
-| Tm-align | 1 test (for both TMalign and TMscore) + example files
-| Predictnls | 1 test |
-| Pdb2pqr | 3 tests + 4 lintian warnings fixed |
-
-In each case I added README.test with basic description how to test package manually. It partially replicates man for package, but in some cases I try to mention things like "this programs takes exactly 6 or 7 parameters" or "writes diagnostic messages or errors in input file to stderr - it's normal when these messages appear".
+In each case I've added README.test with basic description how to test package manually. It partially replicates man for package, but in some cases I try to mention things like "this programs takes exactly 6 or 7 parameters" or "writes diagnostic messages or errors in input file to stderr - it's normal when these messages appear".
 
 And yes, I've managed to fix [my first bug!](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=822382#10){:target="_blank"}
 
