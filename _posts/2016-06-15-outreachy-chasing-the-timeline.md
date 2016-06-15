@@ -10,7 +10,7 @@ I started my [Outreachy](https://wiki.gnome.org/Outreachy){:target="_blank"} int
 
 Reality ruined it. I haven't planned [to get ill or to spend too much time figuring out what's wrong with Vagrant]({% post_url 2016-05-31-useful-notes %}){:target="_blank"}.
 
-That's what my initial timeline looks like:
+That's what my initial timeline looks like<!--break-->:
 
 {% gist latticetower/4402a17488c1629a78595bf4c9ec9b50 %}
 

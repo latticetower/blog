@@ -14,8 +14,17 @@ layout: default
       <h2>
         {{ post.title }}
       </h2>
-      {{ post.content | truncatewords:75}}<br>
-              <a href="{{ post.url }}">Read more...</a><br><br>
+        {% if post.content contains '<!--break-->' %}
+          {{ post.content | split:'<!--break-->' | first }}...<br>
+          <a href="{{ post.url }}">Read more...</a><br><br>
+        {% else %} 
+          {% if post.content contains '<!--show_all-->' %}
+            {{ post.content }}
+          {% else %}
+            {{ post.content | truncatewords:75}}<br>
+            <a href="{{ post.url }}">Read more...</a><br><br>
+          {% endif %}
+        {% endif %}
     {% endfor %}
   </ul>
 
