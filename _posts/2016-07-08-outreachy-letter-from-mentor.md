@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Letter from mentor"
+title:  "Outreachy: letter from mentor"
 date: 2016-07-08 20:19:00 +0300
 tags: ["yay",  "Outreachy"]
 categories: outreachy  yay
