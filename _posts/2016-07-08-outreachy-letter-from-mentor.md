@@ -1,28 +1,28 @@
 ---
 layout: post
 title:  "Letter from mentor"
-date: 2016-05-04 23:30:00 +0300
+date: 2016-07-08 20:19:00 +0300
 tags: ["yay",  "Outreachy"]
 categories: outreachy  yay
 ---
 
 Today my mentor Andreas Tille wrote me this inspiring letter<!--break-->:
-```
-Hi Tanya,
 
-thanks for your very thorough work on all packages you are touching.
-I'm really happy that you are doing all the work (even the not so
-interesting one) on the packages you are touching.  That's really
-helpful.
+    Hi Tanya,
 
-Please remember my suggestion to apply for Debian Maintainer.
+    thanks for your very thorough work on all packages you are touching.
+    I'm really happy that you are doing all the work (even the not so
+    interesting one) on the packages you are touching.  That's really
+    helpful.
 
-Kind regards
+    Please remember my suggestion to apply for Debian Maintainer.
 
-       Andreas.
+    Kind regards
 
-PS: Feel free to quote me in your outreachy blog.
-```
+           Andreas.
+
+    PS: Feel free to quote me in your outreachy blog.
+
 
 It's very-very good and inspiring letter :)
 
