@@ -26,6 +26,6 @@ Today my mentor Andreas Tille wrote me this inspiring letter<!--break-->:
 
 It's very-very good and inspiring letter :)
 
-But I'm still working on the same bunch of packages I started to work when I wrote [previous post]({% post_url 2016-06-23-outreachy-girl-meets-perl %}){:target="_blank"} (and left it in _drafts folder for a while).
+But I'm still working on the same bunch of packages I started to work when I wrote [previous post]({% post_url 2016-06-23-outreachy-girl-meets-perl %}){:target="_blank"} (and left it in _drafts folder for a while - it seemed to be too emotional for that moment).
 
 There are only 2 or 3 packages left, and these two are nastiest ones. I hope I'll finish them soon.
