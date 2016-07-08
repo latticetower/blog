@@ -6,7 +6,7 @@ tags: ["yay",  "Outreachy"]
 categories: outreachy  yay
 ---
 
-Today my mentor Andreas Tille wrote me this inspiring letter:
+Today my mentor Andreas Tille wrote me this inspiring letter<!--break-->:
 ```
 Hi Tanya,
 
