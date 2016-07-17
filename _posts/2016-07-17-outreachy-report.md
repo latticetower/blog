@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Outreachy: monthly"
-date: 2016-07-17 17:03:00 +0300
+date: 2016-07-17 06:32:00 +0300
 categories: outreachy
 tags: ["perl", "Outreachy", "RostLab packages", "useful"]
 ---
