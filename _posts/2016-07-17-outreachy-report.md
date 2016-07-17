@@ -8,21 +8,19 @@ tags: ["perl", "Outreachy", "RostLab packages", "useful"]
 
 Month ago I wrote [a post]({% post_url 2016-06-15-outreachy-chasing-the-timeline %}){:target="_blank"} with current progress with my  [Outreachy](https://wiki.gnome.org/Outreachy){:target="_blank"} internship.
 
-Reality once again ruined my plans :) <!--break-->
-
-That's what I've done since June, 15th:
+Reality once again ruined my plans :) <!--break-->That's what I've done since June, 15th:
    
 {% gist latticetower/9224518427ab8e79da870c2c5430dd71 %}
 
 My initial timeline had pair of packages which made me do all these packages.
 `Predictprotein` package turned out to be a complex pipeline, which uses long list of other packages. There also was `disulfinder`, and `proftmb` - both programs by RostLab.
 
-`Predictprotein` raised millions of errors, and some of these errors appeared because of packages it depends on. I thought that it would be good to write tests to other RostLab packages, since they are all connected (some of them are dependencies for others). That's why I decided to write tests for [all packages in this directory](http://anonscm.debian.org/viewvc/debian-med/trunk/packages/rostlab/), and only after that to move forward.
+`Predictprotein` raised millions of errors, and some of these errors appeared because of packages it depends on. I thought that it would be good to write tests to other RostLab packages, since they are all connected (some of them are dependencies for others). That's why I decided to write tests for [all packages in this directory](http://anonscm.debian.org/viewvc/debian-med/trunk/packages/rostlab/){:target="_blank"}, and only after that to move forward.
 
 I decided to skip some of them - for example, `pp-popularity-contest`, since it doesn't do anything biomedically significant, except sending usage reports to RostLab.
 I also skipped `pssh2` (because couldn't figure out for now how to get sources), `libai-fann-perl` (moved to Debian Perl Group), and tried to do my best to fix as many errors as I can and write as many tests as I can.
 
-When I was working on them, I learned about [`autopkgtest-pkg-perl`](https://pkg-perl.alioth.debian.org/autopkgtest.html), which helped me a lot. 
+When I was working on them, I learned about [`autopkgtest-pkg-perl`](https://pkg-perl.alioth.debian.org/autopkgtest.html){:target="_blank"}, which helped me a lot. 
 
 Some of these packages were written in fortran, and I was very grateful to my former scientific advisor for asking me to implement [old folding algorithm in Scala](https://github.com/biocad/sdr_tools){:target="_blank"} - because of that I already knew, how fortran code may look like (algorithm's parameters had readme file with small portions of fortran code) and I wasn't afraid of it :)
 
@@ -67,7 +65,7 @@ Apparently, only 5 of 8 packages work well with this test. Other 3 end up with s
 
 I haven't fixed `profphd` yet, since it requires old version of perl, and I don't speak perl well enough yet to fix it. 
 
-`Predictprotein` appeared to be just worst of all. It requires ~30GB database, which [should be installed by hand](https://wiki.debian.org/DebianMed/PredictProtein). And still it is outdated, and raises error. Because this is BLASTP database, outdated version. 
+`Predictprotein` appeared to be just worst of all. It requires ~30GB database, which [should be installed by hand](https://wiki.debian.org/DebianMed/PredictProtein){:target="_blank"}. And still it is outdated, and raises error. Because this is BLASTP database, outdated version. 
 `Predictprotein` uses `blastpgp` program (from `ncbi-blast+` package), and latest version of this program fails on that database.
 
 That made me think a lot about typical problems with bioinformatics software - lack of standardization and database versioning.
