@@ -24,7 +24,7 @@ I also skipped `pssh2` (because couldn't figure out for now how to get sources),
 
 When I was working on them, I learned about [`autopkgtest-pkg-perl`](https://pkg-perl.alioth.debian.org/autopkgtest.html), which helped me a lot. 
 
-Some of these packages were written in fortran, and I was very grateful to my former scientific advisor for asking me to implement [old folding algorithm in Scala](https://github.com/biocad/sdr_tools) - because of that I already knew, how fortran code may look like (algorithm's parameters had readme file with small portions of fortran code) and I wasn't afraid of it :)
+Some of these packages were written in fortran, and I was very grateful to my former scientific advisor for asking me to implement [old folding algorithm in Scala](https://github.com/biocad/sdr_tools){:target="_blank"} - because of that I already knew, how fortran code may look like (algorithm's parameters had readme file with small portions of fortran code) and I wasn't afraid of it :)
 
 The Top-1 Scariest Fortran Program in my personal scaryness rating is `profnet` - this source package produces 8 binary packages. And for them I wrote 1 test:
 
