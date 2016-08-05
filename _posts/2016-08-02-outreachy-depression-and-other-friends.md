@@ -7,19 +7,19 @@ tags: ["pymol", "Outreachy","apbs", "icfpc"]
 ---
 For now it seems that I've stuck on `apbs` package tests.
 One of them should be (these lines should appear in `debian/tests/control`): 
-```
+
     Test-Command: python -c "from abpslib import *"
     Depends: @
-```
+
 It won't work, since<!--break--> apbs source in upstream source archive doesn't contain something which is compiled to `_apbslib.so` and `apbslib.py`.
 
 For now I found that [APBS github repository](https://github.com/Electrostatics/apbs-pdb2pqr){:target="_blank"} really contains code, which produces these files, but they are not included to SourceForge tar.gz archive.
 I could produce these files when I run this command from `apbs/` repository's subdirectory:
-```
-        cmake -DCMAKE_BUILD_TYPE=Release -DBUILD_DOC=OFF -DBUILD_SHARED_LIBS=On -DCMAKE_SKIP_RPATH=On -DBUILD_TOOLS=Off \
-        -DENABLE_OPENMP=On -DENABLE_MPI=On -DENABLE_ZLIB=On -DENABLE_PYTHON=On -DENABLE_READLINE=Off -DFETK_PATH=/usr \
-        -DENABLE_FETK=Off -DENABLE_VERBOSE_DEBUG=On -DCMAKE_INSTALL_PREFIX=/data/src/apbs-pdb2pqr/apbs-install .
-```
+
+    cmake -DCMAKE_BUILD_TYPE=Release -DBUILD_DOC=OFF -DBUILD_SHARED_LIBS=On -DCMAKE_SKIP_RPATH=On -DBUILD_TOOLS=Off \
+    -DENABLE_OPENMP=On -DENABLE_MPI=On -DENABLE_ZLIB=On -DENABLE_PYTHON=On -DENABLE_READLINE=Off -DFETK_PATH=/usr \
+    -DENABLE_FETK=Off -DENABLE_VERBOSE_DEBUG=On -DCMAKE_INSTALL_PREFIX=/data/src/apbs-pdb2pqr/apbs-install .
+
 I also looked at issues page and found [issue 381](https://github.com/Electrostatics/apbs-pdb2pqr/issues/381){:target="_blank"}. It seems that for now this doesn't work and test I wrote to pdb2pqr, which also gets loaded from SourceForge as source archive, won't work for now and for some time.
 It makes me depressed. Other reason is that I can't decide if I write them will it help to make it work NOW or not )
 
