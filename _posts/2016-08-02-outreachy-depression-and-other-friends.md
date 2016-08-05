@@ -8,8 +8,8 @@ tags: ["pymol", "Outreachy","apbs", "icfpc"]
 For now it seems that I've stuck on `apbs` package tests.
 One of them should be (these lines should appear in `debian/tests/control`): 
 ```
-Test-Command: python -c "from abpslib import *"
-Depends: @
+    Test-Command: python -c "from abpslib import *"
+    Depends: @
 ```
 It won't work, since<!--break--> apbs source in upstream source archive doesn't contain something which is compiled to `_apbslib.so` and `apbslib.py`.
 
