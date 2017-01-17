@@ -5,6 +5,7 @@ date: 2017-01-17 17:38:00 +0300
 tags: ["afterlife"]
 categories: thoughts 
 ---
+
 I haven't wrote anything here for almost 5 months.
 Well, that's because everything turned upside down and not the way I expected.
 
