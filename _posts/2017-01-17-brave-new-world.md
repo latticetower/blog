@@ -2,7 +2,7 @@
 layout: post
 title:  "Brave New World"
 date: 2017-01-17 17:38:00 +0300
-tags: ["afterlife"]
+tags: afterlife
 categories: thoughts 
 ---
 
